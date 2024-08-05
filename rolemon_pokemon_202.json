@@ -1,0 +1,87 @@
+[
+    "wobbuffet",
+    202,
+    [
+        "psychic"
+    ],
+    [
+        [
+            "Contraataque",
+            "physical",
+            "fighting",
+            null,
+            100,
+            20,
+            "Devuelve un golpe físico por duplicado."
+        ],
+        [
+            "Amnesia",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "El usuario olvida sus preocupaciones y aumenta\nmucho la Defensa Especial."
+        ],
+        [
+            "Salpicadura",
+            "special",
+            "normal",
+            null,
+            null,
+            40,
+            "No tiene ningún efecto. Solo salpica."
+        ],
+        [
+            "Mismo Destino",
+            "special",
+            "ghost",
+            null,
+            null,
+            5,
+            "Si el usuario se debilita por un ataque rival antes\nde usar otro movimiento, el Pokémon rival se\ndebilitará también."
+        ],
+        [
+            "Encanto",
+            "special",
+            "fairy",
+            null,
+            100,
+            20,
+            "Engatusa al objetivo y reduce bastante su Ataque."
+        ],
+        [
+            "Velo Sagrado",
+            "special",
+            "normal",
+            null,
+            null,
+            25,
+            "Un escudo que protege de problemas de estado,\ncomo el sueño o la parálisis, durante cinco turnos."
+        ],
+        [
+            "Otra Vez",
+            "special",
+            "normal",
+            null,
+            100,
+            5,
+            "El objetivo repite su último movimiento durante\ntres turnos."
+        ],
+        [
+            "Manto Espejo",
+            "special",
+            "psychic",
+            null,
+            100,
+            20,
+            "Responde a un ataque especial ocasionando el\ndoble del daño recibido."
+        ]
+    ],
+    190,
+    33,
+    58,
+    33,
+    58,
+    33
+]

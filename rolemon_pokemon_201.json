@@ -1,0 +1,24 @@
+[
+    "unown",
+    201,
+    [
+        "psychic"
+    ],
+    [
+        [
+            "Poder Oculto",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Movimiento cuyo tipo varía en función del\nPokémon que lo usa."
+        ]
+    ],
+    48,
+    72,
+    48,
+    72,
+    48,
+    48
+]
