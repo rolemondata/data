@@ -1,511 +1,511 @@
-[
-    "kleavor",
-    900,
-    [
-        "bug",
-        "rock"
-    ],
-    [
-        [
-            "Danza Espada",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Baile frenÈtico que aumenta mucho el Ataque."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que tambiÈn hiere al agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que tambiÈn hiere al agresor."
-        ],
-        [
-            "Malicioso",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Intimida a los rivales para bajar su Defensa."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deber· descansar en\nel siguiente turno."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Ataque R·pido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque r·pido que permite golpear en primer lugar."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sÌ mismo para mejorar la EvasiÛn."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaÒo producido por los ataques especiales."
-        ],
-        [
-            "Foco EnergÌa",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Concentra energÌa para aumentar las posibilidades\nde un golpe crÌtico."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Avalancha",
-            "physical",
-            "rock",
-            75,
-            90,
-            10,
-            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
-        ],
-        [
-            "Cuchillada",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con cuchillas o con pinzas. Suele dar un\ngolpe crÌtico."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "LadrÛn",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robar· el del\nobjetivo."
-        ],
-        [
-            "InversiÛn",
-            "physical",
-            "fighting",
-            null,
-            100,
-            15,
-            "Ataque desesperado que causa m·s daÒo cuantos \nmenos PS tenga el usuario."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "Tormenta Arena",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Falso Tortazo",
-            "physical",
-            "normal",
-            40,
-            100,
-            40,
-            "Ataque moderado que no debilita al objetivo y le\ndeja al menos 1 PS."
-        ],
-        [
-            "Corte Furia",
-            "physical",
-            "bug",
-            40,
-            95,
-            20,
-            "Ataque con garras o guadaÒa que crece en\nintensidad si se usa repetidas veces."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Relevo",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Cambia el puesto con un compaÒero y le pasa los\ncambios de caracterÌsticas."
-        ],
-        [
-            "DÌa Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "DemoliciÛn",
-            "physical",
-            "fighting",
-            75,
-            100,
-            15,
-            "Potente ataque que tambiÈn es capaz de destruir\nbarreras como Pantalla de Luz y Reflejo."
-        ],
-        [
-            "Aire Afilado",
-            "special",
-            "flying",
-            60,
-            95,
-            25,
-            "Viento cortante que azota. Suele ser un golpe\ncrÌtico."
-        ],
-        [
-            "Tumba Rocas",
-            "physical",
-            "rock",
-            60,
-            95,
-            15,
-            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
-        ],
-        [
-            "Golpe AÈreo",
-            "physical",
-            "flying",
-            60,
-            null,
-            20,
-            "El usuario lanza un ataque muy r·pido e ineludible."
-        ],
-        [
-            "Pedrada",
-            "physical",
-            "rock",
-            25,
-            90,
-            10,
-            "Lanza pedruscos al objetivo de dos a cinco veces\nconsecutivas."
-        ],
-        [
-            "Viento AfÌn",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Crea un fuerte remolino que aumenta la Velocidad\nde los PokÈmon de tu equipo durante cuatro\nturnos."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro PokÈmon del equipo."
-        ],
-        [
-            "A Bocajarro",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Lucha abiertamente contra el objetivo sin\nprotegerse. TambiÈn reduce la Defensa y la\nDefensa Especial del usuario."
-        ],
-        [
-            "Tajo AÈreo",
-            "special",
-            "flying",
-            75,
-            95,
-            15,
-            "Ataca con una hoja de aire que incluso corta el\ncielo. TambiÈn puede hacer retroceder al objetivo."
-        ],
-        [
-            "Tijera X",
-            "physical",
-            "bug",
-            80,
-            100,
-            15,
-            "Cruza las guadaÒas o las garras para atacar al\nobjetivo como si fueran unas tijeras."
-        ],
-        [
-            "Zumbido",
-            "special",
-            "bug",
-            90,
-            100,
-            10,
-            "El movimiento de las alas crea una onda sÛnica\ndaÒina. TambiÈn puede disminuir la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Onda VacÌo",
-            "special",
-            "fighting",
-            40,
-            100,
-            30,
-            "Gira los puÒos y libera una onda de vacÌo contra\nel objetivo. Este movimiento siempre va primero."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El PokÈmon descansa el turno siguiente."
-        ],
-        [
-            "Roca Afilada",
-            "physical",
-            "rock",
-            100,
-            80,
-            5,
-            "Clava piedras muy afiladas al objetivo. Suele ser \ncrÌtico."
-        ],
-        [
-            "Trampa Rocas",
-            "special",
-            "rock",
-            null,
-            null,
-            20,
-            "Una trampa de rocas que flota en el aire y daÒa a\nlos objetivos que entran en combate."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Doble Golpe",
-            "physical",
-            "normal",
-            35,
-            90,
-            10,
-            "Golpea al objetivo dos veces seguidas con la cola\nu otras partes de su cuerpo."
-        ],
-        [
-            "AntiaÈreo",
-            "physical",
-            "rock",
-            50,
-            100,
-            15,
-            "El usuario ataca lanzando una piedra o un proyectil.\nPuede estrellar contra el suelo al objetivo si vuela."
-        ],
-        [
-            "AcrÛbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ·gilmente. Si el usuario no porta ning˙n\nobjeto, el objetivo resulta seriamente daÒado."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. TambiÈn reduce su Ataque Especial.\n"
-        ],
-        [
-            "Plancha",
-            "physical",
-            "bug",
-            80,
-            100,
-            15,
-            "Ataca al oponente abalanz·ndose sobre Èl con todas\nsus fuerzas y reduce su Ataque."
-        ],
-        [
-            "Golpe Rastrero",
-            "physical",
-            "bug",
-            70,
-            90,
-            10,
-            "Ataca al objetivo por la espalda de forma subrepticia\ny adem·s reduce su Ataque Especial."
-        ],
-        [
-            "Ala Bis",
-            "physical",
-            "flying",
-            40,
-            90,
-            10,
-            "Ataca al adversario golpe·ndolo dos veces con las alas."
-        ],
-        [
-            "",
-            "physical",
-            "rock",
-            65,
-            90,
-            15,
-            ""
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "bug",
-            50,
-            100,
-            20,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "grass",
-            50,
-            100,
-            20,
-            ""
-        ]
-    ],
-    70,
-    135,
-    95,
-    45,
-    70,
-    85
+[
+    "kleavor",
+    900,
+    [
+        "bug",
+        "rock"
+    ],
+    [
+        [
+            "Danza Espada",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Baile fren√©tico que aumenta mucho el Ataque."
+        ],
+        [
+            "Derribo",
+            "physical",
+            "normal",
+            90,
+            85,
+            20,
+            "Carga desmedida que tambi√©n hiere al agresor."
+        ],
+        [
+            "Doble Filo",
+            "physical",
+            "normal",
+            120,
+            100,
+            15,
+            "Ataque arriesgado que tambi√©n hiere al agresor."
+        ],
+        [
+            "Malicioso",
+            "special",
+            "normal",
+            null,
+            100,
+            30,
+            "Intimida a los rivales para bajar su Defensa."
+        ],
+        [
+            "Hiperrayo",
+            "special",
+            "normal",
+            150,
+            90,
+            5,
+            "Es eficaz, pero el atacante deber√° descansar en\nel siguiente turno."
+        ],
+        [
+            "Agilidad",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Relaja el cuerpo para ganar mucha Velocidad."
+        ],
+        [
+            "Ataque R√°pido",
+            "physical",
+            "normal",
+            40,
+            100,
+            30,
+            "Ataque r√°pido que permite golpear en primer lugar."
+        ],
+        [
+            "Doble Equipo",
+            "special",
+            "normal",
+            null,
+            null,
+            15,
+            "Crea copias de s√≠ mismo para mejorar la Evasi√≥n."
+        ],
+        [
+            "Pantalla de Luz",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Pared de luz que reduce durante cinco turnos el\nda√±o producido por los ataques especiales."
+        ],
+        [
+            "Foco Energ√≠a",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Concentra energ√≠a para aumentar las posibilidades\nde un golpe cr√≠tico."
+        ],
+        [
+            "Rapidez",
+            "special",
+            "normal",
+            60,
+            null,
+            20,
+            "Lanza rayos en forma de estrella que no fallan\nnunca."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Avalancha",
+            "physical",
+            "rock",
+            75,
+            90,
+            10,
+            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
+        ],
+        [
+            "Cuchillada",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con cuchillas o con pinzas. Suele dar un\ngolpe cr√≠tico."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ladr√≥n",
+            "physical",
+            "dark",
+            60,
+            100,
+            25,
+            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robar√° el del\nobjetivo."
+        ],
+        [
+            "Inversi√≥n",
+            "physical",
+            "fighting",
+            null,
+            100,
+            15,
+            "Ataque desesperado que causa m√°s da√±o cuantos \nmenos PS tenga el usuario."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Cara Susto",
+            "special",
+            "normal",
+            null,
+            100,
+            10,
+            "Asusta al objetivo para reducir mucho su Velocidad."
+        ],
+        [
+            "Tormenta Arena",
+            "special",
+            "rock",
+            null,
+            null,
+            10,
+            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Falso Tortazo",
+            "physical",
+            "normal",
+            40,
+            100,
+            40,
+            "Ataque moderado que no debilita al objetivo y le\ndeja al menos 1 PS."
+        ],
+        [
+            "Corte Furia",
+            "physical",
+            "bug",
+            40,
+            95,
+            20,
+            "Ataque con garras o guada√±a que crece en\nintensidad si se usa repetidas veces."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Relevo",
+            "special",
+            "normal",
+            null,
+            null,
+            40,
+            "Cambia el puesto con un compa√±ero y le pasa los\ncambios de caracter√≠sticas."
+        ],
+        [
+            "D√≠a Soleado",
+            "special",
+            "fire",
+            null,
+            null,
+            5,
+            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Refuerzo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
+        ],
+        [
+            "Demolici√≥n",
+            "physical",
+            "fighting",
+            75,
+            100,
+            15,
+            "Potente ataque que tambi√©n es capaz de destruir\nbarreras como Pantalla de Luz y Reflejo."
+        ],
+        [
+            "Aire Afilado",
+            "special",
+            "flying",
+            60,
+            95,
+            25,
+            "Viento cortante que azota. Suele ser un golpe\ncr√≠tico."
+        ],
+        [
+            "Tumba Rocas",
+            "physical",
+            "rock",
+            60,
+            95,
+            15,
+            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
+        ],
+        [
+            "Golpe A√©reo",
+            "physical",
+            "flying",
+            60,
+            null,
+            20,
+            "El usuario lanza un ataque muy r√°pido e ineludible."
+        ],
+        [
+            "Pedrada",
+            "physical",
+            "rock",
+            25,
+            90,
+            10,
+            "Lanza pedruscos al objetivo de dos a cinco veces\nconsecutivas."
+        ],
+        [
+            "Viento Af√≠n",
+            "special",
+            "flying",
+            null,
+            null,
+            15,
+            "Crea un fuerte remolino que aumenta la Velocidad\nde los Pok√©mon de tu equipo durante cuatro\nturnos."
+        ],
+        [
+            "Ida y Vuelta",
+            "physical",
+            "bug",
+            70,
+            100,
+            20,
+            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pok√©mon del equipo."
+        ],
+        [
+            "A Bocajarro",
+            "physical",
+            "fighting",
+            120,
+            100,
+            5,
+            "Lucha abiertamente contra el objetivo sin\nprotegerse. Tambi√©n reduce la Defensa y la\nDefensa Especial del usuario."
+        ],
+        [
+            "Tajo A√©reo",
+            "special",
+            "flying",
+            75,
+            95,
+            15,
+            "Ataca con una hoja de aire que incluso corta el\ncielo. Tambi√©n puede hacer retroceder al objetivo."
+        ],
+        [
+            "Tijera X",
+            "physical",
+            "bug",
+            80,
+            100,
+            15,
+            "Cruza las guada√±as o las garras para atacar al\nobjetivo como si fueran unas tijeras."
+        ],
+        [
+            "Zumbido",
+            "special",
+            "bug",
+            90,
+            100,
+            10,
+            "El movimiento de las alas crea una onda s√≥nica\nda√±ina. Tambi√©n puede disminuir la Defensa\nEspecial del objetivo."
+        ],
+        [
+            "Onda Vac√≠o",
+            "special",
+            "fighting",
+            40,
+            100,
+            30,
+            "Gira los pu√±os y libera una onda de vac√≠o contra\nel objetivo. Este movimiento siempre va primero."
+        ],
+        [
+            "Gigaimpacto",
+            "physical",
+            "normal",
+            150,
+            90,
+            5,
+            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pok√©mon descansa el turno siguiente."
+        ],
+        [
+            "Roca Afilada",
+            "physical",
+            "rock",
+            100,
+            80,
+            5,
+            "Clava piedras muy afiladas al objetivo. Suele ser \ncr√≠tico."
+        ],
+        [
+            "Trampa Rocas",
+            "special",
+            "rock",
+            null,
+            null,
+            20,
+            "Una trampa de rocas que flota en el aire y da√±a a\nlos objetivos que entran en combate."
+        ],
+        [
+            "Picadura",
+            "physical",
+            "bug",
+            60,
+            100,
+            20,
+            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
+        ],
+        [
+            "Doble Golpe",
+            "physical",
+            "normal",
+            35,
+            90,
+            10,
+            "Golpea al objetivo dos veces seguidas con la cola\nu otras partes de su cuerpo."
+        ],
+        [
+            "Antia√©reo",
+            "physical",
+            "rock",
+            50,
+            100,
+            15,
+            "El usuario ataca lanzando una piedra o un proyectil.\nPuede estrellar contra el suelo al objetivo si vuela."
+        ],
+        [
+            "Acr√≥bata",
+            "physical",
+            "flying",
+            55,
+            100,
+            15,
+            "Golpea √°gilmente. Si el usuario no porta ning√∫n\nobjeto, el objetivo resulta seriamente da√±ado."
+        ],
+        [
+            "Estoicismo",
+            "special",
+            "bug",
+            50,
+            100,
+            20,
+            "El usuario opone resistencia y ataca a los\noponentes. Tambi√©n reduce su Ataque Especial.\n"
+        ],
+        [
+            "Plancha",
+            "physical",
+            "bug",
+            80,
+            100,
+            15,
+            "Ataca al oponente abalanz√°ndose sobre √©l con todas\nsus fuerzas y reduce su Ataque."
+        ],
+        [
+            "Golpe Rastrero",
+            "physical",
+            "bug",
+            70,
+            90,
+            10,
+            "Ataca al objetivo por la espalda de forma subrepticia\ny adem√°s reduce su Ataque Especial."
+        ],
+        [
+            "Ala Bis",
+            "physical",
+            "flying",
+            40,
+            90,
+            10,
+            "Ataca al adversario golpe√°ndolo dos veces con las alas."
+        ],
+        [
+            "",
+            "physical",
+            "rock",
+            65,
+            90,
+            15,
+            ""
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ],
+        [
+            "",
+            "physical",
+            "bug",
+            50,
+            100,
+            20,
+            ""
+        ],
+        [
+            "",
+            "physical",
+            "grass",
+            50,
+            100,
+            20,
+            ""
+        ]
+    ],
+    70,
+    135,
+    95,
+    45,
+    70,
+    85
 ]

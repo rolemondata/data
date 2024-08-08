@@ -1,601 +1,601 @@
-[
-    "durant",
-    632,
-    [
-        "bug",
-        "steel"
-    ],
-    [
-        [
-            "Agarre",
-            "physical",
-            "normal",
-            55,
-            100,
-            30,
-            "Atrapa y atenaza al objetivo."
-        ],
-        [
-            "Guillotina",
-            "physical",
-            "normal",
-            null,
-            30,
-            5,
-            "Ataque con pinzas que debilita al oponente de un\ngolpe si acierta."
-        ],
-        [
-            "Corte",
-            "physical",
-            "normal",
-            50,
-            95,
-            30,
-            "Corta con garras, guadaÒas, etc. TambiÈn sirve\npara cortar ·rboles finos."
-        ],
-        [
-            "Ataque Arena",
-            "special",
-            "ground",
-            null,
-            100,
-            15,
-            "Arroja arena a la cara y baja la PrecisiÛn."
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Fuerza",
-            "physical",
-            "normal",
-            80,
-            100,
-            15,
-            "Potente puÒetazo. Fuera de combate sirve para\nmover rocas."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Excavar",
-            "physical",
-            "ground",
-            80,
-            100,
-            10,
-            "Primer turno: cava. Segundo turno: ataca. TambiÈn\nsirve para salir de ciertas zonas."
-        ],
-        [
-            "TÛxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daÒo\nmayor en cada turno."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Chirrido",
-            "special",
-            "normal",
-            null,
-            85,
-            40,
-            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sÌ mismo para mejorar la EvasiÛn."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Avalancha",
-            "physical",
-            "rock",
-            75,
-            90,
-            10,
-            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Azote",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "Ataque frenÈtico. Cuantos menos PS tenga el\nusuario, m·s daÒo producir·."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Finta",
-            "physical",
-            "dark",
-            60,
-            null,
-            20,
-            "EngaÒa al objetivo para acercarse y dar un\npuÒetazo que no falla."
-        ],
-        [
-            "Tormenta Arena",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusiÛn en el objetivo, pero tambiÈn\nsube mucho su Ataque."
-        ],
-        [
-            "Corte Furia",
-            "physical",
-            "bug",
-            40,
-            95,
-            20,
-            "Ataque con garras o guadaÒa que crece en\nintensidad si se usa repetidas veces."
-        ],
-        [
-            "AtracciÛn",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorar· y\nbajar· la posibilidad de que ataque."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "RetribuciÛn",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto mayor sea la amistad con el Entrenador,\nm·s poderoso ser· este ataque."
-        ],
-        [
-            "FrustraciÛn",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto menor sea la amistad con el Entrenador,\nm·s poderoso ser· este ataque."
-        ],
-        [
-            "Relevo",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Cambia el puesto con un compaÒero y le pasa los\ncambios de caracterÌsticas."
-        ],
-        [
-            "Garra Metal",
-            "physical",
-            "steel",
-            50,
-            95,
-            35,
-            "Ataque con garras de acero que puede aumentar\nel Ataque del usuario."
-        ],
-        [
-            "Poder Oculto",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Movimiento cuyo tipo varÌa en funciÛn del\nPokÈmon que lo usa."
-        ],
-        [
-            "Triturar",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Golpe Roca",
-            "physical",
-            "fighting",
-            40,
-            100,
-            15,
-            "Ataque con los puÒos. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate."
-        ],
-        [
-            "Paliza",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Ataque de todo el equipo PokÈmon. Cuantos m·s\nhaya, m·s veces se atacar·."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Fuerza Bruta",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Ataque de gran potencia, pero que reduce el\nAtaque y la Defensa del agresor."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "DaÒo Secreto",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataque con poder secreto cuyos efectos\nsecundarios varÌan seg˙n el entorno de combate."
-        ],
-        [
-            "Tumba Rocas",
-            "physical",
-            "rock",
-            60,
-            95,
-            15,
-            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
-        ],
-        [
-            "Eco Met·lico",
-            "special",
-            "steel",
-            null,
-            85,
-            40,
-            "Horrible chirrido met·lico que baja mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Golpe AÈreo",
-            "physical",
-            "flying",
-            60,
-            null,
-            20,
-            "El usuario lanza un ataque muy r·pido e ineludible."
-        ],
-        [
-            "Defensa FÈrrea",
-            "special",
-            "steel",
-            null,
-            null,
-            15,
-            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
-        ],
-        [
-            "RepresiÛn Metal",
-            "physical",
-            "steel",
-            null,
-            100,
-            10,
-            "Devuelve al objetivo el ˙ltimo ataque recibido,\npero con mucha m·s fuerza."
-        ],
-        [
-            "Pulimento",
-            "special",
-            "rock",
-            null,
-            null,
-            20,
-            "Reduce la resistencia puliendo su cuerpo. Aumenta\nla Velocidad considerablemente."
-        ],
-        [
-            "Tijera X",
-            "physical",
-            "bug",
-            80,
-            100,
-            15,
-            "Cruza las guadaÒas o las garras para atacar al\nobjetivo como si fueran unas tijeras."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "A˙na fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El PokÈmon descansa el turno siguiente."
-        ],
-        [
-            "Garra UmbrÌa",
-            "physical",
-            "ghost",
-            70,
-            100,
-            15,
-            "Ataca con una garra afilada hecha de sombras.\nSuele ser crÌtico."
-        ],
-        [
-            "Colmillo Rayo",
-            "physical",
-            "electric",
-            65,
-            95,
-            15,
-            "Usa colmillos electrificados para morder. Puede\nhacer que el objetivo retroceda o se paralice."
-        ],
-        [
-            "Foco Resplandor",
-            "special",
-            "steel",
-            80,
-            100,
-            10,
-            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
-        ],
-        [
-            "Treparrocas",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Ataca con una gran embestida. Puede confundir al\nobjetivo."
-        ],
-        [
-            "Cabeza de Hierro",
-            "physical",
-            "steel",
-            80,
-            100,
-            15,
-            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
-        ],
-        [
-            "Roca Afilada",
-            "physical",
-            "rock",
-            100,
-            80,
-            5,
-            "Clava piedras muy afiladas al objetivo. Suele ser \ncrÌtico."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Afilagarras",
-            "special",
-            "dark",
-            null,
-            null,
-            15,
-            "El usuario se afila las garras para aumentar su\nAtaque y PrecisiÛn."
-        ],
-        [
-            "Danza Amiga",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Una extraÒa danza que hace que el usuario y el\nobjetivo tengan la misma habilidad."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "Represalia",
-            "physical",
-            "normal",
-            70,
-            100,
-            5,
-            "Venga a los amigos derrotados. Si en el turno\nanterior han derrotado a uno, la potencia del\nataque aumentar·."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. TambiÈn reduce su Ataque Especial.\n"
-        ],
-        [
-            "Confidencia",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Hace que el objetivo pierda la concentraciÛn\ncont·ndole un secreto. Disminuye el Ataque\nEspecial del oponente."
-        ],
-        [
-            "Acoso",
-            "special",
-            "bug",
-            20,
-            100,
-            20,
-            "Hostiga al PokÈmon objetivo durante cuatro o\ncinco turnos e impide que pueda huir mientras\ntanto."
-        ],
-        [
-            "Escaramuza",
-            "physical",
-            "bug",
-            90,
-            100,
-            10,
-            "Movimiento de gran potencia que solo puede usarse\nen el turno en que el usuario sale al combate."
-        ],
-        [
-            "Pataleta",
-            "physical",
-            "ground",
-            75,
-            100,
-            10,
-            "Usa la frustraciÛn como revulsivo para atacar. La\npotencia de Pataleta se duplica si el usuario ha\nfallado el ˙ltimo movimiento usado."
-        ],
-        [
-            "Metal·ser",
-            "special",
-            "steel",
-            140,
-            95,
-            5,
-            "Utiliza el acero de su cuerpo para disparar un potente\nrayo. TambiÈn hiere al agresor."
-        ],
-        [
-            "Golpe Rastrero",
-            "physical",
-            "bug",
-            70,
-            90,
-            10,
-            "Ataca al objetivo por la espalda de forma subrepticia\ny adem·s reduce su Ataque Especial."
-        ]
-    ],
-    58,
-    109,
-    112,
-    48,
-    48,
-    109
+[
+    "durant",
+    632,
+    [
+        "bug",
+        "steel"
+    ],
+    [
+        [
+            "Agarre",
+            "physical",
+            "normal",
+            55,
+            100,
+            30,
+            "Atrapa y atenaza al objetivo."
+        ],
+        [
+            "Guillotina",
+            "physical",
+            "normal",
+            null,
+            30,
+            5,
+            "Ataque con pinzas que debilita al oponente de un\ngolpe si acierta."
+        ],
+        [
+            "Corte",
+            "physical",
+            "normal",
+            50,
+            95,
+            30,
+            "Corta con garras, guada√±as, etc. Tambi√©n sirve\npara cortar √°rboles finos."
+        ],
+        [
+            "Ataque Arena",
+            "special",
+            "ground",
+            null,
+            100,
+            15,
+            "Arroja arena a la cara y baja la Precisi√≥n."
+        ],
+        [
+            "Mordisco",
+            "physical",
+            "dark",
+            60,
+            100,
+            25,
+            "Un voraz bocado que puede hacer retroceder\nal objetivo."
+        ],
+        [
+            "Fuerza",
+            "physical",
+            "normal",
+            80,
+            100,
+            15,
+            "Potente pu√±etazo. Fuera de combate sirve para\nmover rocas."
+        ],
+        [
+            "Onda Trueno",
+            "special",
+            "electric",
+            null,
+            90,
+            20,
+            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
+        ],
+        [
+            "Excavar",
+            "physical",
+            "ground",
+            80,
+            100,
+            10,
+            "Primer turno: cava. Segundo turno: ataca. Tambi√©n\nsirve para salir de ciertas zonas."
+        ],
+        [
+            "T√≥xico",
+            "special",
+            "poison",
+            null,
+            90,
+            10,
+            "Envenena gravemente al objetivo y causa un da√±o\nmayor en cada turno."
+        ],
+        [
+            "Agilidad",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Relaja el cuerpo para ganar mucha Velocidad."
+        ],
+        [
+            "Chirrido",
+            "special",
+            "normal",
+            null,
+            85,
+            40,
+            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
+        ],
+        [
+            "Doble Equipo",
+            "special",
+            "normal",
+            null,
+            null,
+            15,
+            "Crea copias de s√≠ mismo para mejorar la Evasi√≥n."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Avalancha",
+            "physical",
+            "rock",
+            75,
+            90,
+            10,
+            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Azote",
+            "physical",
+            "normal",
+            null,
+            100,
+            15,
+            "Ataque fren√©tico. Cuantos menos PS tenga el\nusuario, m√°s da√±o producir√°."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Finta",
+            "physical",
+            "dark",
+            60,
+            null,
+            20,
+            "Enga√±a al objetivo para acercarse y dar un\npu√±etazo que no falla."
+        ],
+        [
+            "Tormenta Arena",
+            "special",
+            "rock",
+            null,
+            null,
+            10,
+            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Contoneo",
+            "special",
+            "normal",
+            null,
+            85,
+            15,
+            "Provoca confusi√≥n en el objetivo, pero tambi√©n\nsube mucho su Ataque."
+        ],
+        [
+            "Corte Furia",
+            "physical",
+            "bug",
+            40,
+            95,
+            20,
+            "Ataque con garras o guada√±a que crece en\nintensidad si se usa repetidas veces."
+        ],
+        [
+            "Atracci√≥n",
+            "special",
+            "normal",
+            null,
+            100,
+            15,
+            "Si el objetivo es del sexo opuesto, se enamorar√° y\nbajar√° la posibilidad de que ataque."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Retribuci√≥n",
+            "physical",
+            "normal",
+            null,
+            100,
+            20,
+            "Cuanto mayor sea la amistad con el Entrenador,\nm√°s poderoso ser√° este ataque."
+        ],
+        [
+            "Frustraci√≥n",
+            "physical",
+            "normal",
+            null,
+            100,
+            20,
+            "Cuanto menor sea la amistad con el Entrenador,\nm√°s poderoso ser√° este ataque."
+        ],
+        [
+            "Relevo",
+            "special",
+            "normal",
+            null,
+            null,
+            40,
+            "Cambia el puesto con un compa√±ero y le pasa los\ncambios de caracter√≠sticas."
+        ],
+        [
+            "Garra Metal",
+            "physical",
+            "steel",
+            50,
+            95,
+            35,
+            "Ataque con garras de acero que puede aumentar\nel Ataque del usuario."
+        ],
+        [
+            "Poder Oculto",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Movimiento cuyo tipo var√≠a en funci√≥n del\nPok√©mon que lo usa."
+        ],
+        [
+            "Triturar",
+            "physical",
+            "dark",
+            80,
+            100,
+            15,
+            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
+        ],
+        [
+            "Golpe Roca",
+            "physical",
+            "fighting",
+            40,
+            100,
+            15,
+            "Ataque con los pu√±os. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate."
+        ],
+        [
+            "Paliza",
+            "physical",
+            "dark",
+            null,
+            100,
+            10,
+            "Ataque de todo el equipo Pok√©mon. Cuantos m√°s\nhaya, m√°s veces se atacar√°."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Refuerzo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
+        ],
+        [
+            "Fuerza Bruta",
+            "physical",
+            "fighting",
+            120,
+            100,
+            5,
+            "Ataque de gran potencia, pero que reduce el\nAtaque y la Defensa del agresor."
+        ],
+        [
+            "Esfuerzo",
+            "physical",
+            "normal",
+            null,
+            100,
+            5,
+            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
+        ],
+        [
+            "Da√±o Secreto",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataque con poder secreto cuyos efectos\nsecundarios var√≠an seg√∫n el entorno de combate."
+        ],
+        [
+            "Tumba Rocas",
+            "physical",
+            "rock",
+            60,
+            95,
+            15,
+            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
+        ],
+        [
+            "Eco Met√°lico",
+            "special",
+            "steel",
+            null,
+            85,
+            40,
+            "Horrible chirrido met√°lico que baja mucho la\nDefensa Especial del objetivo."
+        ],
+        [
+            "Golpe A√©reo",
+            "physical",
+            "flying",
+            60,
+            null,
+            20,
+            "El usuario lanza un ataque muy r√°pido e ineludible."
+        ],
+        [
+            "Defensa F√©rrea",
+            "special",
+            "steel",
+            null,
+            null,
+            15,
+            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
+        ],
+        [
+            "Represi√≥n Metal",
+            "physical",
+            "steel",
+            null,
+            100,
+            10,
+            "Devuelve al objetivo el √∫ltimo ataque recibido,\npero con mucha m√°s fuerza."
+        ],
+        [
+            "Pulimento",
+            "special",
+            "rock",
+            null,
+            null,
+            20,
+            "Reduce la resistencia puliendo su cuerpo. Aumenta\nla Velocidad considerablemente."
+        ],
+        [
+            "Tijera X",
+            "physical",
+            "bug",
+            80,
+            100,
+            15,
+            "Cruza las guada√±as o las garras para atacar al\nobjetivo como si fueran unas tijeras."
+        ],
+        [
+            "Energibola",
+            "special",
+            "grass",
+            90,
+            100,
+            10,
+            "A√∫na fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
+        ],
+        [
+            "Gigaimpacto",
+            "physical",
+            "normal",
+            150,
+            90,
+            5,
+            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pok√©mon descansa el turno siguiente."
+        ],
+        [
+            "Garra Umbr√≠a",
+            "physical",
+            "ghost",
+            70,
+            100,
+            15,
+            "Ataca con una garra afilada hecha de sombras.\nSuele ser cr√≠tico."
+        ],
+        [
+            "Colmillo Rayo",
+            "physical",
+            "electric",
+            65,
+            95,
+            15,
+            "Usa colmillos electrificados para morder. Puede\nhacer que el objetivo retroceda o se paralice."
+        ],
+        [
+            "Foco Resplandor",
+            "special",
+            "steel",
+            80,
+            100,
+            10,
+            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
+        ],
+        [
+            "Treparrocas",
+            "physical",
+            "normal",
+            90,
+            85,
+            20,
+            "Ataca con una gran embestida. Puede confundir al\nobjetivo."
+        ],
+        [
+            "Cabeza de Hierro",
+            "physical",
+            "steel",
+            80,
+            100,
+            15,
+            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
+        ],
+        [
+            "Roca Afilada",
+            "physical",
+            "rock",
+            100,
+            80,
+            5,
+            "Clava piedras muy afiladas al objetivo. Suele ser \ncr√≠tico."
+        ],
+        [
+            "Picadura",
+            "physical",
+            "bug",
+            60,
+            100,
+            20,
+            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
+        ],
+        [
+            "Afilagarras",
+            "special",
+            "dark",
+            null,
+            null,
+            15,
+            "El usuario se afila las garras para aumentar su\nAtaque y Precisi√≥n."
+        ],
+        [
+            "Danza Amiga",
+            "special",
+            "normal",
+            null,
+            100,
+            15,
+            "Una extra√±a danza que hace que el usuario y el\nobjetivo tengan la misma habilidad."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Represalia",
+            "physical",
+            "normal",
+            70,
+            100,
+            5,
+            "Venga a los amigos derrotados. Si en el turno\nanterior han derrotado a uno, la potencia del\nataque aumentar√°."
+        ],
+        [
+            "Estoicismo",
+            "special",
+            "bug",
+            50,
+            100,
+            20,
+            "El usuario opone resistencia y ataca a los\noponentes. Tambi√©n reduce su Ataque Especial.\n"
+        ],
+        [
+            "Confidencia",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Hace que el objetivo pierda la concentraci√≥n\ncont√°ndole un secreto. Disminuye el Ataque\nEspecial del oponente."
+        ],
+        [
+            "Acoso",
+            "special",
+            "bug",
+            20,
+            100,
+            20,
+            "Hostiga al Pok√©mon objetivo durante cuatro o\ncinco turnos e impide que pueda huir mientras\ntanto."
+        ],
+        [
+            "Escaramuza",
+            "physical",
+            "bug",
+            90,
+            100,
+            10,
+            "Movimiento de gran potencia que solo puede usarse\nen el turno en que el usuario sale al combate."
+        ],
+        [
+            "Pataleta",
+            "physical",
+            "ground",
+            75,
+            100,
+            10,
+            "Usa la frustraci√≥n como revulsivo para atacar. La\npotencia de Pataleta se duplica si el usuario ha\nfallado el √∫ltimo movimiento usado."
+        ],
+        [
+            "Metal√°ser",
+            "special",
+            "steel",
+            140,
+            95,
+            5,
+            "Utiliza el acero de su cuerpo para disparar un potente\nrayo. Tambi√©n hiere al agresor."
+        ],
+        [
+            "Golpe Rastrero",
+            "physical",
+            "bug",
+            70,
+            90,
+            10,
+            "Ataca al objetivo por la espalda de forma subrepticia\ny adem√°s reduce su Ataque Especial."
+        ]
+    ],
+    58,
+    109,
+    112,
+    48,
+    48,
+    109
 ]

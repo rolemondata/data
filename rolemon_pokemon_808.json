@@ -1,195 +1,195 @@
-[
-    "meltan",
-    808,
-    [
-        "steel"
-    ],
-    [
-        [
-            "Golpe Cabeza",
-            "physical",
-            "normal",
-            70,
-            100,
-            15,
-            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
-        ],
-        [
-            "L·tigo",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Agita la cola para bajar la Defensa del equipo rival. "
-        ],
-        [
-            "Impactrueno",
-            "special",
-            "electric",
-            40,
-            100,
-            30,
-            "Ataque elÈctrico que puede paralizar al objetivo."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque elÈctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "TÛxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daÒo\nmayor en cada turno."
-        ],
-        [
-            "Fortaleza",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Tensa la musculatura del usuario para aumentar\nla Defensa."
-        ],
-        [
-            "Armadura ¡cida",
-            "special",
-            "poison",
-            null,
-            null,
-            20,
-            "Transforma la estructura celular para hacerse\nlÌquido y aumenta mucho la Defensa."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Defensa FÈrrea",
-            "special",
-            "steel",
-            null,
-            null,
-            15,
-            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
-        ],
-        [
-            "Giro Bola",
-            "physical",
-            "steel",
-            null,
-            100,
-            5,
-            "Embiste al objetivo con un potente ataque giratorio.\nCuanto m·s lento es el usuario, m·s daÒo causa."
-        ],
-        [
-            "Foco Resplandor",
-            "special",
-            "steel",
-            80,
-            100,
-            10,
-            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "Metal·ser",
-            "special",
-            "steel",
-            140,
-            95,
-            5,
-            "Utiliza el acero de su cuerpo para disparar un potente\nrayo. TambiÈn hiere al agresor."
-        ]
-    ],
-    46,
-    65,
-    65,
-    55,
-    35,
-    34
+[
+    "meltan",
+    808,
+    [
+        "steel"
+    ],
+    [
+        [
+            "Golpe Cabeza",
+            "physical",
+            "normal",
+            70,
+            100,
+            15,
+            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
+        ],
+        [
+            "L√°tigo",
+            "special",
+            "normal",
+            null,
+            100,
+            30,
+            "Agita la cola para bajar la Defensa del equipo rival. "
+        ],
+        [
+            "Impactrueno",
+            "special",
+            "electric",
+            40,
+            100,
+            30,
+            "Ataque el√©ctrico que puede paralizar al objetivo."
+        ],
+        [
+            "Rayo",
+            "special",
+            "electric",
+            90,
+            100,
+            15,
+            "Potente ataque el√©ctrico que puede paralizar al\nobjetivo."
+        ],
+        [
+            "Onda Trueno",
+            "special",
+            "electric",
+            null,
+            90,
+            20,
+            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
+        ],
+        [
+            "T√≥xico",
+            "special",
+            "poison",
+            null,
+            90,
+            10,
+            "Envenena gravemente al objetivo y causa un da√±o\nmayor en cada turno."
+        ],
+        [
+            "Fortaleza",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Tensa la musculatura del usuario para aumentar\nla Defensa."
+        ],
+        [
+            "Armadura √Åcida",
+            "special",
+            "poison",
+            null,
+            null,
+            20,
+            "Transforma la estructura celular para hacerse\nl√≠quido y aumenta mucho la Defensa."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Defensa F√©rrea",
+            "special",
+            "steel",
+            null,
+            null,
+            15,
+            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
+        ],
+        [
+            "Giro Bola",
+            "physical",
+            "steel",
+            null,
+            100,
+            5,
+            "Embiste al objetivo con un potente ataque giratorio.\nCuanto m√°s lento es el usuario, m√°s da√±o causa."
+        ],
+        [
+            "Foco Resplandor",
+            "special",
+            "steel",
+            80,
+            100,
+            10,
+            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Metal√°ser",
+            "special",
+            "steel",
+            140,
+            95,
+            5,
+            "Utiliza el acero de su cuerpo para disparar un potente\nrayo. Tambi√©n hiere al agresor."
+        ]
+    ],
+    46,
+    65,
+    65,
+    55,
+    35,
+    34
 ]

@@ -1,447 +1,447 @@
-[
-    "kubfu",
-    891,
-    [
-        "fighting"
-    ],
-    [
-        [
-            "MegapuÒo",
-            "physical",
-            "normal",
-            80,
-            85,
-            20,
-            "Un puÒetazo de gran potencia."
-        ],
-        [
-            "PuÒo Fuego",
-            "physical",
-            "fire",
-            75,
-            100,
-            15,
-            "PuÒetazo ardiente. Puede quemar."
-        ],
-        [
-            "PuÒo Hielo",
-            "physical",
-            "ice",
-            75,
-            100,
-            15,
-            "PuÒetazo helado. Puede congelar."
-        ],
-        [
-            "PuÒo Trueno",
-            "physical",
-            "electric",
-            75,
-            100,
-            15,
-            "PuÒetazo elÈctrico. Puede paralizar."
-        ],
-        [
-            "Danza Espada",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Baile frenÈtico que aumenta mucho el Ataque."
-        ],
-        [
-            "Megapatada",
-            "physical",
-            "normal",
-            120,
-            75,
-            5,
-            "Patada de extrema fuerza."
-        ],
-        [
-            "Golpe Cabeza",
-            "physical",
-            "normal",
-            70,
-            100,
-            15,
-            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que tambiÈn hiere al agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que tambiÈn hiere al agresor."
-        ],
-        [
-            "Malicioso",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Intimida a los rivales para bajar su Defensa."
-        ],
-        [
-            "Patada Baja",
-            "physical",
-            "fighting",
-            null,
-            100,
-            20,
-            "Patada baja. Cuanto m·s pesa el objetivo, m·s\ndaÒo causa."
-        ],
-        [
-            "Contraataque",
-            "physical",
-            "fighting",
-            null,
-            100,
-            20,
-            "Devuelve un golpe fÌsico por duplicado."
-        ],
-        [
-            "Excavar",
-            "physical",
-            "ground",
-            80,
-            100,
-            10,
-            "Primer turno: cava. Segundo turno: ataca. TambiÈn\nsirve para salir de ciertas zonas."
-        ],
-        [
-            "Foco EnergÌa",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Concentra energÌa para aumentar las posibilidades\nde un golpe crÌtico."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "InversiÛn",
-            "physical",
-            "fighting",
-            null,
-            100,
-            15,
-            "Ataque desesperado que causa m·s daÒo cuantos \nmenos PS tenga el usuario."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "DetecciÛn",
-            "special",
-            "fighting",
-            null,
-            null,
-            5,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "AtracciÛn",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorar· y\nbajar· la posibilidad de que ataque."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "PuÒo Din·mico",
-            "physical",
-            "fighting",
-            100,
-            50,
-            5,
-            "PuÒetazo con toda la fuerza concentrada. Causa\nconfusiÛn si atina."
-        ],
-        [
-            "Garra Metal",
-            "physical",
-            "steel",
-            50,
-            95,
-            35,
-            "Ataque con garras de acero que puede aumentar\nel Ataque del usuario."
-        ],
-        [
-            "Golpe Roca",
-            "physical",
-            "fighting",
-            40,
-            100,
-            15,
-            "Ataque con los puÒos. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "PuÒo Certero",
-            "physical",
-            "fighting",
-            150,
-            100,
-            20,
-            "Se concentra para dar un puÒetazo. Falla si se\nsufre un golpe antes de su uso."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Fuerza Bruta",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Ataque de gran potencia, pero que reduce el\nAtaque y la Defensa del agresor."
-        ],
-        [
-            "Desquite",
-            "physical",
-            "fighting",
-            60,
-            100,
-            10,
-            "Ataque que produce el doble de daÒo si el usuario\nes herido en el mismo turno."
-        ],
-        [
-            "DemoliciÛn",
-            "physical",
-            "fighting",
-            75,
-            100,
-            15,
-            "Potente ataque que tambiÈn es capaz de destruir\nbarreras como Pantalla de Luz y Reflejo."
-        ],
-        [
-            "Golpe AÈreo",
-            "physical",
-            "flying",
-            60,
-            null,
-            20,
-            "El usuario lanza un ataque muy r·pido e ineludible."
-        ],
-        [
-            "Corpulencia",
-            "special",
-            "fighting",
-            null,
-            null,
-            20,
-            "Robustece el cuerpo para subir el Ataque y la Defensa."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro PokÈmon del equipo."
-        ],
-        [
-            "A Bocajarro",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Lucha abiertamente contra el objetivo sin\nprotegerse. TambiÈn reduce la Defensa y la\nDefensa Especial del usuario."
-        ],
-        [
-            "Lanzamiento",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Lanza contra el objetivo el objeto que lleva. La\nfuerza del ataque y su efecto varÌan seg˙n el\nobjeto."
-        ],
-        [
-            "Cabezazo Zen",
-            "physical",
-            "psychic",
-            80,
-            90,
-            15,
-            "Concentra su energÌa psÌquica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
-        ],
-        [
-            "Cabeza de Hierro",
-            "physical",
-            "steel",
-            80,
-            100,
-            15,
-            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
-        ],
-        [
-            "PuntapiÈ",
-            "physical",
-            "fighting",
-            65,
-            100,
-            20,
-            "Ataque r·pido dirigido a los pies del objetivo que\nle hace perder Velocidad."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "AcrÛbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ·gilmente. Si el usuario no porta ning˙n\nobjeto, el objetivo resulta seriamente daÒado."
-        ],
-        [
-            "Represalia",
-            "physical",
-            "normal",
-            70,
-            100,
-            5,
-            "Venga a los amigos derrotados. Si en el turno\nanterior han derrotado a uno, la potencia del\nataque aumentar·."
-        ],
-        [
-            "Avivar",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Quien lo usa se concentra y potencia su Ataque y\nsu Ataque Especial."
-        ],
-        [
-            "MotivaciÛn",
-            "special",
-            "fighting",
-            null,
-            null,
-            10,
-            "El usuario imparte indicaciones precisas a sus aliados,\nque ven aumentados su Ataque y su Defensa."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    60,
-    90,
-    60,
-    53,
-    50,
-    72
+[
+    "kubfu",
+    891,
+    [
+        "fighting"
+    ],
+    [
+        [
+            "Megapu√±o",
+            "physical",
+            "normal",
+            80,
+            85,
+            20,
+            "Un pu√±etazo de gran potencia."
+        ],
+        [
+            "Pu√±o Fuego",
+            "physical",
+            "fire",
+            75,
+            100,
+            15,
+            "Pu√±etazo ardiente. Puede quemar."
+        ],
+        [
+            "Pu√±o Hielo",
+            "physical",
+            "ice",
+            75,
+            100,
+            15,
+            "Pu√±etazo helado. Puede congelar."
+        ],
+        [
+            "Pu√±o Trueno",
+            "physical",
+            "electric",
+            75,
+            100,
+            15,
+            "Pu√±etazo el√©ctrico. Puede paralizar."
+        ],
+        [
+            "Danza Espada",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Baile fren√©tico que aumenta mucho el Ataque."
+        ],
+        [
+            "Megapatada",
+            "physical",
+            "normal",
+            120,
+            75,
+            5,
+            "Patada de extrema fuerza."
+        ],
+        [
+            "Golpe Cabeza",
+            "physical",
+            "normal",
+            70,
+            100,
+            15,
+            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
+        ],
+        [
+            "Golpe Cuerpo",
+            "physical",
+            "normal",
+            85,
+            100,
+            15,
+            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
+        ],
+        [
+            "Derribo",
+            "physical",
+            "normal",
+            90,
+            85,
+            20,
+            "Carga desmedida que tambi√©n hiere al agresor."
+        ],
+        [
+            "Doble Filo",
+            "physical",
+            "normal",
+            120,
+            100,
+            15,
+            "Ataque arriesgado que tambi√©n hiere al agresor."
+        ],
+        [
+            "Malicioso",
+            "special",
+            "normal",
+            null,
+            100,
+            30,
+            "Intimida a los rivales para bajar su Defensa."
+        ],
+        [
+            "Patada Baja",
+            "physical",
+            "fighting",
+            null,
+            100,
+            20,
+            "Patada baja. Cuanto m√°s pesa el objetivo, m√°s\nda√±o causa."
+        ],
+        [
+            "Contraataque",
+            "physical",
+            "fighting",
+            null,
+            100,
+            20,
+            "Devuelve un golpe f√≠sico por duplicado."
+        ],
+        [
+            "Excavar",
+            "physical",
+            "ground",
+            80,
+            100,
+            10,
+            "Primer turno: cava. Segundo turno: ataca. Tambi√©n\nsirve para salir de ciertas zonas."
+        ],
+        [
+            "Foco Energ√≠a",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Concentra energ√≠a para aumentar las posibilidades\nde un golpe cr√≠tico."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Inversi√≥n",
+            "physical",
+            "fighting",
+            null,
+            100,
+            15,
+            "Ataque desesperado que causa m√°s da√±o cuantos \nmenos PS tenga el usuario."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Cara Susto",
+            "special",
+            "normal",
+            null,
+            100,
+            10,
+            "Asusta al objetivo para reducir mucho su Velocidad."
+        ],
+        [
+            "Detecci√≥n",
+            "special",
+            "fighting",
+            null,
+            null,
+            5,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Atracci√≥n",
+            "special",
+            "normal",
+            null,
+            100,
+            15,
+            "Si el objetivo es del sexo opuesto, se enamorar√° y\nbajar√° la posibilidad de que ataque."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Pu√±o Din√°mico",
+            "physical",
+            "fighting",
+            100,
+            50,
+            5,
+            "Pu√±etazo con toda la fuerza concentrada. Causa\nconfusi√≥n si atina."
+        ],
+        [
+            "Garra Metal",
+            "physical",
+            "steel",
+            50,
+            95,
+            35,
+            "Ataque con garras de acero que puede aumentar\nel Ataque del usuario."
+        ],
+        [
+            "Golpe Roca",
+            "physical",
+            "fighting",
+            40,
+            100,
+            15,
+            "Ataque con los pu√±os. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Pu√±o Certero",
+            "physical",
+            "fighting",
+            150,
+            100,
+            20,
+            "Se concentra para dar un pu√±etazo. Falla si se\nsufre un golpe antes de su uso."
+        ],
+        [
+            "Refuerzo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
+        ],
+        [
+            "Fuerza Bruta",
+            "physical",
+            "fighting",
+            120,
+            100,
+            5,
+            "Ataque de gran potencia, pero que reduce el\nAtaque y la Defensa del agresor."
+        ],
+        [
+            "Desquite",
+            "physical",
+            "fighting",
+            60,
+            100,
+            10,
+            "Ataque que produce el doble de da√±o si el usuario\nes herido en el mismo turno."
+        ],
+        [
+            "Demolici√≥n",
+            "physical",
+            "fighting",
+            75,
+            100,
+            15,
+            "Potente ataque que tambi√©n es capaz de destruir\nbarreras como Pantalla de Luz y Reflejo."
+        ],
+        [
+            "Golpe A√©reo",
+            "physical",
+            "flying",
+            60,
+            null,
+            20,
+            "El usuario lanza un ataque muy r√°pido e ineludible."
+        ],
+        [
+            "Corpulencia",
+            "special",
+            "fighting",
+            null,
+            null,
+            20,
+            "Robustece el cuerpo para subir el Ataque y la Defensa."
+        ],
+        [
+            "Ida y Vuelta",
+            "physical",
+            "bug",
+            70,
+            100,
+            20,
+            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pok√©mon del equipo."
+        ],
+        [
+            "A Bocajarro",
+            "physical",
+            "fighting",
+            120,
+            100,
+            5,
+            "Lucha abiertamente contra el objetivo sin\nprotegerse. Tambi√©n reduce la Defensa y la\nDefensa Especial del usuario."
+        ],
+        [
+            "Lanzamiento",
+            "physical",
+            "dark",
+            null,
+            100,
+            10,
+            "Lanza contra el objetivo el objeto que lleva. La\nfuerza del ataque y su efecto var√≠an seg√∫n el\nobjeto."
+        ],
+        [
+            "Cabezazo Zen",
+            "physical",
+            "psychic",
+            80,
+            90,
+            15,
+            "Concentra su energ√≠a ps√≠quica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
+        ],
+        [
+            "Cabeza de Hierro",
+            "physical",
+            "steel",
+            80,
+            100,
+            15,
+            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
+        ],
+        [
+            "Puntapi√©",
+            "physical",
+            "fighting",
+            65,
+            100,
+            20,
+            "Ataque r√°pido dirigido a los pies del objetivo que\nle hace perder Velocidad."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Acr√≥bata",
+            "physical",
+            "flying",
+            55,
+            100,
+            15,
+            "Golpea √°gilmente. Si el usuario no porta ning√∫n\nobjeto, el objetivo resulta seriamente da√±ado."
+        ],
+        [
+            "Represalia",
+            "physical",
+            "normal",
+            70,
+            100,
+            5,
+            "Venga a los amigos derrotados. Si en el turno\nanterior han derrotado a uno, la potencia del\nataque aumentar√°."
+        ],
+        [
+            "Avivar",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Quien lo usa se concentra y potencia su Ataque y\nsu Ataque Especial."
+        ],
+        [
+            "Motivaci√≥n",
+            "special",
+            "fighting",
+            null,
+            null,
+            10,
+            "El usuario imparte indicaciones precisas a sus aliados,\nque ven aumentados su Ataque y su Defensa."
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ]
+    ],
+    60,
+    90,
+    60,
+    53,
+    50,
+    72
 ]

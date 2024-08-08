@@ -1,357 +1,357 @@
-[
-    "eldegoss",
-    830,
-    [
-        "grass"
-    ],
-    [
-        [
-            "Canto",
-            "special",
-            "normal",
-            null,
-            55,
-            15,
-            "Cancioncilla que hace dormir profundamente al\nobjetivo."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deber· descansar en\nel siguiente turno."
-        ],
-        [
-            "Hoja Afilada",
-            "physical",
-            "grass",
-            55,
-            95,
-            25,
-            "Corta con hojas afiladas. Suele ser crÌtico."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energÌa."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaÒo producido por los ataques especiales."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "EsporagodÛn",
-            "special",
-            "grass",
-            null,
-            100,
-            40,
-            "Adhiere esporas a los rivales para reducir mucho\nsu Velocidad."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Gigadrenado",
-            "special",
-            "grass",
-            75,
-            100,
-            10,
-            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del daÒo que produce."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Encanto",
-            "special",
-            "fairy",
-            null,
-            100,
-            20,
-            "Engatusa al objetivo y reduce bastante su Ataque."
-        ],
-        [
-            "AtracciÛn",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorar· y\nbajar· la posibilidad de que ataque."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Giro R·pido",
-            "physical",
-            "normal",
-            50,
-            100,
-            40,
-            "Ataque giratorio que puede eliminar movimientos\ncomo Atadura, ConstricciÛn, Drenadoras y P˙as."
-        ],
-        [
-            "Dulce Aroma",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Un dulce aroma engatusa al objetivo, por lo que\nse reduce mucho su EvasiÛn. En la hierba\nalta sirve para atraer a PokÈmon salvajes."
-        ],
-        [
-            "SÌntesis",
-            "special",
-            "grass",
-            null,
-            null,
-            5,
-            "Restaura PS del usuario. La cantidad varÌa seg˙n\nel tiempo que haga."
-        ],
-        [
-            "DÌa Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "VozarrÛn",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Grito desgarrador que inflige daÒo al objetivo."
-        ],
-        [
-            "Meteorobola",
-            "special",
-            "normal",
-            50,
-            100,
-            10,
-            "El tipo y fuerza del ataque varÌan seg˙n el tiempo\nque haga."
-        ],
-        [
-            "Aromaterapia",
-            "special",
-            "grass",
-            null,
-            null,
-            5,
-            "Cura todos los problemas de estado del equipo\ncon un suave aroma."
-        ],
-        [
-            "Semilladora",
-            "physical",
-            "grass",
-            25,
-            100,
-            30,
-            "Dispara r·pido de dos a cinco r·fagas de semillas\nde manera consecutiva."
-        ],
-        [
-            "Hoja M·gica",
-            "special",
-            "grass",
-            60,
-            null,
-            20,
-            "Esparce extraÒas hojas que persiguen al objetivo.\nNo se puede esquivar."
-        ],
-        [
-            "Bomba Germen",
-            "physical",
-            "grass",
-            80,
-            100,
-            15,
-            "Lanza al objetivo una descarga de semillas\nexplosivas desde arriba."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "A˙na fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El PokÈmon descansa el turno siguiente."
-        ],
-        [
-            "Lluevehojas",
-            "special",
-            "grass",
-            130,
-            90,
-            5,
-            "Cae una lluvia de hojas afiladas. Baja mucho el\nAtaque Especial de quien lo usa."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto m·s pesado es el objetivo, m·s daÒo\ninflige."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "CiclÛn de Hojas",
-            "special",
-            "grass",
-            65,
-            90,
-            10,
-            "Tritura con afiladas hojas y puede bajar la\nPrecisiÛn del objetivo."
-        ],
-        [
-            "Rizo AlgodÛn",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Cubre al PokÈmon con una madeja protectora.\nAumenta muchÌsimo la Defensa."
-        ],
-        [
-            "Campo de Hierba",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Convierte el terreno de combate en un campo de\nhierba durante cinco turnos. Los PokÈmon que\nestÈn en el suelo recuperan PS en cada turno."
-        ],
-        [
-            "Follaje",
-            "physical",
-            "grass",
-            40,
-            100,
-            40,
-            "Ataca al oponente lanzando hojas."
-        ],
-        [
-            "Bola de Polen",
-            "special",
-            "bug",
-            90,
-            100,
-            15,
-            "Ataca al oponente con una bola explosiva. Si esta\nalcanza a un aliado, le har· recuperar PS."
-        ],
-        [
-            "Fitoimpulso",
-            "physical",
-            "grass",
-            55,
-            100,
-            20,
-            "Ataca al objetivo desliz·ndose sobre el terreno de\ncombate. Este movimiento tiene prioridad alta cuando\nel terreno est· cubierto por un campo de hierba."
-        ]
-    ],
-    60,
-    50,
-    90,
-    80,
-    120,
-    60
+[
+    "eldegoss",
+    830,
+    [
+        "grass"
+    ],
+    [
+        [
+            "Canto",
+            "special",
+            "normal",
+            null,
+            55,
+            15,
+            "Cancioncilla que hace dormir profundamente al\nobjetivo."
+        ],
+        [
+            "Hiperrayo",
+            "special",
+            "normal",
+            150,
+            90,
+            5,
+            "Es eficaz, pero el atacante deber√° descansar en\nel siguiente turno."
+        ],
+        [
+            "Hoja Afilada",
+            "physical",
+            "grass",
+            55,
+            95,
+            25,
+            "Corta con hojas afiladas. Suele ser cr√≠tico."
+        ],
+        [
+            "Rayo Solar",
+            "special",
+            "grass",
+            120,
+            100,
+            10,
+            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energ√≠a."
+        ],
+        [
+            "Pantalla de Luz",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Pared de luz que reduce durante cinco turnos el\nda√±o producido por los ataques especiales."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Esporagod√≥n",
+            "special",
+            "grass",
+            null,
+            100,
+            40,
+            "Adhiere esporas a los rivales para reducir mucho\nsu Velocidad."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Gigadrenado",
+            "special",
+            "grass",
+            75,
+            100,
+            10,
+            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del da√±o que produce."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Encanto",
+            "special",
+            "fairy",
+            null,
+            100,
+            20,
+            "Engatusa al objetivo y reduce bastante su Ataque."
+        ],
+        [
+            "Atracci√≥n",
+            "special",
+            "normal",
+            null,
+            100,
+            15,
+            "Si el objetivo es del sexo opuesto, se enamorar√° y\nbajar√° la posibilidad de que ataque."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Giro R√°pido",
+            "physical",
+            "normal",
+            50,
+            100,
+            40,
+            "Ataque giratorio que puede eliminar movimientos\ncomo Atadura, Constricci√≥n, Drenadoras y P√∫as."
+        ],
+        [
+            "Dulce Aroma",
+            "special",
+            "normal",
+            null,
+            100,
+            20,
+            "Un dulce aroma engatusa al objetivo, por lo que\nse reduce mucho su Evasi√≥n. En la hierba\nalta sirve para atraer a Pok√©mon salvajes."
+        ],
+        [
+            "S√≠ntesis",
+            "special",
+            "grass",
+            null,
+            null,
+            5,
+            "Restaura PS del usuario. La cantidad var√≠a seg√∫n\nel tiempo que haga."
+        ],
+        [
+            "D√≠a Soleado",
+            "special",
+            "fire",
+            null,
+            null,
+            5,
+            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Refuerzo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
+        ],
+        [
+            "Vozarr√≥n",
+            "special",
+            "normal",
+            90,
+            100,
+            10,
+            "Grito desgarrador que inflige da√±o al objetivo."
+        ],
+        [
+            "Meteorobola",
+            "special",
+            "normal",
+            50,
+            100,
+            10,
+            "El tipo y fuerza del ataque var√≠an seg√∫n el tiempo\nque haga."
+        ],
+        [
+            "Aromaterapia",
+            "special",
+            "grass",
+            null,
+            null,
+            5,
+            "Cura todos los problemas de estado del equipo\ncon un suave aroma."
+        ],
+        [
+            "Semilladora",
+            "physical",
+            "grass",
+            25,
+            100,
+            30,
+            "Dispara r√°pido de dos a cinco r√°fagas de semillas\nde manera consecutiva."
+        ],
+        [
+            "Hoja M√°gica",
+            "special",
+            "grass",
+            60,
+            null,
+            20,
+            "Esparce extra√±as hojas que persiguen al objetivo.\nNo se puede esquivar."
+        ],
+        [
+            "Bomba Germen",
+            "physical",
+            "grass",
+            80,
+            100,
+            15,
+            "Lanza al objetivo una descarga de semillas\nexplosivas desde arriba."
+        ],
+        [
+            "Energibola",
+            "special",
+            "grass",
+            90,
+            100,
+            10,
+            "A√∫na fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
+        ],
+        [
+            "Gigaimpacto",
+            "physical",
+            "normal",
+            150,
+            90,
+            5,
+            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pok√©mon descansa el turno siguiente."
+        ],
+        [
+            "Lluevehojas",
+            "special",
+            "grass",
+            130,
+            90,
+            5,
+            "Cae una lluvia de hojas afiladas. Baja mucho el\nAtaque Especial de quien lo usa."
+        ],
+        [
+            "Hierba Lazo",
+            "special",
+            "grass",
+            null,
+            100,
+            20,
+            "Enreda al objetivo con hierba y lo derriba.\nCuanto m√°s pesado es el objetivo, m√°s da√±o\ninflige."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Cicl√≥n de Hojas",
+            "special",
+            "grass",
+            65,
+            90,
+            10,
+            "Tritura con afiladas hojas y puede bajar la\nPrecisi√≥n del objetivo."
+        ],
+        [
+            "Rizo Algod√≥n",
+            "special",
+            "grass",
+            null,
+            null,
+            10,
+            "Cubre al Pok√©mon con una madeja protectora.\nAumenta much√≠simo la Defensa."
+        ],
+        [
+            "Campo de Hierba",
+            "special",
+            "grass",
+            null,
+            null,
+            10,
+            "Convierte el terreno de combate en un campo de\nhierba durante cinco turnos. Los Pok√©mon que\nest√©n en el suelo recuperan PS en cada turno."
+        ],
+        [
+            "Follaje",
+            "physical",
+            "grass",
+            40,
+            100,
+            40,
+            "Ataca al oponente lanzando hojas."
+        ],
+        [
+            "Bola de Polen",
+            "special",
+            "bug",
+            90,
+            100,
+            15,
+            "Ataca al oponente con una bola explosiva. Si esta\nalcanza a un aliado, le har√° recuperar PS."
+        ],
+        [
+            "Fitoimpulso",
+            "physical",
+            "grass",
+            55,
+            100,
+            20,
+            "Ataca al objetivo desliz√°ndose sobre el terreno de\ncombate. Este movimiento tiene prioridad alta cuando\nel terreno est√° cubierto por un campo de hierba."
+        ]
+    ],
+    60,
+    50,
+    90,
+    80,
+    120,
+    60
 ]

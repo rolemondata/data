@@ -1,780 +1,780 @@
-[
-    "mudkip",
-    258,
-    [
-        "water"
-    ],
-    [
-        [
-            "PisotÛn",
-            "physical",
-            "normal",
-            65,
-            100,
-            20,
-            "Tremendo pisotÛn que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Golpe Cabeza",
-            "physical",
-            "normal",
-            70,
-            100,
-            15,
-            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
-        ],
-        [
-            "Placaje",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Embiste con todo el cuerpo."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que tambiÈn hiere al agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que tambiÈn hiere al agresor."
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "GruÒido",
-            "special",
-            "normal",
-            null,
-            100,
-            40,
-            "Dulce gruÒido que reduce el Ataque del\ncontrincante."
-        ],
-        [
-            "Rugido",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Se lleva al objetivo, que es cambiado por otro\nPokÈmon. Si es un PokÈmon salvaje, acaba el\ncombate."
-        ],
-        [
-            "SupersÛnico",
-            "special",
-            "normal",
-            null,
-            55,
-            20,
-            "Raras ondas sÛnicas que confunden al objetivo."
-        ],
-        [
-            "Pistola Agua",
-            "special",
-            "water",
-            40,
-            100,
-            25,
-            "Ataca disparando agua con gran potencia."
-        ],
-        [
-            "Hidrobomba",
-            "special",
-            "water",
-            110,
-            80,
-            5,
-            "Lanza una gran masa de agua a presiÛn para\natacar."
-        ],
-        [
-            "Surf",
-            "special",
-            "water",
-            90,
-            100,
-            15,
-            "Inunda el campo de batalla con una ola gigante.\nFuera de batalla sirve para moverse sobre el agua."
-        ],
-        [
-            "Rayo Hielo",
-            "special",
-            "ice",
-            90,
-            100,
-            10,
-            "Rayo de hielo que puede llegar a congelar."
-        ],
-        [
-            "Ventisca",
-            "special",
-            "ice",
-            110,
-            70,
-            5,
-            "Tormenta de hielo que puede llegar a congelar."
-        ],
-        [
-            "Patada Baja",
-            "physical",
-            "fighting",
-            null,
-            100,
-            20,
-            "Patada baja. Cuanto m·s pesa el objetivo, m·s\ndaÒo causa."
-        ],
-        [
-            "Contraataque",
-            "physical",
-            "fighting",
-            null,
-            100,
-            20,
-            "Devuelve un golpe fÌsico por duplicado."
-        ],
-        [
-            "Fuerza",
-            "physical",
-            "normal",
-            80,
-            100,
-            15,
-            "Potente puÒetazo. Fuera de combate sirve para\nmover rocas."
-        ],
-        [
-            "Lanzarrocas",
-            "physical",
-            "rock",
-            50,
-            90,
-            15,
-            "Tira una pequeÒa roca al objetivo."
-        ],
-        [
-            "Excavar",
-            "physical",
-            "ground",
-            80,
-            100,
-            10,
-            "Primer turno: cava. Segundo turno: ataca. TambiÈn\nsirve para salir de ciertas zonas."
-        ],
-        [
-            "TÛxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daÒo\nmayor en cada turno."
-        ],
-        [
-            "MimÈtico",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Copia el ˙ltimo movimiento usado por el objetivo.\nDicho movimiento se podr· usar mientras el\nPokÈmon no sea cambiado."
-        ],
-        [
-            "Chirrido",
-            "special",
-            "normal",
-            null,
-            85,
-            40,
-            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sÌ mismo para mejorar la EvasiÛn."
-        ],
-        [
-            "Rizo Defensa",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Se enrosca para ocultar su punto dÈbil. Sube la\nDefensa."
-        ],
-        [
-            "Barrera",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Crea una barrera que aumenta mucho la Defensa."
-        ],
-        [
-            "Venganza",
-            "physical",
-            "normal",
-            null,
-            null,
-            10,
-            "Espera dos turnos para atacar con el doble de\npotencia del daÒo recibido."
-        ],
-        [
-            "Residuos",
-            "special",
-            "poison",
-            65,
-            100,
-            20,
-            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
-        ],
-        [
-            "Cascada",
-            "physical",
-            "water",
-            80,
-            100,
-            15,
-            "Embiste con un gran impulso que puede hacer\nretroceder. TambiÈn sirve para remontar cascadas."
-        ],
-        [
-            "Amnesia",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "El usuario olvida sus preocupaciones y aumenta\nmucho la Defensa Especial."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Avalancha",
-            "physical",
-            "rock",
-            75,
-            90,
-            10,
-            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "MaldiciÛn",
-            "special",
-            "ghost",
-            null,
-            null,
-            10,
-            "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "BofetÛn Lodo",
-            "special",
-            "ground",
-            20,
-            100,
-            10,
-            "Echa lodo en la cara para bajar la PrecisiÛn."
-        ],
-        [
-            "ProfecÌa",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Permite atacar con cualquier movimiento a\nobjetivos de tipo Fantasma y golpear a PokÈmon\nevasivos."
-        ],
-        [
-            "Viento Hielo",
-            "special",
-            "ice",
-            55,
-            95,
-            15,
-            "Ataque con aire helado que baja la Velocidad de\nlos rivales."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Rodar",
-            "physical",
-            "rock",
-            30,
-            90,
-            20,
-            "El atacante rueda contra el objetivo durante cinco\nturnos, cada vez con mayor fuerza."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusiÛn en el objetivo, pero tambiÈn\nsube mucho su Ataque."
-        ],
-        [
-            "AtracciÛn",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorar· y\nbajar· la posibilidad de que ataque."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "RetribuciÛn",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto mayor sea la amistad con el Entrenador,\nm·s poderoso ser· este ataque."
-        ],
-        [
-            "FrustraciÛn",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto menor sea la amistad con el Entrenador,\nm·s poderoso ser· este ataque."
-        ],
-        [
-            "Cola FÈrrea",
-            "physical",
-            "steel",
-            100,
-            75,
-            15,
-            "Ataca con una cola fÈrrea y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Poder Oculto",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Movimiento cuyo tipo varÌa en funciÛn del\nPokÈmon que lo usa."
-        ],
-        [
-            "Danza Lluvia",
-            "special",
-            "water",
-            null,
-            null,
-            5,
-            "Genera una fuerte lluvia que refuerza los\nmovimientos de tipo Agua durante cinco turnos."
-        ],
-        [
-            "Manto Espejo",
-            "special",
-            "psychic",
-            null,
-            100,
-            20,
-            "Responde a un ataque especial ocasionando el\ndoble del daÒo recibido."
-        ],
-        [
-            "Poder Pasado",
-            "special",
-            "rock",
-            60,
-            100,
-            5,
-            "Ataque prehistÛrico que puede subir todas las\ncaracterÌsticas."
-        ],
-        [
-            "Golpe Roca",
-            "physical",
-            "fighting",
-            40,
-            100,
-            15,
-            "Ataque con los puÒos. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate."
-        ],
-        [
-            "Torbellino",
-            "special",
-            "water",
-            35,
-            85,
-            15,
-            "Una tromba de agua atrapa al objetivo durante\ncuatro o cinco turnos."
-        ],
-        [
-            "Alboroto",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Ataca de forma alborotada durante tres turnos.\nMantiene despiertos a todos."
-        ],
-        [
-            "Granizo",
-            "special",
-            "ice",
-            null,
-            null,
-            10,
-            "Tormenta de granizo que dura cinco turnos. Hiere\na todos, excepto a los de tipo Hielo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Fuerza Bruta",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Ataque de gran potencia, pero que reduce el\nAtaque y la Defensa del agresor."
-        ],
-        [
-            "Bostezo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Gran bostezo que induce al sueÒo al objetivo en\nel siguiente turno."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Alivio",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Descansa para curar par·lisis, envenenamiento o\nquemaduras."
-        ],
-        [
-            "DaÒo Secreto",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataque con poder secreto cuyos efectos\nsecundarios varÌan seg˙n el entorno de combate."
-        ],
-        [
-            "Buceo",
-            "physical",
-            "water",
-            80,
-            100,
-            10,
-            "El usuario se sumerge en el primer turno\ny ataca en el segundo."
-        ],
-        [
-            "Chapoteo Lodo",
-            "special",
-            "ground",
-            null,
-            null,
-            15,
-            "El usuario esparce lodo a su alrededor, lo que\ndebilita los movimientos de tipo ElÈctrico durante\ncinco turnos."
-        ],
-        [
-            "Bola Hielo",
-            "physical",
-            "ice",
-            30,
-            90,
-            20,
-            "El atacante rueda contra el objetivo durante cinco\nturnos, cada vez con mayor fuerza."
-        ],
-        [
-            "Tumba Rocas",
-            "physical",
-            "rock",
-            60,
-            95,
-            15,
-            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
-        ],
-        [
-            "Agua Lodosa",
-            "special",
-            "water",
-            90,
-            85,
-            10,
-            "Ataque con agua lodosa que puede bajar la\nPrecisiÛn del equipo rival."
-        ],
-        [
-            "Disparo Lodo",
-            "special",
-            "ground",
-            55,
-            95,
-            15,
-            "El usuario lanza lodo al objetivo y reduce su\nVelocidad."
-        ],
-        [
-            "Hidropulso",
-            "special",
-            "water",
-            60,
-            100,
-            20,
-            "Ataca con un potente chorro de agua. Puede\nconfundir al objetivo."
-        ],
-        [
-            "Don Natural",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "La baya que lleva presta su fuerza para atacar. El\ntipo de ataque y su fuerza dependen de la baya."
-        ],
-        [
-            "Acua Cola",
-            "physical",
-            "water",
-            90,
-            90,
-            10,
-            "Ataca agitando la cola como si fuera una ola\nrabiosa en una tormenta devastadora."
-        ],
-        [
-            "Tierra Viva",
-            "special",
-            "ground",
-            90,
-            100,
-            10,
-            "La tierra a los pies del objetivo erupciona\nviolentamente. Puede disminuir la Defensa Especial\ndel objetivo."
-        ],
-        [
-            "Alud",
-            "physical",
-            "ice",
-            60,
-            100,
-            10,
-            "Este ataque inflige el doble de daÒo a un objetivo\nque haya golpeado al usuario en ese mismo turno."
-        ],
-        [
-            "Bomba Fango",
-            "special",
-            "ground",
-            65,
-            85,
-            10,
-            "Ataca lanzando una compacta bola de fango.\nPuede bajar la PrecisiÛn del objetivo."
-        ],
-        [
-            "SeducciÛn",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Si el objetivo es del sexo opuesto, queda\nembelesado y baja mucho su Ataque Especial."
-        ],
-        [
-            "Vastaguardia",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Bloquea los ataques de objetivo m˙ltiple\nlanzados contra tu equipo durante un turno."
-        ],
-        [
-            "Onda TÛxica",
-            "special",
-            "poison",
-            95,
-            100,
-            10,
-            "Una onda tÛxica que daÒa a los PokÈmon de\nalrededor. Puede envenenar."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "Eco Voz",
-            "special",
-            "normal",
-            40,
-            100,
-            15,
-            "Un susurro que aumenta de potencia conforme el\nusuario y otros PokÈmon lo van utilizando."
-        ],
-        [
-            "Escaldar",
-            "special",
-            "water",
-            80,
-            100,
-            15,
-            "Ataca arrojando agua hirviendo al objetivo.\nPuede causar quemaduras."
-        ],
-        [
-            "Voto Agua",
-            "special",
-            "water",
-            80,
-            100,
-            10,
-            "Ataca con columnas de agua. Combinado con\nVoto Fuego, crea un arcoÌris y aumenta su\npotencia."
-        ],
-        [
-            "Avivar",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Quien lo usa se concentra y potencia su Ataque y\nsu Ataque Especial."
-        ],
-        [
-            "Confidencia",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Hace que el objetivo pierda la concentraciÛn\ncont·ndole un secreto. Disminuye el Ataque\nEspecial del oponente."
-        ],
-        [
-            "Hidroariete",
-            "physical",
-            "water",
-            85,
-            100,
-            10,
-            "Ataca golpeando gracias a la fuerza del agua.\nTambiÈn puede reducir la Defensa del objetivo."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "special",
-            "water",
-            50,
-            100,
-            20,
-            ""
-        ]
-    ],
-    50,
-    70,
-    50,
-    50,
-    50,
-    40
+[
+    "mudkip",
+    258,
+    [
+        "water"
+    ],
+    [
+        [
+            "Pisot√≥n",
+            "physical",
+            "normal",
+            65,
+            100,
+            20,
+            "Tremendo pisot√≥n que puede hacer retroceder\nal objetivo."
+        ],
+        [
+            "Golpe Cabeza",
+            "physical",
+            "normal",
+            70,
+            100,
+            15,
+            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
+        ],
+        [
+            "Placaje",
+            "physical",
+            "normal",
+            40,
+            100,
+            35,
+            "Embiste con todo el cuerpo."
+        ],
+        [
+            "Golpe Cuerpo",
+            "physical",
+            "normal",
+            85,
+            100,
+            15,
+            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
+        ],
+        [
+            "Derribo",
+            "physical",
+            "normal",
+            90,
+            85,
+            20,
+            "Carga desmedida que tambi√©n hiere al agresor."
+        ],
+        [
+            "Doble Filo",
+            "physical",
+            "normal",
+            120,
+            100,
+            15,
+            "Ataque arriesgado que tambi√©n hiere al agresor."
+        ],
+        [
+            "Mordisco",
+            "physical",
+            "dark",
+            60,
+            100,
+            25,
+            "Un voraz bocado que puede hacer retroceder\nal objetivo."
+        ],
+        [
+            "Gru√±ido",
+            "special",
+            "normal",
+            null,
+            100,
+            40,
+            "Dulce gru√±ido que reduce el Ataque del\ncontrincante."
+        ],
+        [
+            "Rugido",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Se lleva al objetivo, que es cambiado por otro\nPok√©mon. Si es un Pok√©mon salvaje, acaba el\ncombate."
+        ],
+        [
+            "Supers√≥nico",
+            "special",
+            "normal",
+            null,
+            55,
+            20,
+            "Raras ondas s√≥nicas que confunden al objetivo."
+        ],
+        [
+            "Pistola Agua",
+            "special",
+            "water",
+            40,
+            100,
+            25,
+            "Ataca disparando agua con gran potencia."
+        ],
+        [
+            "Hidrobomba",
+            "special",
+            "water",
+            110,
+            80,
+            5,
+            "Lanza una gran masa de agua a presi√≥n para\natacar."
+        ],
+        [
+            "Surf",
+            "special",
+            "water",
+            90,
+            100,
+            15,
+            "Inunda el campo de batalla con una ola gigante.\nFuera de batalla sirve para moverse sobre el agua."
+        ],
+        [
+            "Rayo Hielo",
+            "special",
+            "ice",
+            90,
+            100,
+            10,
+            "Rayo de hielo que puede llegar a congelar."
+        ],
+        [
+            "Ventisca",
+            "special",
+            "ice",
+            110,
+            70,
+            5,
+            "Tormenta de hielo que puede llegar a congelar."
+        ],
+        [
+            "Patada Baja",
+            "physical",
+            "fighting",
+            null,
+            100,
+            20,
+            "Patada baja. Cuanto m√°s pesa el objetivo, m√°s\nda√±o causa."
+        ],
+        [
+            "Contraataque",
+            "physical",
+            "fighting",
+            null,
+            100,
+            20,
+            "Devuelve un golpe f√≠sico por duplicado."
+        ],
+        [
+            "Fuerza",
+            "physical",
+            "normal",
+            80,
+            100,
+            15,
+            "Potente pu√±etazo. Fuera de combate sirve para\nmover rocas."
+        ],
+        [
+            "Lanzarrocas",
+            "physical",
+            "rock",
+            50,
+            90,
+            15,
+            "Tira una peque√±a roca al objetivo."
+        ],
+        [
+            "Excavar",
+            "physical",
+            "ground",
+            80,
+            100,
+            10,
+            "Primer turno: cava. Segundo turno: ataca. Tambi√©n\nsirve para salir de ciertas zonas."
+        ],
+        [
+            "T√≥xico",
+            "special",
+            "poison",
+            null,
+            90,
+            10,
+            "Envenena gravemente al objetivo y causa un da√±o\nmayor en cada turno."
+        ],
+        [
+            "Mim√©tico",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Copia el √∫ltimo movimiento usado por el objetivo.\nDicho movimiento se podr√° usar mientras el\nPok√©mon no sea cambiado."
+        ],
+        [
+            "Chirrido",
+            "special",
+            "normal",
+            null,
+            85,
+            40,
+            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
+        ],
+        [
+            "Doble Equipo",
+            "special",
+            "normal",
+            null,
+            null,
+            15,
+            "Crea copias de s√≠ mismo para mejorar la Evasi√≥n."
+        ],
+        [
+            "Rizo Defensa",
+            "special",
+            "normal",
+            null,
+            null,
+            40,
+            "Se enrosca para ocultar su punto d√©bil. Sube la\nDefensa."
+        ],
+        [
+            "Barrera",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Crea una barrera que aumenta mucho la Defensa."
+        ],
+        [
+            "Venganza",
+            "physical",
+            "normal",
+            null,
+            null,
+            10,
+            "Espera dos turnos para atacar con el doble de\npotencia del da√±o recibido."
+        ],
+        [
+            "Residuos",
+            "special",
+            "poison",
+            65,
+            100,
+            20,
+            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
+        ],
+        [
+            "Cascada",
+            "physical",
+            "water",
+            80,
+            100,
+            15,
+            "Embiste con un gran impulso que puede hacer\nretroceder. Tambi√©n sirve para remontar cascadas."
+        ],
+        [
+            "Amnesia",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "El usuario olvida sus preocupaciones y aumenta\nmucho la Defensa Especial."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Avalancha",
+            "physical",
+            "rock",
+            75,
+            90,
+            10,
+            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Maldici√≥n",
+            "special",
+            "ghost",
+            null,
+            null,
+            10,
+            "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Bofet√≥n Lodo",
+            "special",
+            "ground",
+            20,
+            100,
+            10,
+            "Echa lodo en la cara para bajar la Precisi√≥n."
+        ],
+        [
+            "Profec√≠a",
+            "special",
+            "normal",
+            null,
+            null,
+            40,
+            "Permite atacar con cualquier movimiento a\nobjetivos de tipo Fantasma y golpear a Pok√©mon\nevasivos."
+        ],
+        [
+            "Viento Hielo",
+            "special",
+            "ice",
+            55,
+            95,
+            15,
+            "Ataque con aire helado que baja la Velocidad de\nlos rivales."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Rodar",
+            "physical",
+            "rock",
+            30,
+            90,
+            20,
+            "El atacante rueda contra el objetivo durante cinco\nturnos, cada vez con mayor fuerza."
+        ],
+        [
+            "Contoneo",
+            "special",
+            "normal",
+            null,
+            85,
+            15,
+            "Provoca confusi√≥n en el objetivo, pero tambi√©n\nsube mucho su Ataque."
+        ],
+        [
+            "Atracci√≥n",
+            "special",
+            "normal",
+            null,
+            100,
+            15,
+            "Si el objetivo es del sexo opuesto, se enamorar√° y\nbajar√° la posibilidad de que ataque."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Retribuci√≥n",
+            "physical",
+            "normal",
+            null,
+            100,
+            20,
+            "Cuanto mayor sea la amistad con el Entrenador,\nm√°s poderoso ser√° este ataque."
+        ],
+        [
+            "Frustraci√≥n",
+            "physical",
+            "normal",
+            null,
+            100,
+            20,
+            "Cuanto menor sea la amistad con el Entrenador,\nm√°s poderoso ser√° este ataque."
+        ],
+        [
+            "Cola F√©rrea",
+            "physical",
+            "steel",
+            100,
+            75,
+            15,
+            "Ataca con una cola f√©rrea y puede bajar la\nDefensa del objetivo."
+        ],
+        [
+            "Poder Oculto",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Movimiento cuyo tipo var√≠a en funci√≥n del\nPok√©mon que lo usa."
+        ],
+        [
+            "Danza Lluvia",
+            "special",
+            "water",
+            null,
+            null,
+            5,
+            "Genera una fuerte lluvia que refuerza los\nmovimientos de tipo Agua durante cinco turnos."
+        ],
+        [
+            "Manto Espejo",
+            "special",
+            "psychic",
+            null,
+            100,
+            20,
+            "Responde a un ataque especial ocasionando el\ndoble del da√±o recibido."
+        ],
+        [
+            "Poder Pasado",
+            "special",
+            "rock",
+            60,
+            100,
+            5,
+            "Ataque prehist√≥rico que puede subir todas las\ncaracter√≠sticas."
+        ],
+        [
+            "Golpe Roca",
+            "physical",
+            "fighting",
+            40,
+            100,
+            15,
+            "Ataque con los pu√±os. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate."
+        ],
+        [
+            "Torbellino",
+            "special",
+            "water",
+            35,
+            85,
+            15,
+            "Una tromba de agua atrapa al objetivo durante\ncuatro o cinco turnos."
+        ],
+        [
+            "Alboroto",
+            "special",
+            "normal",
+            90,
+            100,
+            10,
+            "Ataca de forma alborotada durante tres turnos.\nMantiene despiertos a todos."
+        ],
+        [
+            "Granizo",
+            "special",
+            "ice",
+            null,
+            null,
+            10,
+            "Tormenta de granizo que dura cinco turnos. Hiere\na todos, excepto a los de tipo Hielo."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Fuerza Bruta",
+            "physical",
+            "fighting",
+            120,
+            100,
+            5,
+            "Ataque de gran potencia, pero que reduce el\nAtaque y la Defensa del agresor."
+        ],
+        [
+            "Bostezo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Gran bostezo que induce al sue√±o al objetivo en\nel siguiente turno."
+        ],
+        [
+            "Esfuerzo",
+            "physical",
+            "normal",
+            null,
+            100,
+            5,
+            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
+        ],
+        [
+            "Alivio",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Descansa para curar par√°lisis, envenenamiento o\nquemaduras."
+        ],
+        [
+            "Da√±o Secreto",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataque con poder secreto cuyos efectos\nsecundarios var√≠an seg√∫n el entorno de combate."
+        ],
+        [
+            "Buceo",
+            "physical",
+            "water",
+            80,
+            100,
+            10,
+            "El usuario se sumerge en el primer turno\ny ataca en el segundo."
+        ],
+        [
+            "Chapoteo Lodo",
+            "special",
+            "ground",
+            null,
+            null,
+            15,
+            "El usuario esparce lodo a su alrededor, lo que\ndebilita los movimientos de tipo El√©ctrico durante\ncinco turnos."
+        ],
+        [
+            "Bola Hielo",
+            "physical",
+            "ice",
+            30,
+            90,
+            20,
+            "El atacante rueda contra el objetivo durante cinco\nturnos, cada vez con mayor fuerza."
+        ],
+        [
+            "Tumba Rocas",
+            "physical",
+            "rock",
+            60,
+            95,
+            15,
+            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
+        ],
+        [
+            "Agua Lodosa",
+            "special",
+            "water",
+            90,
+            85,
+            10,
+            "Ataque con agua lodosa que puede bajar la\nPrecisi√≥n del equipo rival."
+        ],
+        [
+            "Disparo Lodo",
+            "special",
+            "ground",
+            55,
+            95,
+            15,
+            "El usuario lanza lodo al objetivo y reduce su\nVelocidad."
+        ],
+        [
+            "Hidropulso",
+            "special",
+            "water",
+            60,
+            100,
+            20,
+            "Ataca con un potente chorro de agua. Puede\nconfundir al objetivo."
+        ],
+        [
+            "Don Natural",
+            "physical",
+            "normal",
+            null,
+            100,
+            15,
+            "La baya que lleva presta su fuerza para atacar. El\ntipo de ataque y su fuerza dependen de la baya."
+        ],
+        [
+            "Acua Cola",
+            "physical",
+            "water",
+            90,
+            90,
+            10,
+            "Ataca agitando la cola como si fuera una ola\nrabiosa en una tormenta devastadora."
+        ],
+        [
+            "Tierra Viva",
+            "special",
+            "ground",
+            90,
+            100,
+            10,
+            "La tierra a los pies del objetivo erupciona\nviolentamente. Puede disminuir la Defensa Especial\ndel objetivo."
+        ],
+        [
+            "Alud",
+            "physical",
+            "ice",
+            60,
+            100,
+            10,
+            "Este ataque inflige el doble de da√±o a un objetivo\nque haya golpeado al usuario en ese mismo turno."
+        ],
+        [
+            "Bomba Fango",
+            "special",
+            "ground",
+            65,
+            85,
+            10,
+            "Ataca lanzando una compacta bola de fango.\nPuede bajar la Precisi√≥n del objetivo."
+        ],
+        [
+            "Seducci√≥n",
+            "special",
+            "normal",
+            null,
+            100,
+            20,
+            "Si el objetivo es del sexo opuesto, queda\nembelesado y baja mucho su Ataque Especial."
+        ],
+        [
+            "Vastaguardia",
+            "special",
+            "rock",
+            null,
+            null,
+            10,
+            "Bloquea los ataques de objetivo m√∫ltiple\nlanzados contra tu equipo durante un turno."
+        ],
+        [
+            "Onda T√≥xica",
+            "special",
+            "poison",
+            95,
+            100,
+            10,
+            "Una onda t√≥xica que da√±a a los Pok√©mon de\nalrededor. Puede envenenar."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Eco Voz",
+            "special",
+            "normal",
+            40,
+            100,
+            15,
+            "Un susurro que aumenta de potencia conforme el\nusuario y otros Pok√©mon lo van utilizando."
+        ],
+        [
+            "Escaldar",
+            "special",
+            "water",
+            80,
+            100,
+            15,
+            "Ataca arrojando agua hirviendo al objetivo.\nPuede causar quemaduras."
+        ],
+        [
+            "Voto Agua",
+            "special",
+            "water",
+            80,
+            100,
+            10,
+            "Ataca con columnas de agua. Combinado con\nVoto Fuego, crea un arco√≠ris y aumenta su\npotencia."
+        ],
+        [
+            "Avivar",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Quien lo usa se concentra y potencia su Ataque y\nsu Ataque Especial."
+        ],
+        [
+            "Confidencia",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Hace que el objetivo pierda la concentraci√≥n\ncont√°ndole un secreto. Disminuye el Ataque\nEspecial del oponente."
+        ],
+        [
+            "Hidroariete",
+            "physical",
+            "water",
+            85,
+            100,
+            10,
+            "Ataca golpeando gracias a la fuerza del agua.\nTambi√©n puede reducir la Defensa del objetivo."
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ],
+        [
+            "",
+            "special",
+            "water",
+            50,
+            100,
+            20,
+            ""
+        ]
+    ],
+    50,
+    70,
+    50,
+    50,
+    50,
+    40
 ]

@@ -1,1042 +1,1042 @@
-[
-    "flygon",
-    330,
-    [
-        "ground",
-        "dragon"
-    ],
-    [
-        [
-            "MegapuÒo",
-            "physical",
-            "normal",
-            80,
-            85,
-            20,
-            "Un puÒetazo de gran potencia."
-        ],
-        [
-            "PuÒo Fuego",
-            "physical",
-            "fire",
-            75,
-            100,
-            15,
-            "PuÒetazo ardiente. Puede quemar."
-        ],
-        [
-            "PuÒo Trueno",
-            "physical",
-            "electric",
-            75,
-            100,
-            15,
-            "PuÒetazo elÈctrico. Puede paralizar."
-        ],
-        [
-            "Tornado",
-            "special",
-            "flying",
-            40,
-            100,
-            35,
-            "Crea un tornado con las alas y lo lanza contra\nel objetivo."
-        ],
-        [
-            "Vuelo",
-            "physical",
-            "flying",
-            90,
-            95,
-            15,
-            "Primer turno: vuela. Segundo turno: ataca. Fuera\nde combate, permite ir a sitios ya conocidos."
-        ],
-        [
-            "Megapatada",
-            "physical",
-            "normal",
-            120,
-            75,
-            5,
-            "Patada de extrema fuerza."
-        ],
-        [
-            "Ataque Arena",
-            "special",
-            "ground",
-            null,
-            100,
-            15,
-            "Arroja arena a la cara y baja la PrecisiÛn."
-        ],
-        [
-            "Golpe Cabeza",
-            "physical",
-            "normal",
-            70,
-            100,
-            15,
-            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que tambiÈn hiere al agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que tambiÈn hiere al agresor."
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "SupersÛnico",
-            "special",
-            "normal",
-            null,
-            55,
-            20,
-            "Raras ondas sÛnicas que confunden al objetivo."
-        ],
-        [
-            "Bomba SÛnica",
-            "special",
-            "normal",
-            null,
-            90,
-            20,
-            "Lanza ondas de choque que restan 20 PS al\nobjetivo."
-        ],
-        [
-            "Lanzallamas",
-            "special",
-            "fire",
-            90,
-            100,
-            15,
-            "Ataca con una gran r·faga de fuego que puede\ncausar quemaduras."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deber· descansar en\nel siguiente turno."
-        ],
-        [
-            "Fuerza",
-            "physical",
-            "normal",
-            80,
-            100,
-            15,
-            "Potente puÒetazo. Fuera de combate sirve para\nmover rocas."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energÌa."
-        ],
-        [
-            "Giro Fuego",
-            "special",
-            "fire",
-            35,
-            85,
-            15,
-            "Un aro de fuego que atrapa al objetivo de cuatro\na cinco turnos."
-        ],
-        [
-            "Terremoto",
-            "physical",
-            "ground",
-            100,
-            100,
-            10,
-            "Un terremoto que afecta a los PokÈmon de\nalrededor en combate."
-        ],
-        [
-            "Fisura",
-            "physical",
-            "ground",
-            null,
-            30,
-            5,
-            "Abre una grieta en el suelo y mete al objetivo en\nella. Fulmina en un golpe."
-        ],
-        [
-            "Excavar",
-            "physical",
-            "ground",
-            80,
-            100,
-            10,
-            "Primer turno: cava. Segundo turno: ataca. TambiÈn\nsirve para salir de ciertas zonas."
-        ],
-        [
-            "TÛxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daÒo\nmayor en cada turno."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Ataque R·pido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque r·pido que permite golpear en primer lugar."
-        ],
-        [
-            "MimÈtico",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Copia el ˙ltimo movimiento usado por el objetivo.\nDicho movimiento se podr· usar mientras el\nPokÈmon no sea cambiado."
-        ],
-        [
-            "Chirrido",
-            "special",
-            "normal",
-            null,
-            85,
-            40,
-            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sÌ mismo para mejorar la EvasiÛn."
-        ],
-        [
-            "Foco EnergÌa",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Concentra energÌa para aumentar las posibilidades\nde un golpe crÌtico."
-        ],
-        [
-            "Venganza",
-            "physical",
-            "normal",
-            null,
-            null,
-            10,
-            "Espera dos turnos para atacar con el doble de\npotencia del daÒo recibido."
-        ],
-        [
-            "Llamarada",
-            "special",
-            "fire",
-            110,
-            85,
-            5,
-            "Llama intensa que chamusca y puede causar\nquemaduras."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Avalancha",
-            "physical",
-            "rock",
-            75,
-            90,
-            10,
-            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Azote",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "Ataque frenÈtico. Cuantos menos PS tenga el\nusuario, m·s daÒo producir·."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Finta",
-            "physical",
-            "dark",
-            60,
-            null,
-            20,
-            "EngaÒa al objetivo para acercarse y dar un\npuÒetazo que no falla."
-        ],
-        [
-            "BofetÛn Lodo",
-            "special",
-            "ground",
-            20,
-            100,
-            10,
-            "Echa lodo en la cara para bajar la PrecisiÛn."
-        ],
-        [
-            "Enfado",
-            "physical",
-            "dragon",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Tormenta Arena",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
-        ],
-        [
-            "Gigadrenado",
-            "special",
-            "grass",
-            75,
-            100,
-            10,
-            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del daÒo que produce."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusiÛn en el objetivo, pero tambiÈn\nsube mucho su Ataque."
-        ],
-        [
-            "Corte Furia",
-            "physical",
-            "bug",
-            40,
-            95,
-            20,
-            "Ataque con garras o guadaÒa que crece en\nintensidad si se usa repetidas veces."
-        ],
-        [
-            "Ala de Acero",
-            "physical",
-            "steel",
-            70,
-            90,
-            25,
-            "Alas macizas que golpean al objetivo y pueden\nsubir la Defensa del usuario."
-        ],
-        [
-            "AtracciÛn",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorar· y\nbajar· la posibilidad de que ataque."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "RetribuciÛn",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto mayor sea la amistad con el Entrenador,\nm·s poderoso ser· este ataque."
-        ],
-        [
-            "FrustraciÛn",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto menor sea la amistad con el Entrenador,\nm·s poderoso ser· este ataque."
-        ],
-        [
-            "Dragoaliento",
-            "special",
-            "dragon",
-            60,
-            100,
-            20,
-            "Poderosa r·faga de aliento que golpea al objetivo\ny puede paralizarlo."
-        ],
-        [
-            "Cola FÈrrea",
-            "physical",
-            "steel",
-            100,
-            75,
-            15,
-            "Ataca con una cola fÈrrea y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Poder Oculto",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Movimiento cuyo tipo varÌa en funciÛn del\nPokÈmon que lo usa."
-        ],
-        [
-            "CiclÛn",
-            "special",
-            "dragon",
-            40,
-            100,
-            20,
-            "Crea un violento tornado para hacer trizas al\nenemigo. Puede hacerlo retroceder."
-        ],
-        [
-            "DÌa Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Triturar",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Golpe Roca",
-            "physical",
-            "fighting",
-            40,
-            100,
-            15,
-            "Ataque con los puÒos. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate."
-        ],
-        [
-            "Alboroto",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Ataca de forma alborotada durante tres turnos.\nMantiene despiertos a todos."
-        ],
-        [
-            "Onda Õgnea",
-            "special",
-            "fire",
-            95,
-            90,
-            10,
-            "Provoca un viento abrasador que puede quemar al\nobjetivo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Fuerza Bruta",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Ataque de gran potencia, pero que reduce el\nAtaque y la Defensa del agresor."
-        ],
-        [
-            "DaÒo Secreto",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataque con poder secreto cuyos efectos\nsecundarios varÌan seg˙n el entorno de combate."
-        ],
-        [
-            "Impresionar",
-            "physical",
-            "ghost",
-            30,
-            100,
-            15,
-            "Impresiona tanto que puede hacer retroceder al\nobjetivo."
-        ],
-        [
-            "Aire Afilado",
-            "special",
-            "flying",
-            60,
-            95,
-            25,
-            "Viento cortante que azota. Suele ser un golpe\ncrÌtico."
-        ],
-        [
-            "Tumba Rocas",
-            "physical",
-            "rock",
-            60,
-            95,
-            15,
-            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
-        ],
-        [
-            "Viento Plata",
-            "special",
-            "bug",
-            60,
-            100,
-            5,
-            "Fuerte viento con polvo de escamas. Puede subir\ntodas las caracterÌsticas de quien lo usa."
-        ],
-        [
-            "Doble Rayo",
-            "special",
-            "bug",
-            75,
-            100,
-            15,
-            "Ataca con un rayo de luz siniestro. Puede\nconfundir al objetivo."
-        ],
-        [
-            "Bucle Arena",
-            "physical",
-            "ground",
-            35,
-            85,
-            15,
-            "Enreda al objetivo en un remolino de arena de\ncuatro a cinco turnos."
-        ],
-        [
-            "Golpe AÈreo",
-            "physical",
-            "flying",
-            60,
-            null,
-            20,
-            "El usuario lanza un ataque muy r·pido e ineludible."
-        ],
-        [
-            "Garra DragÛn",
-            "physical",
-            "dragon",
-            80,
-            100,
-            15,
-            "AraÒa al objetivo con garras afiladas."
-        ],
-        [
-            "Disparo Lodo",
-            "special",
-            "ground",
-            55,
-            95,
-            15,
-            "El usuario lanza lodo al objetivo y reduce su\nVelocidad."
-        ],
-        [
-            "Danza DragÛn",
-            "special",
-            "dragon",
-            null,
-            null,
-            20,
-            "Danza mÌstica que sube el Ataque y la Velocidad."
-        ],
-        [
-            "Respiro",
-            "special",
-            "flying",
-            null,
-            null,
-            5,
-            "Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS."
-        ],
-        [
-            "Don Natural",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "La baya que lleva presta su fuerza para atacar. El\ntipo de ataque y su fuerza dependen de la baya."
-        ],
-        [
-            "Amago",
-            "physical",
-            "normal",
-            30,
-            100,
-            10,
-            "Permite golpear a objetivos que usan ProtecciÛn o\nDetecciÛn y anula dichos movimientos."
-        ],
-        [
-            "Viento AfÌn",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Crea un fuerte remolino que aumenta la Velocidad\nde los PokÈmon de tu equipo durante cuatro\nturnos."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro PokÈmon del equipo."
-        ],
-        [
-            "Tajo AÈreo",
-            "special",
-            "flying",
-            75,
-            95,
-            15,
-            "Ataca con una hoja de aire que incluso corta el\ncielo. TambiÈn puede hacer retroceder al objetivo."
-        ],
-        [
-            "Zumbido",
-            "special",
-            "bug",
-            90,
-            100,
-            10,
-            "El movimiento de las alas crea una onda sÛnica\ndaÒina. TambiÈn puede disminuir la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Pulso DragÛn",
-            "special",
-            "dragon",
-            85,
-            100,
-            10,
-            "Abre mucho la boca y libera una onda de choque\nque ataca al objetivo."
-        ],
-        [
-            "Carga DragÛn",
-            "physical",
-            "dragon",
-            100,
-            75,
-            10,
-            "Ataca de forma brutal mientras intimida al objetivo.\nTambiÈn puede hacerlo retroceder."
-        ],
-        [
-            "Onda VacÌo",
-            "special",
-            "fighting",
-            40,
-            100,
-            30,
-            "Gira los puÒos y libera una onda de vacÌo contra\nel objetivo. Este movimiento siempre va primero."
-        ],
-        [
-            "Tierra Viva",
-            "special",
-            "ground",
-            90,
-            100,
-            10,
-            "La tierra a los pies del objetivo erupciona\nviolentamente. Puede disminuir la Defensa Especial\ndel objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El PokÈmon descansa el turno siguiente."
-        ],
-        [
-            "Despejar",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Potente viento que barre el Reflejo o Pantalla de\nLuz del objetivo y puede reducir su EvasiÛn."
-        ],
-        [
-            "Cometa Draco",
-            "special",
-            "dragon",
-            130,
-            90,
-            5,
-            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
-        ],
-        [
-            "Roca Afilada",
-            "physical",
-            "rock",
-            100,
-            80,
-            5,
-            "Clava piedras muy afiladas al objetivo. Suele ser \ncrÌtico."
-        ],
-        [
-            "SeducciÛn",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Si el objetivo es del sexo opuesto, queda\nembelesado y baja mucho su Ataque Especial."
-        ],
-        [
-            "Trampa Rocas",
-            "special",
-            "rock",
-            null,
-            null,
-            20,
-            "Una trampa de rocas que flota en el aire y daÒa a\nlos objetivos que entran en combate."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Viento Aciago",
-            "special",
-            "ghost",
-            60,
-            100,
-            5,
-            "Produce un viento horripilante. Puede subir de\ngolpe todas las caracterÌsticas del usuario."
-        ],
-        [
-            "Afilagarras",
-            "special",
-            "dark",
-            null,
-            null,
-            15,
-            "El usuario se afila las garras para aumentar su\nAtaque y PrecisiÛn."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "CalcinaciÛn",
-            "special",
-            "fire",
-            60,
-            100,
-            15,
-            "Llamas que golpean a los objetivos adyacentes.\nSi estos llevan bayas u otros objetos, estos se\nquemar·n y ya no se podr·n usar."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. TambiÈn reduce su Ataque Especial.\n"
-        ],
-        [
-            "Terratemblor",
-            "physical",
-            "ground",
-            60,
-            100,
-            20,
-            "Sacudida sÌsmica que afecta a los dem·s PokÈmon\nadyacentes y tambiÈn reduce su Velocidad."
-        ],
-        [
-            "Cola DragÛn",
-            "physical",
-            "dragon",
-            60,
-            90,
-            10,
-            "Ataca al objetivo y lo obliga a cambiarse por otro\nPokÈmon. Si es uno salvaje, acaba el combate."
-        ],
-        [
-            "Estruendo",
-            "special",
-            "normal",
-            140,
-            100,
-            10,
-            "Ataca a todos los PokÈmon a su alrededor con\nuna potentÌsima onda sonora."
-        ],
-        [
-            "Confidencia",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Hace que el objetivo pierda la concentraciÛn\ncont·ndole un secreto. Disminuye el Ataque\nEspecial del oponente."
-        ],
-        [
-            "PuÒo Incremento",
-            "physical",
-            "fighting",
-            40,
-            100,
-            20,
-            "Cada vez que golpea a un oponente se endurecen\nsus puÒos. Si acierta al objetivo, el Ataque del\nusuario aumenta."
-        ],
-        [
-            "Escaramuza",
-            "physical",
-            "bug",
-            90,
-            100,
-            10,
-            "Movimiento de gran potencia que solo puede usarse\nen el turno en que el usuario sale al combate."
-        ],
-        [
-            "Aguzar",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "El usuario se concentra para que el siguiente ataque\npropine un golpe crÌtico."
-        ],
-        [
-            "Golpe Mordaza",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Inflige al rival un dolor tan abrumador que le impide\nutilizar durante dos turnos ataques que se sirven del\nsonido."
-        ],
-        [
-            "Giro Vil",
-            "physical",
-            "dark",
-            60,
-            100,
-            20,
-            "Hace pivotar su cuerpo para infligir daÒo a su rival."
-        ],
-        [
-            "Vasto Impacto",
-            "physical",
-            "dragon",
-            60,
-            100,
-            15,
-            "El usuario sacude violentamente su enorme cola para\ngolpear a todos los rivales y reducir su Ataque a la par."
-        ],
-        [
-            "R·faga Escamas",
-            "physical",
-            "dragon",
-            25,
-            90,
-            20,
-            "Lanza escamas al objetivo de dos a cinco veces\nseguidas. Aumenta la Velocidad del usuario, pero\nreduce su Defensa."
-        ],
-        [
-            "Ala Bis",
-            "physical",
-            "flying",
-            40,
-            90,
-            10,
-            "Ataca al adversario golpe·ndolo dos veces con las alas."
-        ],
-        [
-            "Arenas Ardientes",
-            "special",
-            "ground",
-            70,
-            100,
-            10,
-            "Ataca al objetivo arroj·ndole arena a temperaturas muy\nelevadas. Puede causar quemaduras."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "Bramido DragÛn",
-            "special",
-            "dragon",
-            0,
-            0,
-            15,
-            ""
-        ],
-        [
-            "Canto Encantador",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "Psicorruido",
-            "special",
-            "psychic",
-            75,
-            100,
-            10,
-            ""
-        ]
-    ],
-    80,
-    100,
-    80,
-    80,
-    80,
-    100
+[
+    "flygon",
+    330,
+    [
+        "ground",
+        "dragon"
+    ],
+    [
+        [
+            "Megapu√±o",
+            "physical",
+            "normal",
+            80,
+            85,
+            20,
+            "Un pu√±etazo de gran potencia."
+        ],
+        [
+            "Pu√±o Fuego",
+            "physical",
+            "fire",
+            75,
+            100,
+            15,
+            "Pu√±etazo ardiente. Puede quemar."
+        ],
+        [
+            "Pu√±o Trueno",
+            "physical",
+            "electric",
+            75,
+            100,
+            15,
+            "Pu√±etazo el√©ctrico. Puede paralizar."
+        ],
+        [
+            "Tornado",
+            "special",
+            "flying",
+            40,
+            100,
+            35,
+            "Crea un tornado con las alas y lo lanza contra\nel objetivo."
+        ],
+        [
+            "Vuelo",
+            "physical",
+            "flying",
+            90,
+            95,
+            15,
+            "Primer turno: vuela. Segundo turno: ataca. Fuera\nde combate, permite ir a sitios ya conocidos."
+        ],
+        [
+            "Megapatada",
+            "physical",
+            "normal",
+            120,
+            75,
+            5,
+            "Patada de extrema fuerza."
+        ],
+        [
+            "Ataque Arena",
+            "special",
+            "ground",
+            null,
+            100,
+            15,
+            "Arroja arena a la cara y baja la Precisi√≥n."
+        ],
+        [
+            "Golpe Cabeza",
+            "physical",
+            "normal",
+            70,
+            100,
+            15,
+            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
+        ],
+        [
+            "Golpe Cuerpo",
+            "physical",
+            "normal",
+            85,
+            100,
+            15,
+            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
+        ],
+        [
+            "Derribo",
+            "physical",
+            "normal",
+            90,
+            85,
+            20,
+            "Carga desmedida que tambi√©n hiere al agresor."
+        ],
+        [
+            "Doble Filo",
+            "physical",
+            "normal",
+            120,
+            100,
+            15,
+            "Ataque arriesgado que tambi√©n hiere al agresor."
+        ],
+        [
+            "Mordisco",
+            "physical",
+            "dark",
+            60,
+            100,
+            25,
+            "Un voraz bocado que puede hacer retroceder\nal objetivo."
+        ],
+        [
+            "Supers√≥nico",
+            "special",
+            "normal",
+            null,
+            55,
+            20,
+            "Raras ondas s√≥nicas que confunden al objetivo."
+        ],
+        [
+            "Bomba S√≥nica",
+            "special",
+            "normal",
+            null,
+            90,
+            20,
+            "Lanza ondas de choque que restan 20 PS al\nobjetivo."
+        ],
+        [
+            "Lanzallamas",
+            "special",
+            "fire",
+            90,
+            100,
+            15,
+            "Ataca con una gran r√°faga de fuego que puede\ncausar quemaduras."
+        ],
+        [
+            "Hiperrayo",
+            "special",
+            "normal",
+            150,
+            90,
+            5,
+            "Es eficaz, pero el atacante deber√° descansar en\nel siguiente turno."
+        ],
+        [
+            "Fuerza",
+            "physical",
+            "normal",
+            80,
+            100,
+            15,
+            "Potente pu√±etazo. Fuera de combate sirve para\nmover rocas."
+        ],
+        [
+            "Rayo Solar",
+            "special",
+            "grass",
+            120,
+            100,
+            10,
+            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energ√≠a."
+        ],
+        [
+            "Giro Fuego",
+            "special",
+            "fire",
+            35,
+            85,
+            15,
+            "Un aro de fuego que atrapa al objetivo de cuatro\na cinco turnos."
+        ],
+        [
+            "Terremoto",
+            "physical",
+            "ground",
+            100,
+            100,
+            10,
+            "Un terremoto que afecta a los Pok√©mon de\nalrededor en combate."
+        ],
+        [
+            "Fisura",
+            "physical",
+            "ground",
+            null,
+            30,
+            5,
+            "Abre una grieta en el suelo y mete al objetivo en\nella. Fulmina en un golpe."
+        ],
+        [
+            "Excavar",
+            "physical",
+            "ground",
+            80,
+            100,
+            10,
+            "Primer turno: cava. Segundo turno: ataca. Tambi√©n\nsirve para salir de ciertas zonas."
+        ],
+        [
+            "T√≥xico",
+            "special",
+            "poison",
+            null,
+            90,
+            10,
+            "Envenena gravemente al objetivo y causa un da√±o\nmayor en cada turno."
+        ],
+        [
+            "Agilidad",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Relaja el cuerpo para ganar mucha Velocidad."
+        ],
+        [
+            "Ataque R√°pido",
+            "physical",
+            "normal",
+            40,
+            100,
+            30,
+            "Ataque r√°pido que permite golpear en primer lugar."
+        ],
+        [
+            "Mim√©tico",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Copia el √∫ltimo movimiento usado por el objetivo.\nDicho movimiento se podr√° usar mientras el\nPok√©mon no sea cambiado."
+        ],
+        [
+            "Chirrido",
+            "special",
+            "normal",
+            null,
+            85,
+            40,
+            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
+        ],
+        [
+            "Doble Equipo",
+            "special",
+            "normal",
+            null,
+            null,
+            15,
+            "Crea copias de s√≠ mismo para mejorar la Evasi√≥n."
+        ],
+        [
+            "Foco Energ√≠a",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Concentra energ√≠a para aumentar las posibilidades\nde un golpe cr√≠tico."
+        ],
+        [
+            "Venganza",
+            "physical",
+            "normal",
+            null,
+            null,
+            10,
+            "Espera dos turnos para atacar con el doble de\npotencia del da√±o recibido."
+        ],
+        [
+            "Llamarada",
+            "special",
+            "fire",
+            110,
+            85,
+            5,
+            "Llama intensa que chamusca y puede causar\nquemaduras."
+        ],
+        [
+            "Rapidez",
+            "special",
+            "normal",
+            60,
+            null,
+            20,
+            "Lanza rayos en forma de estrella que no fallan\nnunca."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Avalancha",
+            "physical",
+            "rock",
+            75,
+            90,
+            10,
+            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Azote",
+            "physical",
+            "normal",
+            null,
+            100,
+            15,
+            "Ataque fren√©tico. Cuantos menos PS tenga el\nusuario, m√°s da√±o producir√°."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Finta",
+            "physical",
+            "dark",
+            60,
+            null,
+            20,
+            "Enga√±a al objetivo para acercarse y dar un\npu√±etazo que no falla."
+        ],
+        [
+            "Bofet√≥n Lodo",
+            "special",
+            "ground",
+            20,
+            100,
+            10,
+            "Echa lodo en la cara para bajar la Precisi√≥n."
+        ],
+        [
+            "Enfado",
+            "physical",
+            "dragon",
+            120,
+            100,
+            10,
+            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
+        ],
+        [
+            "Tormenta Arena",
+            "special",
+            "rock",
+            null,
+            null,
+            10,
+            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
+        ],
+        [
+            "Gigadrenado",
+            "special",
+            "grass",
+            75,
+            100,
+            10,
+            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del da√±o que produce."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Contoneo",
+            "special",
+            "normal",
+            null,
+            85,
+            15,
+            "Provoca confusi√≥n en el objetivo, pero tambi√©n\nsube mucho su Ataque."
+        ],
+        [
+            "Corte Furia",
+            "physical",
+            "bug",
+            40,
+            95,
+            20,
+            "Ataque con garras o guada√±a que crece en\nintensidad si se usa repetidas veces."
+        ],
+        [
+            "Ala de Acero",
+            "physical",
+            "steel",
+            70,
+            90,
+            25,
+            "Alas macizas que golpean al objetivo y pueden\nsubir la Defensa del usuario."
+        ],
+        [
+            "Atracci√≥n",
+            "special",
+            "normal",
+            null,
+            100,
+            15,
+            "Si el objetivo es del sexo opuesto, se enamorar√° y\nbajar√° la posibilidad de que ataque."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Retribuci√≥n",
+            "physical",
+            "normal",
+            null,
+            100,
+            20,
+            "Cuanto mayor sea la amistad con el Entrenador,\nm√°s poderoso ser√° este ataque."
+        ],
+        [
+            "Frustraci√≥n",
+            "physical",
+            "normal",
+            null,
+            100,
+            20,
+            "Cuanto menor sea la amistad con el Entrenador,\nm√°s poderoso ser√° este ataque."
+        ],
+        [
+            "Dragoaliento",
+            "special",
+            "dragon",
+            60,
+            100,
+            20,
+            "Poderosa r√°faga de aliento que golpea al objetivo\ny puede paralizarlo."
+        ],
+        [
+            "Cola F√©rrea",
+            "physical",
+            "steel",
+            100,
+            75,
+            15,
+            "Ataca con una cola f√©rrea y puede bajar la\nDefensa del objetivo."
+        ],
+        [
+            "Poder Oculto",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Movimiento cuyo tipo var√≠a en funci√≥n del\nPok√©mon que lo usa."
+        ],
+        [
+            "Cicl√≥n",
+            "special",
+            "dragon",
+            40,
+            100,
+            20,
+            "Crea un violento tornado para hacer trizas al\nenemigo. Puede hacerlo retroceder."
+        ],
+        [
+            "D√≠a Soleado",
+            "special",
+            "fire",
+            null,
+            null,
+            5,
+            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
+        ],
+        [
+            "Triturar",
+            "physical",
+            "dark",
+            80,
+            100,
+            15,
+            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
+        ],
+        [
+            "Golpe Roca",
+            "physical",
+            "fighting",
+            40,
+            100,
+            15,
+            "Ataque con los pu√±os. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate."
+        ],
+        [
+            "Alboroto",
+            "special",
+            "normal",
+            90,
+            100,
+            10,
+            "Ataca de forma alborotada durante tres turnos.\nMantiene despiertos a todos."
+        ],
+        [
+            "Onda √çgnea",
+            "special",
+            "fire",
+            95,
+            90,
+            10,
+            "Provoca un viento abrasador que puede quemar al\nobjetivo."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Refuerzo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
+        ],
+        [
+            "Fuerza Bruta",
+            "physical",
+            "fighting",
+            120,
+            100,
+            5,
+            "Ataque de gran potencia, pero que reduce el\nAtaque y la Defensa del agresor."
+        ],
+        [
+            "Da√±o Secreto",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataque con poder secreto cuyos efectos\nsecundarios var√≠an seg√∫n el entorno de combate."
+        ],
+        [
+            "Impresionar",
+            "physical",
+            "ghost",
+            30,
+            100,
+            15,
+            "Impresiona tanto que puede hacer retroceder al\nobjetivo."
+        ],
+        [
+            "Aire Afilado",
+            "special",
+            "flying",
+            60,
+            95,
+            25,
+            "Viento cortante que azota. Suele ser un golpe\ncr√≠tico."
+        ],
+        [
+            "Tumba Rocas",
+            "physical",
+            "rock",
+            60,
+            95,
+            15,
+            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
+        ],
+        [
+            "Viento Plata",
+            "special",
+            "bug",
+            60,
+            100,
+            5,
+            "Fuerte viento con polvo de escamas. Puede subir\ntodas las caracter√≠sticas de quien lo usa."
+        ],
+        [
+            "Doble Rayo",
+            "special",
+            "bug",
+            75,
+            100,
+            15,
+            "Ataca con un rayo de luz siniestro. Puede\nconfundir al objetivo."
+        ],
+        [
+            "Bucle Arena",
+            "physical",
+            "ground",
+            35,
+            85,
+            15,
+            "Enreda al objetivo en un remolino de arena de\ncuatro a cinco turnos."
+        ],
+        [
+            "Golpe A√©reo",
+            "physical",
+            "flying",
+            60,
+            null,
+            20,
+            "El usuario lanza un ataque muy r√°pido e ineludible."
+        ],
+        [
+            "Garra Drag√≥n",
+            "physical",
+            "dragon",
+            80,
+            100,
+            15,
+            "Ara√±a al objetivo con garras afiladas."
+        ],
+        [
+            "Disparo Lodo",
+            "special",
+            "ground",
+            55,
+            95,
+            15,
+            "El usuario lanza lodo al objetivo y reduce su\nVelocidad."
+        ],
+        [
+            "Danza Drag√≥n",
+            "special",
+            "dragon",
+            null,
+            null,
+            20,
+            "Danza m√≠stica que sube el Ataque y la Velocidad."
+        ],
+        [
+            "Respiro",
+            "special",
+            "flying",
+            null,
+            null,
+            5,
+            "Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS."
+        ],
+        [
+            "Don Natural",
+            "physical",
+            "normal",
+            null,
+            100,
+            15,
+            "La baya que lleva presta su fuerza para atacar. El\ntipo de ataque y su fuerza dependen de la baya."
+        ],
+        [
+            "Amago",
+            "physical",
+            "normal",
+            30,
+            100,
+            10,
+            "Permite golpear a objetivos que usan Protecci√≥n o\nDetecci√≥n y anula dichos movimientos."
+        ],
+        [
+            "Viento Af√≠n",
+            "special",
+            "flying",
+            null,
+            null,
+            15,
+            "Crea un fuerte remolino que aumenta la Velocidad\nde los Pok√©mon de tu equipo durante cuatro\nturnos."
+        ],
+        [
+            "Ida y Vuelta",
+            "physical",
+            "bug",
+            70,
+            100,
+            20,
+            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pok√©mon del equipo."
+        ],
+        [
+            "Tajo A√©reo",
+            "special",
+            "flying",
+            75,
+            95,
+            15,
+            "Ataca con una hoja de aire que incluso corta el\ncielo. Tambi√©n puede hacer retroceder al objetivo."
+        ],
+        [
+            "Zumbido",
+            "special",
+            "bug",
+            90,
+            100,
+            10,
+            "El movimiento de las alas crea una onda s√≥nica\nda√±ina. Tambi√©n puede disminuir la Defensa\nEspecial del objetivo."
+        ],
+        [
+            "Pulso Drag√≥n",
+            "special",
+            "dragon",
+            85,
+            100,
+            10,
+            "Abre mucho la boca y libera una onda de choque\nque ataca al objetivo."
+        ],
+        [
+            "Carga Drag√≥n",
+            "physical",
+            "dragon",
+            100,
+            75,
+            10,
+            "Ataca de forma brutal mientras intimida al objetivo.\nTambi√©n puede hacerlo retroceder."
+        ],
+        [
+            "Onda Vac√≠o",
+            "special",
+            "fighting",
+            40,
+            100,
+            30,
+            "Gira los pu√±os y libera una onda de vac√≠o contra\nel objetivo. Este movimiento siempre va primero."
+        ],
+        [
+            "Tierra Viva",
+            "special",
+            "ground",
+            90,
+            100,
+            10,
+            "La tierra a los pies del objetivo erupciona\nviolentamente. Puede disminuir la Defensa Especial\ndel objetivo."
+        ],
+        [
+            "Gigaimpacto",
+            "physical",
+            "normal",
+            150,
+            90,
+            5,
+            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pok√©mon descansa el turno siguiente."
+        ],
+        [
+            "Despejar",
+            "special",
+            "flying",
+            null,
+            null,
+            15,
+            "Potente viento que barre el Reflejo o Pantalla de\nLuz del objetivo y puede reducir su Evasi√≥n."
+        ],
+        [
+            "Cometa Draco",
+            "special",
+            "dragon",
+            130,
+            90,
+            5,
+            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
+        ],
+        [
+            "Roca Afilada",
+            "physical",
+            "rock",
+            100,
+            80,
+            5,
+            "Clava piedras muy afiladas al objetivo. Suele ser \ncr√≠tico."
+        ],
+        [
+            "Seducci√≥n",
+            "special",
+            "normal",
+            null,
+            100,
+            20,
+            "Si el objetivo es del sexo opuesto, queda\nembelesado y baja mucho su Ataque Especial."
+        ],
+        [
+            "Trampa Rocas",
+            "special",
+            "rock",
+            null,
+            null,
+            20,
+            "Una trampa de rocas que flota en el aire y da√±a a\nlos objetivos que entran en combate."
+        ],
+        [
+            "Picadura",
+            "physical",
+            "bug",
+            60,
+            100,
+            20,
+            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
+        ],
+        [
+            "Viento Aciago",
+            "special",
+            "ghost",
+            60,
+            100,
+            5,
+            "Produce un viento horripilante. Puede subir de\ngolpe todas las caracter√≠sticas del usuario."
+        ],
+        [
+            "Afilagarras",
+            "special",
+            "dark",
+            null,
+            null,
+            15,
+            "El usuario se afila las garras para aumentar su\nAtaque y Precisi√≥n."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Calcinaci√≥n",
+            "special",
+            "fire",
+            60,
+            100,
+            15,
+            "Llamas que golpean a los objetivos adyacentes.\nSi estos llevan bayas u otros objetos, estos se\nquemar√°n y ya no se podr√°n usar."
+        ],
+        [
+            "Estoicismo",
+            "special",
+            "bug",
+            50,
+            100,
+            20,
+            "El usuario opone resistencia y ataca a los\noponentes. Tambi√©n reduce su Ataque Especial.\n"
+        ],
+        [
+            "Terratemblor",
+            "physical",
+            "ground",
+            60,
+            100,
+            20,
+            "Sacudida s√≠smica que afecta a los dem√°s Pok√©mon\nadyacentes y tambi√©n reduce su Velocidad."
+        ],
+        [
+            "Cola Drag√≥n",
+            "physical",
+            "dragon",
+            60,
+            90,
+            10,
+            "Ataca al objetivo y lo obliga a cambiarse por otro\nPok√©mon. Si es uno salvaje, acaba el combate."
+        ],
+        [
+            "Estruendo",
+            "special",
+            "normal",
+            140,
+            100,
+            10,
+            "Ataca a todos los Pok√©mon a su alrededor con\nuna potent√≠sima onda sonora."
+        ],
+        [
+            "Confidencia",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Hace que el objetivo pierda la concentraci√≥n\ncont√°ndole un secreto. Disminuye el Ataque\nEspecial del oponente."
+        ],
+        [
+            "Pu√±o Incremento",
+            "physical",
+            "fighting",
+            40,
+            100,
+            20,
+            "Cada vez que golpea a un oponente se endurecen\nsus pu√±os. Si acierta al objetivo, el Ataque del\nusuario aumenta."
+        ],
+        [
+            "Escaramuza",
+            "physical",
+            "bug",
+            90,
+            100,
+            10,
+            "Movimiento de gran potencia que solo puede usarse\nen el turno en que el usuario sale al combate."
+        ],
+        [
+            "Aguzar",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "El usuario se concentra para que el siguiente ataque\npropine un golpe cr√≠tico."
+        ],
+        [
+            "Golpe Mordaza",
+            "physical",
+            "dark",
+            80,
+            100,
+            15,
+            "Inflige al rival un dolor tan abrumador que le impide\nutilizar durante dos turnos ataques que se sirven del\nsonido."
+        ],
+        [
+            "Giro Vil",
+            "physical",
+            "dark",
+            60,
+            100,
+            20,
+            "Hace pivotar su cuerpo para infligir da√±o a su rival."
+        ],
+        [
+            "Vasto Impacto",
+            "physical",
+            "dragon",
+            60,
+            100,
+            15,
+            "El usuario sacude violentamente su enorme cola para\ngolpear a todos los rivales y reducir su Ataque a la par."
+        ],
+        [
+            "R√°faga Escamas",
+            "physical",
+            "dragon",
+            25,
+            90,
+            20,
+            "Lanza escamas al objetivo de dos a cinco veces\nseguidas. Aumenta la Velocidad del usuario, pero\nreduce su Defensa."
+        ],
+        [
+            "Ala Bis",
+            "physical",
+            "flying",
+            40,
+            90,
+            10,
+            "Ataca al adversario golpe√°ndolo dos veces con las alas."
+        ],
+        [
+            "Arenas Ardientes",
+            "special",
+            "ground",
+            70,
+            100,
+            10,
+            "Ataca al objetivo arroj√°ndole arena a temperaturas muy\nelevadas. Puede causar quemaduras."
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ],
+        [
+            "Bramido Drag√≥n",
+            "special",
+            "dragon",
+            0,
+            0,
+            15,
+            ""
+        ],
+        [
+            "Canto Encantador",
+            "special",
+            "fairy",
+            80,
+            100,
+            10,
+            ""
+        ],
+        [
+            "Psicorruido",
+            "special",
+            "psychic",
+            75,
+            100,
+            10,
+            ""
+        ]
+    ],
+    80,
+    100,
+    80,
+    80,
+    80,
+    100
 ]

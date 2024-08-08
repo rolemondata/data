@@ -1,637 +1,637 @@
-[
-    "calyrex",
-    898,
-    [
-        "psychic",
-        "grass"
-    ],
-    [
-        [
-            "Destructor",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Golpea con las patas o la cola."
-        ],
-        [
-            "DÌa de Pago",
-            "physical",
-            "normal",
-            40,
-            100,
-            20,
-            "Arroja monedas al objetivo. Las recupera al final\ndel combate."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que tambiÈn hiere al agresor."
-        ],
-        [
-            "Psicorrayo",
-            "special",
-            "psychic",
-            65,
-            100,
-            20,
-            "ExtraÒo rayo que puede causar confusiÛn."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deber· descansar en\nel siguiente turno."
-        ],
-        [
-            "Megaagotar",
-            "special",
-            "grass",
-            40,
-            100,
-            15,
-            "Absorbe la mitad del daÒo producido en el objetivo\npara restaurar los PS del usuario."
-        ],
-        [
-            "Drenadoras",
-            "special",
-            "grass",
-            null,
-            90,
-            10,
-            "Planta semillas que absorben PS para recuperar la\nsalud del usuario en cada turno."
-        ],
-        [
-            "Desarrollo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El cuerpo del usuario crece a marchas forzadas y\naumenta el Ataque y el Ataque Especial."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energÌa."
-        ],
-        [
-            "ConfusiÛn",
-            "special",
-            "psychic",
-            50,
-            100,
-            25,
-            "DÈbil ataque telequinÈtico que puede causar\nconfusiÛn."
-        ],
-        [
-            "PsÌquico",
-            "special",
-            "psychic",
-            90,
-            100,
-            10,
-            "Fuerte ataque telequinÈtico que puede bajar la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaÒo producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaÒo producido por los ataques fÌsicos."
-        ],
-        [
-            "MetrÛnomo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "El usuario mueve un dedo y estimula su cerebro\npara usar al azar casi cualquier movimiento."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Triataque",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            "Ataque triple que puede paralizar, quemar o\ncongelar al objetivo."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "Gigadrenado",
-            "special",
-            "grass",
-            75,
-            100,
-            10,
-            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del daÒo que produce."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Velo Sagrado",
-            "special",
-            "normal",
-            null,
-            null,
-            25,
-            "Un escudo que protege de problemas de estado,\ncomo el sueÒo o la par·lisis, durante cinco turnos."
-        ],
-        [
-            "Relevo",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Cambia el puesto con un compaÒero y le pasa los\ncambios de caracterÌsticas."
-        ],
-        [
-            "Otra Vez",
-            "special",
-            "normal",
-            null,
-            100,
-            5,
-            "El objetivo repite su ˙ltimo movimiento durante\ntres turnos."
-        ],
-        [
-            "DÌa Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "M·s Psique",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Quien lo usa se hipnotiza y copia cualquier cambio\nque haya en las caracterÌsticas de su objetivo."
-        ],
-        [
-            "PremoniciÛn",
-            "special",
-            "psychic",
-            120,
-            100,
-            10,
-            "Concentra energÌa psÌquica para golpear al\nobjetivo dos turnos despuÈs."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Truco",
-            "special",
-            "psychic",
-            null,
-            100,
-            10,
-            "EngaÒa al objetivo desprevenido e intercambia\nobjetos."
-        ],
-        [
-            "Intercambio",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Usa el poder psÌquico para intercambiar\nhabilidades con el objetivo."
-        ],
-        [
-            "Sellar",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Impide a los contrincantes usar ataques conocidos\npor el usuario durante el combate."
-        ],
-        [
-            "Aromaterapia",
-            "special",
-            "grass",
-            null,
-            null,
-            5,
-            "Cura todos los problemas de estado del equipo\ncon un suave aroma."
-        ],
-        [
-            "Semilladora",
-            "physical",
-            "grass",
-            25,
-            100,
-            30,
-            "Dispara r·pido de dos a cinco r·fagas de semillas\nde manera consecutiva."
-        ],
-        [
-            "Disparo Lodo",
-            "special",
-            "ground",
-            55,
-            95,
-            15,
-            "El usuario lanza lodo al objetivo y reduce su\nVelocidad."
-        ],
-        [
-            "Hoja M·gica",
-            "special",
-            "grass",
-            60,
-            null,
-            20,
-            "Esparce extraÒas hojas que persiguen al objetivo.\nNo se puede esquivar."
-        ],
-        [
-            "Paz Mental",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Aumenta la concentraciÛn y calma el espÌritu para\nsubir el Ataque Especial y la Defensa Especial."
-        ],
-        [
-            "Gravedad",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "La gravedad aumenta durante cinco turnos, lo que\nimpide acciones que impliquen volar o levitar."
-        ],
-        [
-            "Cambiafuerza",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "El usuario emplea su poder mental para\nintercambiar los cambios en Ataque y Ataque\nEspecial con el objetivo."
-        ],
-        [
-            "Cambiadefensa",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "El usuario emplea su poder mental para\nintercambiar los cambios en Defensa y\nDefensa Especial con el objetivo."
-        ],
-        [
-            "Bomba Germen",
-            "physical",
-            "grass",
-            80,
-            100,
-            15,
-            "Lanza al objetivo una descarga de semillas\nexplosivas desde arriba."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "A˙na fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El PokÈmon descansa el turno siguiente."
-        ],
-        [
-            "Cabezazo Zen",
-            "physical",
-            "psychic",
-            80,
-            90,
-            15,
-            "Concentra su energÌa psÌquica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
-        ],
-        [
-            "Espacio Raro",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Se crea un espacio extraÒo en el que los PokÈmon\nlentos se mueven primero durante cinco turnos."
-        ],
-        [
-            "Lluevehojas",
-            "special",
-            "grass",
-            130,
-            90,
-            5,
-            "Cae una lluvia de hojas afiladas. Baja mucho el\nAtaque Especial de quien lo usa."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto m·s pesado es el objetivo, m·s daÒo\ninflige."
-        ],
-        [
-            "Zona ExtraÒa",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Crea una zona misteriosa donde se intercambian\nla Defensa y la Defensa Especial de todos los\nPokÈmon durante cinco turnos."
-        ],
-        [
-            "Psicocarga",
-            "special",
-            "psychic",
-            80,
-            100,
-            10,
-            "Crea una onda psÌquica que causa daÒo fÌsico al\nobjetivo."
-        ],
-        [
-            "Zona M·gica",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Crea un espacio misterioso que inutiliza todos los\nobjetos de los PokÈmon durante cinco turnos."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "Poder Reserva",
-            "special",
-            "psychic",
-            20,
-            100,
-            10,
-            "Acumula poder para golpear. Cuanto m·s suban\nlas caracterÌsticas del usuario, mayor ser· el daÒo."
-        ],
-        [
-            "Cambio de Banda",
-            "special",
-            "psychic",
-            null,
-            null,
-            15,
-            "ExtraÒo poder que intercambia la posiciÛn del\nusuario con la de un aliado sobre el terreno de\ncombate."
-        ],
-        [
-            "Pulso Cura",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Una onda curativa restaura los PS del objetivo a la\nmitad de su m·ximo."
-        ],
-        [
-            "Alarido",
-            "special",
-            "dark",
-            55,
-            95,
-            15,
-            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
-        ],
-        [
-            "Beso Drenaje",
-            "special",
-            "fairy",
-            50,
-            100,
-            10,
-            "Absorbe PS del objetivo con un beso y restaura\nsu propia energÌa en una cantidad igual o superior\na la mitad del daÒo infligido."
-        ],
-        [
-            "Campo de Hierba",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Convierte el terreno de combate en un campo de\nhierba durante cinco turnos. Los PokÈmon que\nestÈn en el suelo recuperan PS en cada turno."
-        ],
-        [
-            "Cuchilla Solar",
-            "physical",
-            "grass",
-            125,
-            100,
-            10,
-            "El usuario dedica un turno a absorber energÌa\nlumÌnica y concentrarla en forma de cuchilla con la\nque ataca al rival al turno siguiente."
-        ],
-        [
-            "Bola de Polen",
-            "special",
-            "bug",
-            90,
-            100,
-            15,
-            "Ataca al oponente con una bola explosiva. Si esta\nalcanza a un aliado, le har· recuperar PS."
-        ],
-        [
-            "Campo PsÌquico",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Durante cinco turnos, se potencian los movimientos\nde tipo PsÌquico y los PokÈmon que est·n en el suelo\nquedan protegidos contra movimientos con prioridad."
-        ],
-        [
-            "Cambiavelocidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Intercambia su Velocidad por la del oponente."
-        ],
-        [
-            "Plancha Corporal",
-            "physical",
-            "fighting",
-            80,
-            100,
-            10,
-            "El usuario usa el cuerpo para lanzar su ataque e infligir\nun daÒo directamente proporcional a su Defensa."
-        ],
-        [
-            "Gota Vital",
-            "special",
-            "water",
-            null,
-            null,
-            10,
-            "Vierte un agua misteriosa y bals·mica que restaura\ntanto sus propios PS como los de aquellos aliados\npresentes en el terreno de combate."
-        ],
-        [
-            "Vasta Fuerza",
-            "special",
-            "psychic",
-            80,
-            100,
-            10,
-            "El usuario ataca al objetivo con sus poderes psÌquicos.\nCuando se usa en conjunciÛn con un campo psÌquico,\naumenta su potencia e inflige daÒo a todos los rivales."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    100,
-    80,
-    80,
-    80,
-    80,
-    80
+[
+    "calyrex",
+    898,
+    [
+        "psychic",
+        "grass"
+    ],
+    [
+        [
+            "Destructor",
+            "physical",
+            "normal",
+            40,
+            100,
+            35,
+            "Golpea con las patas o la cola."
+        ],
+        [
+            "D√≠a de Pago",
+            "physical",
+            "normal",
+            40,
+            100,
+            20,
+            "Arroja monedas al objetivo. Las recupera al final\ndel combate."
+        ],
+        [
+            "Derribo",
+            "physical",
+            "normal",
+            90,
+            85,
+            20,
+            "Carga desmedida que tambi√©n hiere al agresor."
+        ],
+        [
+            "Psicorrayo",
+            "special",
+            "psychic",
+            65,
+            100,
+            20,
+            "Extra√±o rayo que puede causar confusi√≥n."
+        ],
+        [
+            "Hiperrayo",
+            "special",
+            "normal",
+            150,
+            90,
+            5,
+            "Es eficaz, pero el atacante deber√° descansar en\nel siguiente turno."
+        ],
+        [
+            "Megaagotar",
+            "special",
+            "grass",
+            40,
+            100,
+            15,
+            "Absorbe la mitad del da√±o producido en el objetivo\npara restaurar los PS del usuario."
+        ],
+        [
+            "Drenadoras",
+            "special",
+            "grass",
+            null,
+            90,
+            10,
+            "Planta semillas que absorben PS para recuperar la\nsalud del usuario en cada turno."
+        ],
+        [
+            "Desarrollo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El cuerpo del usuario crece a marchas forzadas y\naumenta el Ataque y el Ataque Especial."
+        ],
+        [
+            "Rayo Solar",
+            "special",
+            "grass",
+            120,
+            100,
+            10,
+            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energ√≠a."
+        ],
+        [
+            "Confusi√≥n",
+            "special",
+            "psychic",
+            50,
+            100,
+            25,
+            "D√©bil ataque telequin√©tico que puede causar\nconfusi√≥n."
+        ],
+        [
+            "Ps√≠quico",
+            "special",
+            "psychic",
+            90,
+            100,
+            10,
+            "Fuerte ataque telequin√©tico que puede bajar la\nDefensa Especial del objetivo."
+        ],
+        [
+            "Agilidad",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Relaja el cuerpo para ganar mucha Velocidad."
+        ],
+        [
+            "Pantalla de Luz",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Pared de luz que reduce durante cinco turnos el\nda√±o producido por los ataques especiales."
+        ],
+        [
+            "Reflejo",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Pared de luz que reduce durante cinco turnos el\nda√±o producido por los ataques f√≠sicos."
+        ],
+        [
+            "Metr√≥nomo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "El usuario mueve un dedo y estimula su cerebro\npara usar al azar casi cualquier movimiento."
+        ],
+        [
+            "Rapidez",
+            "special",
+            "normal",
+            60,
+            null,
+            20,
+            "Lanza rayos en forma de estrella que no fallan\nnunca."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Triataque",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            "Ataque triple que puede paralizar, quemar o\ncongelar al objetivo."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Cara Susto",
+            "special",
+            "normal",
+            null,
+            100,
+            10,
+            "Asusta al objetivo para reducir mucho su Velocidad."
+        ],
+        [
+            "Gigadrenado",
+            "special",
+            "grass",
+            75,
+            100,
+            10,
+            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del da√±o que produce."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Velo Sagrado",
+            "special",
+            "normal",
+            null,
+            null,
+            25,
+            "Un escudo que protege de problemas de estado,\ncomo el sue√±o o la par√°lisis, durante cinco turnos."
+        ],
+        [
+            "Relevo",
+            "special",
+            "normal",
+            null,
+            null,
+            40,
+            "Cambia el puesto con un compa√±ero y le pasa los\ncambios de caracter√≠sticas."
+        ],
+        [
+            "Otra Vez",
+            "special",
+            "normal",
+            null,
+            100,
+            5,
+            "El objetivo repite su √∫ltimo movimiento durante\ntres turnos."
+        ],
+        [
+            "D√≠a Soleado",
+            "special",
+            "fire",
+            null,
+            null,
+            5,
+            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
+        ],
+        [
+            "M√°s Psique",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Quien lo usa se hipnotiza y copia cualquier cambio\nque haya en las caracter√≠sticas de su objetivo."
+        ],
+        [
+            "Premonici√≥n",
+            "special",
+            "psychic",
+            120,
+            100,
+            10,
+            "Concentra energ√≠a ps√≠quica para golpear al\nobjetivo dos turnos despu√©s."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Refuerzo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
+        ],
+        [
+            "Truco",
+            "special",
+            "psychic",
+            null,
+            100,
+            10,
+            "Enga√±a al objetivo desprevenido e intercambia\nobjetos."
+        ],
+        [
+            "Intercambio",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "Usa el poder ps√≠quico para intercambiar\nhabilidades con el objetivo."
+        ],
+        [
+            "Sellar",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "Impide a los contrincantes usar ataques conocidos\npor el usuario durante el combate."
+        ],
+        [
+            "Aromaterapia",
+            "special",
+            "grass",
+            null,
+            null,
+            5,
+            "Cura todos los problemas de estado del equipo\ncon un suave aroma."
+        ],
+        [
+            "Semilladora",
+            "physical",
+            "grass",
+            25,
+            100,
+            30,
+            "Dispara r√°pido de dos a cinco r√°fagas de semillas\nde manera consecutiva."
+        ],
+        [
+            "Disparo Lodo",
+            "special",
+            "ground",
+            55,
+            95,
+            15,
+            "El usuario lanza lodo al objetivo y reduce su\nVelocidad."
+        ],
+        [
+            "Hoja M√°gica",
+            "special",
+            "grass",
+            60,
+            null,
+            20,
+            "Esparce extra√±as hojas que persiguen al objetivo.\nNo se puede esquivar."
+        ],
+        [
+            "Paz Mental",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Aumenta la concentraci√≥n y calma el esp√≠ritu para\nsubir el Ataque Especial y la Defensa Especial."
+        ],
+        [
+            "Gravedad",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "La gravedad aumenta durante cinco turnos, lo que\nimpide acciones que impliquen volar o levitar."
+        ],
+        [
+            "Cambiafuerza",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "El usuario emplea su poder mental para\nintercambiar los cambios en Ataque y Ataque\nEspecial con el objetivo."
+        ],
+        [
+            "Cambiadefensa",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "El usuario emplea su poder mental para\nintercambiar los cambios en Defensa y\nDefensa Especial con el objetivo."
+        ],
+        [
+            "Bomba Germen",
+            "physical",
+            "grass",
+            80,
+            100,
+            15,
+            "Lanza al objetivo una descarga de semillas\nexplosivas desde arriba."
+        ],
+        [
+            "Energibola",
+            "special",
+            "grass",
+            90,
+            100,
+            10,
+            "A√∫na fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
+        ],
+        [
+            "Gigaimpacto",
+            "physical",
+            "normal",
+            150,
+            90,
+            5,
+            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pok√©mon descansa el turno siguiente."
+        ],
+        [
+            "Cabezazo Zen",
+            "physical",
+            "psychic",
+            80,
+            90,
+            15,
+            "Concentra su energ√≠a ps√≠quica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
+        ],
+        [
+            "Espacio Raro",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Se crea un espacio extra√±o en el que los Pok√©mon\nlentos se mueven primero durante cinco turnos."
+        ],
+        [
+            "Lluevehojas",
+            "special",
+            "grass",
+            130,
+            90,
+            5,
+            "Cae una lluvia de hojas afiladas. Baja mucho el\nAtaque Especial de quien lo usa."
+        ],
+        [
+            "Hierba Lazo",
+            "special",
+            "grass",
+            null,
+            100,
+            20,
+            "Enreda al objetivo con hierba y lo derriba.\nCuanto m√°s pesado es el objetivo, m√°s da√±o\ninflige."
+        ],
+        [
+            "Zona Extra√±a",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "Crea una zona misteriosa donde se intercambian\nla Defensa y la Defensa Especial de todos los\nPok√©mon durante cinco turnos."
+        ],
+        [
+            "Psicocarga",
+            "special",
+            "psychic",
+            80,
+            100,
+            10,
+            "Crea una onda ps√≠quica que causa da√±o f√≠sico al\nobjetivo."
+        ],
+        [
+            "Zona M√°gica",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "Crea un espacio misterioso que inutiliza todos los\nobjetos de los Pok√©mon durante cinco turnos."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Poder Reserva",
+            "special",
+            "psychic",
+            20,
+            100,
+            10,
+            "Acumula poder para golpear. Cuanto m√°s suban\nlas caracter√≠sticas del usuario, mayor ser√° el da√±o."
+        ],
+        [
+            "Cambio de Banda",
+            "special",
+            "psychic",
+            null,
+            null,
+            15,
+            "Extra√±o poder que intercambia la posici√≥n del\nusuario con la de un aliado sobre el terreno de\ncombate."
+        ],
+        [
+            "Pulso Cura",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "Una onda curativa restaura los PS del objetivo a la\nmitad de su m√°ximo."
+        ],
+        [
+            "Alarido",
+            "special",
+            "dark",
+            55,
+            95,
+            15,
+            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
+        ],
+        [
+            "Beso Drenaje",
+            "special",
+            "fairy",
+            50,
+            100,
+            10,
+            "Absorbe PS del objetivo con un beso y restaura\nsu propia energ√≠a en una cantidad igual o superior\na la mitad del da√±o infligido."
+        ],
+        [
+            "Campo de Hierba",
+            "special",
+            "grass",
+            null,
+            null,
+            10,
+            "Convierte el terreno de combate en un campo de\nhierba durante cinco turnos. Los Pok√©mon que\nest√©n en el suelo recuperan PS en cada turno."
+        ],
+        [
+            "Cuchilla Solar",
+            "physical",
+            "grass",
+            125,
+            100,
+            10,
+            "El usuario dedica un turno a absorber energ√≠a\nlum√≠nica y concentrarla en forma de cuchilla con la\nque ataca al rival al turno siguiente."
+        ],
+        [
+            "Bola de Polen",
+            "special",
+            "bug",
+            90,
+            100,
+            15,
+            "Ataca al oponente con una bola explosiva. Si esta\nalcanza a un aliado, le har√° recuperar PS."
+        ],
+        [
+            "Campo Ps√≠quico",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "Durante cinco turnos, se potencian los movimientos\nde tipo Ps√≠quico y los Pok√©mon que est√°n en el suelo\nquedan protegidos contra movimientos con prioridad."
+        ],
+        [
+            "Cambiavelocidad",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "Intercambia su Velocidad por la del oponente."
+        ],
+        [
+            "Plancha Corporal",
+            "physical",
+            "fighting",
+            80,
+            100,
+            10,
+            "El usuario usa el cuerpo para lanzar su ataque e infligir\nun da√±o directamente proporcional a su Defensa."
+        ],
+        [
+            "Gota Vital",
+            "special",
+            "water",
+            null,
+            null,
+            10,
+            "Vierte un agua misteriosa y bals√°mica que restaura\ntanto sus propios PS como los de aquellos aliados\npresentes en el terreno de combate."
+        ],
+        [
+            "Vasta Fuerza",
+            "special",
+            "psychic",
+            80,
+            100,
+            10,
+            "El usuario ataca al objetivo con sus poderes ps√≠quicos.\nCuando se usa en conjunci√≥n con un campo ps√≠quico,\naumenta su potencia e inflige da√±o a todos los rivales."
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ]
+    ],
+    100,
+    80,
+    80,
+    80,
+    80,
+    80
 ]

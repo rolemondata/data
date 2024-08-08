@@ -1,331 +1,331 @@
-[
-    "pecharunt",
-    1025,
-    [
-        "poison",
-        "ghost"
-    ],
-    [
-        [
-            "TÛxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daÒo\nmayor en cada turno."
-        ],
-        [
-            "Tinieblas",
-            "special",
-            "ghost",
-            null,
-            100,
-            15,
-            "Produce un espejismo ante el objetivo, que pierde\ntantos PS como nivel tenga el agresor."
-        ],
-        [
-            "RecuperaciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            5,
-            "Restaura hasta la mitad de los PS m·ximos."
-        ],
-        [
-            "Refugio",
-            "special",
-            "water",
-            null,
-            null,
-            40,
-            "El usuario se protege en su coraza y sube la\nDefensa."
-        ],
-        [
-            "Rizo Defensa",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Se enrosca para ocultar su punto dÈbil. Sube la\nDefensa."
-        ],
-        [
-            "PoluciÛn",
-            "special",
-            "poison",
-            30,
-            70,
-            20,
-            "El objetivo es atacado con gases tÛxicos que\npueden llegar a envenenar."
-        ],
-        [
-            "Gas Venenoso",
-            "special",
-            "poison",
-            null,
-            90,
-            40,
-            "Lanza una nube de gas tÛxico a los rivales.\nProduce envenenamiento."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "MaldiciÛn",
-            "special",
-            "ghost",
-            null,
-            null,
-            10,
-            "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no."
-        ],
-        [
-            "Rencor",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Da rienda suelta a su rencor para reducir cuatro PP\ndel ˙ltimo movimiento usado por el objetivo."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Bomba Lodo",
-            "special",
-            "poison",
-            90,
-            100,
-            10,
-            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
-        ],
-        [
-            "Mismo Destino",
-            "special",
-            "ghost",
-            null,
-            null,
-            5,
-            "Si el usuario se debilita por un ataque rival antes\nde usar otro movimiento, el PokÈmon rival se\ndebilitar· tambiÈn."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Rodar",
-            "physical",
-            "rock",
-            30,
-            90,
-            20,
-            "El atacante rueda contra el objetivo durante cinco\nturnos, cada vez con mayor fuerza."
-        ],
-        [
-            "Mal de Ojo",
-            "special",
-            "normal",
-            null,
-            null,
-            5,
-            "Mal de ojo que impide al objetivo huir de la\nbatalla."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Bola Sombra",
-            "special",
-            "ghost",
-            80,
-            100,
-            15,
-            "Lanza una bola oscura que puede bajar la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Legado",
-            "special",
-            "dark",
-            null,
-            100,
-            10,
-            "El usuario se debilita, pero baja mucho tanto el\nAtaque como el Ataque Especial del objetivo."
-        ],
-        [
-            "Sellar",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Impide a los contrincantes usar ataques conocidos\npor el usuario durante el combate."
-        ],
-        [
-            "Impresionar",
-            "physical",
-            "ghost",
-            30,
-            100,
-            15,
-            "Impresiona tanto que puede hacer retroceder al\nobjetivo."
-        ],
-        [
-            "Llanto Falso",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "L·grimas de cocodrilo que bajan mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "MaquinaciÛn",
-            "special",
-            "dark",
-            null,
-            null,
-            20,
-            "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial."
-        ],
-        [
-            "Lanzamugre",
-            "physical",
-            "poison",
-            120,
-            80,
-            5,
-            "Lanza contra el objetivo basura asquerosa. Puede\nenvenenar al objetivo."
-        ],
-        [
-            "Carga TÛxica",
-            "special",
-            "poison",
-            65,
-            100,
-            10,
-            "Ataca cubriendo al objetivo con un lÌquido\nvenenoso. El daÒo ser· doble si este ya est·\nenvenenado."
-        ],
-        [
-            "Onda TÛxica",
-            "special",
-            "poison",
-            95,
-            100,
-            10,
-            "Una onda tÛxica que daÒa a los PokÈmon de\nalrededor. Puede envenenar."
-        ],
-        [
-            "Bomba ¡cida",
-            "special",
-            "poison",
-            40,
-            100,
-            20,
-            "Ataca con un lÌquido corrosivo, reduciendo mucho\nla Defensa Especial del objetivo."
-        ],
-        [
-            "Juego Sucio",
-            "physical",
-            "dark",
-            95,
-            100,
-            15,
-            "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm·s daÒo provoca."
-        ],
-        [
-            "Infortunio",
-            "special",
-            "ghost",
-            65,
-            100,
-            10,
-            "Ataque que causa un gran daÒo a los objetivos\nque sufren problemas de estado."
-        ],
-        [
-            "Golpe Fantasma",
-            "physical",
-            "ghost",
-            90,
-            100,
-            10,
-            "El usuario desaparece en el primer turno y ataca\na su objetivo en el segundo. Permite acertar\naunque el objetivo estÈ protegiÈndose."
-        ],
-        [
-            "⁄ltima Palabra",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "El usuario se cambia por otro PokÈmon de su\nequipo, pero antes amedrenta a su oponente y\nhace que disminuyan su Ataque y Ataque Especial."
-        ],
-        [
-            "Poltergeist",
-            "physical",
-            "ghost",
-            110,
-            90,
-            5,
-            "El usuario ataca utilizando el objeto que lleva el rival.\nSi no tiene ninguno equipado, el movimiento falla."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "Cadena Virulenta",
-            "special",
-            "poison",
-            100,
-            100,
-            5,
-            ""
-        ]
-    ],
-    88,
-    88,
-    160,
-    88,
-    88,
-    88
+[
+    "pecharunt",
+    1025,
+    [
+        "poison",
+        "ghost"
+    ],
+    [
+        [
+            "T√≥xico",
+            "special",
+            "poison",
+            null,
+            90,
+            10,
+            "Envenena gravemente al objetivo y causa un da√±o\nmayor en cada turno."
+        ],
+        [
+            "Tinieblas",
+            "special",
+            "ghost",
+            null,
+            100,
+            15,
+            "Produce un espejismo ante el objetivo, que pierde\ntantos PS como nivel tenga el agresor."
+        ],
+        [
+            "Recuperaci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            5,
+            "Restaura hasta la mitad de los PS m√°ximos."
+        ],
+        [
+            "Refugio",
+            "special",
+            "water",
+            null,
+            null,
+            40,
+            "El usuario se protege en su coraza y sube la\nDefensa."
+        ],
+        [
+            "Rizo Defensa",
+            "special",
+            "normal",
+            null,
+            null,
+            40,
+            "Se enrosca para ocultar su punto d√©bil. Sube la\nDefensa."
+        ],
+        [
+            "Poluci√≥n",
+            "special",
+            "poison",
+            30,
+            70,
+            20,
+            "El objetivo es atacado con gases t√≥xicos que\npueden llegar a envenenar."
+        ],
+        [
+            "Gas Venenoso",
+            "special",
+            "poison",
+            null,
+            90,
+            40,
+            "Lanza una nube de gas t√≥xico a los rivales.\nProduce envenenamiento."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Maldici√≥n",
+            "special",
+            "ghost",
+            null,
+            null,
+            10,
+            "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no."
+        ],
+        [
+            "Rencor",
+            "special",
+            "ghost",
+            null,
+            100,
+            10,
+            "Da rienda suelta a su rencor para reducir cuatro PP\ndel √∫ltimo movimiento usado por el objetivo."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Bomba Lodo",
+            "special",
+            "poison",
+            90,
+            100,
+            10,
+            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
+        ],
+        [
+            "Mismo Destino",
+            "special",
+            "ghost",
+            null,
+            null,
+            5,
+            "Si el usuario se debilita por un ataque rival antes\nde usar otro movimiento, el Pok√©mon rival se\ndebilitar√° tambi√©n."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Rodar",
+            "physical",
+            "rock",
+            30,
+            90,
+            20,
+            "El atacante rueda contra el objetivo durante cinco\nturnos, cada vez con mayor fuerza."
+        ],
+        [
+            "Mal de Ojo",
+            "special",
+            "normal",
+            null,
+            null,
+            5,
+            "Mal de ojo que impide al objetivo huir de la\nbatalla."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Bola Sombra",
+            "special",
+            "ghost",
+            80,
+            100,
+            15,
+            "Lanza una bola oscura que puede bajar la Defensa\nEspecial del objetivo."
+        ],
+        [
+            "Legado",
+            "special",
+            "dark",
+            null,
+            100,
+            10,
+            "El usuario se debilita, pero baja mucho tanto el\nAtaque como el Ataque Especial del objetivo."
+        ],
+        [
+            "Sellar",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "Impide a los contrincantes usar ataques conocidos\npor el usuario durante el combate."
+        ],
+        [
+            "Impresionar",
+            "physical",
+            "ghost",
+            30,
+            100,
+            15,
+            "Impresiona tanto que puede hacer retroceder al\nobjetivo."
+        ],
+        [
+            "Llanto Falso",
+            "special",
+            "dark",
+            null,
+            100,
+            20,
+            "L√°grimas de cocodrilo que bajan mucho la\nDefensa Especial del objetivo."
+        ],
+        [
+            "Maquinaci√≥n",
+            "special",
+            "dark",
+            null,
+            null,
+            20,
+            "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial."
+        ],
+        [
+            "Lanzamugre",
+            "physical",
+            "poison",
+            120,
+            80,
+            5,
+            "Lanza contra el objetivo basura asquerosa. Puede\nenvenenar al objetivo."
+        ],
+        [
+            "Carga T√≥xica",
+            "special",
+            "poison",
+            65,
+            100,
+            10,
+            "Ataca cubriendo al objetivo con un l√≠quido\nvenenoso. El da√±o ser√° doble si este ya est√°\nenvenenado."
+        ],
+        [
+            "Onda T√≥xica",
+            "special",
+            "poison",
+            95,
+            100,
+            10,
+            "Una onda t√≥xica que da√±a a los Pok√©mon de\nalrededor. Puede envenenar."
+        ],
+        [
+            "Bomba √Åcida",
+            "special",
+            "poison",
+            40,
+            100,
+            20,
+            "Ataca con un l√≠quido corrosivo, reduciendo mucho\nla Defensa Especial del objetivo."
+        ],
+        [
+            "Juego Sucio",
+            "physical",
+            "dark",
+            95,
+            100,
+            15,
+            "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nm√°s da√±o provoca."
+        ],
+        [
+            "Infortunio",
+            "special",
+            "ghost",
+            65,
+            100,
+            10,
+            "Ataque que causa un gran da√±o a los objetivos\nque sufren problemas de estado."
+        ],
+        [
+            "Golpe Fantasma",
+            "physical",
+            "ghost",
+            90,
+            100,
+            10,
+            "El usuario desaparece en el primer turno y ataca\na su objetivo en el segundo. Permite acertar\naunque el objetivo est√© protegi√©ndose."
+        ],
+        [
+            "√öltima Palabra",
+            "special",
+            "dark",
+            null,
+            100,
+            20,
+            "El usuario se cambia por otro Pok√©mon de su\nequipo, pero antes amedrenta a su oponente y\nhace que disminuyan su Ataque y Ataque Especial."
+        ],
+        [
+            "Poltergeist",
+            "physical",
+            "ghost",
+            110,
+            90,
+            5,
+            "El usuario ataca utilizando el objeto que lleva el rival.\nSi no tiene ninguno equipado, el movimiento falla."
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ],
+        [
+            "Cadena Virulenta",
+            "special",
+            "poison",
+            100,
+            100,
+            5,
+            ""
+        ]
+    ],
+    88,
+    88,
+    160,
+    88,
+    88,
+    88
 ]

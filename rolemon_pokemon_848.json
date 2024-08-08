@@ -1,205 +1,205 @@
-[
-    "toxel",
-    848,
-    [
-        "electric",
-        "poison"
-    ],
-    [
-        [
-            "GruÒido",
-            "special",
-            "normal",
-            null,
-            100,
-            40,
-            "Dulce gruÒido que reduce el Ataque del\ncontrincante."
-        ],
-        [
-            "¡cido",
-            "special",
-            "poison",
-            40,
-            100,
-            30,
-            "RocÌa a los enemigos con un ·cido corrosivo.\nPuede bajar la Defensa Especial."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Azote",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "Ataque frenÈtico. Cuantos menos PS tenga el\nusuario, m·s daÒo producir·."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Encanto",
-            "special",
-            "fairy",
-            null,
-            100,
-            20,
-            "Engatusa al objetivo y reduce bastante su Ataque."
-        ],
-        [
-            "AtracciÛn",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorar· y\nbajar· la posibilidad de que ataque."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Otra Vez",
-            "special",
-            "normal",
-            null,
-            100,
-            5,
-            "El objetivo repite su ˙ltimo movimiento durante\ntres turnos."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Eco Met·lico",
-            "special",
-            "steel",
-            null,
-            85,
-            40,
-            "Horrible chirrido met·lico que baja mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "Eructo",
-            "special",
-            "poison",
-            120,
-            90,
-            10,
-            "El PokÈmon causa daÒo a su oponente lanz·ndole\nun eructo. Para poder utilizar este movimiento\ntiene que llevar una baya y comÈrsela."
-        ],
-        [
-            "Moflete Est·tico",
-            "physical",
-            "electric",
-            20,
-            100,
-            20,
-            "Quien lo usa frota sus mofletes cargados de\nelectricidad contra el PokÈmon objetivo y\nconsigue paralizarlo."
-        ],
-        [
-            "PuÒo Incremento",
-            "physical",
-            "fighting",
-            40,
-            100,
-            20,
-            "Cada vez que golpea a un oponente se endurecen\nsus puÒos. Si acierta al objetivo, el Ataque del\nusuario aumenta."
-        ],
-        [
-            "Ojos Llorosos",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Mira al objetivo con ojos llorosos para hacerle\nperder su espÌritu combativo y reduce su Ataque y\nAtaque Especial."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    40,
-    38,
-    35,
-    54,
-    35,
-    40
+[
+    "toxel",
+    848,
+    [
+        "electric",
+        "poison"
+    ],
+    [
+        [
+            "Gru√±ido",
+            "special",
+            "normal",
+            null,
+            100,
+            40,
+            "Dulce gru√±ido que reduce el Ataque del\ncontrincante."
+        ],
+        [
+            "√Åcido",
+            "special",
+            "poison",
+            40,
+            100,
+            30,
+            "Roc√≠a a los enemigos con un √°cido corrosivo.\nPuede bajar la Defensa Especial."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Azote",
+            "physical",
+            "normal",
+            null,
+            100,
+            15,
+            "Ataque fren√©tico. Cuantos menos PS tenga el\nusuario, m√°s da√±o producir√°."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Encanto",
+            "special",
+            "fairy",
+            null,
+            100,
+            20,
+            "Engatusa al objetivo y reduce bastante su Ataque."
+        ],
+        [
+            "Atracci√≥n",
+            "special",
+            "normal",
+            null,
+            100,
+            15,
+            "Si el objetivo es del sexo opuesto, se enamorar√° y\nbajar√° la posibilidad de que ataque."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Otra Vez",
+            "special",
+            "normal",
+            null,
+            100,
+            5,
+            "El objetivo repite su √∫ltimo movimiento durante\ntres turnos."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Esfuerzo",
+            "physical",
+            "normal",
+            null,
+            100,
+            5,
+            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
+        ],
+        [
+            "Eco Met√°lico",
+            "special",
+            "steel",
+            null,
+            85,
+            40,
+            "Horrible chirrido met√°lico que baja mucho la\nDefensa Especial del objetivo."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Eructo",
+            "special",
+            "poison",
+            120,
+            90,
+            10,
+            "El Pok√©mon causa da√±o a su oponente lanz√°ndole\nun eructo. Para poder utilizar este movimiento\ntiene que llevar una baya y com√©rsela."
+        ],
+        [
+            "Moflete Est√°tico",
+            "physical",
+            "electric",
+            20,
+            100,
+            20,
+            "Quien lo usa frota sus mofletes cargados de\nelectricidad contra el Pok√©mon objetivo y\nconsigue paralizarlo."
+        ],
+        [
+            "Pu√±o Incremento",
+            "physical",
+            "fighting",
+            40,
+            100,
+            20,
+            "Cada vez que golpea a un oponente se endurecen\nsus pu√±os. Si acierta al objetivo, el Ataque del\nusuario aumenta."
+        ],
+        [
+            "Ojos Llorosos",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Mira al objetivo con ojos llorosos para hacerle\nperder su esp√≠ritu combativo y reduce su Ataque y\nAtaque Especial."
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ]
+    ],
+    40,
+    38,
+    35,
+    54,
+    35,
+    40
 ]

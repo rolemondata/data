@@ -1,402 +1,402 @@
-[
-    "regidrago",
-    895,
-    [
-        "dragon"
-    ],
-    [
-        [
-            "Agarre",
-            "physical",
-            "normal",
-            55,
-            100,
-            30,
-            "Atrapa y atenaza al objetivo."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que tambiÈn hiere al agresor."
-        ],
-        [
-            "Golpe",
-            "physical",
-            "normal",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deber· descansar en\nel siguiente turno."
-        ],
-        [
-            "Terremoto",
-            "physical",
-            "ground",
-            100,
-            100,
-            10,
-            "Un terremoto que afecta a los PokÈmon de\nalrededor en combate."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaÒo producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaÒo producido por los ataques fÌsicos."
-        ],
-        [
-            "Foco EnergÌa",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Concentra energÌa para aumentar las posibilidades\nde un golpe crÌtico."
-        ],
-        [
-            "AutodestrucciÛn",
-            "physical",
-            "normal",
-            200,
-            100,
-            5,
-            "El atacante explota y hiere a todos a su alrededor.\nEl usuario se debilita de inmediato."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "ExplosiÛn",
-            "physical",
-            "normal",
-            250,
-            100,
-            5,
-            "El atacante causa una grandÌsima explosiÛn y hiere\na todos a su alrededor. El usuario se debilita de\ninmediato."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "InversiÛn",
-            "physical",
-            "fighting",
-            null,
-            100,
-            15,
-            "Ataque desesperado que causa m·s daÒo cuantos \nmenos PS tenga el usuario."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Enfado",
-            "physical",
-            "dragon",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Dragoaliento",
-            "special",
-            "dragon",
-            60,
-            100,
-            20,
-            "Poderosa r·faga de aliento que golpea al objetivo\ny puede paralizarlo."
-        ],
-        [
-            "CiclÛn",
-            "special",
-            "dragon",
-            40,
-            100,
-            20,
-            "Crea un violento tornado para hacer trizas al\nenemigo. Puede hacerlo retroceder."
-        ],
-        [
-            "Triturar",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Poder Pasado",
-            "special",
-            "rock",
-            60,
-            100,
-            5,
-            "Ataque prehistÛrico que puede subir todas las\ncaracterÌsticas."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Garra DragÛn",
-            "physical",
-            "dragon",
-            80,
-            100,
-            15,
-            "AraÒa al objetivo con garras afiladas."
-        ],
-        [
-            "Danza DragÛn",
-            "special",
-            "dragon",
-            null,
-            null,
-            20,
-            "Danza mÌstica que sube el Ataque y la Velocidad."
-        ],
-        [
-            "Machada",
-            "physical",
-            "fighting",
-            100,
-            90,
-            10,
-            "Gira con fuerza el puÒo y da un gran golpe. No\nobstante, baja la Velocidad."
-        ],
-        [
-            "Pulso DragÛn",
-            "special",
-            "dragon",
-            85,
-            100,
-            10,
-            "Abre mucho la boca y libera una onda de choque\nque ataca al objetivo."
-        ],
-        [
-            "Tierra Viva",
-            "special",
-            "ground",
-            90,
-            100,
-            10,
-            "La tierra a los pies del objetivo erupciona\nviolentamente. Puede disminuir la Defensa Especial\ndel objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El PokÈmon descansa el turno siguiente."
-        ],
-        [
-            "Colmillo Rayo",
-            "physical",
-            "electric",
-            65,
-            95,
-            15,
-            "Usa colmillos electrificados para morder. Puede\nhacer que el objetivo retroceda o se paralice."
-        ],
-        [
-            "Colmillo Hielo",
-            "physical",
-            "ice",
-            65,
-            95,
-            15,
-            "Usa colmillos helados para morder. Puede hacer\nque el objetivo retroceda o se congele."
-        ],
-        [
-            "Colmillo Õgneo",
-            "physical",
-            "fire",
-            65,
-            95,
-            15,
-            "Usa colmillos en llamas para morder. Puede hacer\nque el objetivo retroceda o reciba quemaduras."
-        ],
-        [
-            "Cometa Draco",
-            "special",
-            "dragon",
-            130,
-            90,
-            5,
-            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "Aguzar",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "El usuario se concentra para que el siguiente ataque\npropine un golpe crÌtico."
-        ],
-        [
-            "Vasto Impacto",
-            "physical",
-            "dragon",
-            60,
-            100,
-            15,
-            "El usuario sacude violentamente su enorme cola para\ngolpear a todos los rivales y reducir su Ataque a la par."
-        ],
-        [
-            "R·faga Escamas",
-            "physical",
-            "dragon",
-            25,
-            90,
-            20,
-            "Lanza escamas al objetivo de dos a cinco veces\nseguidas. Aumenta la Velocidad del usuario, pero\nreduce su Defensa."
-        ],
-        [
-            "DracoenergÌa",
-            "special",
-            "dragon",
-            150,
-            100,
-            5,
-            "El usuario convierte su fuerza vital en una energÌa con\nla que ataca al objetivo. Cuantos menos PS tenga el\nusuario, menor ser· la potencia del movimiento."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "Bramido DragÛn",
-            "special",
-            "dragon",
-            0,
-            0,
-            15,
-            ""
-        ]
-    ],
-    200,
-    100,
-    50,
-    100,
-    50,
-    80
+[
+    "regidrago",
+    895,
+    [
+        "dragon"
+    ],
+    [
+        [
+            "Agarre",
+            "physical",
+            "normal",
+            55,
+            100,
+            30,
+            "Atrapa y atenaza al objetivo."
+        ],
+        [
+            "Golpe Cuerpo",
+            "physical",
+            "normal",
+            85,
+            100,
+            15,
+            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
+        ],
+        [
+            "Derribo",
+            "physical",
+            "normal",
+            90,
+            85,
+            20,
+            "Carga desmedida que tambi√©n hiere al agresor."
+        ],
+        [
+            "Golpe",
+            "physical",
+            "normal",
+            120,
+            100,
+            10,
+            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
+        ],
+        [
+            "Mordisco",
+            "physical",
+            "dark",
+            60,
+            100,
+            25,
+            "Un voraz bocado que puede hacer retroceder\nal objetivo."
+        ],
+        [
+            "Hiperrayo",
+            "special",
+            "normal",
+            150,
+            90,
+            5,
+            "Es eficaz, pero el atacante deber√° descansar en\nel siguiente turno."
+        ],
+        [
+            "Terremoto",
+            "physical",
+            "ground",
+            100,
+            100,
+            10,
+            "Un terremoto que afecta a los Pok√©mon de\nalrededor en combate."
+        ],
+        [
+            "Pantalla de Luz",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Pared de luz que reduce durante cinco turnos el\nda√±o producido por los ataques especiales."
+        ],
+        [
+            "Reflejo",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Pared de luz que reduce durante cinco turnos el\nda√±o producido por los ataques f√≠sicos."
+        ],
+        [
+            "Foco Energ√≠a",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Concentra energ√≠a para aumentar las posibilidades\nde un golpe cr√≠tico."
+        ],
+        [
+            "Autodestrucci√≥n",
+            "physical",
+            "normal",
+            200,
+            100,
+            5,
+            "El atacante explota y hiere a todos a su alrededor.\nEl usuario se debilita de inmediato."
+        ],
+        [
+            "Rapidez",
+            "special",
+            "normal",
+            60,
+            null,
+            20,
+            "Lanza rayos en forma de estrella que no fallan\nnunca."
+        ],
+        [
+            "Explosi√≥n",
+            "physical",
+            "normal",
+            250,
+            100,
+            5,
+            "El atacante causa una grand√≠sima explosi√≥n y hiere\na todos a su alrededor. El usuario se debilita de\ninmediato."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Inversi√≥n",
+            "physical",
+            "fighting",
+            null,
+            100,
+            15,
+            "Ataque desesperado que causa m√°s da√±o cuantos \nmenos PS tenga el usuario."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Enfado",
+            "physical",
+            "dragon",
+            120,
+            100,
+            10,
+            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Dragoaliento",
+            "special",
+            "dragon",
+            60,
+            100,
+            20,
+            "Poderosa r√°faga de aliento que golpea al objetivo\ny puede paralizarlo."
+        ],
+        [
+            "Cicl√≥n",
+            "special",
+            "dragon",
+            40,
+            100,
+            20,
+            "Crea un violento tornado para hacer trizas al\nenemigo. Puede hacerlo retroceder."
+        ],
+        [
+            "Triturar",
+            "physical",
+            "dark",
+            80,
+            100,
+            15,
+            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
+        ],
+        [
+            "Poder Pasado",
+            "special",
+            "rock",
+            60,
+            100,
+            5,
+            "Ataque prehist√≥rico que puede subir todas las\ncaracter√≠sticas."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Garra Drag√≥n",
+            "physical",
+            "dragon",
+            80,
+            100,
+            15,
+            "Ara√±a al objetivo con garras afiladas."
+        ],
+        [
+            "Danza Drag√≥n",
+            "special",
+            "dragon",
+            null,
+            null,
+            20,
+            "Danza m√≠stica que sube el Ataque y la Velocidad."
+        ],
+        [
+            "Machada",
+            "physical",
+            "fighting",
+            100,
+            90,
+            10,
+            "Gira con fuerza el pu√±o y da un gran golpe. No\nobstante, baja la Velocidad."
+        ],
+        [
+            "Pulso Drag√≥n",
+            "special",
+            "dragon",
+            85,
+            100,
+            10,
+            "Abre mucho la boca y libera una onda de choque\nque ataca al objetivo."
+        ],
+        [
+            "Tierra Viva",
+            "special",
+            "ground",
+            90,
+            100,
+            10,
+            "La tierra a los pies del objetivo erupciona\nviolentamente. Puede disminuir la Defensa Especial\ndel objetivo."
+        ],
+        [
+            "Gigaimpacto",
+            "physical",
+            "normal",
+            150,
+            90,
+            5,
+            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pok√©mon descansa el turno siguiente."
+        ],
+        [
+            "Colmillo Rayo",
+            "physical",
+            "electric",
+            65,
+            95,
+            15,
+            "Usa colmillos electrificados para morder. Puede\nhacer que el objetivo retroceda o se paralice."
+        ],
+        [
+            "Colmillo Hielo",
+            "physical",
+            "ice",
+            65,
+            95,
+            15,
+            "Usa colmillos helados para morder. Puede hacer\nque el objetivo retroceda o se congele."
+        ],
+        [
+            "Colmillo √çgneo",
+            "physical",
+            "fire",
+            65,
+            95,
+            15,
+            "Usa colmillos en llamas para morder. Puede hacer\nque el objetivo retroceda o reciba quemaduras."
+        ],
+        [
+            "Cometa Draco",
+            "special",
+            "dragon",
+            130,
+            90,
+            5,
+            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Aguzar",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "El usuario se concentra para que el siguiente ataque\npropine un golpe cr√≠tico."
+        ],
+        [
+            "Vasto Impacto",
+            "physical",
+            "dragon",
+            60,
+            100,
+            15,
+            "El usuario sacude violentamente su enorme cola para\ngolpear a todos los rivales y reducir su Ataque a la par."
+        ],
+        [
+            "R√°faga Escamas",
+            "physical",
+            "dragon",
+            25,
+            90,
+            20,
+            "Lanza escamas al objetivo de dos a cinco veces\nseguidas. Aumenta la Velocidad del usuario, pero\nreduce su Defensa."
+        ],
+        [
+            "Dracoenerg√≠a",
+            "special",
+            "dragon",
+            150,
+            100,
+            5,
+            "El usuario convierte su fuerza vital en una energ√≠a con\nla que ataca al objetivo. Cuantos menos PS tenga el\nusuario, menor ser√° la potencia del movimiento."
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ],
+        [
+            "Bramido Drag√≥n",
+            "special",
+            "dragon",
+            0,
+            0,
+            15,
+            ""
+        ]
+    ],
+    200,
+    100,
+    50,
+    100,
+    50,
+    80
 ]

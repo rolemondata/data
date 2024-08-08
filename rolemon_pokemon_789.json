@@ -1,33 +1,33 @@
-[
-    "cosmog",
-    789,
-    [
-        "psychic"
-    ],
-    [
-        [
-            "Teletransporte",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Permite huir al instante de combates contra\nPokémon salvajes o viajar al último Centro\nPokémon visitado."
-        ],
-        [
-            "Salpicadura",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "No tiene ningún efecto. Solo salpica."
-        ]
-    ],
-    43,
-    29,
-    31,
-    29,
-    31,
-    37
+[
+    "cosmog",
+    789,
+    [
+        "psychic"
+    ],
+    [
+        [
+            "Teletransporte",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Permite huir al instante de combates contra\nPokÃ©mon salvajes o viajar al Ãºltimo Centro\nPokÃ©mon visitado."
+        ],
+        [
+            "Salpicadura",
+            "special",
+            "normal",
+            null,
+            null,
+            40,
+            "No tiene ningÃºn efecto. Solo salpica."
+        ]
+    ],
+    43,
+    29,
+    31,
+    29,
+    31,
+    37
 ]

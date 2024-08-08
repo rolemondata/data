@@ -1,520 +1,520 @@
-[
-    "miraidon",
-    1008,
-    [
-        "electric",
-        "dragon"
-    ],
-    [
-        [
-            "Danza Espada",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Baile frenÈtico que aumenta mucho el Ataque."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que tambiÈn hiere al agresor."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deber· descansar en\nel siguiente turno."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energÌa."
-        ],
-        [
-            "Impactrueno",
-            "special",
-            "electric",
-            40,
-            100,
-            30,
-            "Ataque elÈctrico que puede paralizar al objetivo."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque elÈctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Trueno",
-            "special",
-            "electric",
-            110,
-            70,
-            10,
-            "Un poderoso rayo que daÒa al objetivo y puede\nparalizarlo."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Rayo Confuso",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Rayo siniestro que confunde al objetivo."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaÒo producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaÒo producido por los ataques fÌsicos."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "Enfado",
-            "physical",
-            "dragon",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Dragoaliento",
-            "special",
-            "dragon",
-            60,
-            100,
-            20,
-            "Poderosa r·faga de aliento que golpea al objetivo\ny puede paralizarlo."
-        ],
-        [
-            "Triturar",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Manto Espejo",
-            "special",
-            "psychic",
-            null,
-            100,
-            20,
-            "Responde a un ataque especial ocasionando el\ndoble del daÒo recibido."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Carga",
-            "special",
-            "electric",
-            null,
-            null,
-            20,
-            "Recarga energÌa para potenciar el siguiente\nmovimiento de tipo ElÈctrico. TambiÈn sube la\nDefensa Especial."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Sofoco",
-            "special",
-            "fire",
-            130,
-            90,
-            5,
-            "Ataque en toda regla que baja mucho el Ataque\nEspecial de quien lo usa."
-        ],
-        [
-            "Eco Met·lico",
-            "special",
-            "steel",
-            null,
-            85,
-            40,
-            "Horrible chirrido met·lico que baja mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Garra DragÛn",
-            "physical",
-            "dragon",
-            80,
-            100,
-            15,
-            "AraÒa al objetivo con garras afiladas."
-        ],
-        [
-            "Paz Mental",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Aumenta la concentraciÛn y calma el espÌritu para\nsubir el Ataque Especial y la Defensa Especial."
-        ],
-        [
-            "Onda Voltio",
-            "special",
-            "electric",
-            60,
-            null,
-            20,
-            "Ataque elÈctrico muy r·pido e ineludible."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro PokÈmon del equipo."
-        ],
-        [
-            "Pulso DragÛn",
-            "special",
-            "dragon",
-            85,
-            100,
-            10,
-            "Abre mucho la boca y libera una onda de choque\nque ataca al objetivo."
-        ],
-        [
-            "Joya de Luz",
-            "special",
-            "rock",
-            80,
-            100,
-            20,
-            "Ataca con un rayo de luz que centellea como si lo\nformaran miles de joyas."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El PokÈmon descansa el turno siguiente."
-        ],
-        [
-            "Cabezazo Zen",
-            "physical",
-            "psychic",
-            80,
-            90,
-            15,
-            "Concentra su energÌa psÌquica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
-        ],
-        [
-            "Foco Resplandor",
-            "special",
-            "steel",
-            80,
-            100,
-            10,
-            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
-        ],
-        [
-            "Cometa Draco",
-            "special",
-            "dragon",
-            130,
-            90,
-            5,
-            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
-        ],
-        [
-            "Chispazo",
-            "special",
-            "electric",
-            80,
-            100,
-            15,
-            "Una deslumbradora onda elÈctrica afecta a los\nPokÈmon que hay combatiendo alrededor. Puede\nparalizar."
-        ],
-        [
-            "Rayo Carga",
-            "special",
-            "electric",
-            50,
-            90,
-            10,
-            "Lanza un rayo elÈctrico contra el objetivo. Puede\nsubir el Ataque Especial de quien lo usa."
-        ],
-        [
-            "Cuerpo Pesado",
-            "physical",
-            "steel",
-            null,
-            100,
-            10,
-            "El usuario golpea con todo su cuerpo. Cuanto\nmayor sea su peso comparado con el del objetivo,\nm·s daÒo causar·."
-        ],
-        [
-            "Bola Voltio",
-            "special",
-            "electric",
-            null,
-            100,
-            10,
-            "Lanza una bola elÈctrica. Cuanto mayor sea la\nVelocidad del usuario en comparaciÛn con la del\nobjetivo, mayor ser· el daÒo causado."
-        ],
-        [
-            "AcrÛbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ·gilmente. Si el usuario no porta ning˙n\nobjeto, el objetivo resulta seriamente daÒado."
-        ],
-        [
-            "Voltiocambio",
-            "special",
-            "electric",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro PokÈmon del equipo."
-        ],
-        [
-            "Cola DragÛn",
-            "physical",
-            "dragon",
-            60,
-            90,
-            10,
-            "Ataca al objetivo y lo obliga a cambiarse por otro\nPokÈmon. Si es uno salvaje, acaba el combate."
-        ],
-        [
-            "Voltio Cruel",
-            "physical",
-            "electric",
-            90,
-            100,
-            15,
-            "Carga elÈctrica muy potente que tambiÈn hiere\nligeramente a quien la usa."
-        ],
-        [
-            "Alarido",
-            "special",
-            "dark",
-            55,
-            95,
-            15,
-            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
-        ],
-        [
-            "Carga Par·bola",
-            "special",
-            "electric",
-            65,
-            100,
-            20,
-            "Inflige daÒo a todos los PokÈmon a su alrededor.\nEl usuario absorbe la mitad del daÒo producido\npara restaurar sus propios PS."
-        ],
-        [
-            "Onda AnÛmala",
-            "special",
-            "electric",
-            null,
-            100,
-            15,
-            "Su cuerpo irradia unas raras ondas que, al alcanzar\na un oponente, hacen que disminuya mucho su\nAtaque Especial."
-        ],
-        [
-            "Campo ElÈctrico",
-            "special",
-            "electric",
-            null,
-            null,
-            10,
-            "Durante cinco turnos, crea un campo elÈctrico en\nel terreno de combate que impide dormirse a los\nPokÈmon que estÈn en contacto con el suelo."
-        ],
-        [
-            "Brillo M·gico",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            "Inflige daÒo a los oponentes con una potente luz."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "special",
-            "electric",
-            100,
-            100,
-            5,
-            ""
-        ],
-        [
-            "Bramido DragÛn",
-            "special",
-            "dragon",
-            0,
-            0,
-            15,
-            ""
-        ],
-        [
-            "Plancha Voltaica",
-            "physical",
-            "electric",
-            100,
-            95,
-            15,
-            ""
-        ]
-    ],
-    100,
-    85,
-    100,
-    135,
-    115,
-    135
+[
+    "miraidon",
+    1008,
+    [
+        "electric",
+        "dragon"
+    ],
+    [
+        [
+            "Danza Espada",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Baile fren√©tico que aumenta mucho el Ataque."
+        ],
+        [
+            "Golpe Cuerpo",
+            "physical",
+            "normal",
+            85,
+            100,
+            15,
+            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
+        ],
+        [
+            "Derribo",
+            "physical",
+            "normal",
+            90,
+            85,
+            20,
+            "Carga desmedida que tambi√©n hiere al agresor."
+        ],
+        [
+            "Hiperrayo",
+            "special",
+            "normal",
+            150,
+            90,
+            5,
+            "Es eficaz, pero el atacante deber√° descansar en\nel siguiente turno."
+        ],
+        [
+            "Rayo Solar",
+            "special",
+            "grass",
+            120,
+            100,
+            10,
+            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energ√≠a."
+        ],
+        [
+            "Impactrueno",
+            "special",
+            "electric",
+            40,
+            100,
+            30,
+            "Ataque el√©ctrico que puede paralizar al objetivo."
+        ],
+        [
+            "Rayo",
+            "special",
+            "electric",
+            90,
+            100,
+            15,
+            "Potente ataque el√©ctrico que puede paralizar al\nobjetivo."
+        ],
+        [
+            "Onda Trueno",
+            "special",
+            "electric",
+            null,
+            90,
+            20,
+            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
+        ],
+        [
+            "Trueno",
+            "special",
+            "electric",
+            110,
+            70,
+            10,
+            "Un poderoso rayo que da√±a al objetivo y puede\nparalizarlo."
+        ],
+        [
+            "Agilidad",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Relaja el cuerpo para ganar mucha Velocidad."
+        ],
+        [
+            "Rayo Confuso",
+            "special",
+            "ghost",
+            null,
+            100,
+            10,
+            "Rayo siniestro que confunde al objetivo."
+        ],
+        [
+            "Pantalla de Luz",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Pared de luz que reduce durante cinco turnos el\nda√±o producido por los ataques especiales."
+        ],
+        [
+            "Reflejo",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Pared de luz que reduce durante cinco turnos el\nda√±o producido por los ataques f√≠sicos."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Cara Susto",
+            "special",
+            "normal",
+            null,
+            100,
+            10,
+            "Asusta al objetivo para reducir mucho su Velocidad."
+        ],
+        [
+            "Enfado",
+            "physical",
+            "dragon",
+            120,
+            100,
+            10,
+            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Dragoaliento",
+            "special",
+            "dragon",
+            60,
+            100,
+            20,
+            "Poderosa r√°faga de aliento que golpea al objetivo\ny puede paralizarlo."
+        ],
+        [
+            "Triturar",
+            "physical",
+            "dark",
+            80,
+            100,
+            15,
+            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
+        ],
+        [
+            "Manto Espejo",
+            "special",
+            "psychic",
+            null,
+            100,
+            20,
+            "Responde a un ataque especial ocasionando el\ndoble del da√±o recibido."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Carga",
+            "special",
+            "electric",
+            null,
+            null,
+            20,
+            "Recarga energ√≠a para potenciar el siguiente\nmovimiento de tipo El√©ctrico. Tambi√©n sube la\nDefensa Especial."
+        ],
+        [
+            "Mofa",
+            "special",
+            "dark",
+            null,
+            100,
+            20,
+            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
+        ],
+        [
+            "Refuerzo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
+        ],
+        [
+            "Sofoco",
+            "special",
+            "fire",
+            130,
+            90,
+            5,
+            "Ataque en toda regla que baja mucho el Ataque\nEspecial de quien lo usa."
+        ],
+        [
+            "Eco Met√°lico",
+            "special",
+            "steel",
+            null,
+            85,
+            40,
+            "Horrible chirrido met√°lico que baja mucho la\nDefensa Especial del objetivo."
+        ],
+        [
+            "Garra Drag√≥n",
+            "physical",
+            "dragon",
+            80,
+            100,
+            15,
+            "Ara√±a al objetivo con garras afiladas."
+        ],
+        [
+            "Paz Mental",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Aumenta la concentraci√≥n y calma el esp√≠ritu para\nsubir el Ataque Especial y la Defensa Especial."
+        ],
+        [
+            "Onda Voltio",
+            "special",
+            "electric",
+            60,
+            null,
+            20,
+            "Ataque el√©ctrico muy r√°pido e ineludible."
+        ],
+        [
+            "Ida y Vuelta",
+            "physical",
+            "bug",
+            70,
+            100,
+            20,
+            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pok√©mon del equipo."
+        ],
+        [
+            "Pulso Drag√≥n",
+            "special",
+            "dragon",
+            85,
+            100,
+            10,
+            "Abre mucho la boca y libera una onda de choque\nque ataca al objetivo."
+        ],
+        [
+            "Joya de Luz",
+            "special",
+            "rock",
+            80,
+            100,
+            20,
+            "Ataca con un rayo de luz que centellea como si lo\nformaran miles de joyas."
+        ],
+        [
+            "Gigaimpacto",
+            "physical",
+            "normal",
+            150,
+            90,
+            5,
+            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pok√©mon descansa el turno siguiente."
+        ],
+        [
+            "Cabezazo Zen",
+            "physical",
+            "psychic",
+            80,
+            90,
+            15,
+            "Concentra su energ√≠a ps√≠quica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
+        ],
+        [
+            "Foco Resplandor",
+            "special",
+            "steel",
+            80,
+            100,
+            10,
+            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
+        ],
+        [
+            "Cometa Draco",
+            "special",
+            "dragon",
+            130,
+            90,
+            5,
+            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
+        ],
+        [
+            "Chispazo",
+            "special",
+            "electric",
+            80,
+            100,
+            15,
+            "Una deslumbradora onda el√©ctrica afecta a los\nPok√©mon que hay combatiendo alrededor. Puede\nparalizar."
+        ],
+        [
+            "Rayo Carga",
+            "special",
+            "electric",
+            50,
+            90,
+            10,
+            "Lanza un rayo el√©ctrico contra el objetivo. Puede\nsubir el Ataque Especial de quien lo usa."
+        ],
+        [
+            "Cuerpo Pesado",
+            "physical",
+            "steel",
+            null,
+            100,
+            10,
+            "El usuario golpea con todo su cuerpo. Cuanto\nmayor sea su peso comparado con el del objetivo,\nm√°s da√±o causar√°."
+        ],
+        [
+            "Bola Voltio",
+            "special",
+            "electric",
+            null,
+            100,
+            10,
+            "Lanza una bola el√©ctrica. Cuanto mayor sea la\nVelocidad del usuario en comparaci√≥n con la del\nobjetivo, mayor ser√° el da√±o causado."
+        ],
+        [
+            "Acr√≥bata",
+            "physical",
+            "flying",
+            55,
+            100,
+            15,
+            "Golpea √°gilmente. Si el usuario no porta ning√∫n\nobjeto, el objetivo resulta seriamente da√±ado."
+        ],
+        [
+            "Voltiocambio",
+            "special",
+            "electric",
+            70,
+            100,
+            20,
+            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pok√©mon del equipo."
+        ],
+        [
+            "Cola Drag√≥n",
+            "physical",
+            "dragon",
+            60,
+            90,
+            10,
+            "Ataca al objetivo y lo obliga a cambiarse por otro\nPok√©mon. Si es uno salvaje, acaba el combate."
+        ],
+        [
+            "Voltio Cruel",
+            "physical",
+            "electric",
+            90,
+            100,
+            15,
+            "Carga el√©ctrica muy potente que tambi√©n hiere\nligeramente a quien la usa."
+        ],
+        [
+            "Alarido",
+            "special",
+            "dark",
+            55,
+            95,
+            15,
+            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
+        ],
+        [
+            "Carga Par√°bola",
+            "special",
+            "electric",
+            65,
+            100,
+            20,
+            "Inflige da√±o a todos los Pok√©mon a su alrededor.\nEl usuario absorbe la mitad del da√±o producido\npara restaurar sus propios PS."
+        ],
+        [
+            "Onda An√≥mala",
+            "special",
+            "electric",
+            null,
+            100,
+            15,
+            "Su cuerpo irradia unas raras ondas que, al alcanzar\na un oponente, hacen que disminuya mucho su\nAtaque Especial."
+        ],
+        [
+            "Campo El√©ctrico",
+            "special",
+            "electric",
+            null,
+            null,
+            10,
+            "Durante cinco turnos, crea un campo el√©ctrico en\nel terreno de combate que impide dormirse a los\nPok√©mon que est√©n en contacto con el suelo."
+        ],
+        [
+            "Brillo M√°gico",
+            "special",
+            "fairy",
+            80,
+            100,
+            10,
+            "Inflige da√±o a los oponentes con una potente luz."
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ],
+        [
+            "",
+            "special",
+            "electric",
+            100,
+            100,
+            5,
+            ""
+        ],
+        [
+            "Bramido Drag√≥n",
+            "special",
+            "dragon",
+            0,
+            0,
+            15,
+            ""
+        ],
+        [
+            "Plancha Voltaica",
+            "physical",
+            "electric",
+            100,
+            95,
+            15,
+            ""
+        ]
+    ],
+    100,
+    85,
+    100,
+    135,
+    115,
+    135
 ]

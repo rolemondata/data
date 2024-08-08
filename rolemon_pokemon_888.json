@@ -1,582 +1,582 @@
-[
-    "zacian",
-    888,
-    [
-        "fairy"
-    ],
-    [
-        [
-            "Danza Espada",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Baile frenÈtico que aumenta mucho el Ataque."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que tambiÈn hiere al agresor."
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deber· descansar en\nel siguiente turno."
-        ],
-        [
-            "Excavar",
-            "physical",
-            "ground",
-            80,
-            100,
-            10,
-            "Primer turno: cava. Segundo turno: ataca. TambiÈn\nsirve para salir de ciertas zonas."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Ataque R·pido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque r·pido que permite golpear en primer lugar."
-        ],
-        [
-            "Foco EnergÌa",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Concentra energÌa para aumentar las posibilidades\nde un golpe crÌtico."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Cuchillada",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con cuchillas o con pinzas. Suele dar un\ngolpe crÌtico."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "InversiÛn",
-            "physical",
-            "fighting",
-            null,
-            100,
-            15,
-            "Ataque desesperado que causa m·s daÒo cuantos \nmenos PS tenga el usuario."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Falso Tortazo",
-            "physical",
-            "normal",
-            40,
-            100,
-            40,
-            "Ataque moderado que no debilita al objetivo y le\ndeja al menos 1 PS."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Cola FÈrrea",
-            "physical",
-            "steel",
-            100,
-            75,
-            15,
-            "Ataca con una cola fÈrrea y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Garra Metal",
-            "physical",
-            "steel",
-            50,
-            95,
-            35,
-            "Ataque con garras de acero que puede aumentar\nel Ataque del usuario."
-        ],
-        [
-            "Triturar",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Desquite",
-            "physical",
-            "fighting",
-            60,
-            100,
-            10,
-            "Ataque que produce el doble de daÒo si el usuario\nes herido en el mismo turno."
-        ],
-        [
-            "DemoliciÛn",
-            "physical",
-            "fighting",
-            75,
-            100,
-            15,
-            "Potente ataque que tambiÈn es capaz de destruir\nbarreras como Pantalla de Luz y Reflejo."
-        ],
-        [
-            "Sellar",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Impide a los contrincantes usar ataques conocidos\npor el usuario durante el combate."
-        ],
-        [
-            "VozarrÛn",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Grito desgarrador que inflige daÒo al objetivo."
-        ],
-        [
-            "Defensa FÈrrea",
-            "special",
-            "steel",
-            null,
-            null,
-            15,
-            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
-        ],
-        [
-            "Aullido",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Aullido que sube el ·nimo y aumenta el Ataque."
-        ],
-        [
-            "A Bocajarro",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Lucha abiertamente contra el objetivo sin\nprotegerse. TambiÈn reduce la Defensa y la\nDefensa Especial del usuario."
-        ],
-        [
-            "Buena Baza",
-            "physical",
-            "dark",
-            60,
-            100,
-            10,
-            "Si el objetivo ya ha sufrido daÒo en ese turno, la\nfuerza del ataque se duplica."
-        ],
-        [
-            "Puya Nociva",
-            "physical",
-            "poison",
-            80,
-            100,
-            20,
-            "Pincha al objetivo con un tent·culo o brazo\nenvenenado. Puede llegar a envenenar al objetivo."
-        ],
-        [
-            "Tajo AÈreo",
-            "special",
-            "flying",
-            75,
-            95,
-            15,
-            "Ataca con una hoja de aire que incluso corta el\ncielo. TambiÈn puede hacer retroceder al objetivo."
-        ],
-        [
-            "Onda Certera",
-            "special",
-            "fighting",
-            120,
-            70,
-            5,
-            "Agudiza la concentraciÛn mental y libera su poder.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El PokÈmon descansa el turno siguiente."
-        ],
-        [
-            "Colmillo Rayo",
-            "physical",
-            "electric",
-            65,
-            95,
-            15,
-            "Usa colmillos electrificados para morder. Puede\nhacer que el objetivo retroceda o se paralice."
-        ],
-        [
-            "Colmillo Hielo",
-            "physical",
-            "ice",
-            65,
-            95,
-            15,
-            "Usa colmillos helados para morder. Puede hacer\nque el objetivo retroceda o se congele."
-        ],
-        [
-            "Colmillo Õgneo",
-            "physical",
-            "fire",
-            65,
-            95,
-            15,
-            "Usa colmillos en llamas para morder. Puede hacer\nque el objetivo retroceda o reciba quemaduras."
-        ],
-        [
-            "Psicocorte",
-            "physical",
-            "psychic",
-            70,
-            100,
-            20,
-            "Ataca al objetivo con cuchillas formadas por\nenergÌa psÌquica. Suele ser crÌtico."
-        ],
-        [
-            "Foco Resplandor",
-            "special",
-            "steel",
-            80,
-            100,
-            10,
-            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
-        ],
-        [
-            "Cabeza de Hierro",
-            "physical",
-            "steel",
-            80,
-            100,
-            15,
-            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "Anticipo",
-            "special",
-            "fighting",
-            null,
-            null,
-            15,
-            "Protege a todo el equipo de los movimientos que\nse adelantan y atacan primero."
-        ],
-        [
-            "Represalia",
-            "physical",
-            "normal",
-            70,
-            100,
-            5,
-            "Venga a los amigos derrotados. Si en el turno\nanterior han derrotado a uno, la potencia del\nataque aumentar·."
-        ],
-        [
-            "Avivar",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Quien lo usa se concentra y potencia su Ataque y\nsu Ataque Especial."
-        ],
-        [
-            "Voltio Cruel",
-            "physical",
-            "electric",
-            90,
-            100,
-            15,
-            "Carga elÈctrica muy potente que tambiÈn hiere\nligeramente a quien la usa."
-        ],
-        [
-            "Espada Santa",
-            "physical",
-            "fighting",
-            90,
-            100,
-            15,
-            "El usuario ataca con una espada, ignorando\ncualquier cambio en las caracterÌsticas del\nobjetivo."
-        ],
-        [
-            "Plumerazo",
-            "physical",
-            "normal",
-            25,
-            85,
-            10,
-            "Golpea con la cola u otras partes de su cuerpo de\ndos a cinco veces seguidas."
-        ],
-        [
-            "Alarido",
-            "special",
-            "dark",
-            55,
-            95,
-            15,
-            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
-        ],
-        [
-            "Rugido de Guerra",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Intimida a su oponente con un rugido de guerra,\nhaciendo que disminuyan tanto su Ataque como\nsu Ataque Especial."
-        ],
-        [
-            "Campo de Niebla",
-            "special",
-            "fairy",
-            null,
-            null,
-            10,
-            "Cubre de niebla el terreno de combate durante\ncinco turnos. Los PokÈmon que estÈn en el suelo\nno se ven afectados por cambios de estado."
-        ],
-        [
-            "CarantoÒa",
-            "physical",
-            "fairy",
-            90,
-            90,
-            10,
-            "El PokÈmon que lo usa le hace cucamonas al\nobjetivo y lo ataca. Puede disminuir el Ataque\ndel objetivo."
-        ],
-        [
-            "Fuerza Lunar",
-            "special",
-            "fairy",
-            95,
-            100,
-            15,
-            "Invoca el poder de la luna para atacar al objetivo.\nPuede disminuir el Ataque Especial del objetivo."
-        ],
-        [
-            "Brillo M·gico",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            "Inflige daÒo a los oponentes con una potente luz."
-        ],
-        [
-            "Cuchilla Solar",
-            "physical",
-            "grass",
-            125,
-            100,
-            10,
-            "El usuario dedica un turno a absorber energÌa\nlumÌnica y concentrarla en forma de cuchilla con la\nque ataca al rival al turno siguiente."
-        ],
-        [
-            "Aguzar",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "El usuario se concentra para que el siguiente ataque\npropine un golpe crÌtico."
-        ],
-        [
-            "Giro Vil",
-            "physical",
-            "dark",
-            60,
-            100,
-            20,
-            "Hace pivotar su cuerpo para infligir daÒo a su rival."
-        ],
-        [
-            "Psicocolmillo",
-            "physical",
-            "psychic",
-            85,
-            100,
-            10,
-            "Ataca a sus rivales con poderes psÌquicos que\nadem·s destruyen barreras como Pantalla de Luz y\nReflejo."
-        ],
-        [
-            "Metal·ser",
-            "special",
-            "steel",
-            140,
-            95,
-            5,
-            "Utiliza el acero de su cuerpo para disparar un potente\nrayo. TambiÈn hiere al agresor."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "grass",
-            50,
-            100,
-            20,
-            ""
-        ]
-    ],
-    92,
-    120,
-    115,
-    80,
-    115,
-    138
+[
+    "zacian",
+    888,
+    [
+        "fairy"
+    ],
+    [
+        [
+            "Danza Espada",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Baile fren√©tico que aumenta mucho el Ataque."
+        ],
+        [
+            "Golpe Cuerpo",
+            "physical",
+            "normal",
+            85,
+            100,
+            15,
+            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
+        ],
+        [
+            "Derribo",
+            "physical",
+            "normal",
+            90,
+            85,
+            20,
+            "Carga desmedida que tambi√©n hiere al agresor."
+        ],
+        [
+            "Mordisco",
+            "physical",
+            "dark",
+            60,
+            100,
+            25,
+            "Un voraz bocado que puede hacer retroceder\nal objetivo."
+        ],
+        [
+            "Hiperrayo",
+            "special",
+            "normal",
+            150,
+            90,
+            5,
+            "Es eficaz, pero el atacante deber√° descansar en\nel siguiente turno."
+        ],
+        [
+            "Excavar",
+            "physical",
+            "ground",
+            80,
+            100,
+            10,
+            "Primer turno: cava. Segundo turno: ataca. Tambi√©n\nsirve para salir de ciertas zonas."
+        ],
+        [
+            "Agilidad",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Relaja el cuerpo para ganar mucha Velocidad."
+        ],
+        [
+            "Ataque R√°pido",
+            "physical",
+            "normal",
+            40,
+            100,
+            30,
+            "Ataque r√°pido que permite golpear en primer lugar."
+        ],
+        [
+            "Foco Energ√≠a",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Concentra energ√≠a para aumentar las posibilidades\nde un golpe cr√≠tico."
+        ],
+        [
+            "Rapidez",
+            "special",
+            "normal",
+            60,
+            null,
+            20,
+            "Lanza rayos en forma de estrella que no fallan\nnunca."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Cuchillada",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con cuchillas o con pinzas. Suele dar un\ngolpe cr√≠tico."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Inversi√≥n",
+            "physical",
+            "fighting",
+            null,
+            100,
+            15,
+            "Ataque desesperado que causa m√°s da√±o cuantos \nmenos PS tenga el usuario."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Cara Susto",
+            "special",
+            "normal",
+            null,
+            100,
+            10,
+            "Asusta al objetivo para reducir mucho su Velocidad."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Falso Tortazo",
+            "physical",
+            "normal",
+            40,
+            100,
+            40,
+            "Ataque moderado que no debilita al objetivo y le\ndeja al menos 1 PS."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Cola F√©rrea",
+            "physical",
+            "steel",
+            100,
+            75,
+            15,
+            "Ataca con una cola f√©rrea y puede bajar la\nDefensa del objetivo."
+        ],
+        [
+            "Garra Metal",
+            "physical",
+            "steel",
+            50,
+            95,
+            35,
+            "Ataque con garras de acero que puede aumentar\nel Ataque del usuario."
+        ],
+        [
+            "Triturar",
+            "physical",
+            "dark",
+            80,
+            100,
+            15,
+            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Refuerzo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
+        ],
+        [
+            "Desquite",
+            "physical",
+            "fighting",
+            60,
+            100,
+            10,
+            "Ataque que produce el doble de da√±o si el usuario\nes herido en el mismo turno."
+        ],
+        [
+            "Demolici√≥n",
+            "physical",
+            "fighting",
+            75,
+            100,
+            15,
+            "Potente ataque que tambi√©n es capaz de destruir\nbarreras como Pantalla de Luz y Reflejo."
+        ],
+        [
+            "Sellar",
+            "special",
+            "psychic",
+            null,
+            null,
+            10,
+            "Impide a los contrincantes usar ataques conocidos\npor el usuario durante el combate."
+        ],
+        [
+            "Vozarr√≥n",
+            "special",
+            "normal",
+            90,
+            100,
+            10,
+            "Grito desgarrador que inflige da√±o al objetivo."
+        ],
+        [
+            "Defensa F√©rrea",
+            "special",
+            "steel",
+            null,
+            null,
+            15,
+            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
+        ],
+        [
+            "Aullido",
+            "special",
+            "normal",
+            null,
+            null,
+            40,
+            "Aullido que sube el √°nimo y aumenta el Ataque."
+        ],
+        [
+            "A Bocajarro",
+            "physical",
+            "fighting",
+            120,
+            100,
+            5,
+            "Lucha abiertamente contra el objetivo sin\nprotegerse. Tambi√©n reduce la Defensa y la\nDefensa Especial del usuario."
+        ],
+        [
+            "Buena Baza",
+            "physical",
+            "dark",
+            60,
+            100,
+            10,
+            "Si el objetivo ya ha sufrido da√±o en ese turno, la\nfuerza del ataque se duplica."
+        ],
+        [
+            "Puya Nociva",
+            "physical",
+            "poison",
+            80,
+            100,
+            20,
+            "Pincha al objetivo con un tent√°culo o brazo\nenvenenado. Puede llegar a envenenar al objetivo."
+        ],
+        [
+            "Tajo A√©reo",
+            "special",
+            "flying",
+            75,
+            95,
+            15,
+            "Ataca con una hoja de aire que incluso corta el\ncielo. Tambi√©n puede hacer retroceder al objetivo."
+        ],
+        [
+            "Onda Certera",
+            "special",
+            "fighting",
+            120,
+            70,
+            5,
+            "Agudiza la concentraci√≥n mental y libera su poder.\nPuede disminuir la Defensa Especial del objetivo."
+        ],
+        [
+            "Gigaimpacto",
+            "physical",
+            "normal",
+            150,
+            90,
+            5,
+            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pok√©mon descansa el turno siguiente."
+        ],
+        [
+            "Colmillo Rayo",
+            "physical",
+            "electric",
+            65,
+            95,
+            15,
+            "Usa colmillos electrificados para morder. Puede\nhacer que el objetivo retroceda o se paralice."
+        ],
+        [
+            "Colmillo Hielo",
+            "physical",
+            "ice",
+            65,
+            95,
+            15,
+            "Usa colmillos helados para morder. Puede hacer\nque el objetivo retroceda o se congele."
+        ],
+        [
+            "Colmillo √çgneo",
+            "physical",
+            "fire",
+            65,
+            95,
+            15,
+            "Usa colmillos en llamas para morder. Puede hacer\nque el objetivo retroceda o reciba quemaduras."
+        ],
+        [
+            "Psicocorte",
+            "physical",
+            "psychic",
+            70,
+            100,
+            20,
+            "Ataca al objetivo con cuchillas formadas por\nenerg√≠a ps√≠quica. Suele ser cr√≠tico."
+        ],
+        [
+            "Foco Resplandor",
+            "special",
+            "steel",
+            80,
+            100,
+            10,
+            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
+        ],
+        [
+            "Cabeza de Hierro",
+            "physical",
+            "steel",
+            80,
+            100,
+            15,
+            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Anticipo",
+            "special",
+            "fighting",
+            null,
+            null,
+            15,
+            "Protege a todo el equipo de los movimientos que\nse adelantan y atacan primero."
+        ],
+        [
+            "Represalia",
+            "physical",
+            "normal",
+            70,
+            100,
+            5,
+            "Venga a los amigos derrotados. Si en el turno\nanterior han derrotado a uno, la potencia del\nataque aumentar√°."
+        ],
+        [
+            "Avivar",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Quien lo usa se concentra y potencia su Ataque y\nsu Ataque Especial."
+        ],
+        [
+            "Voltio Cruel",
+            "physical",
+            "electric",
+            90,
+            100,
+            15,
+            "Carga el√©ctrica muy potente que tambi√©n hiere\nligeramente a quien la usa."
+        ],
+        [
+            "Espada Santa",
+            "physical",
+            "fighting",
+            90,
+            100,
+            15,
+            "El usuario ataca con una espada, ignorando\ncualquier cambio en las caracter√≠sticas del\nobjetivo."
+        ],
+        [
+            "Plumerazo",
+            "physical",
+            "normal",
+            25,
+            85,
+            10,
+            "Golpea con la cola u otras partes de su cuerpo de\ndos a cinco veces seguidas."
+        ],
+        [
+            "Alarido",
+            "special",
+            "dark",
+            55,
+            95,
+            15,
+            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
+        ],
+        [
+            "Rugido de Guerra",
+            "special",
+            "normal",
+            null,
+            100,
+            30,
+            "Intimida a su oponente con un rugido de guerra,\nhaciendo que disminuyan tanto su Ataque como\nsu Ataque Especial."
+        ],
+        [
+            "Campo de Niebla",
+            "special",
+            "fairy",
+            null,
+            null,
+            10,
+            "Cubre de niebla el terreno de combate durante\ncinco turnos. Los Pok√©mon que est√©n en el suelo\nno se ven afectados por cambios de estado."
+        ],
+        [
+            "Caranto√±a",
+            "physical",
+            "fairy",
+            90,
+            90,
+            10,
+            "El Pok√©mon que lo usa le hace cucamonas al\nobjetivo y lo ataca. Puede disminuir el Ataque\ndel objetivo."
+        ],
+        [
+            "Fuerza Lunar",
+            "special",
+            "fairy",
+            95,
+            100,
+            15,
+            "Invoca el poder de la luna para atacar al objetivo.\nPuede disminuir el Ataque Especial del objetivo."
+        ],
+        [
+            "Brillo M√°gico",
+            "special",
+            "fairy",
+            80,
+            100,
+            10,
+            "Inflige da√±o a los oponentes con una potente luz."
+        ],
+        [
+            "Cuchilla Solar",
+            "physical",
+            "grass",
+            125,
+            100,
+            10,
+            "El usuario dedica un turno a absorber energ√≠a\nlum√≠nica y concentrarla en forma de cuchilla con la\nque ataca al rival al turno siguiente."
+        ],
+        [
+            "Aguzar",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "El usuario se concentra para que el siguiente ataque\npropine un golpe cr√≠tico."
+        ],
+        [
+            "Giro Vil",
+            "physical",
+            "dark",
+            60,
+            100,
+            20,
+            "Hace pivotar su cuerpo para infligir da√±o a su rival."
+        ],
+        [
+            "Psicocolmillo",
+            "physical",
+            "psychic",
+            85,
+            100,
+            10,
+            "Ataca a sus rivales con poderes ps√≠quicos que\nadem√°s destruyen barreras como Pantalla de Luz y\nReflejo."
+        ],
+        [
+            "Metal√°ser",
+            "special",
+            "steel",
+            140,
+            95,
+            5,
+            "Utiliza el acero de su cuerpo para disparar un potente\nrayo. Tambi√©n hiere al agresor."
+        ],
+        [
+            "",
+            "special",
+            "normal",
+            80,
+            100,
+            10,
+            ""
+        ],
+        [
+            "",
+            "physical",
+            "grass",
+            50,
+            100,
+            20,
+            ""
+        ]
+    ],
+    92,
+    120,
+    115,
+    80,
+    115,
+    138
 ]

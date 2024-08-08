@@ -1,24 +1,24 @@
-[
-    "ditto",
-    132,
-    [
-        "normal"
-    ],
-    [
-        [
-            "Transformación",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "El usuario se transforma en una copia del objetivo,\ncon los mismos movimientos."
-        ]
-    ],
-    48,
-    48,
-    48,
-    48,
-    48,
-    48
+[
+    "ditto",
+    132,
+    [
+        "normal"
+    ],
+    [
+        [
+            "TransformaciÃ³n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "El usuario se transforma en una copia del objetivo,\ncon los mismos movimientos."
+        ]
+    ],
+    48,
+    48,
+    48,
+    48,
+    48,
+    48
 ]

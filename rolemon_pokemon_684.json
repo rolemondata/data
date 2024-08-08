@@ -1,537 +1,537 @@
-[
-    "swirlix",
-    684,
-    [
-        "fairy"
-    ],
-    [
-        [
-            "Placaje",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Embiste con todo el cuerpo."
-        ],
-        [
-            "Lanzallamas",
-            "special",
-            "fire",
-            90,
-            100,
-            15,
-            "Ataca con una gran r·faga de fuego que puede\ncausar quemaduras."
-        ],
-        [
-            "Surf",
-            "special",
-            "water",
-            90,
-            100,
-            15,
-            "Inunda el campo de batalla con una ola gigante.\nFuera de batalla sirve para moverse sobre el agua."
-        ],
-        [
-            "Disparo Demora",
-            "special",
-            "bug",
-            null,
-            95,
-            40,
-            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque elÈctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "TÛxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daÒo\nmayor en cada turno."
-        ],
-        [
-            "PsÌquico",
-            "special",
-            "psychic",
-            90,
-            100,
-            10,
-            "Fuerte ataque telequinÈtico que puede bajar la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sÌ mismo para mejorar la EvasiÛn."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaÒo producido por los ataques especiales."
-        ],
-        [
-            "Amnesia",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "El usuario olvida sus preocupaciones y aumenta\nmucho la Defensa Especial."
-        ],
-        [
-            "ComesueÒos",
-            "special",
-            "psychic",
-            100,
-            100,
-            15,
-            "Restaura al usuario la mitad del daÒo causado a un\nobjetivo dormido."
-        ],
-        [
-            "Destello",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Luz cegadora que baja la PrecisiÛn del objetivo."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos prÛximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que act˙a como seÒuelo."
-        ],
-        [
-            "LadrÛn",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robar· el del\nobjetivo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "EsporagodÛn",
-            "special",
-            "grass",
-            null,
-            100,
-            40,
-            "Adhiere esporas a los rivales para reducir mucho\nsu Velocidad."
-        ],
-        [
-            "ProtecciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Tambor",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Reduce la mitad de los PS m·ximos para mejorar\nal m·ximo el Ataque."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Encanto",
-            "special",
-            "fairy",
-            null,
-            100,
-            20,
-            "Engatusa al objetivo y reduce bastante su Ataque."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusiÛn en el objetivo, pero tambiÈn\nsube mucho su Ataque."
-        ],
-        [
-            "AtracciÛn",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorar· y\nbajar· la posibilidad de que ataque."
-        ],
-        [
-            "Son·mbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Campana Cura",
-            "special",
-            "normal",
-            null,
-            null,
-            5,
-            "TaÒido que cura los problemas de estado de todos\nlos PokÈmon del equipo."
-        ],
-        [
-            "RetribuciÛn",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto mayor sea la amistad con el Entrenador,\nm·s poderoso ser· este ataque."
-        ],
-        [
-            "FrustraciÛn",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto menor sea la amistad con el Entrenador,\nm·s poderoso ser· este ataque."
-        ],
-        [
-            "Velo Sagrado",
-            "special",
-            "normal",
-            null,
-            null,
-            25,
-            "Un escudo que protege de problemas de estado,\ncomo el sueÒo o la par·lisis, durante cinco turnos."
-        ],
-        [
-            "Dulce Aroma",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Un dulce aroma engatusa al objetivo, por lo que\nse reduce mucho su EvasiÛn. En la hierba\nalta sirve para atraer a PokÈmon salvajes."
-        ],
-        [
-            "Poder Oculto",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Movimiento cuyo tipo varÌa en funciÛn del\nPokÈmon que lo usa."
-        ],
-        [
-            "Danza Lluvia",
-            "special",
-            "water",
-            null,
-            null,
-            5,
-            "Genera una fuerte lluvia que refuerza los\nmovimientos de tipo Agua durante cinco turnos."
-        ],
-        [
-            "DÌa Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "M·s Psique",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Quien lo usa se hipnotiza y copia cualquier cambio\nque haya en las caracterÌsticas de su objetivo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario est·\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Deseo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Restaura la mitad de los PS m·ximos en el\nsiguiente turno."
-        ],
-        [
-            "Capa M·gica",
-            "special",
-            "psychic",
-            null,
-            null,
-            15,
-            "Barrera capaz de devolver al agresor movimientos\ncomo Drenadoras y otros que alteran el estado o\nlas caracterÌsticas."
-        ],
-        [
-            "Bostezo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Gran bostezo que induce al sueÒo al objetivo en\nel siguiente turno."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "DaÒo Secreto",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataque con poder secreto cuyos efectos\nsecundarios varÌan seg˙n el entorno de combate."
-        ],
-        [
-            "Aromaterapia",
-            "special",
-            "grass",
-            null,
-            null,
-            5,
-            "Cura todos los problemas de estado del equipo\ncon un suave aroma."
-        ],
-        [
-            "Llanto Falso",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "L·grimas de cocodrilo que bajan mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Antojo",
-            "physical",
-            "normal",
-            60,
-            100,
-            25,
-            "Se acerca con ternura al objetivo, pero le ataca\ny le roba el objeto que lleve."
-        ],
-        [
-            "Paz Mental",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Aumenta la concentraciÛn y calma el espÌritu para\nsubir el Ataque Especial y la Defensa Especial."
-        ],
-        [
-            "Bilis",
-            "special",
-            "poison",
-            null,
-            100,
-            10,
-            "El usuario arroja sus jugos biliares al objetivo, lo\nque anula el efecto de la habilidad en uso."
-        ],
-        [
-            "CopiÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Imita el movimiento usado justo antes.\nEl movimiento falla si no se ha usado a˙n ninguno."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "A˙na fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Cede Paso",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Si el usuario es el m·s r·pido, permite al objetivo\nusar un movimiento justo tras Èl, adelant·ndose a\nPokÈmon m·s r·pidos."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos m·s\nPokÈmon lo usan, m·s aumenta de potencia."
-        ],
-        [
-            "Rizo AlgodÛn",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Cubre al PokÈmon con una madeja protectora.\nAumenta muchÌsimo la Defensa."
-        ],
-        [
-            "Red Viscosa",
-            "special",
-            "bug",
-            null,
-            null,
-            20,
-            "Coloca una red pegajosa alrededor del equipo\nrival, haciendo que baje la Velocidad de cualquier\nPokÈmon adversario que entre al combate."
-        ],
-        [
-            "Beso Drenaje",
-            "special",
-            "fairy",
-            50,
-            100,
-            10,
-            "Absorbe PS del objetivo con un beso y restaura\nsu propia energÌa en una cantidad igual o superior\na la mitad del daÒo infligido."
-        ],
-        [
-            "CarantoÒa",
-            "physical",
-            "fairy",
-            90,
-            90,
-            10,
-            "El PokÈmon que lo usa le hace cucamonas al\nobjetivo y lo ataca. Puede disminuir el Ataque\ndel objetivo."
-        ],
-        [
-            "Viento FeÈrico",
-            "special",
-            "fairy",
-            40,
-            100,
-            30,
-            "El PokÈmon que lo usa desata un vendaval feÈrico\nque arremete contra el objetivo."
-        ],
-        [
-            "CamaraderÌa",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Se hace amigo de su oponente y consigue que a\neste se le quiten las ganas de combatir. Adem·s,\nreduce su Ataque."
-        ],
-        [
-            "Confidencia",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Hace que el objetivo pierda la concentraciÛn\ncont·ndole un secreto. Disminuye el Ataque\nEspecial del oponente."
-        ],
-        [
-            "Brillo M·gico",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            "Inflige daÒo a los oponentes con una potente luz."
-        ],
-        [
-            "Bruma Explosiva",
-            "special",
-            "fairy",
-            100,
-            100,
-            5,
-            "El usuario ataca a todos a su alrededor, pero se debilita\nde inmediato. La potencia del movimiento aumenta si el\nterreno est· cubierto por un campo de niebla."
-        ]
-    ],
-    62,
-    48,
-    66,
-    59,
-    57,
-    49
+[
+    "swirlix",
+    684,
+    [
+        "fairy"
+    ],
+    [
+        [
+            "Placaje",
+            "physical",
+            "normal",
+            40,
+            100,
+            35,
+            "Embiste con todo el cuerpo."
+        ],
+        [
+            "Lanzallamas",
+            "special",
+            "fire",
+            90,
+            100,
+            15,
+            "Ataca con una gran r√°faga de fuego que puede\ncausar quemaduras."
+        ],
+        [
+            "Surf",
+            "special",
+            "water",
+            90,
+            100,
+            15,
+            "Inunda el campo de batalla con una ola gigante.\nFuera de batalla sirve para moverse sobre el agua."
+        ],
+        [
+            "Disparo Demora",
+            "special",
+            "bug",
+            null,
+            95,
+            40,
+            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
+        ],
+        [
+            "Rayo",
+            "special",
+            "electric",
+            90,
+            100,
+            15,
+            "Potente ataque el√©ctrico que puede paralizar al\nobjetivo."
+        ],
+        [
+            "T√≥xico",
+            "special",
+            "poison",
+            null,
+            90,
+            10,
+            "Envenena gravemente al objetivo y causa un da√±o\nmayor en cada turno."
+        ],
+        [
+            "Ps√≠quico",
+            "special",
+            "psychic",
+            90,
+            100,
+            10,
+            "Fuerte ataque telequin√©tico que puede bajar la\nDefensa Especial del objetivo."
+        ],
+        [
+            "Doble Equipo",
+            "special",
+            "normal",
+            null,
+            null,
+            15,
+            "Crea copias de s√≠ mismo para mejorar la Evasi√≥n."
+        ],
+        [
+            "Pantalla de Luz",
+            "special",
+            "psychic",
+            null,
+            null,
+            30,
+            "Pared de luz que reduce durante cinco turnos el\nda√±o producido por los ataques especiales."
+        ],
+        [
+            "Amnesia",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "El usuario olvida sus preocupaciones y aumenta\nmucho la Defensa Especial."
+        ],
+        [
+            "Comesue√±os",
+            "special",
+            "psychic",
+            100,
+            100,
+            15,
+            "Restaura al usuario la mitad del da√±o causado a un\nobjetivo dormido."
+        ],
+        [
+            "Destello",
+            "special",
+            "normal",
+            null,
+            100,
+            20,
+            "Luz cegadora que baja la Precisi√≥n del objetivo."
+        ],
+        [
+            "Descanso",
+            "special",
+            "psychic",
+            null,
+            null,
+            5,
+            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos pr√≥ximos\nturnos."
+        ],
+        [
+            "Sustituto",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Utiliza parte de los PS propios para crear un\nsustituto que act√∫a como se√±uelo."
+        ],
+        [
+            "Ladr√≥n",
+            "physical",
+            "dark",
+            60,
+            100,
+            25,
+            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robar√° el del\nobjetivo."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Esporagod√≥n",
+            "special",
+            "grass",
+            null,
+            100,
+            40,
+            "Adhiere esporas a los rivales para reducir mucho\nsu Velocidad."
+        ],
+        [
+            "Protecci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
+        ],
+        [
+            "Tambor",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Reduce la mitad de los PS m√°ximos para mejorar\nal m√°ximo el Ataque."
+        ],
+        [
+            "Aguante",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
+        ],
+        [
+            "Encanto",
+            "special",
+            "fairy",
+            null,
+            100,
+            20,
+            "Engatusa al objetivo y reduce bastante su Ataque."
+        ],
+        [
+            "Contoneo",
+            "special",
+            "normal",
+            null,
+            85,
+            15,
+            "Provoca confusi√≥n en el objetivo, pero tambi√©n\nsube mucho su Ataque."
+        ],
+        [
+            "Atracci√≥n",
+            "special",
+            "normal",
+            null,
+            100,
+            15,
+            "Si el objetivo es del sexo opuesto, se enamorar√° y\nbajar√° la posibilidad de que ataque."
+        ],
+        [
+            "Son√°mbulo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
+        ],
+        [
+            "Campana Cura",
+            "special",
+            "normal",
+            null,
+            null,
+            5,
+            "Ta√±ido que cura los problemas de estado de todos\nlos Pok√©mon del equipo."
+        ],
+        [
+            "Retribuci√≥n",
+            "physical",
+            "normal",
+            null,
+            100,
+            20,
+            "Cuanto mayor sea la amistad con el Entrenador,\nm√°s poderoso ser√° este ataque."
+        ],
+        [
+            "Frustraci√≥n",
+            "physical",
+            "normal",
+            null,
+            100,
+            20,
+            "Cuanto menor sea la amistad con el Entrenador,\nm√°s poderoso ser√° este ataque."
+        ],
+        [
+            "Velo Sagrado",
+            "special",
+            "normal",
+            null,
+            null,
+            25,
+            "Un escudo que protege de problemas de estado,\ncomo el sue√±o o la par√°lisis, durante cinco turnos."
+        ],
+        [
+            "Dulce Aroma",
+            "special",
+            "normal",
+            null,
+            100,
+            20,
+            "Un dulce aroma engatusa al objetivo, por lo que\nse reduce mucho su Evasi√≥n. En la hierba\nalta sirve para atraer a Pok√©mon salvajes."
+        ],
+        [
+            "Poder Oculto",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Movimiento cuyo tipo var√≠a en funci√≥n del\nPok√©mon que lo usa."
+        ],
+        [
+            "Danza Lluvia",
+            "special",
+            "water",
+            null,
+            null,
+            5,
+            "Genera una fuerte lluvia que refuerza los\nmovimientos de tipo Agua durante cinco turnos."
+        ],
+        [
+            "D√≠a Soleado",
+            "special",
+            "fire",
+            null,
+            null,
+            5,
+            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
+        ],
+        [
+            "M√°s Psique",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Quien lo usa se hipnotiza y copia cualquier cambio\nque haya en las caracter√≠sticas de su objetivo."
+        ],
+        [
+            "Imagen",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataca con el doble de potencia si el usuario est√°\nquemado, paralizado o envenenado."
+        ],
+        [
+            "Refuerzo",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
+        ],
+        [
+            "Deseo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Restaura la mitad de los PS m√°ximos en el\nsiguiente turno."
+        ],
+        [
+            "Capa M√°gica",
+            "special",
+            "psychic",
+            null,
+            null,
+            15,
+            "Barrera capaz de devolver al agresor movimientos\ncomo Drenadoras y otros que alteran el estado o\nlas caracter√≠sticas."
+        ],
+        [
+            "Bostezo",
+            "special",
+            "normal",
+            null,
+            null,
+            10,
+            "Gran bostezo que induce al sue√±o al objetivo en\nel siguiente turno."
+        ],
+        [
+            "Esfuerzo",
+            "physical",
+            "normal",
+            null,
+            100,
+            5,
+            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
+        ],
+        [
+            "Da√±o Secreto",
+            "physical",
+            "normal",
+            70,
+            100,
+            20,
+            "Ataque con poder secreto cuyos efectos\nsecundarios var√≠an seg√∫n el entorno de combate."
+        ],
+        [
+            "Aromaterapia",
+            "special",
+            "grass",
+            null,
+            null,
+            5,
+            "Cura todos los problemas de estado del equipo\ncon un suave aroma."
+        ],
+        [
+            "Llanto Falso",
+            "special",
+            "dark",
+            null,
+            100,
+            20,
+            "L√°grimas de cocodrilo que bajan mucho la\nDefensa Especial del objetivo."
+        ],
+        [
+            "Antojo",
+            "physical",
+            "normal",
+            60,
+            100,
+            25,
+            "Se acerca con ternura al objetivo, pero le ataca\ny le roba el objeto que lleve."
+        ],
+        [
+            "Paz Mental",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Aumenta la concentraci√≥n y calma el esp√≠ritu para\nsubir el Ataque Especial y la Defensa Especial."
+        ],
+        [
+            "Bilis",
+            "special",
+            "poison",
+            null,
+            100,
+            10,
+            "El usuario arroja sus jugos biliares al objetivo, lo\nque anula el efecto de la habilidad en uso."
+        ],
+        [
+            "Copi√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Imita el movimiento usado justo antes.\nEl movimiento falla si no se ha usado a√∫n ninguno."
+        ],
+        [
+            "Energibola",
+            "special",
+            "grass",
+            90,
+            100,
+            10,
+            "A√∫na fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
+        ],
+        [
+            "Cede Paso",
+            "special",
+            "normal",
+            null,
+            null,
+            15,
+            "Si el usuario es el m√°s r√°pido, permite al objetivo\nusar un movimiento justo tras √©l, adelant√°ndose a\nPok√©mon m√°s r√°pidos."
+        ],
+        [
+            "Canon",
+            "special",
+            "normal",
+            60,
+            100,
+            15,
+            "Un canto que ataca al objetivo. Cuantos m√°s\nPok√©mon lo usan, m√°s aumenta de potencia."
+        ],
+        [
+            "Rizo Algod√≥n",
+            "special",
+            "grass",
+            null,
+            null,
+            10,
+            "Cubre al Pok√©mon con una madeja protectora.\nAumenta much√≠simo la Defensa."
+        ],
+        [
+            "Red Viscosa",
+            "special",
+            "bug",
+            null,
+            null,
+            20,
+            "Coloca una red pegajosa alrededor del equipo\nrival, haciendo que baje la Velocidad de cualquier\nPok√©mon adversario que entre al combate."
+        ],
+        [
+            "Beso Drenaje",
+            "special",
+            "fairy",
+            50,
+            100,
+            10,
+            "Absorbe PS del objetivo con un beso y restaura\nsu propia energ√≠a en una cantidad igual o superior\na la mitad del da√±o infligido."
+        ],
+        [
+            "Caranto√±a",
+            "physical",
+            "fairy",
+            90,
+            90,
+            10,
+            "El Pok√©mon que lo usa le hace cucamonas al\nobjetivo y lo ataca. Puede disminuir el Ataque\ndel objetivo."
+        ],
+        [
+            "Viento Fe√©rico",
+            "special",
+            "fairy",
+            40,
+            100,
+            30,
+            "El Pok√©mon que lo usa desata un vendaval fe√©rico\nque arremete contra el objetivo."
+        ],
+        [
+            "Camarader√≠a",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Se hace amigo de su oponente y consigue que a\neste se le quiten las ganas de combatir. Adem√°s,\nreduce su Ataque."
+        ],
+        [
+            "Confidencia",
+            "special",
+            "normal",
+            null,
+            null,
+            20,
+            "Hace que el objetivo pierda la concentraci√≥n\ncont√°ndole un secreto. Disminuye el Ataque\nEspecial del oponente."
+        ],
+        [
+            "Brillo M√°gico",
+            "special",
+            "fairy",
+            80,
+            100,
+            10,
+            "Inflige da√±o a los oponentes con una potente luz."
+        ],
+        [
+            "Bruma Explosiva",
+            "special",
+            "fairy",
+            100,
+            100,
+            5,
+            "El usuario ataca a todos a su alrededor, pero se debilita\nde inmediato. La potencia del movimiento aumenta si el\nterreno est√° cubierto por un campo de niebla."
+        ]
+    ],
+    62,
+    48,
+    66,
+    59,
+    57,
+    49
 ]

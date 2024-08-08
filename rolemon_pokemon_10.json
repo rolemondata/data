@@ -1,60 +1,60 @@
-[
-    "caterpie",
-    10,
-    [
-        "bug"
-    ],
-    [
-        [
-            "Placaje",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Embiste con todo el cuerpo."
-        ],
-        [
-            "Disparo Demora",
-            "special",
-            "bug",
-            null,
-            95,
-            40,
-            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Electrotela",
-            "special",
-            "electric",
-            55,
-            95,
-            15,
-            "Atrapa y ataca a los objetivos con una telaraña\neléctrica. También reduce su Velocidad."
-        ]
-    ],
-    45,
-    30,
-    35,
-    20,
-    20,
-    45
+[
+    "caterpie",
+    10,
+    [
+        "bug"
+    ],
+    [
+        [
+            "Placaje",
+            "physical",
+            "normal",
+            40,
+            100,
+            35,
+            "Embiste con todo el cuerpo."
+        ],
+        [
+            "Disparo Demora",
+            "special",
+            "bug",
+            null,
+            95,
+            40,
+            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
+        ],
+        [
+            "Ronquido",
+            "special",
+            "normal",
+            50,
+            100,
+            15,
+            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
+        ],
+        [
+            "Picadura",
+            "physical",
+            "bug",
+            60,
+            100,
+            20,
+            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
+        ],
+        [
+            "Electrotela",
+            "special",
+            "electric",
+            55,
+            95,
+            15,
+            "Atrapa y ataca a los objetivos con una telaraÃ±a\nelÃ©ctrica. TambiÃ©n reduce su Velocidad."
+        ]
+    ],
+    45,
+    30,
+    35,
+    20,
+    20,
+    45
 ]

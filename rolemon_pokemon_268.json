@@ -1,60 +1,60 @@
-[
-    "cascoon",
-    268,
-    [
-        "bug"
-    ],
-    [
-        [
-            "Disparo Demora",
-            "special",
-            "bug",
-            null,
-            95,
-            40,
-            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
-        ],
-        [
-            "Fortaleza",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Tensa la musculatura del usuario para aumentar\nla Defensa."
-        ],
-        [
-            "Defensa Férrea",
-            "special",
-            "steel",
-            null,
-            null,
-            15,
-            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Electrotela",
-            "special",
-            "electric",
-            55,
-            95,
-            15,
-            "Atrapa y ataca a los objetivos con una telaraña\neléctrica. También reduce su Velocidad."
-        ]
-    ],
-    50,
-    35,
-    55,
-    25,
-    25,
-    15
+[
+    "cascoon",
+    268,
+    [
+        "bug"
+    ],
+    [
+        [
+            "Disparo Demora",
+            "special",
+            "bug",
+            null,
+            95,
+            40,
+            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
+        ],
+        [
+            "Fortaleza",
+            "special",
+            "normal",
+            null,
+            null,
+            30,
+            "Tensa la musculatura del usuario para aumentar\nla Defensa."
+        ],
+        [
+            "Defensa FÃ©rrea",
+            "special",
+            "steel",
+            null,
+            null,
+            15,
+            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
+        ],
+        [
+            "Picadura",
+            "physical",
+            "bug",
+            60,
+            100,
+            20,
+            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
+        ],
+        [
+            "Electrotela",
+            "special",
+            "electric",
+            55,
+            95,
+            15,
+            "Atrapa y ataca a los objetivos con una telaraÃ±a\nelÃ©ctrica. TambiÃ©n reduce su Velocidad."
+        ]
+    ],
+    50,
+    35,
+    55,
+    25,
+    25,
+    15
 ]

@@ -1,60 +1,60 @@
-[
-    "blipbug",
-    824,
-    [
-        "bug"
-    ],
-    [
-        [
-            "SupersÛnico",
-            "special",
-            "normal",
-            null,
-            55,
-            20,
-            "Raras ondas sÛnicas que confunden al objetivo."
-        ],
-        [
-            "RecuperaciÛn",
-            "special",
-            "normal",
-            null,
-            null,
-            5,
-            "Restaura hasta la mitad de los PS m·ximos."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. TambiÈn reduce su Ataque Especial.\n"
-        ],
-        [
-            "Red Viscosa",
-            "special",
-            "bug",
-            null,
-            null,
-            20,
-            "Coloca una red pegajosa alrededor del equipo\nrival, haciendo que baje la Velocidad de cualquier\nPokÈmon adversario que entre al combate."
-        ],
-        [
-            "Acoso",
-            "special",
-            "bug",
-            20,
-            100,
-            20,
-            "Hostiga al PokÈmon objetivo durante cuatro o\ncinco turnos e impide que pueda huir mientras\ntanto."
-        ]
-    ],
-    25,
-    20,
-    20,
-    25,
-    45,
-    45
+[
+    "blipbug",
+    824,
+    [
+        "bug"
+    ],
+    [
+        [
+            "Supers√≥nico",
+            "special",
+            "normal",
+            null,
+            55,
+            20,
+            "Raras ondas s√≥nicas que confunden al objetivo."
+        ],
+        [
+            "Recuperaci√≥n",
+            "special",
+            "normal",
+            null,
+            null,
+            5,
+            "Restaura hasta la mitad de los PS m√°ximos."
+        ],
+        [
+            "Estoicismo",
+            "special",
+            "bug",
+            50,
+            100,
+            20,
+            "El usuario opone resistencia y ataca a los\noponentes. Tambi√©n reduce su Ataque Especial.\n"
+        ],
+        [
+            "Red Viscosa",
+            "special",
+            "bug",
+            null,
+            null,
+            20,
+            "Coloca una red pegajosa alrededor del equipo\nrival, haciendo que baje la Velocidad de cualquier\nPok√©mon adversario que entre al combate."
+        ],
+        [
+            "Acoso",
+            "special",
+            "bug",
+            20,
+            100,
+            20,
+            "Hostiga al Pok√©mon objetivo durante cuatro o\ncinco turnos e impide que pueda huir mientras\ntanto."
+        ]
+    ],
+    25,
+    20,
+    20,
+    25,
+    45,
+    45
 ]

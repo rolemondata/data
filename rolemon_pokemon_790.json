@@ -1,33 +1,33 @@
-[
-    "cosmoem",
-    790,
-    [
-        "psychic"
-    ],
-    [
-        [
-            "Teletransporte",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Permite huir al instante de combates contra\nPokémon salvajes o viajar al último Centro\nPokémon visitado."
-        ],
-        [
-            "Masa Cósmica",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Sube la Defensa y la Defensa Especial propias con\nenergía mística."
-        ]
-    ],
-    43,
-    29,
-    131,
-    29,
-    131,
-    37
+[
+    "cosmoem",
+    790,
+    [
+        "psychic"
+    ],
+    [
+        [
+            "Teletransporte",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Permite huir al instante de combates contra\nPokÃ©mon salvajes o viajar al Ãºltimo Centro\nPokÃ©mon visitado."
+        ],
+        [
+            "Masa CÃ³smica",
+            "special",
+            "psychic",
+            null,
+            null,
+            20,
+            "Sube la Defensa y la Defensa Especial propias con\nenergÃ­a mÃ­stica."
+        ]
+    ],
+    43,
+    29,
+    131,
+    29,
+    131,
+    37
 ]
