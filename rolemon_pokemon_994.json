@@ -1,484 +1,967 @@
-[
-    "iron-moth",
-    994,
-    [
-        "fire",
-        "poison"
-    ],
-    [
-        [
-            "Tornado",
-            "special",
-            "flying",
-            40,
-            100,
-            35,
-            "Crea un tornado con las alas y lo lanza contra\nel objetivo."
-        ],
-        [
-            "Remolino",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Se lleva al objetivo, que es cambiado por otro\nPokémon. Si es un Pokémon salvaje, acaba el\ncombate."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Ascuas",
-            "special",
-            "fire",
-            40,
-            100,
-            25,
-            "Ataca con llamas pequeñas que pueden causar\nquemaduras."
-        ],
-        [
-            "Lanzallamas",
-            "special",
-            "fire",
-            90,
-            100,
-            15,
-            "Ataca con una gran ráfaga de fuego que puede\ncausar quemaduras."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energía."
-        ],
-        [
-            "Giro Fuego",
-            "special",
-            "fire",
-            35,
-            85,
-            15,
-            "Un aro de fuego que atrapa al objetivo de cuatro\na cinco turnos."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Psíquico",
-            "special",
-            "psychic",
-            90,
-            100,
-            10,
-            "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Chirrido",
-            "special",
-            "normal",
-            null,
-            85,
-            40,
-            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
-        ],
-        [
-            "Rayo Confuso",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Rayo siniestro que confunde al objetivo."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques especiales."
-        ],
-        [
-            "Llamarada",
-            "special",
-            "fire",
-            110,
-            85,
-            5,
-            "Llama intensa que chamusca y puede causar\nquemaduras."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Sol Matinal",
-            "special",
-            "normal",
-            null,
-            null,
-            5,
-            "Restaura PS del usuario. La cantidad varía según\nel tiempo que haga."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Onda Ígnea",
-            "special",
-            "fire",
-            95,
-            90,
-            10,
-            "Provoca un viento abrasador que puede quemar al\nobjetivo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Sofoco",
-            "special",
-            "fire",
-            130,
-            90,
-            5,
-            "Ataque en toda regla que baja mucho el Ataque\nEspecial de quien lo usa."
-        ],
-        [
-            "Eco Metálico",
-            "special",
-            "steel",
-            null,
-            85,
-            40,
-            "Horrible chirrido metálico que baja mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Púas Tóxicas",
-            "special",
-            "poison",
-            null,
-            null,
-            20,
-            "Lanza una trampa de púas tóxicas a los pies del\nobjetivo. El veneno afecta a los Pokémon que\nentran en combate."
-        ],
-        [
-            "Envite Ígneo",
-            "physical",
-            "fire",
-            120,
-            100,
-            15,
-            "El Pokémon se cubre de llamas y carga contra el\nobjetivo, aunque él también recibe daños. Puede\nquemar."
-        ],
-        [
-            "Tajo Aéreo",
-            "special",
-            "flying",
-            75,
-            95,
-            15,
-            "Ataca con una hoja de aire que incluso corta el\ncielo. También puede hacer retroceder al objetivo."
-        ],
-        [
-            "Zumbido",
-            "special",
-            "bug",
-            90,
-            100,
-            10,
-            "El movimiento de las alas crea una onda sónica\ndañina. También puede disminuir la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "Aúna fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Foco Resplandor",
-            "special",
-            "steel",
-            80,
-            100,
-            10,
-            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
-        ],
-        [
-            "Chispazo",
-            "special",
-            "electric",
-            80,
-            100,
-            15,
-            "Una deslumbradora onda eléctrica afecta a los\nPokémon que hay combatiendo alrededor. Puede\nparalizar."
-        ],
-        [
-            "Rayo Carga",
-            "special",
-            "electric",
-            50,
-            90,
-            10,
-            "Lanza un rayo eléctrico contra el objetivo. Puede\nsubir el Ataque Especial de quien lo usa."
-        ],
-        [
-            "Carga Tóxica",
-            "special",
-            "poison",
-            65,
-            100,
-            10,
-            "Ataca cubriendo al objetivo con un líquido\nvenenoso. El daño será doble si este ya está\nenvenenado."
-        ],
-        [
-            "Onda Tóxica",
-            "special",
-            "poison",
-            95,
-            100,
-            10,
-            "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar."
-        ],
-        [
-            "Nitrocarga",
-            "physical",
-            "fire",
-            50,
-            100,
-            20,
-            "Llamas que golpean al objetivo y aumentan la\nVelocidad del atacante."
-        ],
-        [
-            "Bomba Ácida",
-            "special",
-            "poison",
-            40,
-            100,
-            20,
-            "Ataca con un líquido corrosivo, reduciendo mucho\nla Defensa Especial del objetivo."
-        ],
-        [
-            "Acróbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ágilmente. Si el usuario no porta ningún\nobjeto, el objetivo resulta seriamente dañado."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. También reduce su Ataque Especial.\n"
-        ],
-        [
-            "Vendaval",
-            "special",
-            "flying",
-            110,
-            70,
-            10,
-            "Golpea al objetivo con un fuerte torbellino que\nenvuelve al rival y puede confundirlo."
-        ],
-        [
-            "Danza Llama",
-            "special",
-            "fire",
-            80,
-            100,
-            10,
-            "Envuelve en llamas y daña al objetivo. Puede\naumentar el Ataque Especial de quien lo usa."
-        ],
-        [
-            "Campo Eléctrico",
-            "special",
-            "electric",
-            null,
-            null,
-            10,
-            "Durante cinco turnos, crea un campo eléctrico en\nel terreno de combate que impide dormirse a los\nPokémon que estén en contacto con el suelo."
-        ],
-        [
-            "Brillo Mágico",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            "Inflige daño a los oponentes con una potente luz."
-        ],
-        [
-            "Plancha",
-            "physical",
-            "bug",
-            80,
-            100,
-            15,
-            "Ataca al oponente abalanzándose sobre él con todas\nsus fuerzas y reduce su Ataque."
-        ],
-        [
-            "Rayo Meteórico",
-            "special",
-            "rock",
-            120,
-            90,
-            10,
-            "El usuario dedica el primer turno a aumentar su\nAtaque Especial acumulando energía cósmica y lanza\nsu ofensiva contra el objetivo en el segundo."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "bug",
-            50,
-            100,
-            20,
-            ""
-        ]
-    ],
-    80,
-    70,
-    60,
-    140,
-    110,
-    110
+[
+
+    "iron-moth",
+
+    994,
+
+    [
+
+        "fire",
+
+        "poison"
+
+    ],
+
+    [
+
+        [
+
+            "Tornado",
+
+            "special",
+
+            "flying",
+
+            40,
+
+            100,
+
+            35,
+
+            "Crea un tornado con las alas y lo lanza contra el objetivo."
+
+        ],
+
+        [
+
+            "Remolino",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Ascuas",
+
+            "special",
+
+            "fire",
+
+            40,
+
+            100,
+
+            25,
+
+            "Ataca con llamas pequeñas que pueden causar quemaduras."
+
+        ],
+
+        [
+
+            "Lanzallamas",
+
+            "special",
+
+            "fire",
+
+            90,
+
+            100,
+
+            15,
+
+            "Ataca con una gran ráfaga de fuego que puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Rayo Solar",
+
+            "special",
+
+            "grass",
+
+            120,
+
+            100,
+
+            10,
+
+            "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía."
+
+        ],
+
+        [
+
+            "Giro Fuego",
+
+            "special",
+
+            "fire",
+
+            35,
+
+            85,
+
+            15,
+
+            "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Psíquico",
+
+            "special",
+
+            "psychic",
+
+            90,
+
+            100,
+
+            10,
+
+            "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Chirrido",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            40,
+
+            "Alarido agudo que reduce mucho la Defensa del objetivo."
+
+        ],
+
+        [
+
+            "Rayo Confuso",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            10,
+
+            "Rayo siniestro que confunde al objetivo."
+
+        ],
+
+        [
+
+            "Pantalla de Luz",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+
+        ],
+
+        [
+
+            "Llamarada",
+
+            "special",
+
+            "fire",
+
+            110,
+
+            85,
+
+            5,
+
+            "Llama intensa que chamusca y puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Sol Matinal",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura PS del usuario. La cantidad varía según el tiempo que haga."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Onda Ígnea",
+
+            "special",
+
+            "fire",
+
+            95,
+
+            90,
+
+            10,
+
+            "Provoca un viento abrasador que puede quemar al objetivo."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Sofoco",
+
+            "special",
+
+            "fire",
+
+            130,
+
+            90,
+
+            5,
+
+            "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Eco Metálico",
+
+            "special",
+
+            "steel",
+
+            null,
+
+            85,
+
+            40,
+
+            "Horrible chirrido metálico que baja mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Ida y Vuelta",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Púas Tóxicas",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            null,
+
+            20,
+
+            "Lanza una trampa de púas tóxicas a los pies del objetivo. El veneno afecta a los Pokémon que entran en combate."
+
+        ],
+
+        [
+
+            "Envite Ígneo",
+
+            "physical",
+
+            "fire",
+
+            120,
+
+            100,
+
+            15,
+
+            "El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daños. Puede quemar."
+
+        ],
+
+        [
+
+            "Tajo Aéreo",
+
+            "special",
+
+            "flying",
+
+            75,
+
+            95,
+
+            15,
+
+            "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Zumbido",
+
+            "special",
+
+            "bug",
+
+            90,
+
+            100,
+
+            10,
+
+            "El movimiento de las alas crea una onda sónica dañina. También puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Energibola",
+
+            "special",
+
+            "grass",
+
+            90,
+
+            100,
+
+            10,
+
+            "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Foco Resplandor",
+
+            "special",
+
+            "steel",
+
+            80,
+
+            100,
+
+            10,
+
+            "El usuario concentra toda la luz del cuerpo y la libera. Puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Chispazo",
+
+            "special",
+
+            "electric",
+
+            80,
+
+            100,
+
+            15,
+
+            "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar."
+
+        ],
+
+        [
+
+            "Rayo Carga",
+
+            "special",
+
+            "electric",
+
+            50,
+
+            90,
+
+            10,
+
+            "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Carga Tóxica",
+
+            "special",
+
+            "poison",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+
+        ],
+
+        [
+
+            "Onda Tóxica",
+
+            "special",
+
+            "poison",
+
+            95,
+
+            100,
+
+            10,
+
+            "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar."
+
+        ],
+
+        [
+
+            "Nitrocarga",
+
+            "physical",
+
+            "fire",
+
+            50,
+
+            100,
+
+            20,
+
+            "Llamas que golpean al objetivo y aumentan la Velocidad del atacante."
+
+        ],
+
+        [
+
+            "Bomba Ácida",
+
+            "special",
+
+            "poison",
+
+            40,
+
+            100,
+
+            20,
+
+            "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Acróbata",
+
+            "physical",
+
+            "flying",
+
+            55,
+
+            100,
+
+            15,
+
+            "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Estoicismo",
+
+            "special",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial. "
+
+        ],
+
+        [
+
+            "Vendaval",
+
+            "special",
+
+            "flying",
+
+            110,
+
+            70,
+
+            10,
+
+            "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo."
+
+        ],
+
+        [
+
+            "Danza Llama",
+
+            "special",
+
+            "fire",
+
+            80,
+
+            100,
+
+            10,
+
+            "Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Campo Eléctrico",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            null,
+
+            10,
+
+            "Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo."
+
+        ],
+
+        [
+
+            "Brillo Mágico",
+
+            "special",
+
+            "fairy",
+
+            80,
+
+            100,
+
+            10,
+
+            "Inflige daño a los oponentes con una potente luz."
+
+        ],
+
+        [
+
+            "Plancha",
+
+            "physical",
+
+            "bug",
+
+            80,
+
+            100,
+
+            15,
+
+            "Ataca al oponente abalanzándose sobre él con todas sus fuerzas y reduce su Ataque."
+
+        ],
+
+        [
+
+            "Rayo Meteórico",
+
+            "special",
+
+            "rock",
+
+            120,
+
+            90,
+
+            10,
+
+            "El usuario dedica el primer turno a aumentar su Ataque Especial acumulando energía cósmica y lanza su ofensiva contra el objetivo en el segundo."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ]
+
+    ],
+
+    80,
+
+    70,
+
+    60,
+
+    140,
+
+    110,
+
+    110
+
 ]

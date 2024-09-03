@@ -1,565 +1,1129 @@
-[
-    "cottonee",
-    546,
-    [
-        "grass",
-        "fairy"
-    ],
-    [
-        [
-            "Absorber",
-            "special",
-            "grass",
-            20,
-            100,
-            25,
-            "Absorbe la mitad del daño producido en el objetivo\npara restaurar los PS del usuario."
-        ],
-        [
-            "Megaagotar",
-            "special",
-            "grass",
-            40,
-            100,
-            15,
-            "Absorbe la mitad del daño producido en el objetivo\npara restaurar los PS del usuario."
-        ],
-        [
-            "Drenadoras",
-            "special",
-            "grass",
-            null,
-            90,
-            10,
-            "Planta semillas que absorben PS para recuperar la\nsalud del usuario en cada turno."
-        ],
-        [
-            "Desarrollo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El cuerpo del usuario crece a marchas forzadas y\naumenta el Ataque y el Ataque Especial."
-        ],
-        [
-            "Hoja Afilada",
-            "physical",
-            "grass",
-            55,
-            95,
-            25,
-            "Corta con hojas afiladas. Suele ser crítico."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energía."
-        ],
-        [
-            "Polvo Veneno",
-            "special",
-            "poison",
-            null,
-            75,
-            35,
-            "Polvo tóxico que envenena al objetivo."
-        ],
-        [
-            "Paralizador",
-            "special",
-            "grass",
-            null,
-            75,
-            30,
-            "Esparce polvo que paraliza al objetivo."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sí mismo para mejorar la Evasión."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Comesueños",
-            "special",
-            "psychic",
-            100,
-            100,
-            15,
-            "Restaura al usuario la mitad del daño causado a un\nobjetivo dormido."
-        ],
-        [
-            "Destello",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Luz cegadora que baja la Precisión del objetivo."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Esporagodón",
-            "special",
-            "grass",
-            null,
-            100,
-            40,
-            "Adhiere esporas a los rivales para reducir mucho\nsu Velocidad."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Gigadrenado",
-            "special",
-            "grass",
-            75,
-            100,
-            10,
-            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del daño que produce."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Encanto",
-            "special",
-            "fairy",
-            null,
-            100,
-            20,
-            "Engatusa al objetivo y reduce bastante su Ataque."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusión en el objetivo, pero también\nsube mucho su Ataque."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Retribución",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto mayor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Frustración",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto menor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Velo Sagrado",
-            "special",
-            "normal",
-            null,
-            null,
-            25,
-            "Un escudo que protege de problemas de estado,\ncomo el sueño o la parálisis, durante cinco turnos."
-        ],
-        [
-            "Otra Vez",
-            "special",
-            "normal",
-            null,
-            100,
-            5,
-            "El objetivo repite su último movimiento durante\ntres turnos."
-        ],
-        [
-            "Poder Oculto",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Movimiento cuyo tipo varía en función del\nPokémon que lo usa."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Paliza",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Ataque de todo el equipo Pokémon. Cuantos más\nhaya, más veces se atacará."
-        ],
-        [
-            "Legado",
-            "special",
-            "dark",
-            null,
-            100,
-            10,
-            "El usuario se debilita, pero baja mucho tanto el\nAtaque como el Ataque Especial del objetivo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Adaptación",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Usa el poder de la naturaleza para atacar.\nSu efecto varía según el entorno de combate."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Desarme",
-            "physical",
-            "dark",
-            65,
-            100,
-            20,
-            "Impide al objetivo usar el objeto que lleva durante\nel combate. La potencia del movimiento se\nmultiplica si el objetivo lleva un objeto."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Daño Secreto",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataque con poder secreto cuyos efectos\nsecundarios varían según el entorno de combate."
-        ],
-        [
-            "Llanto Falso",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Lágrimas de cocodrilo que bajan mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Silbato",
-            "special",
-            "grass",
-            null,
-            55,
-            15,
-            "Agradable melodía que adormece al objetivo."
-        ],
-        [
-            "Cosquillas",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Hace reír al objetivo para bajar su Ataque y\nDefensa."
-        ],
-        [
-            "Antojo",
-            "physical",
-            "normal",
-            60,
-            100,
-            25,
-            "Se acerca con ternura al objetivo, pero le ataca\ny le roba el objeto que lleve."
-        ],
-        [
-            "Don Natural",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "La baya que lleva presta su fuerza para atacar. El\ntipo de ataque y su fuerza dependen de la baya."
-        ],
-        [
-            "Viento Afín",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Crea un fuerte remolino que aumenta la Velocidad\nde los Pokémon de tu equipo durante cuatro\nturnos."
-        ],
-        [
-            "Abatidoras",
-            "special",
-            "grass",
-            null,
-            100,
-            10,
-            "Se planta una semilla en el objetivo que le causa\npesar. Evita el sueño gracias a la habilidad\nInsomnio."
-        ],
-        [
-            "Bomba Germen",
-            "physical",
-            "grass",
-            80,
-            100,
-            15,
-            "Lanza al objetivo una descarga de semillas\nexplosivas desde arriba."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "Aúna fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Trapicheo",
-            "special",
-            "dark",
-            null,
-            100,
-            10,
-            "Intercambia con el objetivo los objetos que llevan\ntan rápido que es imposible verlo a simple vista."
-        ],
-        [
-            "Despejar",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Potente viento que barre el Reflejo o Pantalla de\nLuz del objetivo y puede reducir su Evasión."
-        ],
-        [
-            "Seducción",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Si el objetivo es del sexo opuesto, queda\nembelesado y baja mucho su Ataque Especial."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto más pesado es el objetivo, más daño\ninflige."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Rizo Algodón",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Cubre al Pokémon con una madeja protectora.\nAumenta muchísimo la Defensa."
-        ],
-        [
-            "Campo de Hierba",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Convierte el terreno de combate en un campo de\nhierba durante cinco turnos. Los Pokémon que\nestén en el suelo recuperan PS en cada turno."
-        ],
-        [
-            "Campo de Niebla",
-            "special",
-            "fairy",
-            null,
-            null,
-            10,
-            "Cubre de niebla el terreno de combate durante\ncinco turnos. Los Pokémon que estén en el suelo\nno se ven afectados por cambios de estado."
-        ],
-        [
-            "Viento Feérico",
-            "special",
-            "fairy",
-            40,
-            100,
-            30,
-            "El Pokémon que lo usa desata un vendaval feérico\nque arremete contra el objetivo."
-        ],
-        [
-            "Confidencia",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Hace que el objetivo pierda la concentración\ncontándole un secreto. Disminuye el Ataque\nEspecial del oponente."
-        ],
-        [
-            "Brillo Mágico",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            "Inflige daño a los oponentes con una potente luz."
-        ],
-        [
-            "Fitoimpulso",
-            "physical",
-            "grass",
-            55,
-            100,
-            20,
-            "Ataca al objetivo deslizándose sobre el terreno de\ncombate. Este movimiento tiene prioridad alta cuando\nel terreno está cubierto por un campo de hierba."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    40,
-    27,
-    60,
-    37,
-    50,
-    66
+[
+
+    "cottonee",
+
+    546,
+
+    [
+
+        "grass",
+
+        "fairy"
+
+    ],
+
+    [
+
+        [
+
+            "Absorber",
+
+            "special",
+
+            "grass",
+
+            20,
+
+            100,
+
+            25,
+
+            "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario."
+
+        ],
+
+        [
+
+            "Megaagotar",
+
+            "special",
+
+            "grass",
+
+            40,
+
+            100,
+
+            15,
+
+            "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario."
+
+        ],
+
+        [
+
+            "Drenadoras",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            90,
+
+            10,
+
+            "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno."
+
+        ],
+
+        [
+
+            "Desarrollo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial."
+
+        ],
+
+        [
+
+            "Hoja Afilada",
+
+            "physical",
+
+            "grass",
+
+            55,
+
+            95,
+
+            25,
+
+            "Corta con hojas afiladas. Suele ser crítico."
+
+        ],
+
+        [
+
+            "Rayo Solar",
+
+            "special",
+
+            "grass",
+
+            120,
+
+            100,
+
+            10,
+
+            "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía."
+
+        ],
+
+        [
+
+            "Polvo Veneno",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            75,
+
+            35,
+
+            "Polvo tóxico que envenena al objetivo."
+
+        ],
+
+        [
+
+            "Paralizador",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            75,
+
+            30,
+
+            "Esparce polvo que paraliza al objetivo."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Doble Equipo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea copias de sí mismo para mejorar la Evasión."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Comesueños",
+
+            "special",
+
+            "psychic",
+
+            100,
+
+            100,
+
+            15,
+
+            "Restaura al usuario la mitad del daño causado a un objetivo dormido."
+
+        ],
+
+        [
+
+            "Destello",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Luz cegadora que baja la Precisión del objetivo."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Esporagodón",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            40,
+
+            "Adhiere esporas a los rivales para reducir mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Gigadrenado",
+
+            "special",
+
+            "grass",
+
+            75,
+
+            100,
+
+            10,
+
+            "Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Encanto",
+
+            "special",
+
+            "fairy",
+
+            null,
+
+            100,
+
+            20,
+
+            "Engatusa al objetivo y reduce bastante su Ataque."
+
+        ],
+
+        [
+
+            "Contoneo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            15,
+
+            "Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Retribución",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Frustración",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Velo Sagrado",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            25,
+
+            "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos."
+
+        ],
+
+        [
+
+            "Otra Vez",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "El objetivo repite su último movimiento durante tres turnos."
+
+        ],
+
+        [
+
+            "Poder Oculto",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Movimiento cuyo tipo varía en función del Pokémon que lo usa."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Paliza",
+
+            "physical",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará."
+
+        ],
+
+        [
+
+            "Legado",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Adaptación",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate."
+
+        ],
+
+        [
+
+            "Mofa",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Desarme",
+
+            "physical",
+
+            "dark",
+
+            65,
+
+            100,
+
+            20,
+
+            "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto."
+
+        ],
+
+        [
+
+            "Esfuerzo",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "Reduce los PS del objetivo para que igualen a los del atacante."
+
+        ],
+
+        [
+
+            "Daño Secreto",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataque con poder secreto cuyos efectos secundarios varían según el entorno de combate."
+
+        ],
+
+        [
+
+            "Llanto Falso",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Lágrimas de cocodrilo que bajan mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Silbato",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            55,
+
+            15,
+
+            "Agradable melodía que adormece al objetivo."
+
+        ],
+
+        [
+
+            "Cosquillas",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Hace reír al objetivo para bajar su Ataque y Defensa."
+
+        ],
+
+        [
+
+            "Antojo",
+
+            "physical",
+
+            "normal",
+
+            60,
+
+            100,
+
+            25,
+
+            "Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve."
+
+        ],
+
+        [
+
+            "Don Natural",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya."
+
+        ],
+
+        [
+
+            "Viento Afín",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos."
+
+        ],
+
+        [
+
+            "Abatidoras",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            10,
+
+            "Se planta una semilla en el objetivo que le causa pesar. Evita el sueño gracias a la habilidad Insomnio."
+
+        ],
+
+        [
+
+            "Bomba Germen",
+
+            "physical",
+
+            "grass",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza al objetivo una descarga de semillas explosivas desde arriba."
+
+        ],
+
+        [
+
+            "Energibola",
+
+            "special",
+
+            "grass",
+
+            90,
+
+            100,
+
+            10,
+
+            "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Trapicheo",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista."
+
+        ],
+
+        [
+
+            "Despejar",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            null,
+
+            15,
+
+            "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión."
+
+        ],
+
+        [
+
+            "Seducción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Si el objetivo es del sexo opuesto, queda embelesado y baja mucho su Ataque Especial."
+
+        ],
+
+        [
+
+            "Hierba Lazo",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Rizo Algodón",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            null,
+
+            10,
+
+            "Cubre al Pokémon con una madeja protectora. Aumenta muchísimo la Defensa."
+
+        ],
+
+        [
+
+            "Campo de Hierba",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            null,
+
+            10,
+
+            "Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno."
+
+        ],
+
+        [
+
+            "Campo de Niebla",
+
+            "special",
+
+            "fairy",
+
+            null,
+
+            null,
+
+            10,
+
+            "Cubre de niebla el terreno de combate durante cinco turnos. Los Pokémon que estén en el suelo no se ven afectados por cambios de estado."
+
+        ],
+
+        [
+
+            "Viento Feérico",
+
+            "special",
+
+            "fairy",
+
+            40,
+
+            100,
+
+            30,
+
+            "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo."
+
+        ],
+
+        [
+
+            "Confidencia",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente."
+
+        ],
+
+        [
+
+            "Brillo Mágico",
+
+            "special",
+
+            "fairy",
+
+            80,
+
+            100,
+
+            10,
+
+            "Inflige daño a los oponentes con una potente luz."
+
+        ],
+
+        [
+
+            "Fitoimpulso",
+
+            "physical",
+
+            "grass",
+
+            55,
+
+            100,
+
+            20,
+
+            "Ataca al objetivo deslizándose sobre el terreno de combate. Este movimiento tiene prioridad alta cuando el terreno está cubierto por un campo de hierba."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    40,
+
+    27,
+
+    60,
+
+    37,
+
+    50,
+
+    66
+
 ]

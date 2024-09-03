@@ -1,285 +1,569 @@
-[
-    "wooloo",
-    831,
-    [
-        "normal"
-    ],
-    [
-        [
-            "Pisotón",
-            "physical",
-            "normal",
-            65,
-            100,
-            20,
-            "Tremendo pisotón que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Doble Patada",
-            "physical",
-            "fighting",
-            30,
-            100,
-            30,
-            "Una patada doble. Golpea dos veces."
-        ],
-        [
-            "Golpe Cabeza",
-            "physical",
-            "normal",
-            70,
-            100,
-            15,
-            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
-        ],
-        [
-            "Placaje",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Embiste con todo el cuerpo."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que también hiere al agresor."
-        ],
-        [
-            "Gruñido",
-            "special",
-            "normal",
-            null,
-            100,
-            40,
-            "Dulce gruñido que reduce el Ataque del\ncontrincante."
-        ],
-        [
-            "Contraataque",
-            "physical",
-            "fighting",
-            null,
-            100,
-            20,
-            "Devuelve un golpe físico por duplicado."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Rizo Defensa",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Se enrosca para ocultar su punto débil. Sube la\nDefensa."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Inversión",
-            "physical",
-            "fighting",
-            null,
-            100,
-            15,
-            "Ataque desesperado que causa más daño cuantos \nmenos PS tenga el usuario."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusión en el objetivo, pero también\nsube mucho su Ataque."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Vendetta",
-            "physical",
-            "dark",
-            50,
-            100,
-            10,
-            "El usuario contraataca con el doble de fuerza si el\nobjetivo usa un movimiento antes."
-        ],
-        [
-            "Copión",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Imita el movimiento usado justo antes.\nEl movimiento falla si no se ha usado aún ninguno."
-        ],
-        [
-            "Cambiadefensa",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "El usuario emplea su poder mental para\nintercambiar los cambios en Defensa y\nDefensa Especial con el objetivo."
-        ],
-        [
-            "Isoguardia",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "El usuario emplea sus poderes para hacer la media\nde su Defensa y Defensa Especial con las de su\nobjetivo y compartirlas."
-        ],
-        [
-            "Bola Voltio",
-            "special",
-            "electric",
-            null,
-            100,
-            10,
-            "Lanza una bola eléctrica. Cuanto mayor sea la\nVelocidad del usuario en comparación con la del\nobjetivo, mayor será el daño causado."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Voltio Cruel",
-            "physical",
-            "electric",
-            90,
-            100,
-            15,
-            "Carga eléctrica muy potente que también hiere\nligeramente a quien la usa."
-        ],
-        [
-            "Rizo Algodón",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Cubre al Pokémon con una madeja protectora.\nAumenta muchísimo la Defensa."
-        ],
-        [
-            "Fitoimpulso",
-            "physical",
-            "grass",
-            55,
-            100,
-            20,
-            "Ataca al objetivo deslizándose sobre el terreno de\ncombate. Este movimiento tiene prioridad alta cuando\nel terreno está cubierto por un campo de hierba."
-        ]
-    ],
-    42,
-    40,
-    55,
-    40,
-    45,
-    48
+[
+
+    "wooloo",
+
+    831,
+
+    [
+
+        "normal"
+
+    ],
+
+    [
+
+        [
+
+            "Pisotón",
+
+            "physical",
+
+            "normal",
+
+            65,
+
+            100,
+
+            20,
+
+            "Tremendo pisotón que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Doble Patada",
+
+            "physical",
+
+            "fighting",
+
+            30,
+
+            100,
+
+            30,
+
+            "Una patada doble. Golpea dos veces."
+
+        ],
+
+        [
+
+            "Golpe Cabeza",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            15,
+
+            "Lanza un potente cabezazo que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Placaje",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Embiste con todo el cuerpo."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Doble Filo",
+
+            "physical",
+
+            "normal",
+
+            120,
+
+            100,
+
+            15,
+
+            "Ataque arriesgado que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Gruñido",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            40,
+
+            "Dulce gruñido que reduce el Ataque del contrincante."
+
+        ],
+
+        [
+
+            "Contraataque",
+
+            "physical",
+
+            "fighting",
+
+            null,
+
+            100,
+
+            20,
+
+            "Devuelve un golpe físico por duplicado."
+
+        ],
+
+        [
+
+            "Onda Trueno",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            90,
+
+            20,
+
+            "Una ligera descarga que paraliza al objetivo si lo alcanza."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Rizo Defensa",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            40,
+
+            "Se enrosca para ocultar su punto débil. Sube la Defensa."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Inversión",
+
+            "physical",
+
+            "fighting",
+
+            null,
+
+            100,
+
+            15,
+
+            "Ataque desesperado que causa más daño cuantos  menos PS tenga el usuario."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Contoneo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            15,
+
+            "Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Vendetta",
+
+            "physical",
+
+            "dark",
+
+            50,
+
+            100,
+
+            10,
+
+            "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes."
+
+        ],
+
+        [
+
+            "Copión",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno."
+
+        ],
+
+        [
+
+            "Cambiadefensa",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            10,
+
+            "El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo."
+
+        ],
+
+        [
+
+            "Isoguardia",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            10,
+
+            "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas."
+
+        ],
+
+        [
+
+            "Bola Voltio",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del objetivo, mayor será el daño causado."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Voltio Cruel",
+
+            "physical",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Carga eléctrica muy potente que también hiere ligeramente a quien la usa."
+
+        ],
+
+        [
+
+            "Rizo Algodón",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            null,
+
+            10,
+
+            "Cubre al Pokémon con una madeja protectora. Aumenta muchísimo la Defensa."
+
+        ],
+
+        [
+
+            "Fitoimpulso",
+
+            "physical",
+
+            "grass",
+
+            55,
+
+            100,
+
+            20,
+
+            "Ataca al objetivo deslizándose sobre el terreno de combate. Este movimiento tiene prioridad alta cuando el terreno está cubierto por un campo de hierba."
+
+        ]
+
+    ],
+
+    42,
+
+    40,
+
+    55,
+
+    40,
+
+    45,
+
+    48
+
 ]

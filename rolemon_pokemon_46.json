@@ -1,790 +1,1579 @@
-[
-    "paras",
-    46,
-    [
-        "bug",
-        "grass"
-    ],
-    [
-        [
-            "Arañazo",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Araña con afiladas garras."
-        ],
-        [
-            "Danza Espada",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Baile frenético que aumenta mucho el Ataque."
-        ],
-        [
-            "Corte",
-            "physical",
-            "normal",
-            50,
-            95,
-            30,
-            "Corta con garras, guadañas, etc. También sirve\npara cortar árboles finos."
-        ],
-        [
-            "Golpe Cabeza",
-            "physical",
-            "normal",
-            70,
-            100,
-            15,
-            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que también hiere al agresor."
-        ],
-        [
-            "Psicorrayo",
-            "special",
-            "psychic",
-            65,
-            100,
-            20,
-            "Extraño rayo que puede causar confusión."
-        ],
-        [
-            "Contraataque",
-            "physical",
-            "fighting",
-            null,
-            100,
-            20,
-            "Devuelve un golpe físico por duplicado."
-        ],
-        [
-            "Absorber",
-            "special",
-            "grass",
-            20,
-            100,
-            25,
-            "Absorbe la mitad del daño producido en el objetivo\npara restaurar los PS del usuario."
-        ],
-        [
-            "Megaagotar",
-            "special",
-            "grass",
-            40,
-            100,
-            15,
-            "Absorbe la mitad del daño producido en el objetivo\npara restaurar los PS del usuario."
-        ],
-        [
-            "Drenadoras",
-            "special",
-            "grass",
-            null,
-            90,
-            10,
-            "Planta semillas que absorben PS para recuperar la\nsalud del usuario en cada turno."
-        ],
-        [
-            "Desarrollo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El cuerpo del usuario crece a marchas forzadas y\naumenta el Ataque y el Ataque Especial."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energía."
-        ],
-        [
-            "Polvo Veneno",
-            "special",
-            "poison",
-            null,
-            75,
-            35,
-            "Polvo tóxico que envenena al objetivo."
-        ],
-        [
-            "Paralizador",
-            "special",
-            "grass",
-            null,
-            75,
-            30,
-            "Esparce polvo que paraliza al objetivo."
-        ],
-        [
-            "Somnífero",
-            "special",
-            "grass",
-            null,
-            75,
-            15,
-            "Esparce polvo que duerme al objetivo."
-        ],
-        [
-            "Disparo Demora",
-            "special",
-            "bug",
-            null,
-            95,
-            40,
-            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
-        ],
-        [
-            "Excavar",
-            "physical",
-            "ground",
-            80,
-            100,
-            10,
-            "Primer turno: cava. Segundo turno: ataca. También\nsirve para salir de ciertas zonas."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Furia",
-            "physical",
-            "normal",
-            20,
-            100,
-            20,
-            "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado."
-        ],
-        [
-            "Mimético",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Copia el último movimiento usado por el objetivo.\nDicho movimiento se podrá usar mientras el\nPokémon no sea cambiado."
-        ],
-        [
-            "Chirrido",
-            "special",
-            "normal",
-            null,
-            85,
-            40,
-            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sí mismo para mejorar la Evasión."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques físicos."
-        ],
-        [
-            "Venganza",
-            "physical",
-            "normal",
-            null,
-            null,
-            10,
-            "Espera dos turnos para atacar con el doble de\npotencia del daño recibido."
-        ],
-        [
-            "Cabezazo",
-            "physical",
-            "normal",
-            130,
-            100,
-            10,
-            "Primer turno: se prepara y sube la Defensa del\nusuario. Segundo turno: da el cabezazo."
-        ],
-        [
-            "Chupavidas",
-            "physical",
-            "bug",
-            80,
-            100,
-            10,
-            "Restaura al usuario la mitad del daño causado al\nobjetivo."
-        ],
-        [
-            "Espora",
-            "special",
-            "grass",
-            null,
-            100,
-            15,
-            "Esparce esporas que inducen al sueño."
-        ],
-        [
-            "Destello",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Luz cegadora que baja la Precisión del objetivo."
-        ],
-        [
-            "Golpes Furia",
-            "physical",
-            "normal",
-            18,
-            80,
-            15,
-            "Araña rápidamente de dos a cinco veces."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Cuchillada",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con cuchillas o con pinzas. Suele dar un\ngolpe crítico."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ladrón",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robará el del\nobjetivo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Maldición",
-            "special",
-            "ghost",
-            null,
-            null,
-            10,
-            "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no."
-        ],
-        [
-            "Azote",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "Ataque frenético. Cuantos menos PS tenga el\nusuario, más daño producirá."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Bomba Lodo",
-            "special",
-            "poison",
-            90,
-            100,
-            10,
-            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
-        ],
-        [
-            "Gigadrenado",
-            "special",
-            "grass",
-            75,
-            100,
-            10,
-            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del daño que produce."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Falso Tortazo",
-            "physical",
-            "normal",
-            40,
-            100,
-            40,
-            "Ataque moderado que no debilita al objetivo y le\ndeja al menos 1 PS."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusión en el objetivo, pero también\nsube mucho su Ataque."
-        ],
-        [
-            "Corte Furia",
-            "physical",
-            "bug",
-            40,
-            95,
-            20,
-            "Ataque con garras o guadaña que crece en\nintensidad si se usa repetidas veces."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Retribución",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto mayor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Frustración",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto menor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Persecución",
-            "physical",
-            "dark",
-            40,
-            100,
-            20,
-            "Hace el doble de daño al objetivo que pide el\nrelevo."
-        ],
-        [
-            "Dulce Aroma",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Un dulce aroma engatusa al objetivo, por lo que\nse reduce mucho su Evasión. En la hierba\nalta sirve para atraer a Pokémon salvajes."
-        ],
-        [
-            "Garra Metal",
-            "physical",
-            "steel",
-            50,
-            95,
-            35,
-            "Ataque con garras de acero que puede aumentar\nel Ataque del usuario."
-        ],
-        [
-            "Síntesis",
-            "special",
-            "grass",
-            null,
-            null,
-            5,
-            "Restaura PS del usuario. La cantidad varía según\nel tiempo que haga."
-        ],
-        [
-            "Poder Oculto",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Movimiento cuyo tipo varía en función del\nPokémon que lo usa."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Golpe Roca",
-            "physical",
-            "fighting",
-            40,
-            100,
-            15,
-            "Ataque con los puños. Puede bajar la Defensa del\nobjetivo. Puede romper rocas fuera del combate."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Adaptación",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Usa el poder de la naturaleza para atacar.\nSu efecto varía según el entorno de combate."
-        ],
-        [
-            "Demolición",
-            "physical",
-            "fighting",
-            75,
-            100,
-            15,
-            "Potente ataque que también es capaz de destruir\nbarreras como Pantalla de Luz y Reflejo."
-        ],
-        [
-            "Desarme",
-            "physical",
-            "dark",
-            65,
-            100,
-            20,
-            "Impide al objetivo usar el objeto que lleva durante\nel combate. La potencia del movimiento se\nmultiplica si el objetivo lleva un objeto."
-        ],
-        [
-            "Daño Secreto",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataque con poder secreto cuyos efectos\nsecundarios varían según el entorno de combate."
-        ],
-        [
-            "Aromaterapia",
-            "special",
-            "grass",
-            null,
-            null,
-            5,
-            "Cura todos los problemas de estado del equipo\ncon un suave aroma."
-        ],
-        [
-            "Semilladora",
-            "physical",
-            "grass",
-            25,
-            100,
-            30,
-            "Dispara rápido de dos a cinco ráfagas de semillas\nde manera consecutiva."
-        ],
-        [
-            "Golpe Aéreo",
-            "physical",
-            "flying",
-            60,
-            null,
-            20,
-            "El usuario lanza un ataque muy rápido e ineludible."
-        ],
-        [
-            "Don Natural",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "La baya que lleva presta su fuerza para atacar. El\ntipo de ataque y su fuerza dependen de la baya."
-        ],
-        [
-            "Abatidoras",
-            "special",
-            "grass",
-            null,
-            100,
-            10,
-            "Se planta una semilla en el objetivo que le causa\npesar. Evita el sueño gracias a la habilidad\nInsomnio."
-        ],
-        [
-            "Bomba Germen",
-            "physical",
-            "grass",
-            80,
-            100,
-            15,
-            "Lanza al objetivo una descarga de semillas\nexplosivas desde arriba."
-        ],
-        [
-            "Tijera X",
-            "physical",
-            "bug",
-            80,
-            100,
-            15,
-            "Cruza las guadañas o las garras para atacar al\nobjetivo como si fueran unas tijeras."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "Aúna fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Veneno X",
-            "physical",
-            "poison",
-            70,
-            100,
-            20,
-            "Tajo que puede envenenar al objetivo. Suele ser\ncrítico."
-        ],
-        [
-            "Seducción",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Si el objetivo es del sexo opuesto, queda\nembelesado y baja mucho su Ataque Especial."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto más pesado es el objetivo, más daño\ninflige."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Afilagarras",
-            "special",
-            "dark",
-            null,
-            null,
-            15,
-            "El usuario se afila las garras para aumentar su\nAtaque y Precisión."
-        ],
-        [
-            "Vastaguardia",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Bloquea los ataques de objetivo múltiple\nlanzados contra tu equipo durante un turno."
-        ],
-        [
-            "Carga Tóxica",
-            "special",
-            "poison",
-            65,
-            100,
-            10,
-            "Ataca cubriendo al objetivo con un líquido\nvenenoso. El daño será doble si este ya está\nenvenenado."
-        ],
-        [
-            "Polvo Ira",
-            "special",
-            "bug",
-            null,
-            null,
-            20,
-            "Usa un polvo que irrita y centra en el usuario la\natención y los ataques de los rivales."
-        ],
-        [
-            "Cede Paso",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Si el usuario es el más rápido, permite al objetivo\nusar un movimiento justo tras él, adelantándose a\nPokémon más rápidos."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. También reduce su Ataque Especial.\n"
-        ],
-        [
-            "Fertilizante",
-            "special",
-            "ground",
-            null,
-            null,
-            10,
-            "Labra la tierra haciendo que sea más fácil cultivarla\ny consigue que aumente el Ataque y el Ataque\nEspecial de los Pokémon de tipo Planta."
-        ],
-        [
-            "Aguijón Letal",
-            "physical",
-            "bug",
-            50,
-            100,
-            25,
-            "Al derrotar al objetivo utilizando este movimiento,\naumenta mucho el Ataque del usuario."
-        ],
-        [
-            "Campo de Hierba",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Convierte el terreno de combate en un campo de\nhierba durante cinco turnos. Los Pokémon que\nestén en el suelo recuperan PS en cada turno."
-        ],
-        [
-            "Confidencia",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Hace que el objetivo pierda la concentración\ncontándole un secreto. Disminuye el Ataque\nEspecial del oponente."
-        ]
-    ],
-    35,
-    70,
-    55,
-    45,
-    55,
-    25
+[
+
+    "paras",
+
+    46,
+
+    [
+
+        "bug",
+
+        "grass"
+
+    ],
+
+    [
+
+        [
+
+            "Arañazo",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Araña con afiladas garras."
+
+        ],
+
+        [
+
+            "Danza Espada",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Baile frenético que aumenta mucho el Ataque."
+
+        ],
+
+        [
+
+            "Corte",
+
+            "physical",
+
+            "normal",
+
+            50,
+
+            95,
+
+            30,
+
+            "Corta con garras, guadañas, etc. También sirve para cortar árboles finos."
+
+        ],
+
+        [
+
+            "Golpe Cabeza",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            15,
+
+            "Lanza un potente cabezazo que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Golpe Cuerpo",
+
+            "physical",
+
+            "normal",
+
+            85,
+
+            100,
+
+            15,
+
+            "Salta sobre el objetivo con todo su peso. Puede paralizar."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Doble Filo",
+
+            "physical",
+
+            "normal",
+
+            120,
+
+            100,
+
+            15,
+
+            "Ataque arriesgado que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Psicorrayo",
+
+            "special",
+
+            "psychic",
+
+            65,
+
+            100,
+
+            20,
+
+            "Extraño rayo que puede causar confusión."
+
+        ],
+
+        [
+
+            "Contraataque",
+
+            "physical",
+
+            "fighting",
+
+            null,
+
+            100,
+
+            20,
+
+            "Devuelve un golpe físico por duplicado."
+
+        ],
+
+        [
+
+            "Absorber",
+
+            "special",
+
+            "grass",
+
+            20,
+
+            100,
+
+            25,
+
+            "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario."
+
+        ],
+
+        [
+
+            "Megaagotar",
+
+            "special",
+
+            "grass",
+
+            40,
+
+            100,
+
+            15,
+
+            "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario."
+
+        ],
+
+        [
+
+            "Drenadoras",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            90,
+
+            10,
+
+            "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno."
+
+        ],
+
+        [
+
+            "Desarrollo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial."
+
+        ],
+
+        [
+
+            "Rayo Solar",
+
+            "special",
+
+            "grass",
+
+            120,
+
+            100,
+
+            10,
+
+            "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía."
+
+        ],
+
+        [
+
+            "Polvo Veneno",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            75,
+
+            35,
+
+            "Polvo tóxico que envenena al objetivo."
+
+        ],
+
+        [
+
+            "Paralizador",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            75,
+
+            30,
+
+            "Esparce polvo que paraliza al objetivo."
+
+        ],
+
+        [
+
+            "Somnífero",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            75,
+
+            15,
+
+            "Esparce polvo que duerme al objetivo."
+
+        ],
+
+        [
+
+            "Disparo Demora",
+
+            "special",
+
+            "bug",
+
+            null,
+
+            95,
+
+            40,
+
+            "Lanza seda a los rivales y reduce mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Excavar",
+
+            "physical",
+
+            "ground",
+
+            80,
+
+            100,
+
+            10,
+
+            "Primer turno: cava. Segundo turno: ataca. También sirve para salir de ciertas zonas."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Furia",
+
+            "physical",
+
+            "normal",
+
+            20,
+
+            100,
+
+            20,
+
+            "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado."
+
+        ],
+
+        [
+
+            "Mimético",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Copia el último movimiento usado por el objetivo. Dicho movimiento se podrá usar mientras el Pokémon no sea cambiado."
+
+        ],
+
+        [
+
+            "Chirrido",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            40,
+
+            "Alarido agudo que reduce mucho la Defensa del objetivo."
+
+        ],
+
+        [
+
+            "Doble Equipo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea copias de sí mismo para mejorar la Evasión."
+
+        ],
+
+        [
+
+            "Pantalla de Luz",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+
+        ],
+
+        [
+
+            "Reflejo",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+
+        ],
+
+        [
+
+            "Venganza",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Espera dos turnos para atacar con el doble de potencia del daño recibido."
+
+        ],
+
+        [
+
+            "Cabezazo",
+
+            "physical",
+
+            "normal",
+
+            130,
+
+            100,
+
+            10,
+
+            "Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo."
+
+        ],
+
+        [
+
+            "Chupavidas",
+
+            "physical",
+
+            "bug",
+
+            80,
+
+            100,
+
+            10,
+
+            "Restaura al usuario la mitad del daño causado al objetivo."
+
+        ],
+
+        [
+
+            "Espora",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            15,
+
+            "Esparce esporas que inducen al sueño."
+
+        ],
+
+        [
+
+            "Destello",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Luz cegadora que baja la Precisión del objetivo."
+
+        ],
+
+        [
+
+            "Golpes Furia",
+
+            "physical",
+
+            "normal",
+
+            18,
+
+            80,
+
+            15,
+
+            "Araña rápidamente de dos a cinco veces."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Cuchillada",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con cuchillas o con pinzas. Suele dar un golpe crítico."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ladrón",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Maldición",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            null,
+
+            10,
+
+            "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no."
+
+        ],
+
+        [
+
+            "Azote",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Bomba Lodo",
+
+            "special",
+
+            "poison",
+
+            90,
+
+            100,
+
+            10,
+
+            "Arroja residuos al objetivo. Puede llegar a envenenar."
+
+        ],
+
+        [
+
+            "Gigadrenado",
+
+            "special",
+
+            "grass",
+
+            75,
+
+            100,
+
+            10,
+
+            "Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Falso Tortazo",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            40,
+
+            "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS."
+
+        ],
+
+        [
+
+            "Contoneo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            15,
+
+            "Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+
+        ],
+
+        [
+
+            "Corte Furia",
+
+            "physical",
+
+            "bug",
+
+            40,
+
+            95,
+
+            20,
+
+            "Ataque con garras o guadaña que crece en intensidad si se usa repetidas veces."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Retribución",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Frustración",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Persecución",
+
+            "physical",
+
+            "dark",
+
+            40,
+
+            100,
+
+            20,
+
+            "Hace el doble de daño al objetivo que pide el relevo."
+
+        ],
+
+        [
+
+            "Dulce Aroma",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Un dulce aroma engatusa al objetivo, por lo que se reduce mucho su Evasión. En la hierba alta sirve para atraer a Pokémon salvajes."
+
+        ],
+
+        [
+
+            "Garra Metal",
+
+            "physical",
+
+            "steel",
+
+            50,
+
+            95,
+
+            35,
+
+            "Ataque con garras de acero que puede aumentar el Ataque del usuario."
+
+        ],
+
+        [
+
+            "Síntesis",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura PS del usuario. La cantidad varía según el tiempo que haga."
+
+        ],
+
+        [
+
+            "Poder Oculto",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Movimiento cuyo tipo varía en función del Pokémon que lo usa."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Golpe Roca",
+
+            "physical",
+
+            "fighting",
+
+            40,
+
+            100,
+
+            15,
+
+            "Ataque con los puños. Puede bajar la Defensa del objetivo. Puede romper rocas fuera del combate."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Adaptación",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate."
+
+        ],
+
+        [
+
+            "Demolición",
+
+            "physical",
+
+            "fighting",
+
+            75,
+
+            100,
+
+            15,
+
+            "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo."
+
+        ],
+
+        [
+
+            "Desarme",
+
+            "physical",
+
+            "dark",
+
+            65,
+
+            100,
+
+            20,
+
+            "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto."
+
+        ],
+
+        [
+
+            "Daño Secreto",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataque con poder secreto cuyos efectos secundarios varían según el entorno de combate."
+
+        ],
+
+        [
+
+            "Aromaterapia",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            null,
+
+            5,
+
+            "Cura todos los problemas de estado del equipo con un suave aroma."
+
+        ],
+
+        [
+
+            "Semilladora",
+
+            "physical",
+
+            "grass",
+
+            25,
+
+            100,
+
+            30,
+
+            "Dispara rápido de dos a cinco ráfagas de semillas de manera consecutiva."
+
+        ],
+
+        [
+
+            "Golpe Aéreo",
+
+            "physical",
+
+            "flying",
+
+            60,
+
+            null,
+
+            20,
+
+            "El usuario lanza un ataque muy rápido e ineludible."
+
+        ],
+
+        [
+
+            "Don Natural",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya."
+
+        ],
+
+        [
+
+            "Abatidoras",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            10,
+
+            "Se planta una semilla en el objetivo que le causa pesar. Evita el sueño gracias a la habilidad Insomnio."
+
+        ],
+
+        [
+
+            "Bomba Germen",
+
+            "physical",
+
+            "grass",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza al objetivo una descarga de semillas explosivas desde arriba."
+
+        ],
+
+        [
+
+            "Tijera X",
+
+            "physical",
+
+            "bug",
+
+            80,
+
+            100,
+
+            15,
+
+            "Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras."
+
+        ],
+
+        [
+
+            "Energibola",
+
+            "special",
+
+            "grass",
+
+            90,
+
+            100,
+
+            10,
+
+            "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Veneno X",
+
+            "physical",
+
+            "poison",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tajo que puede envenenar al objetivo. Suele ser crítico."
+
+        ],
+
+        [
+
+            "Seducción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Si el objetivo es del sexo opuesto, queda embelesado y baja mucho su Ataque Especial."
+
+        ],
+
+        [
+
+            "Hierba Lazo",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+
+        ],
+
+        [
+
+            "Picadura",
+
+            "physical",
+
+            "bug",
+
+            60,
+
+            100,
+
+            20,
+
+            "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto."
+
+        ],
+
+        [
+
+            "Afilagarras",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            15,
+
+            "El usuario se afila las garras para aumentar su Ataque y Precisión."
+
+        ],
+
+        [
+
+            "Vastaguardia",
+
+            "special",
+
+            "rock",
+
+            null,
+
+            null,
+
+            10,
+
+            "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno."
+
+        ],
+
+        [
+
+            "Carga Tóxica",
+
+            "special",
+
+            "poison",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+
+        ],
+
+        [
+
+            "Polvo Ira",
+
+            "special",
+
+            "bug",
+
+            null,
+
+            null,
+
+            20,
+
+            "Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales."
+
+        ],
+
+        [
+
+            "Cede Paso",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            15,
+
+            "Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Estoicismo",
+
+            "special",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial. "
+
+        ],
+
+        [
+
+            "Fertilizante",
+
+            "special",
+
+            "ground",
+
+            null,
+
+            null,
+
+            10,
+
+            "Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta."
+
+        ],
+
+        [
+
+            "Aguijón Letal",
+
+            "physical",
+
+            "bug",
+
+            50,
+
+            100,
+
+            25,
+
+            "Al derrotar al objetivo utilizando este movimiento, aumenta mucho el Ataque del usuario."
+
+        ],
+
+        [
+
+            "Campo de Hierba",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            null,
+
+            10,
+
+            "Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno."
+
+        ],
+
+        [
+
+            "Confidencia",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente."
+
+        ]
+
+    ],
+
+    35,
+
+    70,
+
+    55,
+
+    45,
+
+    55,
+
+    25
+
 ]

@@ -1,592 +1,1183 @@
-[
-    "beautifly",
-    267,
-    [
-        "bug",
-        "flying"
-    ],
-    [
-        [
-            "Tornado",
-            "special",
-            "flying",
-            40,
-            100,
-            35,
-            "Crea un tornado con las alas y lo lanza contra\nel objetivo."
-        ],
-        [
-            "Remolino",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Se lleva al objetivo, que es cambiado por otro\nPokémon. Si es un Pokémon salvaje, acaba el\ncombate."
-        ],
-        [
-            "Placaje",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Embiste con todo el cuerpo."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que también hiere al agresor."
-        ],
-        [
-            "Picotazo Veneno",
-            "physical",
-            "poison",
-            15,
-            100,
-            35,
-            "Lanza un aguijón tóxico que puede envenenar\nal objetivo."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Absorber",
-            "special",
-            "grass",
-            20,
-            100,
-            25,
-            "Absorbe la mitad del daño producido en el objetivo\npara restaurar los PS del usuario."
-        ],
-        [
-            "Megaagotar",
-            "special",
-            "grass",
-            40,
-            100,
-            15,
-            "Absorbe la mitad del daño producido en el objetivo\npara restaurar los PS del usuario."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energía."
-        ],
-        [
-            "Paralizador",
-            "special",
-            "grass",
-            null,
-            75,
-            30,
-            "Esparce polvo que paraliza al objetivo."
-        ],
-        [
-            "Disparo Demora",
-            "special",
-            "bug",
-            null,
-            95,
-            40,
-            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Psíquico",
-            "special",
-            "psychic",
-            90,
-            100,
-            10,
-            "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Furia",
-            "physical",
-            "normal",
-            20,
-            100,
-            20,
-            "Al usarse, aumenta el Ataque del usuario cada vez\nque es golpeado."
-        ],
-        [
-            "Mimético",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Copia el último movimiento usado por el objetivo.\nDicho movimiento se podrá usar mientras el\nPokémon no sea cambiado."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sí mismo para mejorar la Evasión."
-        ],
-        [
-            "Fortaleza",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Tensa la musculatura del usuario para aumentar\nla Defensa."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Chupavidas",
-            "physical",
-            "bug",
-            80,
-            100,
-            10,
-            "Restaura al usuario la mitad del daño causado al\nobjetivo."
-        ],
-        [
-            "Destello",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Luz cegadora que baja la Precisión del objetivo."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ladrón",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robará el del\nobjetivo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Gigadrenado",
-            "special",
-            "grass",
-            75,
-            100,
-            10,
-            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del daño que produce."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusión en el objetivo, pero también\nsube mucho su Ataque."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Retribución",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto mayor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Frustración",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto menor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Velo Sagrado",
-            "special",
-            "normal",
-            null,
-            null,
-            25,
-            "Un escudo que protege de problemas de estado,\ncomo el sueño o la parálisis, durante cinco turnos."
-        ],
-        [
-            "Sol Matinal",
-            "special",
-            "normal",
-            null,
-            null,
-            5,
-            "Restaura PS del usuario. La cantidad varía según\nel tiempo que haga."
-        ],
-        [
-            "Poder Oculto",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Movimiento cuyo tipo varía en función del\nPokémon que lo usa."
-        ],
-        [
-            "Ciclón",
-            "special",
-            "dragon",
-            40,
-            100,
-            20,
-            "Crea un violento tornado para hacer trizas al\nenemigo. Puede hacerlo retroceder."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Bola Sombra",
-            "special",
-            "ghost",
-            80,
-            100,
-            15,
-            "Lanza una bola oscura que puede bajar la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Daño Secreto",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataque con poder secreto cuyos efectos\nsecundarios varían según el entorno de combate."
-        ],
-        [
-            "Aire Afilado",
-            "special",
-            "flying",
-            60,
-            95,
-            25,
-            "Viento cortante que azota. Suele ser un golpe\ncrítico."
-        ],
-        [
-            "Viento Plata",
-            "special",
-            "bug",
-            60,
-            100,
-            5,
-            "Fuerte viento con polvo de escamas. Puede subir\ntodas las características de quien lo usa."
-        ],
-        [
-            "Doble Rayo",
-            "special",
-            "bug",
-            75,
-            100,
-            15,
-            "Ataca con un rayo de luz siniestro. Puede\nconfundir al objetivo."
-        ],
-        [
-            "Golpe Aéreo",
-            "physical",
-            "flying",
-            60,
-            null,
-            20,
-            "El usuario lanza un ataque muy rápido e ineludible."
-        ],
-        [
-            "Respiro",
-            "special",
-            "flying",
-            null,
-            null,
-            5,
-            "Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS."
-        ],
-        [
-            "Don Natural",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "La baya que lleva presta su fuerza para atacar. El\ntipo de ataque y su fuerza dependen de la baya."
-        ],
-        [
-            "Viento Afín",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Crea un fuerte remolino que aumenta la Velocidad\nde los Pokémon de tu equipo durante cuatro\nturnos."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Zumbido",
-            "special",
-            "bug",
-            90,
-            100,
-            10,
-            "El movimiento de las alas crea una onda sónica\ndañina. También puede disminuir la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "Aúna fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Despejar",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Potente viento que barre el Reflejo o Pantalla de\nLuz del objetivo y puede reducir su Evasión."
-        ],
-        [
-            "Seducción",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Si el objetivo es del sexo opuesto, queda\nembelesado y baja mucho su Ataque Especial."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Viento Aciago",
-            "special",
-            "ghost",
-            60,
-            100,
-            5,
-            "Produce un viento horripilante. Puede subir de\ngolpe todas las características del usuario."
-        ],
-        [
-            "Carga Tóxica",
-            "special",
-            "poison",
-            65,
-            100,
-            10,
-            "Ataca cubriendo al objetivo con un líquido\nvenenoso. El daño será doble si este ya está\nenvenenado."
-        ],
-        [
-            "Danza Aleteo",
-            "special",
-            "bug",
-            null,
-            null,
-            20,
-            "Danza mística que sube el Ataque Especial, la\nDefensa Especial y la Velocidad."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Acróbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ágilmente. Si el usuario no porta ningún\nobjeto, el objetivo resulta seriamente dañado."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. También reduce su Ataque Especial.\n"
-        ],
-        [
-            "Electrotela",
-            "special",
-            "electric",
-            55,
-            95,
-            15,
-            "Atrapa y ataca a los objetivos con una telaraña\neléctrica. También reduce su Velocidad."
-        ],
-        [
-            "Confidencia",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Hace que el objetivo pierda la concentración\ncontándole un secreto. Disminuye el Ataque\nEspecial del oponente."
-        ],
-        [
-            "Acoso",
-            "special",
-            "bug",
-            20,
-            100,
-            20,
-            "Hostiga al Pokémon objetivo durante cuatro o\ncinco turnos e impide que pueda huir mientras\ntanto."
-        ],
-        [
-            "Aguzar",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "El usuario se concentra para que el siguiente ataque\npropine un golpe crítico."
-        ]
-    ],
-    60,
-    70,
-    50,
-    100,
-    50,
-    65
+[
+
+    "beautifly",
+
+    267,
+
+    [
+
+        "bug",
+
+        "flying"
+
+    ],
+
+    [
+
+        [
+
+            "Tornado",
+
+            "special",
+
+            "flying",
+
+            40,
+
+            100,
+
+            35,
+
+            "Crea un tornado con las alas y lo lanza contra el objetivo."
+
+        ],
+
+        [
+
+            "Remolino",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate."
+
+        ],
+
+        [
+
+            "Placaje",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Embiste con todo el cuerpo."
+
+        ],
+
+        [
+
+            "Doble Filo",
+
+            "physical",
+
+            "normal",
+
+            120,
+
+            100,
+
+            15,
+
+            "Ataque arriesgado que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Picotazo Veneno",
+
+            "physical",
+
+            "poison",
+
+            15,
+
+            100,
+
+            35,
+
+            "Lanza un aguijón tóxico que puede envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Absorber",
+
+            "special",
+
+            "grass",
+
+            20,
+
+            100,
+
+            25,
+
+            "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario."
+
+        ],
+
+        [
+
+            "Megaagotar",
+
+            "special",
+
+            "grass",
+
+            40,
+
+            100,
+
+            15,
+
+            "Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario."
+
+        ],
+
+        [
+
+            "Rayo Solar",
+
+            "special",
+
+            "grass",
+
+            120,
+
+            100,
+
+            10,
+
+            "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía."
+
+        ],
+
+        [
+
+            "Paralizador",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            75,
+
+            30,
+
+            "Esparce polvo que paraliza al objetivo."
+
+        ],
+
+        [
+
+            "Disparo Demora",
+
+            "special",
+
+            "bug",
+
+            null,
+
+            95,
+
+            40,
+
+            "Lanza seda a los rivales y reduce mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Psíquico",
+
+            "special",
+
+            "psychic",
+
+            90,
+
+            100,
+
+            10,
+
+            "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Furia",
+
+            "physical",
+
+            "normal",
+
+            20,
+
+            100,
+
+            20,
+
+            "Al usarse, aumenta el Ataque del usuario cada vez que es golpeado."
+
+        ],
+
+        [
+
+            "Mimético",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Copia el último movimiento usado por el objetivo. Dicho movimiento se podrá usar mientras el Pokémon no sea cambiado."
+
+        ],
+
+        [
+
+            "Doble Equipo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea copias de sí mismo para mejorar la Evasión."
+
+        ],
+
+        [
+
+            "Fortaleza",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            30,
+
+            "Tensa la musculatura del usuario para aumentar la Defensa."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Chupavidas",
+
+            "physical",
+
+            "bug",
+
+            80,
+
+            100,
+
+            10,
+
+            "Restaura al usuario la mitad del daño causado al objetivo."
+
+        ],
+
+        [
+
+            "Destello",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Luz cegadora que baja la Precisión del objetivo."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ladrón",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Gigadrenado",
+
+            "special",
+
+            "grass",
+
+            75,
+
+            100,
+
+            10,
+
+            "Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Contoneo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            15,
+
+            "Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Retribución",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Frustración",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Velo Sagrado",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            25,
+
+            "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos."
+
+        ],
+
+        [
+
+            "Sol Matinal",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura PS del usuario. La cantidad varía según el tiempo que haga."
+
+        ],
+
+        [
+
+            "Poder Oculto",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Movimiento cuyo tipo varía en función del Pokémon que lo usa."
+
+        ],
+
+        [
+
+            "Ciclón",
+
+            "special",
+
+            "dragon",
+
+            40,
+
+            100,
+
+            20,
+
+            "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Bola Sombra",
+
+            "special",
+
+            "ghost",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Daño Secreto",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataque con poder secreto cuyos efectos secundarios varían según el entorno de combate."
+
+        ],
+
+        [
+
+            "Aire Afilado",
+
+            "special",
+
+            "flying",
+
+            60,
+
+            95,
+
+            25,
+
+            "Viento cortante que azota. Suele ser un golpe crítico."
+
+        ],
+
+        [
+
+            "Viento Plata",
+
+            "special",
+
+            "bug",
+
+            60,
+
+            100,
+
+            5,
+
+            "Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa."
+
+        ],
+
+        [
+
+            "Doble Rayo",
+
+            "special",
+
+            "bug",
+
+            75,
+
+            100,
+
+            15,
+
+            "Ataca con un rayo de luz siniestro. Puede confundir al objetivo."
+
+        ],
+
+        [
+
+            "Golpe Aéreo",
+
+            "physical",
+
+            "flying",
+
+            60,
+
+            null,
+
+            20,
+
+            "El usuario lanza un ataque muy rápido e ineludible."
+
+        ],
+
+        [
+
+            "Respiro",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            null,
+
+            5,
+
+            "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS."
+
+        ],
+
+        [
+
+            "Don Natural",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya."
+
+        ],
+
+        [
+
+            "Viento Afín",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos."
+
+        ],
+
+        [
+
+            "Ida y Vuelta",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Zumbido",
+
+            "special",
+
+            "bug",
+
+            90,
+
+            100,
+
+            10,
+
+            "El movimiento de las alas crea una onda sónica dañina. También puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Energibola",
+
+            "special",
+
+            "grass",
+
+            90,
+
+            100,
+
+            10,
+
+            "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Despejar",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            null,
+
+            15,
+
+            "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión."
+
+        ],
+
+        [
+
+            "Seducción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Si el objetivo es del sexo opuesto, queda embelesado y baja mucho su Ataque Especial."
+
+        ],
+
+        [
+
+            "Picadura",
+
+            "physical",
+
+            "bug",
+
+            60,
+
+            100,
+
+            20,
+
+            "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto."
+
+        ],
+
+        [
+
+            "Viento Aciago",
+
+            "special",
+
+            "ghost",
+
+            60,
+
+            100,
+
+            5,
+
+            "Produce un viento horripilante. Puede subir de golpe todas las características del usuario."
+
+        ],
+
+        [
+
+            "Carga Tóxica",
+
+            "special",
+
+            "poison",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+
+        ],
+
+        [
+
+            "Danza Aleteo",
+
+            "special",
+
+            "bug",
+
+            null,
+
+            null,
+
+            20,
+
+            "Danza mística que sube el Ataque Especial, la Defensa Especial y la Velocidad."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Acróbata",
+
+            "physical",
+
+            "flying",
+
+            55,
+
+            100,
+
+            15,
+
+            "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Estoicismo",
+
+            "special",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial. "
+
+        ],
+
+        [
+
+            "Electrotela",
+
+            "special",
+
+            "electric",
+
+            55,
+
+            95,
+
+            15,
+
+            "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad."
+
+        ],
+
+        [
+
+            "Confidencia",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente."
+
+        ],
+
+        [
+
+            "Acoso",
+
+            "special",
+
+            "bug",
+
+            20,
+
+            100,
+
+            20,
+
+            "Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto."
+
+        ],
+
+        [
+
+            "Aguzar",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            30,
+
+            "El usuario se concentra para que el siguiente ataque propine un golpe crítico."
+
+        ]
+
+    ],
+
+    60,
+
+    70,
+
+    50,
+
+    100,
+
+    50,
+
+    65
+
 ]

@@ -1,250 +1,499 @@
-[
-    "dreepy",
-    885,
-    [
-        "dragon",
-        "ghost"
-    ],
-    [
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Anulación",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Desactiva el último movimiento del objetivo\ndurante cuatro turnos."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Ataque Rápido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque rápido que permite golpear en primer lugar."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sí mismo para mejorar la Evasión."
-        ],
-        [
-            "Rayo Confuso",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Rayo siniestro que confunde al objetivo."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Maldición",
-            "special",
-            "ghost",
-            null,
-            null,
-            10,
-            "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Relevo",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Cambia el puesto con un compañero y le pasa los\ncambios de características."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Rabia",
-            "special",
-            "ghost",
-            null,
-            null,
-            5,
-            "Si el usuario se debilita al recibir un ataque, todos\nlos PP de este último ataque serán eliminados."
-        ],
-        [
-            "Impresionar",
-            "physical",
-            "ghost",
-            30,
-            100,
-            15,
-            "Impresiona tanto que puede hacer retroceder al\nobjetivo."
-        ],
-        [
-            "Golpe Bajo",
-            "physical",
-            "dark",
-            70,
-            100,
-            5,
-            "Permite atacar con prioridad. Falla si el objetivo no\nestá preparando ningún ataque."
-        ],
-        [
-            "Cometa Draco",
-            "special",
-            "dragon",
-            130,
-            90,
-            5,
-            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Cola Dragón",
-            "physical",
-            "dragon",
-            60,
-            90,
-            10,
-            "Ataca al objetivo y lo obliga a cambiarse por otro\nPokémon. Si es uno salvaje, acaba el combate."
-        ],
-        [
-            "Acoso",
-            "special",
-            "bug",
-            20,
-            100,
-            20,
-            "Hostiga al Pokémon objetivo durante cuatro o\ncinco turnos e impide que pueda huir mientras\ntanto."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    28,
-    60,
-    30,
-    40,
-    30,
-    82
+[
+
+    "dreepy",
+
+    885,
+
+    [
+
+        "dragon",
+
+        "ghost"
+
+    ],
+
+    [
+
+        [
+
+            "Mordisco",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Un voraz bocado que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Anulación",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Desactiva el último movimiento del objetivo durante cuatro turnos."
+
+        ],
+
+        [
+
+            "Onda Trueno",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            90,
+
+            20,
+
+            "Una ligera descarga que paraliza al objetivo si lo alcanza."
+
+        ],
+
+        [
+
+            "Ataque Rápido",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            30,
+
+            "Ataque rápido que permite golpear en primer lugar."
+
+        ],
+
+        [
+
+            "Doble Equipo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea copias de sí mismo para mejorar la Evasión."
+
+        ],
+
+        [
+
+            "Rayo Confuso",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            10,
+
+            "Rayo siniestro que confunde al objetivo."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Maldición",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            null,
+
+            10,
+
+            "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Relevo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            40,
+
+            "Cambia el puesto con un compañero y le pasa los cambios de características."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Rabia",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            null,
+
+            5,
+
+            "Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados."
+
+        ],
+
+        [
+
+            "Impresionar",
+
+            "physical",
+
+            "ghost",
+
+            30,
+
+            100,
+
+            15,
+
+            "Impresiona tanto que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Golpe Bajo",
+
+            "physical",
+
+            "dark",
+
+            70,
+
+            100,
+
+            5,
+
+            "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque."
+
+        ],
+
+        [
+
+            "Cometa Draco",
+
+            "special",
+
+            "dragon",
+
+            130,
+
+            90,
+
+            5,
+
+            "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Cola Dragón",
+
+            "physical",
+
+            "dragon",
+
+            60,
+
+            90,
+
+            10,
+
+            "Ataca al objetivo y lo obliga a cambiarse por otro Pokémon. Si es uno salvaje, acaba el combate."
+
+        ],
+
+        [
+
+            "Acoso",
+
+            "special",
+
+            "bug",
+
+            20,
+
+            100,
+
+            20,
+
+            "Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    28,
+
+    60,
+
+    30,
+
+    40,
+
+    30,
+
+    82
+
 ]

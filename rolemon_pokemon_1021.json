@@ -1,511 +1,1021 @@
-[
-    "raging-bolt",
-    1021,
-    [
-        "electric",
-        "dragon"
-    ],
-    [
-        [
-            "Pisotón",
-            "physical",
-            "normal",
-            65,
-            100,
-            20,
-            "Tremendo pisotón que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que también hiere al agresor."
-        ],
-        [
-            "Rugido",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Se lleva al objetivo, que es cambiado por otro\nPokémon. Si es un Pokémon salvaje, acaba el\ncombate."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energía."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque eléctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Trueno",
-            "special",
-            "electric",
-            110,
-            70,
-            10,
-            "Un poderoso rayo que daña al objetivo y puede\nparalizarlo."
-        ],
-        [
-            "Terremoto",
-            "physical",
-            "ground",
-            100,
-            100,
-            10,
-            "Un terremoto que afecta a los Pokémon de\nalrededor en combate."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "Electrocañón",
-            "special",
-            "electric",
-            120,
-            50,
-            5,
-            "Dispara una descarga eléctrica que causa daño\ny parálisis."
-        ],
-        [
-            "Enfado",
-            "physical",
-            "dragon",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Dragoaliento",
-            "special",
-            "dragon",
-            60,
-            100,
-            20,
-            "Poderosa ráfaga de aliento que golpea al objetivo\ny puede paralizarlo."
-        ],
-        [
-            "Ciclón",
-            "special",
-            "dragon",
-            40,
-            100,
-            20,
-            "Crea un violento tornado para hacer trizas al\nenemigo. Puede hacerlo retroceder."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Triturar",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Poder Pasado",
-            "special",
-            "rock",
-            60,
-            100,
-            5,
-            "Ataque prehistórico que puede subir todas las\ncaracterísticas."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Carga",
-            "special",
-            "electric",
-            null,
-            null,
-            20,
-            "Recarga energía para potenciar el siguiente\nmovimiento de tipo Eléctrico. También sube la\nDefensa Especial."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Vozarrón",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Grito desgarrador que inflige daño al objetivo."
-        ],
-        [
-            "Meteorobola",
-            "special",
-            "normal",
-            50,
-            100,
-            10,
-            "El tipo y fuerza del ataque varían según el tiempo\nque haga."
-        ],
-        [
-            "Paz Mental",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Aumenta la concentración y calma el espíritu para\nsubir el Ataque Especial y la Defensa Especial."
-        ],
-        [
-            "Onda Voltio",
-            "special",
-            "electric",
-            60,
-            null,
-            20,
-            "Ataque eléctrico muy rápido e ineludible."
-        ],
-        [
-            "Pulso Dragón",
-            "special",
-            "dragon",
-            85,
-            100,
-            10,
-            "Abre mucho la boca y libera una onda de choque\nque ataca al objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Colmillo Rayo",
-            "physical",
-            "electric",
-            65,
-            95,
-            15,
-            "Usa colmillos electrificados para morder. Puede\nhacer que el objetivo retroceda o se paralice."
-        ],
-        [
-            "Cometa Draco",
-            "special",
-            "dragon",
-            130,
-            90,
-            5,
-            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
-        ],
-        [
-            "Chispazo",
-            "special",
-            "electric",
-            80,
-            100,
-            15,
-            "Una deslumbradora onda eléctrica afecta a los\nPokémon que hay combatiendo alrededor. Puede\nparalizar."
-        ],
-        [
-            "Rayo Carga",
-            "special",
-            "electric",
-            50,
-            90,
-            10,
-            "Lanza un rayo eléctrico contra el objetivo. Puede\nsubir el Ataque Especial de quien lo usa."
-        ],
-        [
-            "Cuerpo Pesado",
-            "physical",
-            "steel",
-            null,
-            100,
-            10,
-            "El usuario golpea con todo su cuerpo. Cuanto\nmayor sea su peso comparado con el del objetivo,\nmás daño causará."
-        ],
-        [
-            "Bola Voltio",
-            "special",
-            "electric",
-            null,
-            100,
-            10,
-            "Lanza una bola eléctrica. Cuanto mayor sea la\nVelocidad del usuario en comparación con la del\nobjetivo, mayor será el daño causado."
-        ],
-        [
-            "Voltiocambio",
-            "special",
-            "electric",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Cola Dragón",
-            "physical",
-            "dragon",
-            60,
-            90,
-            10,
-            "Ataca al objetivo y lo obliga a cambiarse por otro\nPokémon. Si es uno salvaje, acaba el combate."
-        ],
-        [
-            "Electrotela",
-            "special",
-            "electric",
-            55,
-            95,
-            15,
-            "Atrapa y ataca a los objetivos con una telaraña\neléctrica. También reduce su Velocidad."
-        ],
-        [
-            "Voltio Cruel",
-            "physical",
-            "electric",
-            90,
-            100,
-            15,
-            "Carga eléctrica muy potente que también hiere\nligeramente a quien la usa."
-        ],
-        [
-            "Alarido",
-            "special",
-            "dark",
-            55,
-            95,
-            15,
-            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
-        ],
-        [
-            "Onda Anómala",
-            "special",
-            "electric",
-            null,
-            100,
-            15,
-            "Su cuerpo irradia unas raras ondas que, al alcanzar\na un oponente, hacen que disminuya mucho su\nAtaque Especial."
-        ],
-        [
-            "Campo Eléctrico",
-            "special",
-            "electric",
-            null,
-            null,
-            10,
-            "Durante cinco turnos, crea un campo eléctrico en\nel terreno de combate que impide dormirse a los\nPokémon que estén en contacto con el suelo."
-        ],
-        [
-            "Martillo Dragón",
-            "physical",
-            "dragon",
-            90,
-            100,
-            15,
-            "Usa el cuerpo como un martillo para abalanzarse\nsobre su rival y causarle daño."
-        ],
-        [
-            "Pataleta",
-            "physical",
-            "ground",
-            75,
-            100,
-            10,
-            "Usa la frustración como revulsivo para atacar. La\npotencia de Pataleta se duplica si el usuario ha\nfallado el último movimiento usado."
-        ],
-        [
-            "Plancha Corporal",
-            "physical",
-            "fighting",
-            80,
-            100,
-            10,
-            "El usuario usa el cuerpo para lanzar su ataque e infligir\nun daño directamente proporcional a su Defensa."
-        ],
-        [
-            "Vasto Impacto",
-            "physical",
-            "dragon",
-            60,
-            100,
-            15,
-            "El usuario sacude violentamente su enorme cola para\ngolpear a todos los rivales y reducir su Ataque a la par."
-        ],
-        [
-            "Alto Voltaje",
-            "special",
-            "electric",
-            70,
-            100,
-            20,
-            "Ataca con una descarga eléctrica que surge del terreno\nde combate. La potencia del movimiento se duplica si\nel rival se ve afectado por un campo eléctrico."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "Relámpago Súbito",
-            "special",
-            "electric",
-            70,
-            100,
-            5,
-            ""
-        ],
-        [
-            "Bramido Dragón",
-            "special",
-            "dragon",
-            0,
-            0,
-            15,
-            ""
-        ],
-        [
-            "Plancha Voltaica",
-            "physical",
-            "electric",
-            100,
-            95,
-            15,
-            ""
-        ]
-    ],
-    125,
-    73,
-    91,
-    137,
-    89,
-    75
+[
+
+    "raging-bolt",
+
+    1021,
+
+    [
+
+        "electric",
+
+        "dragon"
+
+    ],
+
+    [
+
+        [
+
+            "Pisotón",
+
+            "physical",
+
+            "normal",
+
+            65,
+
+            100,
+
+            20,
+
+            "Tremendo pisotón que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Golpe Cuerpo",
+
+            "physical",
+
+            "normal",
+
+            85,
+
+            100,
+
+            15,
+
+            "Salta sobre el objetivo con todo su peso. Puede paralizar."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Doble Filo",
+
+            "physical",
+
+            "normal",
+
+            120,
+
+            100,
+
+            15,
+
+            "Ataque arriesgado que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Rugido",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Rayo Solar",
+
+            "special",
+
+            "grass",
+
+            120,
+
+            100,
+
+            10,
+
+            "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía."
+
+        ],
+
+        [
+
+            "Rayo",
+
+            "special",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Potente ataque eléctrico que puede paralizar al objetivo."
+
+        ],
+
+        [
+
+            "Onda Trueno",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            90,
+
+            20,
+
+            "Una ligera descarga que paraliza al objetivo si lo alcanza."
+
+        ],
+
+        [
+
+            "Trueno",
+
+            "special",
+
+            "electric",
+
+            110,
+
+            70,
+
+            10,
+
+            "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+
+        ],
+
+        [
+
+            "Terremoto",
+
+            "physical",
+
+            "ground",
+
+            100,
+
+            100,
+
+            10,
+
+            "Un terremoto que afecta a los Pokémon de alrededor en combate."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Cara Susto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            10,
+
+            "Asusta al objetivo para reducir mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Electrocañón",
+
+            "special",
+
+            "electric",
+
+            120,
+
+            50,
+
+            5,
+
+            "Dispara una descarga eléctrica que causa daño y parálisis."
+
+        ],
+
+        [
+
+            "Enfado",
+
+            "physical",
+
+            "dragon",
+
+            120,
+
+            100,
+
+            10,
+
+            "Ataca de dos a tres turnos y acaba confundiendo al agresor."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Dragoaliento",
+
+            "special",
+
+            "dragon",
+
+            60,
+
+            100,
+
+            20,
+
+            "Poderosa ráfaga de aliento que golpea al objetivo y puede paralizarlo."
+
+        ],
+
+        [
+
+            "Ciclón",
+
+            "special",
+
+            "dragon",
+
+            40,
+
+            100,
+
+            20,
+
+            "Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Triturar",
+
+            "physical",
+
+            "dark",
+
+            80,
+
+            100,
+
+            15,
+
+            "Tritura con afilados colmillos y puede bajar la Defensa del objetivo."
+
+        ],
+
+        [
+
+            "Poder Pasado",
+
+            "special",
+
+            "rock",
+
+            60,
+
+            100,
+
+            5,
+
+            "Ataque prehistórico que puede subir todas las características."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Carga",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            null,
+
+            20,
+
+            "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial."
+
+        ],
+
+        [
+
+            "Mofa",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+
+        ],
+
+        [
+
+            "Vozarrón",
+
+            "special",
+
+            "normal",
+
+            90,
+
+            100,
+
+            10,
+
+            "Grito desgarrador que inflige daño al objetivo."
+
+        ],
+
+        [
+
+            "Meteorobola",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            10,
+
+            "El tipo y fuerza del ataque varían según el tiempo que haga."
+
+        ],
+
+        [
+
+            "Paz Mental",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Aumenta la concentración y calma el espíritu para subir el Ataque Especial y la Defensa Especial."
+
+        ],
+
+        [
+
+            "Onda Voltio",
+
+            "special",
+
+            "electric",
+
+            60,
+
+            null,
+
+            20,
+
+            "Ataque eléctrico muy rápido e ineludible."
+
+        ],
+
+        [
+
+            "Pulso Dragón",
+
+            "special",
+
+            "dragon",
+
+            85,
+
+            100,
+
+            10,
+
+            "Abre mucho la boca y libera una onda de choque que ataca al objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Colmillo Rayo",
+
+            "physical",
+
+            "electric",
+
+            65,
+
+            95,
+
+            15,
+
+            "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice."
+
+        ],
+
+        [
+
+            "Cometa Draco",
+
+            "special",
+
+            "dragon",
+
+            130,
+
+            90,
+
+            5,
+
+            "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa."
+
+        ],
+
+        [
+
+            "Chispazo",
+
+            "special",
+
+            "electric",
+
+            80,
+
+            100,
+
+            15,
+
+            "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar."
+
+        ],
+
+        [
+
+            "Rayo Carga",
+
+            "special",
+
+            "electric",
+
+            50,
+
+            90,
+
+            10,
+
+            "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Cuerpo Pesado",
+
+            "physical",
+
+            "steel",
+
+            null,
+
+            100,
+
+            10,
+
+            "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará."
+
+        ],
+
+        [
+
+            "Bola Voltio",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del objetivo, mayor será el daño causado."
+
+        ],
+
+        [
+
+            "Voltiocambio",
+
+            "special",
+
+            "electric",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Cola Dragón",
+
+            "physical",
+
+            "dragon",
+
+            60,
+
+            90,
+
+            10,
+
+            "Ataca al objetivo y lo obliga a cambiarse por otro Pokémon. Si es uno salvaje, acaba el combate."
+
+        ],
+
+        [
+
+            "Electrotela",
+
+            "special",
+
+            "electric",
+
+            55,
+
+            95,
+
+            15,
+
+            "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad."
+
+        ],
+
+        [
+
+            "Voltio Cruel",
+
+            "physical",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Carga eléctrica muy potente que también hiere ligeramente a quien la usa."
+
+        ],
+
+        [
+
+            "Alarido",
+
+            "special",
+
+            "dark",
+
+            55,
+
+            95,
+
+            15,
+
+            "Ataca con un chillido desagradable que baja el Ataque Especial del rival."
+
+        ],
+
+        [
+
+            "Onda Anómala",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            100,
+
+            15,
+
+            "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial."
+
+        ],
+
+        [
+
+            "Campo Eléctrico",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            null,
+
+            10,
+
+            "Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo."
+
+        ],
+
+        [
+
+            "Martillo Dragón",
+
+            "physical",
+
+            "dragon",
+
+            90,
+
+            100,
+
+            15,
+
+            "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño."
+
+        ],
+
+        [
+
+            "Pataleta",
+
+            "physical",
+
+            "ground",
+
+            75,
+
+            100,
+
+            10,
+
+            "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado."
+
+        ],
+
+        [
+
+            "Plancha Corporal",
+
+            "physical",
+
+            "fighting",
+
+            80,
+
+            100,
+
+            10,
+
+            "El usuario usa el cuerpo para lanzar su ataque e infligir un daño directamente proporcional a su Defensa."
+
+        ],
+
+        [
+
+            "Vasto Impacto",
+
+            "physical",
+
+            "dragon",
+
+            60,
+
+            100,
+
+            15,
+
+            "El usuario sacude violentamente su enorme cola para golpear a todos los rivales y reducir su Ataque a la par."
+
+        ],
+
+        [
+
+            "Alto Voltaje",
+
+            "special",
+
+            "electric",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con una descarga eléctrica que surge del terreno de combate. La potencia del movimiento se duplica si el rival se ve afectado por un campo eléctrico."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "Relámpago Súbito",
+
+            "special",
+
+            "electric",
+
+            70,
+
+            100,
+
+            5,
+
+            ""
+
+        ],
+
+        [
+
+            "Bramido Dragón",
+
+            "special",
+
+            "dragon",
+
+            0,
+
+            0,
+
+            15,
+
+            ""
+
+        ],
+
+        [
+
+            "Plancha Voltaica",
+
+            "physical",
+
+            "electric",
+
+            100,
+
+            95,
+
+            15,
+
+            ""
+
+        ]
+
+    ],
+
+    125,
+
+    73,
+
+    91,
+
+    137,
+
+    89,
+
+    75
+
 ]

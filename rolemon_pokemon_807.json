@@ -1,762 +1,1523 @@
-[
-    "zeraora",
-    807,
-    [
-        "electric"
-    ],
-    [
-        [
-            "Megapuño",
-            "physical",
-            "normal",
-            80,
-            85,
-            20,
-            "Un puñetazo de gran potencia."
-        ],
-        [
-            "Día de Pago",
-            "physical",
-            "normal",
-            40,
-            100,
-            20,
-            "Arroja monedas al objetivo. Las recupera al final\ndel combate."
-        ],
-        [
-            "Puño Fuego",
-            "physical",
-            "fire",
-            75,
-            100,
-            15,
-            "Puñetazo ardiente. Puede quemar."
-        ],
-        [
-            "Puño Trueno",
-            "physical",
-            "electric",
-            75,
-            100,
-            15,
-            "Puñetazo eléctrico. Puede paralizar."
-        ],
-        [
-            "Arañazo",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Araña con afiladas garras."
-        ],
-        [
-            "Megapatada",
-            "physical",
-            "normal",
-            120,
-            75,
-            5,
-            "Patada de extrema fuerza."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Patada Baja",
-            "physical",
-            "fighting",
-            null,
-            100,
-            20,
-            "Patada baja. Cuanto más pesa el objetivo, más\ndaño causa."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque eléctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Trueno",
-            "special",
-            "electric",
-            110,
-            70,
-            10,
-            "Un poderoso rayo que daña al objetivo y puede\nparalizarlo."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Ataque Rápido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque rápido que permite golpear en primer lugar."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sí mismo para mejorar la Evasión."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Golpes Furia",
-            "physical",
-            "normal",
-            18,
-            80,
-            15,
-            "Araña rápidamente de dos a cinco veces."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Cuchillada",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con cuchillas o con pinzas. Suele dar un\ngolpe crítico."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Inversión",
-            "physical",
-            "fighting",
-            null,
-            100,
-            15,
-            "Ataque desesperado que causa más daño cuantos \nmenos PS tenga el usuario."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "Enfado",
-            "physical",
-            "dragon",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Falso Tortazo",
-            "physical",
-            "normal",
-            40,
-            100,
-            40,
-            "Ataque moderado que no debilita al objetivo y le\ndeja al menos 1 PS."
-        ],
-        [
-            "Chispa",
-            "physical",
-            "electric",
-            65,
-            100,
-            20,
-            "Ataque eléctrico que puede llegar a paralizar."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Retribución",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto mayor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Frustración",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto menor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Cola Férrea",
-            "physical",
-            "steel",
-            100,
-            75,
-            15,
-            "Ataca con una cola férrea y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Poder Oculto",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Movimiento cuyo tipo varía en función del\nPokémon que lo usa."
-        ],
-        [
-            "Sorpresa",
-            "physical",
-            "normal",
-            40,
-            100,
-            10,
-            "Ataca primero y, además, hace retroceder al\nobjetivo. Solo sirve en el primer turno."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Puño Certero",
-            "physical",
-            "fighting",
-            150,
-            100,
-            20,
-            "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso."
-        ],
-        [
-            "Carga",
-            "special",
-            "electric",
-            null,
-            null,
-            20,
-            "Recarga energía para potenciar el siguiente\nmovimiento de tipo Eléctrico. También sube la\nDefensa Especial."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Fuerza Bruta",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Ataque de gran potencia, pero que reduce el\nAtaque y la Defensa del agresor."
-        ],
-        [
-            "Desquite",
-            "physical",
-            "fighting",
-            60,
-            100,
-            10,
-            "Ataque que produce el doble de daño si el usuario\nes herido en el mismo turno."
-        ],
-        [
-            "Demolición",
-            "physical",
-            "fighting",
-            75,
-            100,
-            15,
-            "Potente ataque que también es capaz de destruir\nbarreras como Pantalla de Luz y Reflejo."
-        ],
-        [
-            "Desarme",
-            "physical",
-            "dark",
-            65,
-            100,
-            20,
-            "Impide al objetivo usar el objeto que lleva durante\nel combate. La potencia del movimiento se\nmultiplica si el objetivo lleva un objeto."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Robo",
-            "special",
-            "dark",
-            null,
-            null,
-            10,
-            "Roba el efecto de los movimientos de curación\no de cambio de características que se usen."
-        ],
-        [
-            "Patada Ígnea",
-            "physical",
-            "fire",
-            85,
-            90,
-            10,
-            "Patada que suele ser un golpe crítico y puede\ncausar quemaduras."
-        ],
-        [
-            "Golpe Aéreo",
-            "physical",
-            "flying",
-            60,
-            null,
-            20,
-            "El usuario lanza un ataque muy rápido e ineludible."
-        ],
-        [
-            "Corpulencia",
-            "special",
-            "fighting",
-            null,
-            null,
-            20,
-            "Robustece el cuerpo para subir el Ataque y la Defensa."
-        ],
-        [
-            "Bote",
-            "physical",
-            "flying",
-            85,
-            85,
-            5,
-            "Primer turno: bota. Segundo turno: golpea. Puede\nparalizar."
-        ],
-        [
-            "Paz Mental",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Aumenta la concentración y calma el espíritu para\nsubir el Ataque Especial y la Defensa Especial."
-        ],
-        [
-            "Onda Voltio",
-            "special",
-            "electric",
-            60,
-            null,
-            20,
-            "Ataque eléctrico muy rápido e ineludible."
-        ],
-        [
-            "A Bocajarro",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Lucha abiertamente contra el objetivo sin\nprotegerse. También reduce la Defensa y la\nDefensa Especial del usuario."
-        ],
-        [
-            "Buena Baza",
-            "physical",
-            "dark",
-            60,
-            100,
-            10,
-            "Si el objetivo ya ha sufrido daño en ese turno, la\nfuerza del ataque se duplica."
-        ],
-        [
-            "Lanzamiento",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Lanza contra el objetivo el objeto que lleva. La\nfuerza del ataque y su efecto varían según el\nobjeto."
-        ],
-        [
-            "Esfera Aural",
-            "special",
-            "fighting",
-            80,
-            null,
-            20,
-            "Libera una descarga de la fuerza del aura desde\nsu interior. Es infalible."
-        ],
-        [
-            "Puño Drenaje",
-            "physical",
-            "fighting",
-            75,
-            100,
-            10,
-            "Un golpe que drena energía. El Pokémon recupera\nla mitad de los PS arrebatados al objetivo."
-        ],
-        [
-            "Onda Certera",
-            "special",
-            "fighting",
-            120,
-            70,
-            5,
-            "Agudiza la concentración mental y libera su poder.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Chispazo",
-            "special",
-            "electric",
-            80,
-            100,
-            15,
-            "Una deslumbradora onda eléctrica afecta a los\nPokémon que hay combatiendo alrededor. Puede\nparalizar."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto más pesado es el objetivo, más daño\ninflige."
-        ],
-        [
-            "Afilagarras",
-            "special",
-            "dark",
-            null,
-            null,
-            15,
-            "El usuario se afila las garras para aumentar su\nAtaque y Precisión."
-        ],
-        [
-            "Bola Voltio",
-            "special",
-            "electric",
-            null,
-            100,
-            10,
-            "Lanza una bola eléctrica. Cuanto mayor sea la\nVelocidad del usuario en comparación con la del\nobjetivo, mayor será el daño causado."
-        ],
-        [
-            "Puntapié",
-            "physical",
-            "fighting",
-            65,
-            100,
-            20,
-            "Ataque rápido dirigido a los pies del objetivo que\nle hace perder Velocidad."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Eco Voz",
-            "special",
-            "normal",
-            40,
-            100,
-            15,
-            "Un susurro que aumenta de potencia conforme el\nusuario y otros Pokémon lo van utilizando."
-        ],
-        [
-            "Anticipo",
-            "special",
-            "fighting",
-            null,
-            null,
-            15,
-            "Protege a todo el equipo de los movimientos que\nse adelantan y atacan primero."
-        ],
-        [
-            "Acróbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ágilmente. Si el usuario no porta ningún\nobjeto, el objetivo resulta seriamente dañado."
-        ],
-        [
-            "Voltiocambio",
-            "special",
-            "electric",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Avivar",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Quien lo usa se concentra y potencia su Ataque y\nsu Ataque Especial."
-        ],
-        [
-            "Electrotela",
-            "special",
-            "electric",
-            55,
-            95,
-            15,
-            "Atrapa y ataca a los objetivos con una telaraña\neléctrica. También reduce su Velocidad."
-        ],
-        [
-            "Voltio Cruel",
-            "physical",
-            "electric",
-            90,
-            100,
-            15,
-            "Carga eléctrica muy potente que también hiere\nligeramente a quien la usa."
-        ],
-        [
-            "Golpe Bis",
-            "physical",
-            "dragon",
-            40,
-            90,
-            15,
-            "Golpea dos veces seguidas con la cola u otras\npartes de su cuerpo."
-        ],
-        [
-            "Alarido",
-            "special",
-            "dark",
-            55,
-            95,
-            15,
-            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
-        ],
-        [
-            "Carantoña",
-            "physical",
-            "fairy",
-            90,
-            90,
-            10,
-            "El Pokémon que lo usa le hace cucamonas al\nobjetivo y lo ataca. Puede disminuir el Ataque\ndel objetivo."
-        ],
-        [
-            "Confidencia",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Hace que el objetivo pierda la concentración\ncontándole un secreto. Disminuye el Ataque\nEspecial del oponente."
-        ],
-        [
-            "Campo Eléctrico",
-            "special",
-            "electric",
-            null,
-            null,
-            10,
-            "Durante cinco turnos, crea un campo eléctrico en\nel terreno de combate que impide dormirse a los\nPokémon que estén en contacto con el suelo."
-        ],
-        [
-            "Puño Incremento",
-            "physical",
-            "fighting",
-            40,
-            100,
-            20,
-            "Cada vez que golpea a un oponente se endurecen\nsus puños. Si acierta al objetivo, el Ataque del\nusuario aumenta."
-        ],
-        [
-            "Aguzar",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "El usuario se concentra para que el siguiente ataque\npropine un golpe crítico."
-        ],
-        [
-            "Golpe Mordaza",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Inflige al rival un dolor tan abrumador que le impide\nutilizar durante dos turnos ataques que se sirven del\nsonido."
-        ],
-        [
-            "Giro Vil",
-            "physical",
-            "dark",
-            60,
-            100,
-            20,
-            "Hace pivotar su cuerpo para infligir daño a su rival."
-        ],
-        [
-            "Puños Plasma",
-            "physical",
-            "electric",
-            100,
-            100,
-            15,
-            "El usuario ataca con puños cargados de electricidad.\nConvierte los movimientos de tipo Normal en\nmovimientos de tipo Eléctrico."
-        ],
-        [
-            "Alto Voltaje",
-            "special",
-            "electric",
-            70,
-            100,
-            20,
-            "Ataca con una descarga eléctrica que surge del terreno\nde combate. La potencia del movimiento se duplica si\nel rival se ve afectado por un campo eléctrico."
-        ],
-        [
-            "Motivación",
-            "special",
-            "fighting",
-            null,
-            null,
-            10,
-            "El usuario imparte indicaciones precisas a sus aliados,\nque ven aumentados su Ataque y su Defensa."
-        ]
-    ],
-    88,
-    112,
-    75,
-    102,
-    80,
-    143
+[
+
+    "zeraora",
+
+    807,
+
+    [
+
+        "electric"
+
+    ],
+
+    [
+
+        [
+
+            "Megapuño",
+
+            "physical",
+
+            "normal",
+
+            80,
+
+            85,
+
+            20,
+
+            "Un puñetazo de gran potencia."
+
+        ],
+
+        [
+
+            "Día de Pago",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            20,
+
+            "Arroja monedas al objetivo. Las recupera al final del combate."
+
+        ],
+
+        [
+
+            "Puño Fuego",
+
+            "physical",
+
+            "fire",
+
+            75,
+
+            100,
+
+            15,
+
+            "Puñetazo ardiente. Puede quemar."
+
+        ],
+
+        [
+
+            "Puño Trueno",
+
+            "physical",
+
+            "electric",
+
+            75,
+
+            100,
+
+            15,
+
+            "Puñetazo eléctrico. Puede paralizar."
+
+        ],
+
+        [
+
+            "Arañazo",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Araña con afiladas garras."
+
+        ],
+
+        [
+
+            "Megapatada",
+
+            "physical",
+
+            "normal",
+
+            120,
+
+            75,
+
+            5,
+
+            "Patada de extrema fuerza."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Patada Baja",
+
+            "physical",
+
+            "fighting",
+
+            null,
+
+            100,
+
+            20,
+
+            "Patada baja. Cuanto más pesa el objetivo, más daño causa."
+
+        ],
+
+        [
+
+            "Rayo",
+
+            "special",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Potente ataque eléctrico que puede paralizar al objetivo."
+
+        ],
+
+        [
+
+            "Onda Trueno",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            90,
+
+            20,
+
+            "Una ligera descarga que paraliza al objetivo si lo alcanza."
+
+        ],
+
+        [
+
+            "Trueno",
+
+            "special",
+
+            "electric",
+
+            110,
+
+            70,
+
+            10,
+
+            "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Ataque Rápido",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            30,
+
+            "Ataque rápido que permite golpear en primer lugar."
+
+        ],
+
+        [
+
+            "Doble Equipo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea copias de sí mismo para mejorar la Evasión."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Golpes Furia",
+
+            "physical",
+
+            "normal",
+
+            18,
+
+            80,
+
+            15,
+
+            "Araña rápidamente de dos a cinco veces."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Cuchillada",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con cuchillas o con pinzas. Suele dar un golpe crítico."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Inversión",
+
+            "physical",
+
+            "fighting",
+
+            null,
+
+            100,
+
+            15,
+
+            "Ataque desesperado que causa más daño cuantos  menos PS tenga el usuario."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Cara Susto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            10,
+
+            "Asusta al objetivo para reducir mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Enfado",
+
+            "physical",
+
+            "dragon",
+
+            120,
+
+            100,
+
+            10,
+
+            "Ataca de dos a tres turnos y acaba confundiendo al agresor."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Falso Tortazo",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            40,
+
+            "Ataque moderado que no debilita al objetivo y le deja al menos 1 PS."
+
+        ],
+
+        [
+
+            "Chispa",
+
+            "physical",
+
+            "electric",
+
+            65,
+
+            100,
+
+            20,
+
+            "Ataque eléctrico que puede llegar a paralizar."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Retribución",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Frustración",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Cola Férrea",
+
+            "physical",
+
+            "steel",
+
+            100,
+
+            75,
+
+            15,
+
+            "Ataca con una cola férrea y puede bajar la Defensa del objetivo."
+
+        ],
+
+        [
+
+            "Poder Oculto",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Movimiento cuyo tipo varía en función del Pokémon que lo usa."
+
+        ],
+
+        [
+
+            "Sorpresa",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            10,
+
+            "Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Puño Certero",
+
+            "physical",
+
+            "fighting",
+
+            150,
+
+            100,
+
+            20,
+
+            "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso."
+
+        ],
+
+        [
+
+            "Carga",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            null,
+
+            20,
+
+            "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial."
+
+        ],
+
+        [
+
+            "Mofa",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Fuerza Bruta",
+
+            "physical",
+
+            "fighting",
+
+            120,
+
+            100,
+
+            5,
+
+            "Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor."
+
+        ],
+
+        [
+
+            "Desquite",
+
+            "physical",
+
+            "fighting",
+
+            60,
+
+            100,
+
+            10,
+
+            "Ataque que produce el doble de daño si el usuario es herido en el mismo turno."
+
+        ],
+
+        [
+
+            "Demolición",
+
+            "physical",
+
+            "fighting",
+
+            75,
+
+            100,
+
+            15,
+
+            "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo."
+
+        ],
+
+        [
+
+            "Desarme",
+
+            "physical",
+
+            "dark",
+
+            65,
+
+            100,
+
+            20,
+
+            "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto."
+
+        ],
+
+        [
+
+            "Esfuerzo",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "Reduce los PS del objetivo para que igualen a los del atacante."
+
+        ],
+
+        [
+
+            "Robo",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            10,
+
+            "Roba el efecto de los movimientos de curación o de cambio de características que se usen."
+
+        ],
+
+        [
+
+            "Patada Ígnea",
+
+            "physical",
+
+            "fire",
+
+            85,
+
+            90,
+
+            10,
+
+            "Patada que suele ser un golpe crítico y puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Golpe Aéreo",
+
+            "physical",
+
+            "flying",
+
+            60,
+
+            null,
+
+            20,
+
+            "El usuario lanza un ataque muy rápido e ineludible."
+
+        ],
+
+        [
+
+            "Corpulencia",
+
+            "special",
+
+            "fighting",
+
+            null,
+
+            null,
+
+            20,
+
+            "Robustece el cuerpo para subir el Ataque y la Defensa."
+
+        ],
+
+        [
+
+            "Bote",
+
+            "physical",
+
+            "flying",
+
+            85,
+
+            85,
+
+            5,
+
+            "Primer turno: bota. Segundo turno: golpea. Puede paralizar."
+
+        ],
+
+        [
+
+            "Paz Mental",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Aumenta la concentración y calma el espíritu para subir el Ataque Especial y la Defensa Especial."
+
+        ],
+
+        [
+
+            "Onda Voltio",
+
+            "special",
+
+            "electric",
+
+            60,
+
+            null,
+
+            20,
+
+            "Ataque eléctrico muy rápido e ineludible."
+
+        ],
+
+        [
+
+            "A Bocajarro",
+
+            "physical",
+
+            "fighting",
+
+            120,
+
+            100,
+
+            5,
+
+            "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario."
+
+        ],
+
+        [
+
+            "Buena Baza",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            10,
+
+            "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica."
+
+        ],
+
+        [
+
+            "Lanzamiento",
+
+            "physical",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto."
+
+        ],
+
+        [
+
+            "Esfera Aural",
+
+            "special",
+
+            "fighting",
+
+            80,
+
+            null,
+
+            20,
+
+            "Libera una descarga de la fuerza del aura desde su interior. Es infalible."
+
+        ],
+
+        [
+
+            "Puño Drenaje",
+
+            "physical",
+
+            "fighting",
+
+            75,
+
+            100,
+
+            10,
+
+            "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo."
+
+        ],
+
+        [
+
+            "Onda Certera",
+
+            "special",
+
+            "fighting",
+
+            120,
+
+            70,
+
+            5,
+
+            "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Chispazo",
+
+            "special",
+
+            "electric",
+
+            80,
+
+            100,
+
+            15,
+
+            "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar."
+
+        ],
+
+        [
+
+            "Hierba Lazo",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+
+        ],
+
+        [
+
+            "Afilagarras",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            15,
+
+            "El usuario se afila las garras para aumentar su Ataque y Precisión."
+
+        ],
+
+        [
+
+            "Bola Voltio",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del objetivo, mayor será el daño causado."
+
+        ],
+
+        [
+
+            "Puntapié",
+
+            "physical",
+
+            "fighting",
+
+            65,
+
+            100,
+
+            20,
+
+            "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Eco Voz",
+
+            "special",
+
+            "normal",
+
+            40,
+
+            100,
+
+            15,
+
+            "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando."
+
+        ],
+
+        [
+
+            "Anticipo",
+
+            "special",
+
+            "fighting",
+
+            null,
+
+            null,
+
+            15,
+
+            "Protege a todo el equipo de los movimientos que se adelantan y atacan primero."
+
+        ],
+
+        [
+
+            "Acróbata",
+
+            "physical",
+
+            "flying",
+
+            55,
+
+            100,
+
+            15,
+
+            "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Voltiocambio",
+
+            "special",
+
+            "electric",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Avivar",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            30,
+
+            "Quien lo usa se concentra y potencia su Ataque y su Ataque Especial."
+
+        ],
+
+        [
+
+            "Electrotela",
+
+            "special",
+
+            "electric",
+
+            55,
+
+            95,
+
+            15,
+
+            "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad."
+
+        ],
+
+        [
+
+            "Voltio Cruel",
+
+            "physical",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Carga eléctrica muy potente que también hiere ligeramente a quien la usa."
+
+        ],
+
+        [
+
+            "Golpe Bis",
+
+            "physical",
+
+            "dragon",
+
+            40,
+
+            90,
+
+            15,
+
+            "Golpea dos veces seguidas con la cola u otras partes de su cuerpo."
+
+        ],
+
+        [
+
+            "Alarido",
+
+            "special",
+
+            "dark",
+
+            55,
+
+            95,
+
+            15,
+
+            "Ataca con un chillido desagradable que baja el Ataque Especial del rival."
+
+        ],
+
+        [
+
+            "Carantoña",
+
+            "physical",
+
+            "fairy",
+
+            90,
+
+            90,
+
+            10,
+
+            "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo."
+
+        ],
+
+        [
+
+            "Confidencia",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente."
+
+        ],
+
+        [
+
+            "Campo Eléctrico",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            null,
+
+            10,
+
+            "Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo."
+
+        ],
+
+        [
+
+            "Puño Incremento",
+
+            "physical",
+
+            "fighting",
+
+            40,
+
+            100,
+
+            20,
+
+            "Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta."
+
+        ],
+
+        [
+
+            "Aguzar",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            30,
+
+            "El usuario se concentra para que el siguiente ataque propine un golpe crítico."
+
+        ],
+
+        [
+
+            "Golpe Mordaza",
+
+            "physical",
+
+            "dark",
+
+            80,
+
+            100,
+
+            15,
+
+            "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido."
+
+        ],
+
+        [
+
+            "Giro Vil",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            20,
+
+            "Hace pivotar su cuerpo para infligir daño a su rival."
+
+        ],
+
+        [
+
+            "Puños Plasma",
+
+            "physical",
+
+            "electric",
+
+            100,
+
+            100,
+
+            15,
+
+            "El usuario ataca con puños cargados de electricidad. Convierte los movimientos de tipo Normal en movimientos de tipo Eléctrico."
+
+        ],
+
+        [
+
+            "Alto Voltaje",
+
+            "special",
+
+            "electric",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con una descarga eléctrica que surge del terreno de combate. La potencia del movimiento se duplica si el rival se ve afectado por un campo eléctrico."
+
+        ],
+
+        [
+
+            "Motivación",
+
+            "special",
+
+            "fighting",
+
+            null,
+
+            null,
+
+            10,
+
+            "El usuario imparte indicaciones precisas a sus aliados, que ven aumentados su Ataque y su Defensa."
+
+        ]
+
+    ],
+
+    88,
+
+    112,
+
+    75,
+
+    102,
+
+    80,
+
+    143
+
 ]

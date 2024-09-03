@@ -1,24 +1,47 @@
-[
-    "smeargle",
-    235,
-    [
-        "normal"
-    ],
-    [
-        [
-            "Esquema",
-            "special",
-            "normal",
-            null,
-            null,
-            1,
-            "Aprende de forma permanente el último movimiento\nutilizado por el objetivo. Es de un solo uso."
-        ]
-    ],
-    55,
-    20,
-    35,
-    20,
-    45,
-    75
+[
+
+    "smeargle",
+
+    235,
+
+    [
+
+        "normal"
+
+    ],
+
+    [
+
+        [
+
+            "Esquema",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            1,
+
+            "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso."
+
+        ]
+
+    ],
+
+    55,
+
+    20,
+
+    35,
+
+    20,
+
+    45,
+
+    75
+
 ]

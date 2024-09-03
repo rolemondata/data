@@ -1,682 +1,1363 @@
-[
-    "morpeko-full-belly",
-    877,
-    [
-        "electric",
-        "dark"
-    ],
-    [
-        [
-            "Puño Trueno",
-            "physical",
-            "electric",
-            75,
-            100,
-            15,
-            "Puñetazo eléctrico. Puede paralizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Golpe",
-            "physical",
-            "normal",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que también hiere al agresor."
-        ],
-        [
-            "Látigo",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Agita la cola para bajar la Defensa del equipo rival. "
-        ],
-        [
-            "Malicioso",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Intimida a los rivales para bajar su Defensa."
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Impactrueno",
-            "special",
-            "electric",
-            40,
-            100,
-            30,
-            "Ataque eléctrico que puede paralizar al objetivo."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque eléctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Trueno",
-            "special",
-            "electric",
-            110,
-            70,
-            10,
-            "Un poderoso rayo que daña al objetivo y puede\nparalizarlo."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Ataque Rápido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque rápido que permite golpear en primer lugar."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Superdiente",
-            "physical",
-            "normal",
-            null,
-            90,
-            10,
-            "Finos colmillos que reducen a la mitad los PS del\nobjetivo."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ladrón",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robará el del\nobjetivo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Inversión",
-            "physical",
-            "fighting",
-            null,
-            100,
-            15,
-            "Ataque desesperado que causa más daño cuantos \nmenos PS tenga el usuario."
-        ],
-        [
-            "Rencor",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "Enfado",
-            "physical",
-            "dragon",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusión en el objetivo, pero también\nsube mucho su Ataque."
-        ],
-        [
-            "Chispa",
-            "physical",
-            "electric",
-            65,
-            100,
-            20,
-            "Ataque eléctrico que puede llegar a paralizar."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Relevo",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Cambia el puesto con un compañero y le pasa los\ncambios de características."
-        ],
-        [
-            "Giro Rápido",
-            "physical",
-            "normal",
-            50,
-            100,
-            40,
-            "Ataque giratorio que puede eliminar movimientos\ncomo Atadura, Constricción, Drenadoras y Púas."
-        ],
-        [
-            "Triturar",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Sorpresa",
-            "physical",
-            "normal",
-            40,
-            100,
-            10,
-            "Ataca primero y, además, hace retroceder al\nobjetivo. Solo sirve en el primer turno."
-        ],
-        [
-            "Alboroto",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Ataca de forma alborotada durante tres turnos.\nMantiene despiertos a todos."
-        ],
-        [
-            "Tormento",
-            "special",
-            "dark",
-            null,
-            100,
-            15,
-            "Atormenta y enfurece al objetivo, que no puede\nusar dos veces seguidas el mismo movimiento."
-        ],
-        [
-            "Camelo",
-            "special",
-            "dark",
-            null,
-            100,
-            15,
-            "Halaga al objetivo y lo confunde, pero también\nsube su Ataque Especial."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Carga",
-            "special",
-            "electric",
-            null,
-            null,
-            20,
-            "Recarga energía para potenciar el siguiente\nmovimiento de tipo Eléctrico. También sube la\nDefensa Especial."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Desquite",
-            "physical",
-            "fighting",
-            60,
-            100,
-            10,
-            "Ataque que produce el doble de daño si el usuario\nes herido en el mismo turno."
-        ],
-        [
-            "Demolición",
-            "physical",
-            "fighting",
-            75,
-            100,
-            15,
-            "Potente ataque que también es capaz de destruir\nbarreras como Pantalla de Luz y Reflejo."
-        ],
-        [
-            "Desarme",
-            "physical",
-            "dark",
-            65,
-            100,
-            20,
-            "Impide al objetivo usar el objeto que lleva durante\nel combate. La potencia del movimiento se\nmultiplica si el objetivo lleva un objeto."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Llanto Falso",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Lágrimas de cocodrilo que bajan mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Cosquillas",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Hace reír al objetivo para bajar su Ataque y\nDefensa."
-        ],
-        [
-            "Semilladora",
-            "physical",
-            "grass",
-            25,
-            100,
-            30,
-            "Dispara rápido de dos a cinco ráfagas de semillas\nde manera consecutiva."
-        ],
-        [
-            "Vendetta",
-            "physical",
-            "dark",
-            50,
-            100,
-            10,
-            "El usuario contraataca con el doble de fuerza si el\nobjetivo usa un movimiento antes."
-        ],
-        [
-            "Buena Baza",
-            "physical",
-            "dark",
-            60,
-            100,
-            10,
-            "Si el objetivo ya ha sufrido daño en ese turno, la\nfuerza del ataque se duplica."
-        ],
-        [
-            "Lanzamiento",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Lanza contra el objetivo el objeto que lleva. La\nfuerza del ataque y su efecto varían según el\nobjeto."
-        ],
-        [
-            "Pulso Umbrío",
-            "special",
-            "dark",
-            80,
-            100,
-            15,
-            "Libera una horrible aura llena de malos\npensamientos y puede hacer retroceder al objetivo."
-        ],
-        [
-            "Bomba Germen",
-            "physical",
-            "grass",
-            80,
-            100,
-            15,
-            "Lanza al objetivo una descarga de semillas\nexplosivas desde arriba."
-        ],
-        [
-            "Maquinación",
-            "special",
-            "dark",
-            null,
-            null,
-            20,
-            "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial."
-        ],
-        [
-            "Colmillo Rayo",
-            "physical",
-            "electric",
-            65,
-            95,
-            15,
-            "Usa colmillos electrificados para morder. Puede\nhacer que el objetivo retroceda o se paralice."
-        ],
-        [
-            "Colmillo Hielo",
-            "physical",
-            "ice",
-            65,
-            95,
-            15,
-            "Usa colmillos helados para morder. Puede hacer\nque el objetivo retroceda o se congele."
-        ],
-        [
-            "Colmillo Ígneo",
-            "physical",
-            "fire",
-            65,
-            95,
-            15,
-            "Usa colmillos en llamas para morder. Puede hacer\nque el objetivo retroceda o reciba quemaduras."
-        ],
-        [
-            "Rayo Carga",
-            "special",
-            "electric",
-            50,
-            90,
-            10,
-            "Lanza un rayo eléctrico contra el objetivo. Puede\nsubir el Ataque Especial de quien lo usa."
-        ],
-        [
-            "Bola Voltio",
-            "special",
-            "electric",
-            null,
-            100,
-            10,
-            "Lanza una bola eléctrica. Cuanto mayor sea la\nVelocidad del usuario en comparación con la del\nobjetivo, mayor será el daño causado."
-        ],
-        [
-            "Juego Sucio",
-            "physical",
-            "dark",
-            95,
-            100,
-            15,
-            "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Último Lugar",
-            "special",
-            "dark",
-            null,
-            100,
-            15,
-            "Consigue que el objetivo sea el último en moverse."
-        ],
-        [
-            "Voltiocambio",
-            "special",
-            "electric",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Electrotela",
-            "special",
-            "electric",
-            55,
-            95,
-            15,
-            "Atrapa y ataca a los objetivos con una telaraña\neléctrica. También reduce su Velocidad."
-        ],
-        [
-            "Voltio Cruel",
-            "physical",
-            "electric",
-            90,
-            100,
-            15,
-            "Carga eléctrica muy potente que también hiere\nligeramente a quien la usa."
-        ],
-        [
-            "Alarido",
-            "special",
-            "dark",
-            55,
-            95,
-            15,
-            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
-        ],
-        [
-            "Última Palabra",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "El usuario se cambia por otro Pokémon de su\nequipo, pero antes amedrenta a su oponente y\nhace que disminuyan su Ataque y Ataque Especial."
-        ],
-        [
-            "Onda Anómala",
-            "special",
-            "electric",
-            null,
-            100,
-            15,
-            "Su cuerpo irradia unas raras ondas que, al alcanzar\na un oponente, hacen que disminuya mucho su\nAtaque Especial."
-        ],
-        [
-            "Campo Eléctrico",
-            "special",
-            "electric",
-            null,
-            null,
-            10,
-            "Durante cinco turnos, crea un campo eléctrico en\nel terreno de combate que impide dormirse a los\nPokémon que estén en contacto con el suelo."
-        ],
-        [
-            "Chulería",
-            "physical",
-            "dark",
-            20,
-            100,
-            10,
-            "Ataca al oponente presumiendo de su fuerza. Cuanto\nmás hayan subido las características del usuario,\nmayor será el daño."
-        ],
-        [
-            "Psicocolmillo",
-            "physical",
-            "psychic",
-            85,
-            100,
-            10,
-            "Ataca a sus rivales con poderes psíquicos que\nademás destruyen barreras como Pantalla de Luz y\nReflejo."
-        ],
-        [
-            "Pataleta",
-            "physical",
-            "ground",
-            75,
-            100,
-            10,
-            "Usa la frustración como revulsivo para atacar. La\npotencia de Pataleta se duplica si el usuario ha\nfallado el último movimiento usado."
-        ],
-        [
-            "Rueda Aural",
-            "physical",
-            "electric",
-            110,
-            100,
-            10,
-            "La energía que acumula en las mejillas le sirve para\natacar y aumentar su Velocidad. Este movimiento\ncambia de tipo según la forma que adopte Morpeko."
-        ],
-        [
-            "Alto Voltaje",
-            "special",
-            "electric",
-            70,
-            100,
-            20,
-            "Ataca con una descarga eléctrica que surge del terreno\nde combate. La potencia del movimiento se duplica si\nel rival se ve afectado por un campo eléctrico."
-        ],
-        [
-            "Desahogo",
-            "physical",
-            "dark",
-            75,
-            100,
-            5,
-            "Ataca al rival presa de la rabia. Si el usuario ha sufrido\nuna reducción de características en ese turno, la\npotencia del movimiento se duplica."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    58,
-    95,
-    58,
-    70,
-    58,
-    97
+[
+
+    "morpeko-full-belly",
+
+    877,
+
+    [
+
+        "electric",
+
+        "dark"
+
+    ],
+
+    [
+
+        [
+
+            "Puño Trueno",
+
+            "physical",
+
+            "electric",
+
+            75,
+
+            100,
+
+            15,
+
+            "Puñetazo eléctrico. Puede paralizar."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Golpe",
+
+            "physical",
+
+            "normal",
+
+            120,
+
+            100,
+
+            10,
+
+            "Ataca de dos a tres turnos y acaba confundiendo al agresor."
+
+        ],
+
+        [
+
+            "Doble Filo",
+
+            "physical",
+
+            "normal",
+
+            120,
+
+            100,
+
+            15,
+
+            "Ataque arriesgado que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Látigo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            30,
+
+            "Agita la cola para bajar la Defensa del equipo rival. "
+
+        ],
+
+        [
+
+            "Malicioso",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            30,
+
+            "Intimida a los rivales para bajar su Defensa."
+
+        ],
+
+        [
+
+            "Mordisco",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Un voraz bocado que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Impactrueno",
+
+            "special",
+
+            "electric",
+
+            40,
+
+            100,
+
+            30,
+
+            "Ataque eléctrico que puede paralizar al objetivo."
+
+        ],
+
+        [
+
+            "Rayo",
+
+            "special",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Potente ataque eléctrico que puede paralizar al objetivo."
+
+        ],
+
+        [
+
+            "Onda Trueno",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            90,
+
+            20,
+
+            "Una ligera descarga que paraliza al objetivo si lo alcanza."
+
+        ],
+
+        [
+
+            "Trueno",
+
+            "special",
+
+            "electric",
+
+            110,
+
+            70,
+
+            10,
+
+            "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Ataque Rápido",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            30,
+
+            "Ataque rápido que permite golpear en primer lugar."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Superdiente",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            90,
+
+            10,
+
+            "Finos colmillos que reducen a la mitad los PS del objetivo."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ladrón",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Inversión",
+
+            "physical",
+
+            "fighting",
+
+            null,
+
+            100,
+
+            15,
+
+            "Ataque desesperado que causa más daño cuantos  menos PS tenga el usuario."
+
+        ],
+
+        [
+
+            "Rencor",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            10,
+
+            "Da rienda suelta a su rencor para reducir cuatro PP del último movimiento usado por el objetivo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Cara Susto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            10,
+
+            "Asusta al objetivo para reducir mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Enfado",
+
+            "physical",
+
+            "dragon",
+
+            120,
+
+            100,
+
+            10,
+
+            "Ataca de dos a tres turnos y acaba confundiendo al agresor."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Contoneo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            15,
+
+            "Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+
+        ],
+
+        [
+
+            "Chispa",
+
+            "physical",
+
+            "electric",
+
+            65,
+
+            100,
+
+            20,
+
+            "Ataque eléctrico que puede llegar a paralizar."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Relevo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            40,
+
+            "Cambia el puesto con un compañero y le pasa los cambios de características."
+
+        ],
+
+        [
+
+            "Giro Rápido",
+
+            "physical",
+
+            "normal",
+
+            50,
+
+            100,
+
+            40,
+
+            "Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas."
+
+        ],
+
+        [
+
+            "Triturar",
+
+            "physical",
+
+            "dark",
+
+            80,
+
+            100,
+
+            15,
+
+            "Tritura con afilados colmillos y puede bajar la Defensa del objetivo."
+
+        ],
+
+        [
+
+            "Sorpresa",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            10,
+
+            "Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno."
+
+        ],
+
+        [
+
+            "Alboroto",
+
+            "special",
+
+            "normal",
+
+            90,
+
+            100,
+
+            10,
+
+            "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos."
+
+        ],
+
+        [
+
+            "Tormento",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            15,
+
+            "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento."
+
+        ],
+
+        [
+
+            "Camelo",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            15,
+
+            "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Carga",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            null,
+
+            20,
+
+            "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial."
+
+        ],
+
+        [
+
+            "Mofa",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+
+        ],
+
+        [
+
+            "Desquite",
+
+            "physical",
+
+            "fighting",
+
+            60,
+
+            100,
+
+            10,
+
+            "Ataque que produce el doble de daño si el usuario es herido en el mismo turno."
+
+        ],
+
+        [
+
+            "Demolición",
+
+            "physical",
+
+            "fighting",
+
+            75,
+
+            100,
+
+            15,
+
+            "Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo."
+
+        ],
+
+        [
+
+            "Desarme",
+
+            "physical",
+
+            "dark",
+
+            65,
+
+            100,
+
+            20,
+
+            "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto."
+
+        ],
+
+        [
+
+            "Esfuerzo",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "Reduce los PS del objetivo para que igualen a los del atacante."
+
+        ],
+
+        [
+
+            "Llanto Falso",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Lágrimas de cocodrilo que bajan mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Cosquillas",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Hace reír al objetivo para bajar su Ataque y Defensa."
+
+        ],
+
+        [
+
+            "Semilladora",
+
+            "physical",
+
+            "grass",
+
+            25,
+
+            100,
+
+            30,
+
+            "Dispara rápido de dos a cinco ráfagas de semillas de manera consecutiva."
+
+        ],
+
+        [
+
+            "Vendetta",
+
+            "physical",
+
+            "dark",
+
+            50,
+
+            100,
+
+            10,
+
+            "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes."
+
+        ],
+
+        [
+
+            "Buena Baza",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            10,
+
+            "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica."
+
+        ],
+
+        [
+
+            "Lanzamiento",
+
+            "physical",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto."
+
+        ],
+
+        [
+
+            "Pulso Umbrío",
+
+            "special",
+
+            "dark",
+
+            80,
+
+            100,
+
+            15,
+
+            "Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Bomba Germen",
+
+            "physical",
+
+            "grass",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza al objetivo una descarga de semillas explosivas desde arriba."
+
+        ],
+
+        [
+
+            "Maquinación",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            20,
+
+            "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial."
+
+        ],
+
+        [
+
+            "Colmillo Rayo",
+
+            "physical",
+
+            "electric",
+
+            65,
+
+            95,
+
+            15,
+
+            "Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice."
+
+        ],
+
+        [
+
+            "Colmillo Hielo",
+
+            "physical",
+
+            "ice",
+
+            65,
+
+            95,
+
+            15,
+
+            "Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele."
+
+        ],
+
+        [
+
+            "Colmillo Ígneo",
+
+            "physical",
+
+            "fire",
+
+            65,
+
+            95,
+
+            15,
+
+            "Usa colmillos en llamas para morder. Puede hacer que el objetivo retroceda o reciba quemaduras."
+
+        ],
+
+        [
+
+            "Rayo Carga",
+
+            "special",
+
+            "electric",
+
+            50,
+
+            90,
+
+            10,
+
+            "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Bola Voltio",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del objetivo, mayor será el daño causado."
+
+        ],
+
+        [
+
+            "Juego Sucio",
+
+            "physical",
+
+            "dark",
+
+            95,
+
+            100,
+
+            15,
+
+            "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Último Lugar",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            15,
+
+            "Consigue que el objetivo sea el último en moverse."
+
+        ],
+
+        [
+
+            "Voltiocambio",
+
+            "special",
+
+            "electric",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Electrotela",
+
+            "special",
+
+            "electric",
+
+            55,
+
+            95,
+
+            15,
+
+            "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad."
+
+        ],
+
+        [
+
+            "Voltio Cruel",
+
+            "physical",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Carga eléctrica muy potente que también hiere ligeramente a quien la usa."
+
+        ],
+
+        [
+
+            "Alarido",
+
+            "special",
+
+            "dark",
+
+            55,
+
+            95,
+
+            15,
+
+            "Ataca con un chillido desagradable que baja el Ataque Especial del rival."
+
+        ],
+
+        [
+
+            "Última Palabra",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "El usuario se cambia por otro Pokémon de su equipo, pero antes amedrenta a su oponente y hace que disminuyan su Ataque y Ataque Especial."
+
+        ],
+
+        [
+
+            "Onda Anómala",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            100,
+
+            15,
+
+            "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial."
+
+        ],
+
+        [
+
+            "Campo Eléctrico",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            null,
+
+            10,
+
+            "Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo."
+
+        ],
+
+        [
+
+            "Chulería",
+
+            "physical",
+
+            "dark",
+
+            20,
+
+            100,
+
+            10,
+
+            "Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño."
+
+        ],
+
+        [
+
+            "Psicocolmillo",
+
+            "physical",
+
+            "psychic",
+
+            85,
+
+            100,
+
+            10,
+
+            "Ataca a sus rivales con poderes psíquicos que además destruyen barreras como Pantalla de Luz y Reflejo."
+
+        ],
+
+        [
+
+            "Pataleta",
+
+            "physical",
+
+            "ground",
+
+            75,
+
+            100,
+
+            10,
+
+            "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado."
+
+        ],
+
+        [
+
+            "Rueda Aural",
+
+            "physical",
+
+            "electric",
+
+            110,
+
+            100,
+
+            10,
+
+            "La energía que acumula en las mejillas le sirve para atacar y aumentar su Velocidad. Este movimiento cambia de tipo según la forma que adopte Morpeko."
+
+        ],
+
+        [
+
+            "Alto Voltaje",
+
+            "special",
+
+            "electric",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con una descarga eléctrica que surge del terreno de combate. La potencia del movimiento se duplica si el rival se ve afectado por un campo eléctrico."
+
+        ],
+
+        [
+
+            "Desahogo",
+
+            "physical",
+
+            "dark",
+
+            75,
+
+            100,
+
+            5,
+
+            "Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en ese turno, la potencia del movimiento se duplica."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    58,
+
+    95,
+
+    58,
+
+    70,
+
+    58,
+
+    97
+
 ]

@@ -1,141 +1,281 @@
-[
-    "kricketot",
-    401,
-    [
-        "bug"
-    ],
-    [
-        [
-            "Destructor",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Golpea con las patas o la cola."
-        ],
-        [
-            "Placaje",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Embiste con todo el cuerpo."
-        ],
-        [
-            "Gruñido",
-            "special",
-            "normal",
-            null,
-            100,
-            40,
-            "Dulce gruñido que reduce el Ataque del\ncontrincante."
-        ],
-        [
-            "Disparo Demora",
-            "special",
-            "bug",
-            null,
-            95,
-            40,
-            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
-        ],
-        [
-            "Venganza",
-            "physical",
-            "normal",
-            null,
-            null,
-            10,
-            "Espera dos turnos para atacar con el doble de\npotencia del daño recibido."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Bofetón Lodo",
-            "special",
-            "ground",
-            20,
-            100,
-            10,
-            "Echa lodo en la cara para bajar la Precisión."
-        ],
-        [
-            "Alboroto",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Ataca de forma alborotada durante tres turnos.\nMantiene despiertos a todos."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. También reduce su Ataque Especial.\n"
-        ],
-        [
-            "Plancha",
-            "physical",
-            "bug",
-            80,
-            100,
-            15,
-            "Ataca al oponente abalanzándose sobre él con todas\nsus fuerzas y reduce su Ataque."
-        ],
-        [
-            "Golpe Rastrero",
-            "physical",
-            "bug",
-            70,
-            90,
-            10,
-            "Ataca al objetivo por la espalda de forma subrepticia\ny además reduce su Ataque Especial."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    37,
-    25,
-    41,
-    25,
-    41,
-    25
+[
+
+    "kricketot",
+
+    401,
+
+    [
+
+        "bug"
+
+    ],
+
+    [
+
+        [
+
+            "Destructor",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Golpea con las patas o la cola."
+
+        ],
+
+        [
+
+            "Placaje",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Embiste con todo el cuerpo."
+
+        ],
+
+        [
+
+            "Gruñido",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            40,
+
+            "Dulce gruñido que reduce el Ataque del contrincante."
+
+        ],
+
+        [
+
+            "Disparo Demora",
+
+            "special",
+
+            "bug",
+
+            null,
+
+            95,
+
+            40,
+
+            "Lanza seda a los rivales y reduce mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Venganza",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Espera dos turnos para atacar con el doble de potencia del daño recibido."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Bofetón Lodo",
+
+            "special",
+
+            "ground",
+
+            20,
+
+            100,
+
+            10,
+
+            "Echa lodo en la cara para bajar la Precisión."
+
+        ],
+
+        [
+
+            "Alboroto",
+
+            "special",
+
+            "normal",
+
+            90,
+
+            100,
+
+            10,
+
+            "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos."
+
+        ],
+
+        [
+
+            "Esfuerzo",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "Reduce los PS del objetivo para que igualen a los del atacante."
+
+        ],
+
+        [
+
+            "Picadura",
+
+            "physical",
+
+            "bug",
+
+            60,
+
+            100,
+
+            20,
+
+            "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto."
+
+        ],
+
+        [
+
+            "Estoicismo",
+
+            "special",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial. "
+
+        ],
+
+        [
+
+            "Plancha",
+
+            "physical",
+
+            "bug",
+
+            80,
+
+            100,
+
+            15,
+
+            "Ataca al oponente abalanzándose sobre él con todas sus fuerzas y reduce su Ataque."
+
+        ],
+
+        [
+
+            "Golpe Rastrero",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            90,
+
+            10,
+
+            "Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Especial."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    37,
+
+    25,
+
+    41,
+
+    25,
+
+    41,
+
+    25
+
 ]

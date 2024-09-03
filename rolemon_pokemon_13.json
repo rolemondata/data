@@ -1,52 +1,103 @@
-[
-    "weedle",
-    13,
-    [
-        "bug",
-        "poison"
-    ],
-    [
-        [
-            "Picotazo Veneno",
-            "physical",
-            "poison",
-            15,
-            100,
-            35,
-            "Lanza un aguijón tóxico que puede envenenar\nal objetivo."
-        ],
-        [
-            "Disparo Demora",
-            "special",
-            "bug",
-            null,
-            95,
-            40,
-            "Lanza seda a los rivales y reduce mucho su\nVelocidad."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Electrotela",
-            "special",
-            "electric",
-            55,
-            95,
-            15,
-            "Atrapa y ataca a los objetivos con una telaraña\neléctrica. También reduce su Velocidad."
-        ]
-    ],
-    40,
-    35,
-    30,
-    20,
-    20,
-    50
+[
+
+    "weedle",
+
+    13,
+
+    [
+
+        "bug",
+
+        "poison"
+
+    ],
+
+    [
+
+        [
+
+            "Picotazo Veneno",
+
+            "physical",
+
+            "poison",
+
+            15,
+
+            100,
+
+            35,
+
+            "Lanza un aguijón tóxico que puede envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Disparo Demora",
+
+            "special",
+
+            "bug",
+
+            null,
+
+            95,
+
+            40,
+
+            "Lanza seda a los rivales y reduce mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Picadura",
+
+            "physical",
+
+            "bug",
+
+            60,
+
+            100,
+
+            20,
+
+            "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto."
+
+        ],
+
+        [
+
+            "Electrotela",
+
+            "special",
+
+            "electric",
+
+            55,
+
+            95,
+
+            15,
+
+            "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad."
+
+        ]
+
+    ],
+
+    40,
+
+    35,
+
+    30,
+
+    20,
+
+    20,
+
+    50
+
 ]

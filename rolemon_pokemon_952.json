@@ -1,439 +1,877 @@
-[
-    "scovillain",
-    952,
-    [
-        "grass",
-        "fire"
-    ],
-    [
-        [
-            "Golpe Cabeza",
-            "physical",
-            "normal",
-            70,
-            100,
-            15,
-            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Malicioso",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Intimida a los rivales para bajar su Defensa."
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Lanzallamas",
-            "special",
-            "fire",
-            90,
-            100,
-            15,
-            "Ataca con una gran ráfaga de fuego que puede\ncausar quemaduras."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Desarrollo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El cuerpo del usuario crece a marchas forzadas y\naumenta el Ataque y el Ataque Especial."
-        ],
-        [
-            "Hoja Afilada",
-            "physical",
-            "grass",
-            55,
-            95,
-            25,
-            "Corta con hojas afiladas. Suele ser crítico."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energía."
-        ],
-        [
-            "Llamarada",
-            "special",
-            "fire",
-            110,
-            85,
-            5,
-            "Llama intensa que chamusca y puede causar\nquemaduras."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Superdiente",
-            "physical",
-            "normal",
-            null,
-            90,
-            10,
-            "Finos colmillos que reducen a la mitad los PS del\nobjetivo."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ladrón",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robará el del\nobjetivo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "Tormenta Arena",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
-        ],
-        [
-            "Gigadrenado",
-            "special",
-            "grass",
-            75,
-            100,
-            10,
-            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del daño que produce."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Triturar",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Tritura con afilados colmillos y puede bajar la\nDefensa del objetivo."
-        ],
-        [
-            "Fuego Fatuo",
-            "special",
-            "fire",
-            null,
-            85,
-            15,
-            "Siniestra llama morada que produce quemaduras."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Sofoco",
-            "special",
-            "fire",
-            130,
-            90,
-            5,
-            "Ataque en toda regla que baja mucho el Ataque\nEspecial de quien lo usa."
-        ],
-        [
-            "Semilladora",
-            "physical",
-            "grass",
-            25,
-            100,
-            30,
-            "Dispara rápido de dos a cinco ráfagas de semillas\nde manera consecutiva."
-        ],
-        [
-            "Hoja Mágica",
-            "special",
-            "grass",
-            60,
-            null,
-            20,
-            "Esparce extrañas hojas que persiguen al objetivo.\nNo se puede esquivar."
-        ],
-        [
-            "Abatidoras",
-            "special",
-            "grass",
-            null,
-            100,
-            10,
-            "Se planta una semilla en el objetivo que le causa\npesar. Evita el sueño gracias a la habilidad\nInsomnio."
-        ],
-        [
-            "Bomba Germen",
-            "physical",
-            "grass",
-            80,
-            100,
-            15,
-            "Lanza al objetivo una descarga de semillas\nexplosivas desde arriba."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "Aúna fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Colmillo Ígneo",
-            "physical",
-            "fire",
-            65,
-            95,
-            15,
-            "Usa colmillos en llamas para morder. Puede hacer\nque el objetivo retroceda o reciba quemaduras."
-        ],
-        [
-            "Cabezazo Zen",
-            "physical",
-            "psychic",
-            80,
-            90,
-            15,
-            "Concentra su energía psíquica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
-        ],
-        [
-            "Lluevehojas",
-            "special",
-            "grass",
-            130,
-            90,
-            5,
-            "Cae una lluvia de hojas afiladas. Baja mucho el\nAtaque Especial de quien lo usa."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto más pesado es el objetivo, más daño\ninflige."
-        ],
-        [
-            "Campo de Hierba",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Convierte el terreno de combate en un campo de\nhierba durante cinco turnos. Los Pokémon que\nestén en el suelo recuperan PS en cada turno."
-        ],
-        [
-            "Follaje",
-            "physical",
-            "grass",
-            40,
-            100,
-            40,
-            "Ataca al oponente lanzando hojas."
-        ],
-        [
-            "Pataleta",
-            "physical",
-            "ground",
-            75,
-            100,
-            10,
-            "Usa la frustración como revulsivo para atacar. La\npotencia de Pataleta se duplica si el usuario ha\nfallado el último movimiento usado."
-        ],
-        [
-            "Fitoimpulso",
-            "physical",
-            "grass",
-            55,
-            100,
-            20,
-            "Ataca al objetivo deslizándose sobre el terreno de\ncombate. Este movimiento tiene prioridad alta cuando\nel terreno está cubierto por un campo de hierba."
-        ],
-        [
-            "Envidia Ardiente",
-            "special",
-            "fire",
-            70,
-            100,
-            5,
-            "Ataca al objetivo con la energía generada por la envidia\ny causa quemaduras a los Pokémon cuyas características\nhayan aumentado en ese turno."
-        ],
-        [
-            "Desahogo",
-            "physical",
-            "dark",
-            75,
-            100,
-            5,
-            "Ataca al rival presa de la rabia. Si el usuario ha sufrido\nuna reducción de características en ese turno, la\npotencia del movimiento se duplica."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "special",
-            "grass",
-            0,
-            null,
-            15,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "grass",
-            50,
-            100,
-            20,
-            ""
-        ],
-        [
-            "Cólera Ardiente",
-            "physical",
-            "fire",
-            75,
-            100,
-            10,
-            ""
-        ]
-    ],
-    65,
-    108,
-    65,
-    108,
-    65,
-    75
+[
+
+    "scovillain",
+
+    952,
+
+    [
+
+        "grass",
+
+        "fire"
+
+    ],
+
+    [
+
+        [
+
+            "Golpe Cabeza",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            15,
+
+            "Lanza un potente cabezazo que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Malicioso",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            30,
+
+            "Intimida a los rivales para bajar su Defensa."
+
+        ],
+
+        [
+
+            "Mordisco",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Un voraz bocado que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Lanzallamas",
+
+            "special",
+
+            "fire",
+
+            90,
+
+            100,
+
+            15,
+
+            "Ataca con una gran ráfaga de fuego que puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Desarrollo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial."
+
+        ],
+
+        [
+
+            "Hoja Afilada",
+
+            "physical",
+
+            "grass",
+
+            55,
+
+            95,
+
+            25,
+
+            "Corta con hojas afiladas. Suele ser crítico."
+
+        ],
+
+        [
+
+            "Rayo Solar",
+
+            "special",
+
+            "grass",
+
+            120,
+
+            100,
+
+            10,
+
+            "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía."
+
+        ],
+
+        [
+
+            "Llamarada",
+
+            "special",
+
+            "fire",
+
+            110,
+
+            85,
+
+            5,
+
+            "Llama intensa que chamusca y puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Superdiente",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            90,
+
+            10,
+
+            "Finos colmillos que reducen a la mitad los PS del objetivo."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ladrón",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Cara Susto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            10,
+
+            "Asusta al objetivo para reducir mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Tormenta Arena",
+
+            "special",
+
+            "rock",
+
+            null,
+
+            null,
+
+            10,
+
+            "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero."
+
+        ],
+
+        [
+
+            "Gigadrenado",
+
+            "special",
+
+            "grass",
+
+            75,
+
+            100,
+
+            10,
+
+            "Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Triturar",
+
+            "physical",
+
+            "dark",
+
+            80,
+
+            100,
+
+            15,
+
+            "Tritura con afilados colmillos y puede bajar la Defensa del objetivo."
+
+        ],
+
+        [
+
+            "Fuego Fatuo",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            85,
+
+            15,
+
+            "Siniestra llama morada que produce quemaduras."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Esfuerzo",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "Reduce los PS del objetivo para que igualen a los del atacante."
+
+        ],
+
+        [
+
+            "Sofoco",
+
+            "special",
+
+            "fire",
+
+            130,
+
+            90,
+
+            5,
+
+            "Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Semilladora",
+
+            "physical",
+
+            "grass",
+
+            25,
+
+            100,
+
+            30,
+
+            "Dispara rápido de dos a cinco ráfagas de semillas de manera consecutiva."
+
+        ],
+
+        [
+
+            "Hoja Mágica",
+
+            "special",
+
+            "grass",
+
+            60,
+
+            null,
+
+            20,
+
+            "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar."
+
+        ],
+
+        [
+
+            "Abatidoras",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            10,
+
+            "Se planta una semilla en el objetivo que le causa pesar. Evita el sueño gracias a la habilidad Insomnio."
+
+        ],
+
+        [
+
+            "Bomba Germen",
+
+            "physical",
+
+            "grass",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza al objetivo una descarga de semillas explosivas desde arriba."
+
+        ],
+
+        [
+
+            "Energibola",
+
+            "special",
+
+            "grass",
+
+            90,
+
+            100,
+
+            10,
+
+            "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Colmillo Ígneo",
+
+            "physical",
+
+            "fire",
+
+            65,
+
+            95,
+
+            15,
+
+            "Usa colmillos en llamas para morder. Puede hacer que el objetivo retroceda o reciba quemaduras."
+
+        ],
+
+        [
+
+            "Cabezazo Zen",
+
+            "physical",
+
+            "psychic",
+
+            80,
+
+            90,
+
+            15,
+
+            "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda."
+
+        ],
+
+        [
+
+            "Lluevehojas",
+
+            "special",
+
+            "grass",
+
+            130,
+
+            90,
+
+            5,
+
+            "Cae una lluvia de hojas afiladas. Baja mucho el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Hierba Lazo",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+
+        ],
+
+        [
+
+            "Campo de Hierba",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            null,
+
+            10,
+
+            "Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno."
+
+        ],
+
+        [
+
+            "Follaje",
+
+            "physical",
+
+            "grass",
+
+            40,
+
+            100,
+
+            40,
+
+            "Ataca al oponente lanzando hojas."
+
+        ],
+
+        [
+
+            "Pataleta",
+
+            "physical",
+
+            "ground",
+
+            75,
+
+            100,
+
+            10,
+
+            "Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado."
+
+        ],
+
+        [
+
+            "Fitoimpulso",
+
+            "physical",
+
+            "grass",
+
+            55,
+
+            100,
+
+            20,
+
+            "Ataca al objetivo deslizándose sobre el terreno de combate. Este movimiento tiene prioridad alta cuando el terreno está cubierto por un campo de hierba."
+
+        ],
+
+        [
+
+            "Envidia Ardiente",
+
+            "special",
+
+            "fire",
+
+            70,
+
+            100,
+
+            5,
+
+            "Ataca al objetivo con la energía generada por la envidia y causa quemaduras a los Pokémon cuyas características hayan aumentado en ese turno."
+
+        ],
+
+        [
+
+            "Desahogo",
+
+            "physical",
+
+            "dark",
+
+            75,
+
+            100,
+
+            5,
+
+            "Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en ese turno, la potencia del movimiento se duplica."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "grass",
+
+            0,
+
+            null,
+
+            15,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "grass",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ],
+
+        [
+
+            "Cólera Ardiente",
+
+            "physical",
+
+            "fire",
+
+            75,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    65,
+
+    108,
+
+    65,
+
+    108,
+
+    65,
+
+    75
+
 ]

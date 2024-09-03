@@ -1,205 +1,409 @@
-[
-    "snom",
-    872,
-    [
-        "ice",
-        "bug"
-    ],
-    [
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Nieve Polvo",
-            "special",
-            "ice",
-            40,
-            100,
-            25,
-            "Lanza nieve que puede llegar a congelar."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Viento Hielo",
-            "special",
-            "ice",
-            55,
-            95,
-            15,
-            "Ataque con aire helado que baja la Velocidad de\nlos rivales."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Manto Espejo",
-            "special",
-            "psychic",
-            null,
-            100,
-            20,
-            "Responde a un ataque especial ocasionando el\ndoble del daño recibido."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Carámbano",
-            "physical",
-            "ice",
-            25,
-            100,
-            30,
-            "Ataca lanzando de dos a cinco ráfagas\nconsecutivas de carámbanos."
-        ],
-        [
-            "Zumbido",
-            "special",
-            "bug",
-            90,
-            100,
-            10,
-            "El movimiento de las alas crea una onda sónica\ndañina. También puede disminuir la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. También reduce su Ataque Especial.\n"
-        ],
-        [
-            "Viento Feérico",
-            "special",
-            "fairy",
-            40,
-            100,
-            30,
-            "El Pokémon que lo usa desata un vendaval feérico\nque arremete contra el objetivo."
-        ],
-        [
-            "Plancha",
-            "physical",
-            "bug",
-            80,
-            100,
-            15,
-            "Ataca al oponente abalanzándose sobre él con todas\nsus fuerzas y reduce su Ataque."
-        ],
-        [
-            "Golpe Rastrero",
-            "physical",
-            "bug",
-            70,
-            90,
-            10,
-            "Ataca al objetivo por la espalda de forma subrepticia\ny además reduce su Ataque Especial."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "bug",
-            50,
-            100,
-            20,
-            ""
-        ]
-    ],
-    30,
-    25,
-    35,
-    45,
-    30,
-    20
+[
+
+    "snom",
+
+    872,
+
+    [
+
+        "ice",
+
+        "bug"
+
+    ],
+
+    [
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Nieve Polvo",
+
+            "special",
+
+            "ice",
+
+            40,
+
+            100,
+
+            25,
+
+            "Lanza nieve que puede llegar a congelar."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Viento Hielo",
+
+            "special",
+
+            "ice",
+
+            55,
+
+            95,
+
+            15,
+
+            "Ataque con aire helado que baja la Velocidad de los rivales."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Manto Espejo",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            100,
+
+            20,
+
+            "Responde a un ataque especial ocasionando el doble del daño recibido."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Carámbano",
+
+            "physical",
+
+            "ice",
+
+            25,
+
+            100,
+
+            30,
+
+            "Ataca lanzando de dos a cinco ráfagas consecutivas de carámbanos."
+
+        ],
+
+        [
+
+            "Zumbido",
+
+            "special",
+
+            "bug",
+
+            90,
+
+            100,
+
+            10,
+
+            "El movimiento de las alas crea una onda sónica dañina. También puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Picadura",
+
+            "physical",
+
+            "bug",
+
+            60,
+
+            100,
+
+            20,
+
+            "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Estoicismo",
+
+            "special",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial. "
+
+        ],
+
+        [
+
+            "Viento Feérico",
+
+            "special",
+
+            "fairy",
+
+            40,
+
+            100,
+
+            30,
+
+            "El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo."
+
+        ],
+
+        [
+
+            "Plancha",
+
+            "physical",
+
+            "bug",
+
+            80,
+
+            100,
+
+            15,
+
+            "Ataca al oponente abalanzándose sobre él con todas sus fuerzas y reduce su Ataque."
+
+        ],
+
+        [
+
+            "Golpe Rastrero",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            90,
+
+            10,
+
+            "Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Especial."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ]
+
+    ],
+
+    30,
+
+    25,
+
+    35,
+
+    45,
+
+    30,
+
+    20
+
 ]

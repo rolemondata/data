@@ -1,429 +1,857 @@
-[
-    "sprigatito",
-    906,
-    [
-        "grass"
-    ],
-    [
-        [
-            "Arañazo",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Araña con afiladas garras."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Látigo",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Agita la cola para bajar la Defensa del equipo rival. "
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Drenadoras",
-            "special",
-            "grass",
-            null,
-            90,
-            10,
-            "Planta semillas que absorben PS para recuperar la\nsalud del usuario en cada turno."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energía."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Ataque Rápido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque rápido que permite golpear en primer lugar."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Cuchillada",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con cuchillas o con pinzas. Suele dar un\ngolpe crítico."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Bofetón Lodo",
-            "special",
-            "ground",
-            20,
-            100,
-            10,
-            "Echa lodo en la cara para bajar la Precisión."
-        ],
-        [
-            "Gigadrenado",
-            "special",
-            "grass",
-            75,
-            100,
-            10,
-            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del daño que produce."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Encanto",
-            "special",
-            "fairy",
-            null,
-            100,
-            20,
-            "Engatusa al objetivo y reduce bastante su Ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Llanto Falso",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Lágrimas de cocodrilo que bajan mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Semilladora",
-            "physical",
-            "grass",
-            25,
-            100,
-            30,
-            "Dispara rápido de dos a cinco ráfagas de semillas\nde manera consecutiva."
-        ],
-        [
-            "Hoja Mágica",
-            "special",
-            "grass",
-            60,
-            null,
-            20,
-            "Esparce extrañas hojas que persiguen al objetivo.\nNo se puede esquivar."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Copión",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Imita el movimiento usado justo antes.\nEl movimiento falla si no se ha usado aún ninguno."
-        ],
-        [
-            "Abatidoras",
-            "special",
-            "grass",
-            null,
-            100,
-            10,
-            "Se planta una semilla en el objetivo que le causa\npesar. Evita el sueño gracias a la habilidad\nInsomnio."
-        ],
-        [
-            "Golpe Bajo",
-            "physical",
-            "dark",
-            70,
-            100,
-            5,
-            "Permite atacar con prioridad. Falla si el objetivo no\nestá preparando ningún ataque."
-        ],
-        [
-            "Bomba Germen",
-            "physical",
-            "grass",
-            80,
-            100,
-            15,
-            "Lanza al objetivo una descarga de semillas\nexplosivas desde arriba."
-        ],
-        [
-            "Energibola",
-            "special",
-            "grass",
-            90,
-            100,
-            10,
-            "Aúna fuerzas de la naturaleza y libera su ataque.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Maquinación",
-            "special",
-            "dark",
-            null,
-            null,
-            20,
-            "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial."
-        ],
-        [
-            "Garra Umbría",
-            "physical",
-            "ghost",
-            70,
-            100,
-            15,
-            "Ataca con una garra afilada hecha de sombras.\nSuele ser crítico."
-        ],
-        [
-            "Lluevehojas",
-            "special",
-            "grass",
-            130,
-            90,
-            5,
-            "Cae una lluvia de hojas afiladas. Baja mucho el\nAtaque Especial de quien lo usa."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto más pesado es el objetivo, más daño\ninflige."
-        ],
-        [
-            "Afilagarras",
-            "special",
-            "dark",
-            null,
-            null,
-            15,
-            "El usuario se afila las garras para aumentar su\nAtaque y Precisión."
-        ],
-        [
-            "Cambio de Banda",
-            "special",
-            "psychic",
-            null,
-            null,
-            15,
-            "Extraño poder que intercambia la posición del\nusuario con la de un aliado sobre el terreno de\ncombate."
-        ],
-        [
-            "Acróbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ágilmente. Si el usuario no porta ningún\nobjeto, el objetivo resulta seriamente dañado."
-        ],
-        [
-            "Voto Planta",
-            "special",
-            "grass",
-            80,
-            100,
-            10,
-            "Ataca con columnas de hojas. Combinado con\nVoto Agua, crea un pantano y aumenta su\npotencia."
-        ],
-        [
-            "Tormenta Floral",
-            "physical",
-            "grass",
-            90,
-            100,
-            15,
-            "El usuario desata un intenso vendaval de pétalos\nque daña a los Pokémon a su alrededor."
-        ],
-        [
-            "Voz Cautivadora",
-            "special",
-            "fairy",
-            40,
-            null,
-            15,
-            "Obnubila a los oponentes con su fascinante voz y\nles provoca daños emocionales. Siempre acierta\nal objetivo."
-        ],
-        [
-            "Campo de Hierba",
-            "special",
-            "grass",
-            null,
-            null,
-            10,
-            "Convierte el terreno de combate en un campo de\nhierba durante cinco turnos. Los Pokémon que\nestén en el suelo recuperan PS en cada turno."
-        ],
-        [
-            "Carantoña",
-            "physical",
-            "fairy",
-            90,
-            90,
-            10,
-            "El Pokémon que lo usa le hace cucamonas al\nobjetivo y lo ataca. Puede disminuir el Ataque\ndel objetivo."
-        ],
-        [
-            "Follaje",
-            "physical",
-            "grass",
-            40,
-            100,
-            40,
-            "Ataca al oponente lanzando hojas."
-        ],
-        [
-            "Fitoimpulso",
-            "physical",
-            "grass",
-            55,
-            100,
-            20,
-            "Ataca al objetivo deslizándose sobre el terreno de\ncombate. Este movimiento tiene prioridad alta cuando\nel terreno está cubierto por un campo de hierba."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "grass",
-            50,
-            100,
-            20,
-            ""
-        ]
-    ],
-    40,
-    61,
-    54,
-    45,
-    45,
-    65
+[
+
+    "sprigatito",
+
+    906,
+
+    [
+
+        "grass"
+
+    ],
+
+    [
+
+        [
+
+            "Arañazo",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Araña con afiladas garras."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Látigo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            30,
+
+            "Agita la cola para bajar la Defensa del equipo rival. "
+
+        ],
+
+        [
+
+            "Mordisco",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Un voraz bocado que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Drenadoras",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            90,
+
+            10,
+
+            "Planta semillas que absorben PS para recuperar la salud del usuario en cada turno."
+
+        ],
+
+        [
+
+            "Rayo Solar",
+
+            "special",
+
+            "grass",
+
+            120,
+
+            100,
+
+            10,
+
+            "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Ataque Rápido",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            30,
+
+            "Ataque rápido que permite golpear en primer lugar."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Cuchillada",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con cuchillas o con pinzas. Suele dar un golpe crítico."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Bofetón Lodo",
+
+            "special",
+
+            "ground",
+
+            20,
+
+            100,
+
+            10,
+
+            "Echa lodo en la cara para bajar la Precisión."
+
+        ],
+
+        [
+
+            "Gigadrenado",
+
+            "special",
+
+            "grass",
+
+            75,
+
+            100,
+
+            10,
+
+            "Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Encanto",
+
+            "special",
+
+            "fairy",
+
+            null,
+
+            100,
+
+            20,
+
+            "Engatusa al objetivo y reduce bastante su Ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Mofa",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Llanto Falso",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Lágrimas de cocodrilo que bajan mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Semilladora",
+
+            "physical",
+
+            "grass",
+
+            25,
+
+            100,
+
+            30,
+
+            "Dispara rápido de dos a cinco ráfagas de semillas de manera consecutiva."
+
+        ],
+
+        [
+
+            "Hoja Mágica",
+
+            "special",
+
+            "grass",
+
+            60,
+
+            null,
+
+            20,
+
+            "Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar."
+
+        ],
+
+        [
+
+            "Ida y Vuelta",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Copión",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno."
+
+        ],
+
+        [
+
+            "Abatidoras",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            10,
+
+            "Se planta una semilla en el objetivo que le causa pesar. Evita el sueño gracias a la habilidad Insomnio."
+
+        ],
+
+        [
+
+            "Golpe Bajo",
+
+            "physical",
+
+            "dark",
+
+            70,
+
+            100,
+
+            5,
+
+            "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque."
+
+        ],
+
+        [
+
+            "Bomba Germen",
+
+            "physical",
+
+            "grass",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza al objetivo una descarga de semillas explosivas desde arriba."
+
+        ],
+
+        [
+
+            "Energibola",
+
+            "special",
+
+            "grass",
+
+            90,
+
+            100,
+
+            10,
+
+            "Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Maquinación",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            20,
+
+            "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial."
+
+        ],
+
+        [
+
+            "Garra Umbría",
+
+            "physical",
+
+            "ghost",
+
+            70,
+
+            100,
+
+            15,
+
+            "Ataca con una garra afilada hecha de sombras. Suele ser crítico."
+
+        ],
+
+        [
+
+            "Lluevehojas",
+
+            "special",
+
+            "grass",
+
+            130,
+
+            90,
+
+            5,
+
+            "Cae una lluvia de hojas afiladas. Baja mucho el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Hierba Lazo",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+
+        ],
+
+        [
+
+            "Afilagarras",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            15,
+
+            "El usuario se afila las garras para aumentar su Ataque y Precisión."
+
+        ],
+
+        [
+
+            "Cambio de Banda",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            15,
+
+            "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate."
+
+        ],
+
+        [
+
+            "Acróbata",
+
+            "physical",
+
+            "flying",
+
+            55,
+
+            100,
+
+            15,
+
+            "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Voto Planta",
+
+            "special",
+
+            "grass",
+
+            80,
+
+            100,
+
+            10,
+
+            "Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia."
+
+        ],
+
+        [
+
+            "Tormenta Floral",
+
+            "physical",
+
+            "grass",
+
+            90,
+
+            100,
+
+            15,
+
+            "El usuario desata un intenso vendaval de pétalos que daña a los Pokémon a su alrededor."
+
+        ],
+
+        [
+
+            "Voz Cautivadora",
+
+            "special",
+
+            "fairy",
+
+            40,
+
+            null,
+
+            15,
+
+            "Obnubila a los oponentes con su fascinante voz y les provoca daños emocionales. Siempre acierta al objetivo."
+
+        ],
+
+        [
+
+            "Campo de Hierba",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            null,
+
+            10,
+
+            "Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno."
+
+        ],
+
+        [
+
+            "Carantoña",
+
+            "physical",
+
+            "fairy",
+
+            90,
+
+            90,
+
+            10,
+
+            "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo."
+
+        ],
+
+        [
+
+            "Follaje",
+
+            "physical",
+
+            "grass",
+
+            40,
+
+            100,
+
+            40,
+
+            "Ataca al oponente lanzando hojas."
+
+        ],
+
+        [
+
+            "Fitoimpulso",
+
+            "physical",
+
+            "grass",
+
+            55,
+
+            100,
+
+            20,
+
+            "Ataca al objetivo deslizándose sobre el terreno de combate. Este movimiento tiene prioridad alta cuando el terreno está cubierto por un campo de hierba."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "grass",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ]
+
+    ],
+
+    40,
+
+    61,
+
+    54,
+
+    45,
+
+    45,
+
+    65
+
 ]

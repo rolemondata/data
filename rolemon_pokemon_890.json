@@ -1,493 +1,985 @@
-[
-    "eternatus",
-    890,
-    [
-        "poison",
-        "dragon"
-    ],
-    [
-        [
-            "Vuelo",
-            "physical",
-            "flying",
-            90,
-            95,
-            15,
-            "Primer turno: vuela. Segundo turno: ataca. Fuera\nde combate, permite ir a sitios ya conocidos."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Lanzallamas",
-            "special",
-            "fire",
-            90,
-            100,
-            15,
-            "Ataca con una gran ráfaga de fuego que puede\ncausar quemaduras."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Rayo Solar",
-            "special",
-            "grass",
-            120,
-            100,
-            10,
-            "Primer turno: absorbe luz. Segundo turno: lanza\nun potente rayo de energía."
-        ],
-        [
-            "Giro Fuego",
-            "special",
-            "fire",
-            35,
-            85,
-            15,
-            "Un aro de fuego que atrapa al objetivo de cuatro\na cinco turnos."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Chirrido",
-            "special",
-            "normal",
-            null,
-            85,
-            40,
-            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
-        ],
-        [
-            "Recuperación",
-            "special",
-            "normal",
-            null,
-            null,
-            5,
-            "Restaura hasta la mitad de los PS máximos."
-        ],
-        [
-            "Rayo Confuso",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Rayo siniestro que confunde al objetivo."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques físicos."
-        ],
-        [
-            "Llamarada",
-            "special",
-            "fire",
-            110,
-            85,
-            5,
-            "Llama intensa que chamusca y puede causar\nquemaduras."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Cara Susto",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Asusta al objetivo para reducir mucho su Velocidad."
-        ],
-        [
-            "Bomba Lodo",
-            "special",
-            "poison",
-            90,
-            100,
-            10,
-            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
-        ],
-        [
-            "Enfado",
-            "physical",
-            "dragon",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Danza Lluvia",
-            "special",
-            "water",
-            null,
-            null,
-            5,
-            "Genera una fuerte lluvia que refuerza los\nmovimientos de tipo Agua durante cinco turnos."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Bola Sombra",
-            "special",
-            "ghost",
-            80,
-            100,
-            15,
-            "Lanza una bola oscura que puede bajar la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Masa Cósmica",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Sube la Defensa y la Defensa Especial propias con\nenergía mística."
-        ],
-        [
-            "Cola Veneno",
-            "physical",
-            "poison",
-            50,
-            100,
-            25,
-            "Puede envenenar y dar un golpe crítico."
-        ],
-        [
-            "Danza Dragón",
-            "special",
-            "dragon",
-            null,
-            null,
-            20,
-            "Danza mística que sube el Ataque y la Velocidad."
-        ],
-        [
-            "Gravedad",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "La gravedad aumenta durante cinco turnos, lo que\nimpide acciones que impliquen volar o levitar."
-        ],
-        [
-            "Vendetta",
-            "physical",
-            "dark",
-            50,
-            100,
-            10,
-            "El usuario contraataca con el doble de fuerza si el\nobjetivo usa un movimiento antes."
-        ],
-        [
-            "Buena Baza",
-            "physical",
-            "dark",
-            60,
-            100,
-            10,
-            "Si el objetivo ya ha sufrido daño en ese turno, la\nfuerza del ataque se duplica."
-        ],
-        [
-            "Púas Tóxicas",
-            "special",
-            "poison",
-            null,
-            null,
-            20,
-            "Lanza una trampa de púas tóxicas a los pies del\nobjetivo. El veneno afecta a los Pokémon que\nentran en combate."
-        ],
-        [
-            "Puya Nociva",
-            "physical",
-            "poison",
-            80,
-            100,
-            20,
-            "Pincha al objetivo con un tentáculo o brazo\nenvenenado. Puede llegar a envenenar al objetivo."
-        ],
-        [
-            "Pulso Dragón",
-            "special",
-            "dragon",
-            85,
-            100,
-            10,
-            "Abre mucho la boca y libera una onda de choque\nque ataca al objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Foco Resplandor",
-            "special",
-            "steel",
-            80,
-            100,
-            10,
-            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
-        ],
-        [
-            "Cometa Draco",
-            "special",
-            "dragon",
-            130,
-            90,
-            5,
-            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
-        ],
-        [
-            "Veneno X",
-            "physical",
-            "poison",
-            70,
-            100,
-            20,
-            "Tajo que puede envenenar al objetivo. Suele ser\ncrítico."
-        ],
-        [
-            "Lanzamugre",
-            "physical",
-            "poison",
-            120,
-            80,
-            5,
-            "Lanza contra el objetivo basura asquerosa. Puede\nenvenenar al objetivo."
-        ],
-        [
-            "Carga Tóxica",
-            "special",
-            "poison",
-            65,
-            100,
-            10,
-            "Ataca cubriendo al objetivo con un líquido\nvenenoso. El daño será doble si este ya está\nenvenenado."
-        ],
-        [
-            "Onda Tóxica",
-            "special",
-            "poison",
-            95,
-            100,
-            10,
-            "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Cola Dragón",
-            "physical",
-            "dragon",
-            60,
-            90,
-            10,
-            "Ataca al objetivo y lo obliga a cambiarse por otro\nPokémon. Si es uno salvaje, acaba el combate."
-        ],
-        [
-            "Llama Embrujada",
-            "special",
-            "fire",
-            75,
-            100,
-            10,
-            "Lanza por su boca una singular llama a gran\ntemperatura con la que ataca a su oponente y\nbaja su Ataque Especial."
-        ],
-        [
-            "Trampa Venenosa",
-            "special",
-            "poison",
-            null,
-            100,
-            20,
-            "Impregna a su objetivo con un líquido venenoso\nque disminuye el Ataque, el At. Esp. y la Velocidad.\nSolo afecta a Pokémon ya envenenados."
-        ],
-        [
-            "Giro Vil",
-            "physical",
-            "dark",
-            60,
-            100,
-            20,
-            "Hace pivotar su cuerpo para infligir daño a su rival."
-        ],
-        [
-            "Cañón Dinamax",
-            "special",
-            "dragon",
-            100,
-            100,
-            5,
-            "El usuario ataca emitiendo un rayo desde su núcleo.\nEl daño infligido se duplica si el objetivo ha alcanzado\nel estado Dinamax."
-        ],
-        [
-            "Rayo Infinito",
-            "special",
-            "dragon",
-            160,
-            90,
-            5,
-            "Este es el mayor ataque de Eternatus una vez adquirida\nsu forma original. No puede moverse en el turno\nsiguiente."
-        ],
-        [
-            "Rayo Meteórico",
-            "special",
-            "rock",
-            120,
-            90,
-            10,
-            "El usuario dedica el primer turno a aumentar su\nAtaque Especial acumulando energía cósmica y lanza\nsu ofensiva contra el objetivo en el segundo."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    140,
-    85,
-    95,
-    145,
-    95,
-    130
+[
+
+    "eternatus",
+
+    890,
+
+    [
+
+        "poison",
+
+        "dragon"
+
+    ],
+
+    [
+
+        [
+
+            "Vuelo",
+
+            "physical",
+
+            "flying",
+
+            90,
+
+            95,
+
+            15,
+
+            "Primer turno: vuela. Segundo turno: ataca. Fuera de combate, permite ir a sitios ya conocidos."
+
+        ],
+
+        [
+
+            "Golpe Cuerpo",
+
+            "physical",
+
+            "normal",
+
+            85,
+
+            100,
+
+            15,
+
+            "Salta sobre el objetivo con todo su peso. Puede paralizar."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Lanzallamas",
+
+            "special",
+
+            "fire",
+
+            90,
+
+            100,
+
+            15,
+
+            "Ataca con una gran ráfaga de fuego que puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Rayo Solar",
+
+            "special",
+
+            "grass",
+
+            120,
+
+            100,
+
+            10,
+
+            "Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía."
+
+        ],
+
+        [
+
+            "Giro Fuego",
+
+            "special",
+
+            "fire",
+
+            35,
+
+            85,
+
+            15,
+
+            "Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Chirrido",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            40,
+
+            "Alarido agudo que reduce mucho la Defensa del objetivo."
+
+        ],
+
+        [
+
+            "Recuperación",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura hasta la mitad de los PS máximos."
+
+        ],
+
+        [
+
+            "Rayo Confuso",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            10,
+
+            "Rayo siniestro que confunde al objetivo."
+
+        ],
+
+        [
+
+            "Pantalla de Luz",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+
+        ],
+
+        [
+
+            "Reflejo",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+
+        ],
+
+        [
+
+            "Llamarada",
+
+            "special",
+
+            "fire",
+
+            110,
+
+            85,
+
+            5,
+
+            "Llama intensa que chamusca y puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Cara Susto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            10,
+
+            "Asusta al objetivo para reducir mucho su Velocidad."
+
+        ],
+
+        [
+
+            "Bomba Lodo",
+
+            "special",
+
+            "poison",
+
+            90,
+
+            100,
+
+            10,
+
+            "Arroja residuos al objetivo. Puede llegar a envenenar."
+
+        ],
+
+        [
+
+            "Enfado",
+
+            "physical",
+
+            "dragon",
+
+            120,
+
+            100,
+
+            10,
+
+            "Ataca de dos a tres turnos y acaba confundiendo al agresor."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Danza Lluvia",
+
+            "special",
+
+            "water",
+
+            null,
+
+            null,
+
+            5,
+
+            "Genera una fuerte lluvia que refuerza los movimientos de tipo Agua durante cinco turnos."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Bola Sombra",
+
+            "special",
+
+            "ghost",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Masa Cósmica",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Sube la Defensa y la Defensa Especial propias con energía mística."
+
+        ],
+
+        [
+
+            "Cola Veneno",
+
+            "physical",
+
+            "poison",
+
+            50,
+
+            100,
+
+            25,
+
+            "Puede envenenar y dar un golpe crítico."
+
+        ],
+
+        [
+
+            "Danza Dragón",
+
+            "special",
+
+            "dragon",
+
+            null,
+
+            null,
+
+            20,
+
+            "Danza mística que sube el Ataque y la Velocidad."
+
+        ],
+
+        [
+
+            "Gravedad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "La gravedad aumenta durante cinco turnos, lo que impide acciones que impliquen volar o levitar."
+
+        ],
+
+        [
+
+            "Vendetta",
+
+            "physical",
+
+            "dark",
+
+            50,
+
+            100,
+
+            10,
+
+            "El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes."
+
+        ],
+
+        [
+
+            "Buena Baza",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            10,
+
+            "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica."
+
+        ],
+
+        [
+
+            "Púas Tóxicas",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            null,
+
+            20,
+
+            "Lanza una trampa de púas tóxicas a los pies del objetivo. El veneno afecta a los Pokémon que entran en combate."
+
+        ],
+
+        [
+
+            "Puya Nociva",
+
+            "physical",
+
+            "poison",
+
+            80,
+
+            100,
+
+            20,
+
+            "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Pulso Dragón",
+
+            "special",
+
+            "dragon",
+
+            85,
+
+            100,
+
+            10,
+
+            "Abre mucho la boca y libera una onda de choque que ataca al objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Foco Resplandor",
+
+            "special",
+
+            "steel",
+
+            80,
+
+            100,
+
+            10,
+
+            "El usuario concentra toda la luz del cuerpo y la libera. Puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Cometa Draco",
+
+            "special",
+
+            "dragon",
+
+            130,
+
+            90,
+
+            5,
+
+            "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa."
+
+        ],
+
+        [
+
+            "Veneno X",
+
+            "physical",
+
+            "poison",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tajo que puede envenenar al objetivo. Suele ser crítico."
+
+        ],
+
+        [
+
+            "Lanzamugre",
+
+            "physical",
+
+            "poison",
+
+            120,
+
+            80,
+
+            5,
+
+            "Lanza contra el objetivo basura asquerosa. Puede envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Carga Tóxica",
+
+            "special",
+
+            "poison",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+
+        ],
+
+        [
+
+            "Onda Tóxica",
+
+            "special",
+
+            "poison",
+
+            95,
+
+            100,
+
+            10,
+
+            "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Cola Dragón",
+
+            "physical",
+
+            "dragon",
+
+            60,
+
+            90,
+
+            10,
+
+            "Ataca al objetivo y lo obliga a cambiarse por otro Pokémon. Si es uno salvaje, acaba el combate."
+
+        ],
+
+        [
+
+            "Llama Embrujada",
+
+            "special",
+
+            "fire",
+
+            75,
+
+            100,
+
+            10,
+
+            "Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial."
+
+        ],
+
+        [
+
+            "Trampa Venenosa",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            100,
+
+            20,
+
+            "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados."
+
+        ],
+
+        [
+
+            "Giro Vil",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            20,
+
+            "Hace pivotar su cuerpo para infligir daño a su rival."
+
+        ],
+
+        [
+
+            "Cañón Dinamax",
+
+            "special",
+
+            "dragon",
+
+            100,
+
+            100,
+
+            5,
+
+            "El usuario ataca emitiendo un rayo desde su núcleo. El daño infligido se duplica si el objetivo ha alcanzado el estado Dinamax."
+
+        ],
+
+        [
+
+            "Rayo Infinito",
+
+            "special",
+
+            "dragon",
+
+            160,
+
+            90,
+
+            5,
+
+            "Este es el mayor ataque de Eternatus una vez adquirida su forma original. No puede moverse en el turno siguiente."
+
+        ],
+
+        [
+
+            "Rayo Meteórico",
+
+            "special",
+
+            "rock",
+
+            120,
+
+            90,
+
+            10,
+
+            "El usuario dedica el primer turno a aumentar su Ataque Especial acumulando energía cósmica y lanza su ofensiva contra el objetivo en el segundo."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    140,
+
+    85,
+
+    95,
+
+    145,
+
+    95,
+
+    130
+
 ]

@@ -1,493 +1,985 @@
-[
-    "shroodle",
-    944,
-    [
-        "poison",
-        "normal"
-    ],
-    [
-        [
-            "Arañazo",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Araña con afiladas garras."
-        ],
-        [
-            "Danza Espada",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Baile frenético que aumenta mucho el Ataque."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que también hiere al agresor."
-        ],
-        [
-            "Malicioso",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Intimida a los rivales para bajar su Defensa."
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Excavar",
-            "physical",
-            "ground",
-            80,
-            100,
-            10,
-            "Primer turno: cava. Segundo turno: ataca. También\nsirve para salir de ciertas zonas."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Metrónomo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "El usuario mueve un dedo y estimula su cerebro\npara usar al azar casi cualquier movimiento."
-        ],
-        [
-            "Golpes Furia",
-            "physical",
-            "normal",
-            18,
-            80,
-            15,
-            "Araña rápidamente de dos a cinco veces."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Superdiente",
-            "physical",
-            "normal",
-            null,
-            90,
-            10,
-            "Finos colmillos que reducen a la mitad los PS del\nobjetivo."
-        ],
-        [
-            "Cuchillada",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con cuchillas o con pinzas. Suele dar un\ngolpe crítico."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ladrón",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robará el del\nobjetivo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Bomba Lodo",
-            "special",
-            "poison",
-            90,
-            100,
-            10,
-            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
-        ],
-        [
-            "Bofetón Lodo",
-            "special",
-            "ground",
-            20,
-            100,
-            10,
-            "Echa lodo en la cara para bajar la Precisión."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusión en el objetivo, pero también\nsube mucho su Ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Relevo",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Cambia el puesto con un compañero y le pasa los\ncambios de características."
-        ],
-        [
-            "Otra Vez",
-            "special",
-            "normal",
-            null,
-            100,
-            5,
-            "El objetivo repite su último movimiento durante\ntres turnos."
-        ],
-        [
-            "Danza Lluvia",
-            "special",
-            "water",
-            null,
-            null,
-            5,
-            "Genera una fuerte lluvia que refuerza los\nmovimientos de tipo Agua durante cinco turnos."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Más Psique",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Quien lo usa se hipnotiza y copia cualquier cambio\nque haya en las características de su objetivo."
-        ],
-        [
-            "Camelo",
-            "special",
-            "dark",
-            null,
-            100,
-            15,
-            "Halaga al objetivo y lo confunde, pero también\nsube su Ataque Especial."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Desarme",
-            "physical",
-            "dark",
-            65,
-            100,
-            20,
-            "Impide al objetivo usar el objeto que lleva durante\nel combate. La potencia del movimiento se\nmultiplica si el objetivo lleva un objeto."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Colmillo Veneno",
-            "physical",
-            "poison",
-            50,
-            100,
-            15,
-            "Colmillos tóxicos que pueden envenenar\ngravemente al objetivo."
-        ],
-        [
-            "Disparo Lodo",
-            "special",
-            "ground",
-            55,
-            95,
-            15,
-            "El usuario lanza lodo al objetivo y reduce su\nVelocidad."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Lanzamiento",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Lanza contra el objetivo el objeto que lleva. La\nfuerza del ataque y su efecto varían según el\nobjeto."
-        ],
-        [
-            "Copión",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Imita el movimiento usado justo antes.\nEl movimiento falla si no se ha usado aún ninguno."
-        ],
-        [
-            "Puya Nociva",
-            "physical",
-            "poison",
-            80,
-            100,
-            20,
-            "Pincha al objetivo con un tentáculo o brazo\nenvenenado. Puede llegar a envenenar al objetivo."
-        ],
-        [
-            "Trapicheo",
-            "special",
-            "dark",
-            null,
-            100,
-            10,
-            "Intercambia con el objetivo los objetos que llevan\ntan rápido que es imposible verlo a simple vista."
-        ],
-        [
-            "Maquinación",
-            "special",
-            "dark",
-            null,
-            null,
-            20,
-            "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial."
-        ],
-        [
-            "Veneno X",
-            "physical",
-            "poison",
-            70,
-            100,
-            20,
-            "Tajo que puede envenenar al objetivo. Suele ser\ncrítico."
-        ],
-        [
-            "Lanzamugre",
-            "physical",
-            "poison",
-            120,
-            80,
-            5,
-            "Lanza contra el objetivo basura asquerosa. Puede\nenvenenar al objetivo."
-        ],
-        [
-            "Carga Tóxica",
-            "special",
-            "poison",
-            65,
-            100,
-            10,
-            "Ataca cubriendo al objetivo con un líquido\nvenenoso. El daño será doble si este ya está\nenvenenado."
-        ],
-        [
-            "Onda Tóxica",
-            "special",
-            "poison",
-            95,
-            100,
-            10,
-            "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar."
-        ],
-        [
-            "Bomba Ácida",
-            "special",
-            "poison",
-            40,
-            100,
-            20,
-            "Ataca con un líquido corrosivo, reduciendo mucho\nla Defensa Especial del objetivo."
-        ],
-        [
-            "Juego Sucio",
-            "physical",
-            "dark",
-            95,
-            100,
-            15,
-            "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca."
-        ],
-        [
-            "Acróbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ágilmente. Si el usuario no porta ningún\nobjeto, el objetivo resulta seriamente dañado."
-        ],
-        [
-            "Última Palabra",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "El usuario se cambia por otro Pokémon de su\nequipo, pero antes amedrenta a su oponente y\nhace que disminuyan su Ataque y Ataque Especial."
-        ],
-        [
-            "Golpe Mordaza",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Inflige al rival un dolor tan abrumador que le impide\nutilizar durante dos turnos ataques que se sirven del\nsonido."
-        ],
-        [
-            "Golpe Rastrero",
-            "physical",
-            "bug",
-            70,
-            90,
-            10,
-            "Ataca al objetivo por la espalda de forma subrepticia\ny además reduce su Ataque Especial."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "bug",
-            50,
-            100,
-            20,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "grass",
-            50,
-            100,
-            20,
-            ""
-        ]
-    ],
-    40,
-    65,
-    35,
-    40,
-    35,
-    75
+[
+
+    "shroodle",
+
+    944,
+
+    [
+
+        "poison",
+
+        "normal"
+
+    ],
+
+    [
+
+        [
+
+            "Arañazo",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Araña con afiladas garras."
+
+        ],
+
+        [
+
+            "Danza Espada",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Baile frenético que aumenta mucho el Ataque."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Doble Filo",
+
+            "physical",
+
+            "normal",
+
+            120,
+
+            100,
+
+            15,
+
+            "Ataque arriesgado que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Malicioso",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            30,
+
+            "Intimida a los rivales para bajar su Defensa."
+
+        ],
+
+        [
+
+            "Mordisco",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Un voraz bocado que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Excavar",
+
+            "physical",
+
+            "ground",
+
+            80,
+
+            100,
+
+            10,
+
+            "Primer turno: cava. Segundo turno: ataca. También sirve para salir de ciertas zonas."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Metrónomo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "El usuario mueve un dedo y estimula su cerebro para usar al azar casi cualquier movimiento."
+
+        ],
+
+        [
+
+            "Golpes Furia",
+
+            "physical",
+
+            "normal",
+
+            18,
+
+            80,
+
+            15,
+
+            "Araña rápidamente de dos a cinco veces."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Superdiente",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            90,
+
+            10,
+
+            "Finos colmillos que reducen a la mitad los PS del objetivo."
+
+        ],
+
+        [
+
+            "Cuchillada",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con cuchillas o con pinzas. Suele dar un golpe crítico."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ladrón",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Bomba Lodo",
+
+            "special",
+
+            "poison",
+
+            90,
+
+            100,
+
+            10,
+
+            "Arroja residuos al objetivo. Puede llegar a envenenar."
+
+        ],
+
+        [
+
+            "Bofetón Lodo",
+
+            "special",
+
+            "ground",
+
+            20,
+
+            100,
+
+            10,
+
+            "Echa lodo en la cara para bajar la Precisión."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Contoneo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            15,
+
+            "Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Relevo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            40,
+
+            "Cambia el puesto con un compañero y le pasa los cambios de características."
+
+        ],
+
+        [
+
+            "Otra Vez",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "El objetivo repite su último movimiento durante tres turnos."
+
+        ],
+
+        [
+
+            "Danza Lluvia",
+
+            "special",
+
+            "water",
+
+            null,
+
+            null,
+
+            5,
+
+            "Genera una fuerte lluvia que refuerza los movimientos de tipo Agua durante cinco turnos."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Más Psique",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Quien lo usa se hipnotiza y copia cualquier cambio que haya en las características de su objetivo."
+
+        ],
+
+        [
+
+            "Camelo",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            15,
+
+            "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Mofa",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Desarme",
+
+            "physical",
+
+            "dark",
+
+            65,
+
+            100,
+
+            20,
+
+            "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto."
+
+        ],
+
+        [
+
+            "Esfuerzo",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "Reduce los PS del objetivo para que igualen a los del atacante."
+
+        ],
+
+        [
+
+            "Colmillo Veneno",
+
+            "physical",
+
+            "poison",
+
+            50,
+
+            100,
+
+            15,
+
+            "Colmillos tóxicos que pueden envenenar gravemente al objetivo."
+
+        ],
+
+        [
+
+            "Disparo Lodo",
+
+            "special",
+
+            "ground",
+
+            55,
+
+            95,
+
+            15,
+
+            "El usuario lanza lodo al objetivo y reduce su Velocidad."
+
+        ],
+
+        [
+
+            "Ida y Vuelta",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Lanzamiento",
+
+            "physical",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto."
+
+        ],
+
+        [
+
+            "Copión",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno."
+
+        ],
+
+        [
+
+            "Puya Nociva",
+
+            "physical",
+
+            "poison",
+
+            80,
+
+            100,
+
+            20,
+
+            "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Trapicheo",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista."
+
+        ],
+
+        [
+
+            "Maquinación",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            20,
+
+            "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial."
+
+        ],
+
+        [
+
+            "Veneno X",
+
+            "physical",
+
+            "poison",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tajo que puede envenenar al objetivo. Suele ser crítico."
+
+        ],
+
+        [
+
+            "Lanzamugre",
+
+            "physical",
+
+            "poison",
+
+            120,
+
+            80,
+
+            5,
+
+            "Lanza contra el objetivo basura asquerosa. Puede envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Carga Tóxica",
+
+            "special",
+
+            "poison",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+
+        ],
+
+        [
+
+            "Onda Tóxica",
+
+            "special",
+
+            "poison",
+
+            95,
+
+            100,
+
+            10,
+
+            "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar."
+
+        ],
+
+        [
+
+            "Bomba Ácida",
+
+            "special",
+
+            "poison",
+
+            40,
+
+            100,
+
+            20,
+
+            "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Juego Sucio",
+
+            "physical",
+
+            "dark",
+
+            95,
+
+            100,
+
+            15,
+
+            "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca."
+
+        ],
+
+        [
+
+            "Acróbata",
+
+            "physical",
+
+            "flying",
+
+            55,
+
+            100,
+
+            15,
+
+            "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Última Palabra",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "El usuario se cambia por otro Pokémon de su equipo, pero antes amedrenta a su oponente y hace que disminuyan su Ataque y Ataque Especial."
+
+        ],
+
+        [
+
+            "Golpe Mordaza",
+
+            "physical",
+
+            "dark",
+
+            80,
+
+            100,
+
+            15,
+
+            "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido."
+
+        ],
+
+        [
+
+            "Golpe Rastrero",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            90,
+
+            10,
+
+            "Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Especial."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "grass",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ]
+
+    ],
+
+    40,
+
+    65,
+
+    35,
+
+    40,
+
+    35,
+
+    75
+
 ]

@@ -1,520 +1,1039 @@
-[
-    "munkidori",
-    1015,
-    [
-        "poison",
-        "psychic"
-    ],
-    [
-        [
-            "Arañazo",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Araña con afiladas garras."
-        ],
-        [
-            "Psicorrayo",
-            "special",
-            "psychic",
-            65,
-            100,
-            20,
-            "Extraño rayo que puede causar confusión."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Confusión",
-            "special",
-            "psychic",
-            50,
-            100,
-            25,
-            "Débil ataque telequinético que puede causar\nconfusión."
-        ],
-        [
-            "Psíquico",
-            "special",
-            "psychic",
-            90,
-            100,
-            10,
-            "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Tinieblas",
-            "special",
-            "ghost",
-            null,
-            100,
-            15,
-            "Produce un espejismo ante el objetivo, que pierde\ntantos PS como nivel tenga el agresor."
-        ],
-        [
-            "Rayo Confuso",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Rayo siniestro que confunde al objetivo."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques especiales."
-        ],
-        [
-            "Metrónomo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "El usuario mueve un dedo y estimula su cerebro\npara usar al azar casi cualquier movimiento."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ladrón",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robará el del\nobjetivo."
-        ],
-        [
-            "Rencor",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Bomba Lodo",
-            "special",
-            "poison",
-            90,
-            100,
-            10,
-            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
-        ],
-        [
-            "Bofetón Lodo",
-            "special",
-            "ground",
-            20,
-            100,
-            10,
-            "Echa lodo en la cara para bajar la Precisión."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Relevo",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Cambia el puesto con un compañero y le pasa los\ncambios de características."
-        ],
-        [
-            "Más Psique",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Quien lo usa se hipnotiza y copia cualquier cambio\nque haya en las características de su objetivo."
-        ],
-        [
-            "Bola Sombra",
-            "special",
-            "ghost",
-            80,
-            100,
-            15,
-            "Lanza una bola oscura que puede bajar la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Premonición",
-            "special",
-            "psychic",
-            120,
-            100,
-            10,
-            "Concentra energía psíquica para golpear al\nobjetivo dos turnos después."
-        ],
-        [
-            "Sorpresa",
-            "physical",
-            "normal",
-            40,
-            100,
-            10,
-            "Ataca primero y, además, hace retroceder al\nobjetivo. Solo sirve en el primer turno."
-        ],
-        [
-            "Alboroto",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Ataca de forma alborotada durante tres turnos.\nMantiene despiertos a todos."
-        ],
-        [
-            "Camelo",
-            "special",
-            "dark",
-            null,
-            100,
-            15,
-            "Halaga al objetivo y lo confunde, pero también\nsube su Ataque Especial."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Truco",
-            "special",
-            "psychic",
-            null,
-            100,
-            10,
-            "Engaña al objetivo desprevenido e intercambia\nobjetos."
-        ],
-        [
-            "Sellar",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Impide a los contrincantes usar ataques conocidos\npor el usuario durante el combate."
-        ],
-        [
-            "Paz Mental",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Aumenta la concentración y calma el espíritu para\nsubir el Ataque Especial y la Defensa Especial."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Lanzamiento",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Lanza contra el objetivo el objeto que lleva. La\nfuerza del ataque y su efecto varían según el\nobjeto."
-        ],
-        [
-            "Puya Nociva",
-            "physical",
-            "poison",
-            80,
-            100,
-            20,
-            "Pincha al objetivo con un tentáculo o brazo\nenvenenado. Puede llegar a envenenar al objetivo."
-        ],
-        [
-            "Onda Certera",
-            "special",
-            "fighting",
-            120,
-            70,
-            5,
-            "Agudiza la concentración mental y libera su poder.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Maquinación",
-            "special",
-            "dark",
-            null,
-            null,
-            20,
-            "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial."
-        ],
-        [
-            "Garra Umbría",
-            "physical",
-            "ghost",
-            70,
-            100,
-            15,
-            "Ataca con una garra afilada hecha de sombras.\nSuele ser crítico."
-        ],
-        [
-            "Lanzamugre",
-            "physical",
-            "poison",
-            120,
-            80,
-            5,
-            "Lanza contra el objetivo basura asquerosa. Puede\nenvenenar al objetivo."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto más pesado es el objetivo, más daño\ninflige."
-        ],
-        [
-            "Psicocarga",
-            "special",
-            "psychic",
-            80,
-            100,
-            10,
-            "Crea una onda psíquica que causa daño físico al\nobjetivo."
-        ],
-        [
-            "Carga Tóxica",
-            "special",
-            "poison",
-            65,
-            100,
-            10,
-            "Ataca cubriendo al objetivo con un líquido\nvenenoso. El daño será doble si este ya está\nenvenenado."
-        ],
-        [
-            "Onda Tóxica",
-            "special",
-            "poison",
-            95,
-            100,
-            10,
-            "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar."
-        ],
-        [
-            "Bomba Ácida",
-            "special",
-            "poison",
-            40,
-            100,
-            20,
-            "Ataca con un líquido corrosivo, reduciendo mucho\nla Defensa Especial del objetivo."
-        ],
-        [
-            "Niebla Clara",
-            "special",
-            "poison",
-            50,
-            null,
-            15,
-            "Ataca al objetivo con una extraña niebla que\nelimina sus cambios de características."
-        ],
-        [
-            "Poder Reserva",
-            "special",
-            "psychic",
-            20,
-            100,
-            10,
-            "Acumula poder para golpear. Cuanto más suban\nlas características del usuario, mayor será el daño."
-        ],
-        [
-            "Infortunio",
-            "special",
-            "ghost",
-            65,
-            100,
-            10,
-            "Ataque que causa un gran daño a los objetivos\nque sufren problemas de estado."
-        ],
-        [
-            "Última Palabra",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "El usuario se cambia por otro Pokémon de su\nequipo, pero antes amedrenta a su oponente y\nhace que disminuyan su Ataque y Ataque Especial."
-        ],
-        [
-            "Campo Psíquico",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Durante cinco turnos, se potencian los movimientos\nde tipo Psíquico y los Pokémon que están en el suelo\nquedan protegidos contra movimientos con prioridad."
-        ],
-        [
-            "Desahogo",
-            "physical",
-            "dark",
-            75,
-            100,
-            5,
-            "Ataca al rival presa de la rabia. Si el usuario ha sufrido\nuna reducción de características en ese turno, la\npotencia del movimiento se duplica."
-        ],
-        [
-            "Poltergeist",
-            "physical",
-            "ghost",
-            110,
-            90,
-            5,
-            "El usuario ataca utilizando el objeto que lleva el rival.\nSi no tiene ninguno equipado, el movimiento falla."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "grass",
-            50,
-            100,
-            20,
-            ""
-        ],
-        [
-            "Psicorruido",
-            "special",
-            "psychic",
-            75,
-            100,
-            10,
-            ""
-        ]
-    ],
-    88,
-    75,
-    66,
-    130,
-    90,
-    106
+[
+
+    "munkidori",
+
+    1015,
+
+    [
+
+        "poison",
+
+        "psychic"
+
+    ],
+
+    [
+
+        [
+
+            "Arañazo",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Araña con afiladas garras."
+
+        ],
+
+        [
+
+            "Psicorrayo",
+
+            "special",
+
+            "psychic",
+
+            65,
+
+            100,
+
+            20,
+
+            "Extraño rayo que puede causar confusión."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Confusión",
+
+            "special",
+
+            "psychic",
+
+            50,
+
+            100,
+
+            25,
+
+            "Débil ataque telequinético que puede causar confusión."
+
+        ],
+
+        [
+
+            "Psíquico",
+
+            "special",
+
+            "psychic",
+
+            90,
+
+            100,
+
+            10,
+
+            "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Tinieblas",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            15,
+
+            "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el agresor."
+
+        ],
+
+        [
+
+            "Rayo Confuso",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            10,
+
+            "Rayo siniestro que confunde al objetivo."
+
+        ],
+
+        [
+
+            "Pantalla de Luz",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+
+        ],
+
+        [
+
+            "Metrónomo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "El usuario mueve un dedo y estimula su cerebro para usar al azar casi cualquier movimiento."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ladrón",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+
+        ],
+
+        [
+
+            "Rencor",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            10,
+
+            "Da rienda suelta a su rencor para reducir cuatro PP del último movimiento usado por el objetivo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Bomba Lodo",
+
+            "special",
+
+            "poison",
+
+            90,
+
+            100,
+
+            10,
+
+            "Arroja residuos al objetivo. Puede llegar a envenenar."
+
+        ],
+
+        [
+
+            "Bofetón Lodo",
+
+            "special",
+
+            "ground",
+
+            20,
+
+            100,
+
+            10,
+
+            "Echa lodo en la cara para bajar la Precisión."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Relevo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            40,
+
+            "Cambia el puesto con un compañero y le pasa los cambios de características."
+
+        ],
+
+        [
+
+            "Más Psique",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Quien lo usa se hipnotiza y copia cualquier cambio que haya en las características de su objetivo."
+
+        ],
+
+        [
+
+            "Bola Sombra",
+
+            "special",
+
+            "ghost",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Premonición",
+
+            "special",
+
+            "psychic",
+
+            120,
+
+            100,
+
+            10,
+
+            "Concentra energía psíquica para golpear al objetivo dos turnos después."
+
+        ],
+
+        [
+
+            "Sorpresa",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            10,
+
+            "Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno."
+
+        ],
+
+        [
+
+            "Alboroto",
+
+            "special",
+
+            "normal",
+
+            90,
+
+            100,
+
+            10,
+
+            "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos."
+
+        ],
+
+        [
+
+            "Camelo",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            15,
+
+            "Halaga al objetivo y lo confunde, pero también sube su Ataque Especial."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Mofa",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Truco",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            100,
+
+            10,
+
+            "Engaña al objetivo desprevenido e intercambia objetos."
+
+        ],
+
+        [
+
+            "Sellar",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            10,
+
+            "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate."
+
+        ],
+
+        [
+
+            "Paz Mental",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Aumenta la concentración y calma el espíritu para subir el Ataque Especial y la Defensa Especial."
+
+        ],
+
+        [
+
+            "Ida y Vuelta",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Lanzamiento",
+
+            "physical",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto."
+
+        ],
+
+        [
+
+            "Puya Nociva",
+
+            "physical",
+
+            "poison",
+
+            80,
+
+            100,
+
+            20,
+
+            "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Onda Certera",
+
+            "special",
+
+            "fighting",
+
+            120,
+
+            70,
+
+            5,
+
+            "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Maquinación",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            20,
+
+            "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial."
+
+        ],
+
+        [
+
+            "Garra Umbría",
+
+            "physical",
+
+            "ghost",
+
+            70,
+
+            100,
+
+            15,
+
+            "Ataca con una garra afilada hecha de sombras. Suele ser crítico."
+
+        ],
+
+        [
+
+            "Lanzamugre",
+
+            "physical",
+
+            "poison",
+
+            120,
+
+            80,
+
+            5,
+
+            "Lanza contra el objetivo basura asquerosa. Puede envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Hierba Lazo",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+
+        ],
+
+        [
+
+            "Psicocarga",
+
+            "special",
+
+            "psychic",
+
+            80,
+
+            100,
+
+            10,
+
+            "Crea una onda psíquica que causa daño físico al objetivo."
+
+        ],
+
+        [
+
+            "Carga Tóxica",
+
+            "special",
+
+            "poison",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+
+        ],
+
+        [
+
+            "Onda Tóxica",
+
+            "special",
+
+            "poison",
+
+            95,
+
+            100,
+
+            10,
+
+            "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar."
+
+        ],
+
+        [
+
+            "Bomba Ácida",
+
+            "special",
+
+            "poison",
+
+            40,
+
+            100,
+
+            20,
+
+            "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Niebla Clara",
+
+            "special",
+
+            "poison",
+
+            50,
+
+            null,
+
+            15,
+
+            "Ataca al objetivo con una extraña niebla que elimina sus cambios de características."
+
+        ],
+
+        [
+
+            "Poder Reserva",
+
+            "special",
+
+            "psychic",
+
+            20,
+
+            100,
+
+            10,
+
+            "Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño."
+
+        ],
+
+        [
+
+            "Infortunio",
+
+            "special",
+
+            "ghost",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataque que causa un gran daño a los objetivos que sufren problemas de estado."
+
+        ],
+
+        [
+
+            "Última Palabra",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "El usuario se cambia por otro Pokémon de su equipo, pero antes amedrenta a su oponente y hace que disminuyan su Ataque y Ataque Especial."
+
+        ],
+
+        [
+
+            "Campo Psíquico",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            10,
+
+            "Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad."
+
+        ],
+
+        [
+
+            "Desahogo",
+
+            "physical",
+
+            "dark",
+
+            75,
+
+            100,
+
+            5,
+
+            "Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en ese turno, la potencia del movimiento se duplica."
+
+        ],
+
+        [
+
+            "Poltergeist",
+
+            "physical",
+
+            "ghost",
+
+            110,
+
+            90,
+
+            5,
+
+            "El usuario ataca utilizando el objeto que lleva el rival. Si no tiene ninguno equipado, el movimiento falla."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "grass",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ],
+
+        [
+
+            "Psicorruido",
+
+            "special",
+
+            "psychic",
+
+            75,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    88,
+
+    75,
+
+    66,
+
+    130,
+
+    90,
+
+    106
+
 ]

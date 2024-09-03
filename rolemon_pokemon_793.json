@@ -1,664 +1,1327 @@
-[
-    "nihilego",
-    793,
-    [
-        "rock",
-        "poison"
-    ],
-    [
-        [
-            "Destructor",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Golpea con las patas o la cola."
-        ],
-        [
-            "Atadura",
-            "physical",
-            "normal",
-            15,
-            85,
-            20,
-            "Ata y oprime de cuatro a cinco turnos."
-        ],
-        [
-            "Golpe Cabeza",
-            "physical",
-            "normal",
-            70,
-            100,
-            15,
-            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Constricción",
-            "physical",
-            "normal",
-            15,
-            90,
-            20,
-            "Oprime al objetivo de cuatro a cinco turnos con\nramas o con su cuerpo."
-        ],
-        [
-            "Ácido",
-            "special",
-            "poison",
-            40,
-            100,
-            30,
-            "Rocía a los enemigos con un ácido corrosivo.\nPuede bajar la Defensa Especial."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque eléctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Trueno",
-            "special",
-            "electric",
-            110,
-            70,
-            10,
-            "Un poderoso rayo que daña al objetivo y puede\nparalizarlo."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Psíquico",
-            "special",
-            "psychic",
-            90,
-            100,
-            10,
-            "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Doble Equipo",
-            "special",
-            "normal",
-            null,
-            null,
-            15,
-            "Crea copias de sí mismo para mejorar la Evasión."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques físicos."
-        ],
-        [
-            "Restricción",
-            "physical",
-            "normal",
-            10,
-            100,
-            35,
-            "Constriñe para herir y puede bajar la Velocidad."
-        ],
-        [
-            "Psicoonda",
-            "special",
-            "psychic",
-            null,
-            100,
-            15,
-            "Ataque con una onda de energía de intensidad\nvariable."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Avalancha",
-            "physical",
-            "rock",
-            75,
-            90,
-            10,
-            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Rencor",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Da rienda suelta a su rencor para reducir cuatro PP\ndel último movimiento usado por el objetivo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Bomba Lodo",
-            "special",
-            "poison",
-            90,
-            100,
-            10,
-            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
-        ],
-        [
-            "Tormenta Arena",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Contoneo",
-            "special",
-            "normal",
-            null,
-            85,
-            15,
-            "Provoca confusión en el objetivo, pero también\nsube mucho su Ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Retribución",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto mayor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Frustración",
-            "physical",
-            "normal",
-            null,
-            100,
-            20,
-            "Cuanto menor sea la amistad con el Entrenador,\nmás poderoso será este ataque."
-        ],
-        [
-            "Velo Sagrado",
-            "special",
-            "normal",
-            null,
-            null,
-            25,
-            "Un escudo que protege de problemas de estado,\ncomo el sueño o la parálisis, durante cinco turnos."
-        ],
-        [
-            "Divide Dolor",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Suma los PS del usuario a los del objetivo y los\nreparte a partes iguales."
-        ],
-        [
-            "Poder Oculto",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Movimiento cuyo tipo varía en función del\nPokémon que lo usa."
-        ],
-        [
-            "Manto Espejo",
-            "special",
-            "psychic",
-            null,
-            100,
-            20,
-            "Responde a un ataque especial ocasionando el\ndoble del daño recibido."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Imitación",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Imita al objetivo por completo y copia su habilidad. "
-        ],
-        [
-            "Capa Mágica",
-            "special",
-            "psychic",
-            null,
-            null,
-            15,
-            "Barrera capaz de devolver al agresor movimientos\ncomo Drenadoras y otros que alteran el estado o\nlas características."
-        ],
-        [
-            "Desarme",
-            "physical",
-            "dark",
-            65,
-            100,
-            20,
-            "Impide al objetivo usar el objeto que lleva durante\nel combate. La potencia del movimiento se\nmultiplica si el objetivo lleva un objeto."
-        ],
-        [
-            "Tumba Rocas",
-            "physical",
-            "rock",
-            60,
-            95,
-            15,
-            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
-        ],
-        [
-            "Cosquillas",
-            "special",
-            "normal",
-            null,
-            100,
-            20,
-            "Hace reír al objetivo para bajar su Ataque y\nDefensa."
-        ],
-        [
-            "Abatidoras",
-            "special",
-            "grass",
-            null,
-            100,
-            10,
-            "Se planta una semilla en el objetivo que le causa\npesar. Evita el sueño gracias a la habilidad\nInsomnio."
-        ],
-        [
-            "Púas Tóxicas",
-            "special",
-            "poison",
-            null,
-            null,
-            20,
-            "Lanza una trampa de púas tóxicas a los pies del\nobjetivo. El veneno afecta a los Pokémon que\nentran en combate."
-        ],
-        [
-            "Puya Nociva",
-            "physical",
-            "poison",
-            80,
-            100,
-            20,
-            "Pincha al objetivo con un tentáculo o brazo\nenvenenado. Puede llegar a envenenar al objetivo."
-        ],
-        [
-            "Joya de Luz",
-            "special",
-            "rock",
-            80,
-            100,
-            20,
-            "Ataca con un rayo de luz que centellea como si lo\nformaran miles de joyas."
-        ],
-        [
-            "Cabezazo Zen",
-            "physical",
-            "psychic",
-            80,
-            90,
-            15,
-            "Concentra su energía psíquica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
-        ],
-        [
-            "Espacio Raro",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Se crea un espacio extraño en el que los Pokémon\nlentos se mueven primero durante cinco turnos."
-        ],
-        [
-            "Veneno X",
-            "physical",
-            "poison",
-            70,
-            100,
-            20,
-            "Tajo que puede envenenar al objetivo. Suele ser\ncrítico."
-        ],
-        [
-            "Lanzamugre",
-            "physical",
-            "poison",
-            120,
-            80,
-            5,
-            "Lanza contra el objetivo basura asquerosa. Puede\nenvenenar al objetivo."
-        ],
-        [
-            "Cabeza de Hierro",
-            "physical",
-            "steel",
-            80,
-            100,
-            15,
-            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
-        ],
-        [
-            "Trampa Rocas",
-            "special",
-            "rock",
-            null,
-            null,
-            20,
-            "Una trampa de rocas que flota en el aire y daña a\nlos objetivos que entran en combate."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto más pesado es el objetivo, más daño\ninflige."
-        ],
-        [
-            "Rayo Carga",
-            "special",
-            "electric",
-            50,
-            90,
-            10,
-            "Lanza un rayo eléctrico contra el objetivo. Puede\nsubir el Ataque Especial de quien lo usa."
-        ],
-        [
-            "Testarazo",
-            "physical",
-            "rock",
-            150,
-            80,
-            5,
-            "El usuario arriesga su vida y lanza un cabezazo\ncon toda su fuerza. El agresor resulta seriamente\ndañado."
-        ],
-        [
-            "Isoguardia",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "El usuario emplea sus poderes para hacer la media\nde su Defensa y Defensa Especial con las de su\nobjetivo y compartirlas."
-        ],
-        [
-            "Isofuerza",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "El usuario emplea sus poderes para hacer la media\nde su Ataque y Ataque Especial con los de su\nobjetivo y compartirlos."
-        ],
-        [
-            "Zona Extraña",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Crea una zona misteriosa donde se intercambian\nla Defensa y la Defensa Especial de todos los\nPokémon durante cinco turnos."
-        ],
-        [
-            "Psicocarga",
-            "special",
-            "psychic",
-            80,
-            100,
-            10,
-            "Crea una onda psíquica que causa daño físico al\nobjetivo."
-        ],
-        [
-            "Carga Tóxica",
-            "special",
-            "poison",
-            65,
-            100,
-            10,
-            "Ataca cubriendo al objetivo con un líquido\nvenenoso. El daño será doble si este ya está\nenvenenado."
-        ],
-        [
-            "Telequinesis",
-            "special",
-            "psychic",
-            null,
-            null,
-            15,
-            "El usuario emplea su poder mental para hacer\nflotar al objetivo, y lo convierte en un blanco\nfácil durante tres turnos."
-        ],
-        [
-            "Onda Tóxica",
-            "special",
-            "poison",
-            95,
-            100,
-            10,
-            "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar."
-        ],
-        [
-            "Bomba Ácida",
-            "special",
-            "poison",
-            40,
-            100,
-            20,
-            "Ataca con un líquido corrosivo, reduciendo mucho\nla Defensa Especial del objetivo."
-        ],
-        [
-            "Juego Sucio",
-            "physical",
-            "dark",
-            95,
-            100,
-            15,
-            "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Eco Voz",
-            "special",
-            "normal",
-            40,
-            100,
-            15,
-            "Un susurro que aumenta de potencia conforme el\nusuario y otros Pokémon lo van utilizando."
-        ],
-        [
-            "Niebla Clara",
-            "special",
-            "poison",
-            50,
-            null,
-            15,
-            "Ataca al objetivo con una extraña niebla que\nelimina sus cambios de características."
-        ],
-        [
-            "Cambio de Banda",
-            "special",
-            "psychic",
-            null,
-            null,
-            15,
-            "Extraño poder que intercambia la posición del\nusuario con la de un aliado sobre el terreno de\ncombate."
-        ],
-        [
-            "Infortunio",
-            "special",
-            "ghost",
-            65,
-            100,
-            10,
-            "Ataque que causa un gran daño a los objetivos\nque sufren problemas de estado."
-        ],
-        [
-            "Confidencia",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Hace que el objetivo pierda la concentración\ncontándole un secreto. Disminuye el Ataque\nEspecial del oponente."
-        ],
-        [
-            "Trampa Venenosa",
-            "special",
-            "poison",
-            null,
-            100,
-            20,
-            "Impregna a su objetivo con un líquido venenoso\nque disminuye el Ataque, el At. Esp. y la Velocidad.\nSolo afecta a Pokémon ya envenenados."
-        ],
-        [
-            "Brillo Mágico",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            "Inflige daño a los oponentes con una potente luz."
-        ],
-        [
-            "Giro Vil",
-            "physical",
-            "dark",
-            60,
-            100,
-            20,
-            "Hace pivotar su cuerpo para infligir daño a su rival."
-        ],
-        [
-            "Rayo Meteórico",
-            "special",
-            "rock",
-            120,
-            90,
-            10,
-            "El usuario dedica el primer turno a aumentar su\nAtaque Especial acumulando energía cósmica y lanza\nsu ofensiva contra el objetivo en el segundo."
-        ],
-        [
-            "Gas Corrosivo",
-            "special",
-            "poison",
-            null,
-            100,
-            40,
-            "El usuario libera un gas cáustico que envuelve a todos\nlos que se encuentren alrededor y derrite por completo\nlos objetos que lleven equipados."
-        ]
-    ],
-    109,
-    53,
-    47,
-    127,
-    131,
-    103
+[
+
+    "nihilego",
+
+    793,
+
+    [
+
+        "rock",
+
+        "poison"
+
+    ],
+
+    [
+
+        [
+
+            "Destructor",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Golpea con las patas o la cola."
+
+        ],
+
+        [
+
+            "Atadura",
+
+            "physical",
+
+            "normal",
+
+            15,
+
+            85,
+
+            20,
+
+            "Ata y oprime de cuatro a cinco turnos."
+
+        ],
+
+        [
+
+            "Golpe Cabeza",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            15,
+
+            "Lanza un potente cabezazo que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Golpe Cuerpo",
+
+            "physical",
+
+            "normal",
+
+            85,
+
+            100,
+
+            15,
+
+            "Salta sobre el objetivo con todo su peso. Puede paralizar."
+
+        ],
+
+        [
+
+            "Constricción",
+
+            "physical",
+
+            "normal",
+
+            15,
+
+            90,
+
+            20,
+
+            "Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo."
+
+        ],
+
+        [
+
+            "Ácido",
+
+            "special",
+
+            "poison",
+
+            40,
+
+            100,
+
+            30,
+
+            "Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial."
+
+        ],
+
+        [
+
+            "Rayo",
+
+            "special",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Potente ataque eléctrico que puede paralizar al objetivo."
+
+        ],
+
+        [
+
+            "Onda Trueno",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            90,
+
+            20,
+
+            "Una ligera descarga que paraliza al objetivo si lo alcanza."
+
+        ],
+
+        [
+
+            "Trueno",
+
+            "special",
+
+            "electric",
+
+            110,
+
+            70,
+
+            10,
+
+            "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Psíquico",
+
+            "special",
+
+            "psychic",
+
+            90,
+
+            100,
+
+            10,
+
+            "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Doble Equipo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea copias de sí mismo para mejorar la Evasión."
+
+        ],
+
+        [
+
+            "Pantalla de Luz",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+
+        ],
+
+        [
+
+            "Reflejo",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+
+        ],
+
+        [
+
+            "Restricción",
+
+            "physical",
+
+            "normal",
+
+            10,
+
+            100,
+
+            35,
+
+            "Constriñe para herir y puede bajar la Velocidad."
+
+        ],
+
+        [
+
+            "Psicoonda",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            100,
+
+            15,
+
+            "Ataque con una onda de energía de intensidad variable."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Avalancha",
+
+            "physical",
+
+            "rock",
+
+            75,
+
+            90,
+
+            10,
+
+            "Lanza grandes pedruscos. Puede hacer retroceder a los rivales."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Rencor",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            10,
+
+            "Da rienda suelta a su rencor para reducir cuatro PP del último movimiento usado por el objetivo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Bomba Lodo",
+
+            "special",
+
+            "poison",
+
+            90,
+
+            100,
+
+            10,
+
+            "Arroja residuos al objetivo. Puede llegar a envenenar."
+
+        ],
+
+        [
+
+            "Tormenta Arena",
+
+            "special",
+
+            "rock",
+
+            null,
+
+            null,
+
+            10,
+
+            "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Contoneo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            15,
+
+            "Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Retribución",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Frustración",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque."
+
+        ],
+
+        [
+
+            "Velo Sagrado",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            25,
+
+            "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos."
+
+        ],
+
+        [
+
+            "Divide Dolor",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Suma los PS del usuario a los del objetivo y los reparte a partes iguales."
+
+        ],
+
+        [
+
+            "Poder Oculto",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Movimiento cuyo tipo varía en función del Pokémon que lo usa."
+
+        ],
+
+        [
+
+            "Manto Espejo",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            100,
+
+            20,
+
+            "Responde a un ataque especial ocasionando el doble del daño recibido."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Imitación",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            10,
+
+            "Imita al objetivo por completo y copia su habilidad. "
+
+        ],
+
+        [
+
+            "Capa Mágica",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            15,
+
+            "Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características."
+
+        ],
+
+        [
+
+            "Desarme",
+
+            "physical",
+
+            "dark",
+
+            65,
+
+            100,
+
+            20,
+
+            "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto."
+
+        ],
+
+        [
+
+            "Tumba Rocas",
+
+            "physical",
+
+            "rock",
+
+            60,
+
+            95,
+
+            15,
+
+            "Tira rocas que detienen al objetivo y bajan su Velocidad."
+
+        ],
+
+        [
+
+            "Cosquillas",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            20,
+
+            "Hace reír al objetivo para bajar su Ataque y Defensa."
+
+        ],
+
+        [
+
+            "Abatidoras",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            10,
+
+            "Se planta una semilla en el objetivo que le causa pesar. Evita el sueño gracias a la habilidad Insomnio."
+
+        ],
+
+        [
+
+            "Púas Tóxicas",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            null,
+
+            20,
+
+            "Lanza una trampa de púas tóxicas a los pies del objetivo. El veneno afecta a los Pokémon que entran en combate."
+
+        ],
+
+        [
+
+            "Puya Nociva",
+
+            "physical",
+
+            "poison",
+
+            80,
+
+            100,
+
+            20,
+
+            "Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Joya de Luz",
+
+            "special",
+
+            "rock",
+
+            80,
+
+            100,
+
+            20,
+
+            "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas."
+
+        ],
+
+        [
+
+            "Cabezazo Zen",
+
+            "physical",
+
+            "psychic",
+
+            80,
+
+            90,
+
+            15,
+
+            "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda."
+
+        ],
+
+        [
+
+            "Espacio Raro",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Se crea un espacio extraño en el que los Pokémon lentos se mueven primero durante cinco turnos."
+
+        ],
+
+        [
+
+            "Veneno X",
+
+            "physical",
+
+            "poison",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tajo que puede envenenar al objetivo. Suele ser crítico."
+
+        ],
+
+        [
+
+            "Lanzamugre",
+
+            "physical",
+
+            "poison",
+
+            120,
+
+            80,
+
+            5,
+
+            "Lanza contra el objetivo basura asquerosa. Puede envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Cabeza de Hierro",
+
+            "physical",
+
+            "steel",
+
+            80,
+
+            100,
+
+            15,
+
+            "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda."
+
+        ],
+
+        [
+
+            "Trampa Rocas",
+
+            "special",
+
+            "rock",
+
+            null,
+
+            null,
+
+            20,
+
+            "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate."
+
+        ],
+
+        [
+
+            "Hierba Lazo",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+
+        ],
+
+        [
+
+            "Rayo Carga",
+
+            "special",
+
+            "electric",
+
+            50,
+
+            90,
+
+            10,
+
+            "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Testarazo",
+
+            "physical",
+
+            "rock",
+
+            150,
+
+            80,
+
+            5,
+
+            "El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Isoguardia",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            10,
+
+            "El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas."
+
+        ],
+
+        [
+
+            "Isofuerza",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            10,
+
+            "El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos."
+
+        ],
+
+        [
+
+            "Zona Extraña",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            10,
+
+            "Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos."
+
+        ],
+
+        [
+
+            "Psicocarga",
+
+            "special",
+
+            "psychic",
+
+            80,
+
+            100,
+
+            10,
+
+            "Crea una onda psíquica que causa daño físico al objetivo."
+
+        ],
+
+        [
+
+            "Carga Tóxica",
+
+            "special",
+
+            "poison",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+
+        ],
+
+        [
+
+            "Telequinesis",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            15,
+
+            "El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos."
+
+        ],
+
+        [
+
+            "Onda Tóxica",
+
+            "special",
+
+            "poison",
+
+            95,
+
+            100,
+
+            10,
+
+            "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar."
+
+        ],
+
+        [
+
+            "Bomba Ácida",
+
+            "special",
+
+            "poison",
+
+            40,
+
+            100,
+
+            20,
+
+            "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Juego Sucio",
+
+            "physical",
+
+            "dark",
+
+            95,
+
+            100,
+
+            15,
+
+            "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Eco Voz",
+
+            "special",
+
+            "normal",
+
+            40,
+
+            100,
+
+            15,
+
+            "Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando."
+
+        ],
+
+        [
+
+            "Niebla Clara",
+
+            "special",
+
+            "poison",
+
+            50,
+
+            null,
+
+            15,
+
+            "Ataca al objetivo con una extraña niebla que elimina sus cambios de características."
+
+        ],
+
+        [
+
+            "Cambio de Banda",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            15,
+
+            "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate."
+
+        ],
+
+        [
+
+            "Infortunio",
+
+            "special",
+
+            "ghost",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataque que causa un gran daño a los objetivos que sufren problemas de estado."
+
+        ],
+
+        [
+
+            "Confidencia",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente."
+
+        ],
+
+        [
+
+            "Trampa Venenosa",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            100,
+
+            20,
+
+            "Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados."
+
+        ],
+
+        [
+
+            "Brillo Mágico",
+
+            "special",
+
+            "fairy",
+
+            80,
+
+            100,
+
+            10,
+
+            "Inflige daño a los oponentes con una potente luz."
+
+        ],
+
+        [
+
+            "Giro Vil",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            20,
+
+            "Hace pivotar su cuerpo para infligir daño a su rival."
+
+        ],
+
+        [
+
+            "Rayo Meteórico",
+
+            "special",
+
+            "rock",
+
+            120,
+
+            90,
+
+            10,
+
+            "El usuario dedica el primer turno a aumentar su Ataque Especial acumulando energía cósmica y lanza su ofensiva contra el objetivo en el segundo."
+
+        ],
+
+        [
+
+            "Gas Corrosivo",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            100,
+
+            40,
+
+            "El usuario libera un gas cáustico que envuelve a todos los que se encuentren alrededor y derrite por completo los objetos que lleven equipados."
+
+        ]
+
+    ],
+
+    109,
+
+    53,
+
+    47,
+
+    127,
+
+    131,
+
+    103
+
 ]

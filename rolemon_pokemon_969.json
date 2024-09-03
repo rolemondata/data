@@ -1,385 +1,769 @@
-[
-    "glimmet",
-    969,
-    [
-        "rock",
-        "poison"
-    ],
-    [
-        [
-            "Lanzarrocas",
-            "physical",
-            "rock",
-            50,
-            90,
-            15,
-            "Tira una pequeña roca al objetivo."
-        ],
-        [
-            "Tóxico",
-            "special",
-            "poison",
-            null,
-            90,
-            10,
-            "Envenena gravemente al objetivo y causa un daño\nmayor en cada turno."
-        ],
-        [
-            "Fortaleza",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Tensa la musculatura del usuario para aumentar\nla Defensa."
-        ],
-        [
-            "Rayo Confuso",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Rayo siniestro que confunde al objetivo."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques físicos."
-        ],
-        [
-            "Autodestrucción",
-            "physical",
-            "normal",
-            200,
-            100,
-            5,
-            "El atacante explota y hiere a todos a su alrededor.\nEl usuario se debilita de inmediato."
-        ],
-        [
-            "Armadura Ácida",
-            "special",
-            "poison",
-            null,
-            null,
-            20,
-            "Transforma la estructura celular para hacerse\nlíquido y aumenta mucho la Defensa."
-        ],
-        [
-            "Explosión",
-            "physical",
-            "normal",
-            250,
-            100,
-            5,
-            "El atacante causa una grandísima explosión y hiere\na todos a su alrededor. El usuario se debilita de\ninmediato."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Avalancha",
-            "physical",
-            "rock",
-            75,
-            90,
-            10,
-            "Lanza grandes pedruscos. Puede hacer retroceder\na los rivales."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Bomba Lodo",
-            "special",
-            "poison",
-            90,
-            100,
-            10,
-            "Arroja residuos al objetivo. Puede llegar a\nenvenenar."
-        ],
-        [
-            "Púas",
-            "special",
-            "ground",
-            null,
-            null,
-            20,
-            "Esparce púas en el equipo rival. Las púas hieren\na los Pokémon rivales que entran en combate."
-        ],
-        [
-            "Tormenta Arena",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Danza Lluvia",
-            "special",
-            "water",
-            null,
-            null,
-            5,
-            "Genera una fuerte lluvia que refuerza los\nmovimientos de tipo Agua durante cinco turnos."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Poder Pasado",
-            "special",
-            "rock",
-            60,
-            100,
-            5,
-            "Ataque prehistórico que puede subir todas las\ncaracterísticas."
-        ],
-        [
-            "Legado",
-            "special",
-            "dark",
-            null,
-            100,
-            10,
-            "El usuario se debilita, pero baja mucho tanto el\nAtaque como el Ataque Especial del objetivo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Tumba Rocas",
-            "physical",
-            "rock",
-            60,
-            95,
-            15,
-            "Tira rocas que detienen al objetivo y bajan su\nVelocidad."
-        ],
-        [
-            "Bucle Arena",
-            "physical",
-            "ground",
-            35,
-            85,
-            15,
-            "Enreda al objetivo en un remolino de arena de\ncuatro a cinco turnos."
-        ],
-        [
-            "Defensa Férrea",
-            "special",
-            "steel",
-            null,
-            null,
-            15,
-            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
-        ],
-        [
-            "Disparo Lodo",
-            "special",
-            "ground",
-            55,
-            95,
-            15,
-            "El usuario lanza lodo al objetivo y reduce su\nVelocidad."
-        ],
-        [
-            "Pedrada",
-            "physical",
-            "rock",
-            25,
-            90,
-            10,
-            "Lanza pedruscos al objetivo de dos a cinco veces\nconsecutivas."
-        ],
-        [
-            "Púas Tóxicas",
-            "special",
-            "poison",
-            null,
-            null,
-            20,
-            "Lanza una trampa de púas tóxicas a los pies del\nobjetivo. El veneno afecta a los Pokémon que\nentran en combate."
-        ],
-        [
-            "Pulimento",
-            "special",
-            "rock",
-            null,
-            null,
-            20,
-            "Reduce la resistencia puliendo su cuerpo. Aumenta\nla Velocidad considerablemente."
-        ],
-        [
-            "Joya de Luz",
-            "special",
-            "rock",
-            80,
-            100,
-            20,
-            "Ataca con un rayo de luz que centellea como si lo\nformaran miles de joyas."
-        ],
-        [
-            "Lanzamugre",
-            "physical",
-            "poison",
-            120,
-            80,
-            5,
-            "Lanza contra el objetivo basura asquerosa. Puede\nenvenenar al objetivo."
-        ],
-        [
-            "Roca Afilada",
-            "physical",
-            "rock",
-            100,
-            80,
-            5,
-            "Clava piedras muy afiladas al objetivo. Suele ser \ncrítico."
-        ],
-        [
-            "Trampa Rocas",
-            "special",
-            "rock",
-            null,
-            null,
-            20,
-            "Una trampa de rocas que flota en el aire y daña a\nlos objetivos que entran en combate."
-        ],
-        [
-            "Carga Tóxica",
-            "special",
-            "poison",
-            65,
-            100,
-            10,
-            "Ataca cubriendo al objetivo con un líquido\nvenenoso. El daño será doble si este ya está\nenvenenado."
-        ],
-        [
-            "Antiaéreo",
-            "physical",
-            "rock",
-            50,
-            100,
-            15,
-            "El usuario ataca lanzando una piedra o un proyectil.\nPuede estrellar contra el suelo al objetivo si vuela."
-        ],
-        [
-            "Onda Tóxica",
-            "special",
-            "poison",
-            95,
-            100,
-            10,
-            "Una onda tóxica que daña a los Pokémon de\nalrededor. Puede envenenar."
-        ],
-        [
-            "Bomba Ácida",
-            "special",
-            "poison",
-            40,
-            100,
-            20,
-            "Ataca con un líquido corrosivo, reduciendo mucho\nla Defensa Especial del objetivo."
-        ],
-        [
-            "Brillo Mágico",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            "Inflige daño a los oponentes con una potente luz."
-        ],
-        [
-            "Rayo Meteórico",
-            "special",
-            "rock",
-            120,
-            90,
-            10,
-            "El usuario dedica el primer turno a aumentar su\nAtaque Especial acumulando energía cósmica y lanza\nsu ofensiva contra el objetivo en el segundo."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    48,
-    35,
-    42,
-    105,
-    60,
-    60
+[
+
+    "glimmet",
+
+    969,
+
+    [
+
+        "rock",
+
+        "poison"
+
+    ],
+
+    [
+
+        [
+
+            "Lanzarrocas",
+
+            "physical",
+
+            "rock",
+
+            50,
+
+            90,
+
+            15,
+
+            "Tira una pequeña roca al objetivo."
+
+        ],
+
+        [
+
+            "Tóxico",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            90,
+
+            10,
+
+            "Envenena gravemente al objetivo y causa un daño mayor en cada turno."
+
+        ],
+
+        [
+
+            "Fortaleza",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            30,
+
+            "Tensa la musculatura del usuario para aumentar la Defensa."
+
+        ],
+
+        [
+
+            "Rayo Confuso",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            10,
+
+            "Rayo siniestro que confunde al objetivo."
+
+        ],
+
+        [
+
+            "Pantalla de Luz",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+
+        ],
+
+        [
+
+            "Reflejo",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+
+        ],
+
+        [
+
+            "Autodestrucción",
+
+            "physical",
+
+            "normal",
+
+            200,
+
+            100,
+
+            5,
+
+            "El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato."
+
+        ],
+
+        [
+
+            "Armadura Ácida",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            null,
+
+            20,
+
+            "Transforma la estructura celular para hacerse líquido y aumenta mucho la Defensa."
+
+        ],
+
+        [
+
+            "Explosión",
+
+            "physical",
+
+            "normal",
+
+            250,
+
+            100,
+
+            5,
+
+            "El atacante causa una grandísima explosión y hiere a todos a su alrededor. El usuario se debilita de inmediato."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Avalancha",
+
+            "physical",
+
+            "rock",
+
+            75,
+
+            90,
+
+            10,
+
+            "Lanza grandes pedruscos. Puede hacer retroceder a los rivales."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Bomba Lodo",
+
+            "special",
+
+            "poison",
+
+            90,
+
+            100,
+
+            10,
+
+            "Arroja residuos al objetivo. Puede llegar a envenenar."
+
+        ],
+
+        [
+
+            "Púas",
+
+            "special",
+
+            "ground",
+
+            null,
+
+            null,
+
+            20,
+
+            "Esparce púas en el equipo rival. Las púas hieren a los Pokémon rivales que entran en combate."
+
+        ],
+
+        [
+
+            "Tormenta Arena",
+
+            "special",
+
+            "rock",
+
+            null,
+
+            null,
+
+            10,
+
+            "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Danza Lluvia",
+
+            "special",
+
+            "water",
+
+            null,
+
+            null,
+
+            5,
+
+            "Genera una fuerte lluvia que refuerza los movimientos de tipo Agua durante cinco turnos."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Poder Pasado",
+
+            "special",
+
+            "rock",
+
+            60,
+
+            100,
+
+            5,
+
+            "Ataque prehistórico que puede subir todas las características."
+
+        ],
+
+        [
+
+            "Legado",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Tumba Rocas",
+
+            "physical",
+
+            "rock",
+
+            60,
+
+            95,
+
+            15,
+
+            "Tira rocas que detienen al objetivo y bajan su Velocidad."
+
+        ],
+
+        [
+
+            "Bucle Arena",
+
+            "physical",
+
+            "ground",
+
+            35,
+
+            85,
+
+            15,
+
+            "Enreda al objetivo en un remolino de arena de cuatro a cinco turnos."
+
+        ],
+
+        [
+
+            "Defensa Férrea",
+
+            "special",
+
+            "steel",
+
+            null,
+
+            null,
+
+            15,
+
+            "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa."
+
+        ],
+
+        [
+
+            "Disparo Lodo",
+
+            "special",
+
+            "ground",
+
+            55,
+
+            95,
+
+            15,
+
+            "El usuario lanza lodo al objetivo y reduce su Velocidad."
+
+        ],
+
+        [
+
+            "Pedrada",
+
+            "physical",
+
+            "rock",
+
+            25,
+
+            90,
+
+            10,
+
+            "Lanza pedruscos al objetivo de dos a cinco veces consecutivas."
+
+        ],
+
+        [
+
+            "Púas Tóxicas",
+
+            "special",
+
+            "poison",
+
+            null,
+
+            null,
+
+            20,
+
+            "Lanza una trampa de púas tóxicas a los pies del objetivo. El veneno afecta a los Pokémon que entran en combate."
+
+        ],
+
+        [
+
+            "Pulimento",
+
+            "special",
+
+            "rock",
+
+            null,
+
+            null,
+
+            20,
+
+            "Reduce la resistencia puliendo su cuerpo. Aumenta la Velocidad considerablemente."
+
+        ],
+
+        [
+
+            "Joya de Luz",
+
+            "special",
+
+            "rock",
+
+            80,
+
+            100,
+
+            20,
+
+            "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas."
+
+        ],
+
+        [
+
+            "Lanzamugre",
+
+            "physical",
+
+            "poison",
+
+            120,
+
+            80,
+
+            5,
+
+            "Lanza contra el objetivo basura asquerosa. Puede envenenar al objetivo."
+
+        ],
+
+        [
+
+            "Roca Afilada",
+
+            "physical",
+
+            "rock",
+
+            100,
+
+            80,
+
+            5,
+
+            "Clava piedras muy afiladas al objetivo. Suele ser  crítico."
+
+        ],
+
+        [
+
+            "Trampa Rocas",
+
+            "special",
+
+            "rock",
+
+            null,
+
+            null,
+
+            20,
+
+            "Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate."
+
+        ],
+
+        [
+
+            "Carga Tóxica",
+
+            "special",
+
+            "poison",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado."
+
+        ],
+
+        [
+
+            "Antiaéreo",
+
+            "physical",
+
+            "rock",
+
+            50,
+
+            100,
+
+            15,
+
+            "El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela."
+
+        ],
+
+        [
+
+            "Onda Tóxica",
+
+            "special",
+
+            "poison",
+
+            95,
+
+            100,
+
+            10,
+
+            "Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar."
+
+        ],
+
+        [
+
+            "Bomba Ácida",
+
+            "special",
+
+            "poison",
+
+            40,
+
+            100,
+
+            20,
+
+            "Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Brillo Mágico",
+
+            "special",
+
+            "fairy",
+
+            80,
+
+            100,
+
+            10,
+
+            "Inflige daño a los oponentes con una potente luz."
+
+        ],
+
+        [
+
+            "Rayo Meteórico",
+
+            "special",
+
+            "rock",
+
+            120,
+
+            90,
+
+            10,
+
+            "El usuario dedica el primer turno a aumentar su Ataque Especial acumulando energía cósmica y lanza su ofensiva contra el objetivo en el segundo."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    48,
+
+    35,
+
+    42,
+
+    105,
+
+    60,
+
+    60
+
 ]

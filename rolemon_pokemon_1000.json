@@ -1,421 +1,841 @@
-[
-    "gholdengo",
-    1000,
-    [
-        "steel",
-        "ghost"
-    ],
-    [
-        [
-            "Puño Trueno",
-            "physical",
-            "electric",
-            75,
-            100,
-            15,
-            "Puñetazo eléctrico. Puede paralizar."
-        ],
-        [
-            "Placaje",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Embiste con todo el cuerpo."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Patada Baja",
-            "physical",
-            "fighting",
-            null,
-            100,
-            20,
-            "Patada baja. Cuanto más pesa el objetivo, más\ndaño causa."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque eléctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Trueno",
-            "special",
-            "electric",
-            110,
-            70,
-            10,
-            "Un poderoso rayo que daña al objetivo y puede\nparalizarlo."
-        ],
-        [
-            "Psíquico",
-            "special",
-            "psychic",
-            90,
-            100,
-            10,
-            "Fuerte ataque telequinético que puede bajar la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Tinieblas",
-            "special",
-            "ghost",
-            null,
-            100,
-            15,
-            "Produce un espejismo ante el objetivo, que pierde\ntantos PS como nivel tenga el agresor."
-        ],
-        [
-            "Recuperación",
-            "special",
-            "normal",
-            null,
-            null,
-            5,
-            "Restaura hasta la mitad de los PS máximos."
-        ],
-        [
-            "Rayo Confuso",
-            "special",
-            "ghost",
-            null,
-            100,
-            10,
-            "Rayo siniestro que confunde al objetivo."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques físicos."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ladrón",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robará el del\nobjetivo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Tormenta Arena",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Tormenta de arena que dura cinco turnos y hiere a\ntodos, excepto a los de tipo Roca, Tierra y Acero."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Bola Sombra",
-            "special",
-            "ghost",
-            80,
-            100,
-            15,
-            "Lanza una bola oscura que puede bajar la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Legado",
-            "special",
-            "dark",
-            null,
-            100,
-            10,
-            "El usuario se debilita, pero baja mucho tanto el\nAtaque como el Ataque Especial del objetivo."
-        ],
-        [
-            "Puño Certero",
-            "physical",
-            "fighting",
-            150,
-            100,
-            20,
-            "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso."
-        ],
-        [
-            "Truco",
-            "special",
-            "psychic",
-            null,
-            100,
-            10,
-            "Engaña al objetivo desprevenido e intercambia\nobjetos."
-        ],
-        [
-            "Impresionar",
-            "physical",
-            "ghost",
-            30,
-            100,
-            15,
-            "Impresiona tanto que puede hacer retroceder al\nobjetivo."
-        ],
-        [
-            "Eco Metálico",
-            "special",
-            "steel",
-            null,
-            85,
-            40,
-            "Horrible chirrido metálico que baja mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Lanzamiento",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Lanza contra el objetivo el objeto que lleva. La\nfuerza del ataque y su efecto varían según el\nobjeto."
-        ],
-        [
-            "Joya de Luz",
-            "special",
-            "rock",
-            80,
-            100,
-            20,
-            "Ataca con un rayo de luz que centellea como si lo\nformaran miles de joyas."
-        ],
-        [
-            "Onda Certera",
-            "special",
-            "fighting",
-            120,
-            70,
-            5,
-            "Agudiza la concentración mental y libera su poder.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Maquinación",
-            "special",
-            "dark",
-            null,
-            null,
-            20,
-            "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial."
-        ],
-        [
-            "Foco Resplandor",
-            "special",
-            "steel",
-            80,
-            100,
-            10,
-            "El usuario concentra toda la luz del cuerpo y la\nlibera. Puede bajar la Defensa Especial del\nobjetivo."
-        ],
-        [
-            "Cabeza de Hierro",
-            "physical",
-            "steel",
-            80,
-            100,
-            15,
-            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
-        ],
-        [
-            "Rayo Carga",
-            "special",
-            "electric",
-            50,
-            90,
-            10,
-            "Lanza un rayo eléctrico contra el objetivo. Puede\nsubir el Ataque Especial de quien lo usa."
-        ],
-        [
-            "Psicocarga",
-            "special",
-            "psychic",
-            80,
-            100,
-            10,
-            "Crea una onda psíquica que causa daño físico al\nobjetivo."
-        ],
-        [
-            "Cuerpo Pesado",
-            "physical",
-            "steel",
-            null,
-            100,
-            10,
-            "El usuario golpea con todo su cuerpo. Cuanto\nmayor sea su peso comparado con el del objetivo,\nmás daño causará."
-        ],
-        [
-            "Bola Voltio",
-            "special",
-            "electric",
-            null,
-            100,
-            10,
-            "Lanza una bola eléctrica. Cuanto mayor sea la\nVelocidad del usuario en comparación con la del\nobjetivo, mayor será el daño causado."
-        ],
-        [
-            "Puntapié",
-            "physical",
-            "fighting",
-            65,
-            100,
-            20,
-            "Ataque rápido dirigido a los pies del objetivo que\nle hace perder Velocidad."
-        ],
-        [
-            "Infortunio",
-            "special",
-            "ghost",
-            65,
-            100,
-            10,
-            "Ataque que causa un gran daño a los objetivos\nque sufren problemas de estado."
-        ],
-        [
-            "Brillo Mágico",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            "Inflige daño a los oponentes con una potente luz."
-        ],
-        [
-            "Metaláser",
-            "special",
-            "steel",
-            140,
-            95,
-            5,
-            "Utiliza el acero de su cuerpo para disparar un potente\nrayo. También hiere al agresor."
-        ],
-        [
-            "Poltergeist",
-            "physical",
-            "ghost",
-            110,
-            90,
-            5,
-            "El usuario ataca utilizando el objeto que lleva el rival.\nSi no tiene ninguno equipado, el movimiento falla."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "special",
-            "steel",
-            120,
-            100,
-            5,
-            ""
-        ]
-    ],
-    87,
-    60,
-    95,
-    133,
-    91,
-    84
+[
+
+    "gholdengo",
+
+    1000,
+
+    [
+
+        "steel",
+
+        "ghost"
+
+    ],
+
+    [
+
+        [
+
+            "Puño Trueno",
+
+            "physical",
+
+            "electric",
+
+            75,
+
+            100,
+
+            15,
+
+            "Puñetazo eléctrico. Puede paralizar."
+
+        ],
+
+        [
+
+            "Placaje",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Embiste con todo el cuerpo."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Patada Baja",
+
+            "physical",
+
+            "fighting",
+
+            null,
+
+            100,
+
+            20,
+
+            "Patada baja. Cuanto más pesa el objetivo, más daño causa."
+
+        ],
+
+        [
+
+            "Rayo",
+
+            "special",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Potente ataque eléctrico que puede paralizar al objetivo."
+
+        ],
+
+        [
+
+            "Onda Trueno",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            90,
+
+            20,
+
+            "Una ligera descarga que paraliza al objetivo si lo alcanza."
+
+        ],
+
+        [
+
+            "Trueno",
+
+            "special",
+
+            "electric",
+
+            110,
+
+            70,
+
+            10,
+
+            "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+
+        ],
+
+        [
+
+            "Psíquico",
+
+            "special",
+
+            "psychic",
+
+            90,
+
+            100,
+
+            10,
+
+            "Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Tinieblas",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            15,
+
+            "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el agresor."
+
+        ],
+
+        [
+
+            "Recuperación",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura hasta la mitad de los PS máximos."
+
+        ],
+
+        [
+
+            "Rayo Confuso",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            10,
+
+            "Rayo siniestro que confunde al objetivo."
+
+        ],
+
+        [
+
+            "Pantalla de Luz",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+
+        ],
+
+        [
+
+            "Reflejo",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ladrón",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Tormenta Arena",
+
+            "special",
+
+            "rock",
+
+            null,
+
+            null,
+
+            10,
+
+            "Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Bola Sombra",
+
+            "special",
+
+            "ghost",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Legado",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo."
+
+        ],
+
+        [
+
+            "Puño Certero",
+
+            "physical",
+
+            "fighting",
+
+            150,
+
+            100,
+
+            20,
+
+            "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso."
+
+        ],
+
+        [
+
+            "Truco",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            100,
+
+            10,
+
+            "Engaña al objetivo desprevenido e intercambia objetos."
+
+        ],
+
+        [
+
+            "Impresionar",
+
+            "physical",
+
+            "ghost",
+
+            30,
+
+            100,
+
+            15,
+
+            "Impresiona tanto que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Eco Metálico",
+
+            "special",
+
+            "steel",
+
+            null,
+
+            85,
+
+            40,
+
+            "Horrible chirrido metálico que baja mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Lanzamiento",
+
+            "physical",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto."
+
+        ],
+
+        [
+
+            "Joya de Luz",
+
+            "special",
+
+            "rock",
+
+            80,
+
+            100,
+
+            20,
+
+            "Ataca con un rayo de luz que centellea como si lo formaran miles de joyas."
+
+        ],
+
+        [
+
+            "Onda Certera",
+
+            "special",
+
+            "fighting",
+
+            120,
+
+            70,
+
+            5,
+
+            "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Maquinación",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            20,
+
+            "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial."
+
+        ],
+
+        [
+
+            "Foco Resplandor",
+
+            "special",
+
+            "steel",
+
+            80,
+
+            100,
+
+            10,
+
+            "El usuario concentra toda la luz del cuerpo y la libera. Puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Cabeza de Hierro",
+
+            "physical",
+
+            "steel",
+
+            80,
+
+            100,
+
+            15,
+
+            "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda."
+
+        ],
+
+        [
+
+            "Rayo Carga",
+
+            "special",
+
+            "electric",
+
+            50,
+
+            90,
+
+            10,
+
+            "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Psicocarga",
+
+            "special",
+
+            "psychic",
+
+            80,
+
+            100,
+
+            10,
+
+            "Crea una onda psíquica que causa daño físico al objetivo."
+
+        ],
+
+        [
+
+            "Cuerpo Pesado",
+
+            "physical",
+
+            "steel",
+
+            null,
+
+            100,
+
+            10,
+
+            "El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará."
+
+        ],
+
+        [
+
+            "Bola Voltio",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del objetivo, mayor será el daño causado."
+
+        ],
+
+        [
+
+            "Puntapié",
+
+            "physical",
+
+            "fighting",
+
+            65,
+
+            100,
+
+            20,
+
+            "Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad."
+
+        ],
+
+        [
+
+            "Infortunio",
+
+            "special",
+
+            "ghost",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataque que causa un gran daño a los objetivos que sufren problemas de estado."
+
+        ],
+
+        [
+
+            "Brillo Mágico",
+
+            "special",
+
+            "fairy",
+
+            80,
+
+            100,
+
+            10,
+
+            "Inflige daño a los oponentes con una potente luz."
+
+        ],
+
+        [
+
+            "Metaláser",
+
+            "special",
+
+            "steel",
+
+            140,
+
+            95,
+
+            5,
+
+            "Utiliza el acero de su cuerpo para disparar un potente rayo. También hiere al agresor."
+
+        ],
+
+        [
+
+            "Poltergeist",
+
+            "physical",
+
+            "ghost",
+
+            110,
+
+            90,
+
+            5,
+
+            "El usuario ataca utilizando el objeto que lleva el rival. Si no tiene ninguno equipado, el movimiento falla."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "steel",
+
+            120,
+
+            100,
+
+            5,
+
+            ""
+
+        ]
+
+    ],
+
+    87,
+
+    60,
+
+    95,
+
+    133,
+
+    91,
+
+    84
+
 ]

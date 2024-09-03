@@ -1,330 +1,659 @@
-[
-    "nickit",
-    827,
-    [
-        "dark"
-    ],
-    [
-        [
-            "Látigo",
-            "special",
-            "normal",
-            null,
-            100,
-            30,
-            "Agita la cola para bajar la Defensa del equipo rival. "
-        ],
-        [
-            "Excavar",
-            "physical",
-            "ground",
-            80,
-            100,
-            10,
-            "Primer turno: cava. Segundo turno: ataca. También\nsirve para salir de ciertas zonas."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Ataque Rápido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque rápido que permite golpear en primer lugar."
-        ],
-        [
-            "Chirrido",
-            "special",
-            "normal",
-            null,
-            85,
-            40,
-            "Alarido agudo que reduce mucho la Defensa del\nobjetivo."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ladrón",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robará el del\nobjetivo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Relevo",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Cambia el puesto con un compañero y le pasa los\ncambios de características."
-        ],
-        [
-            "Paliza",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Ataque de todo el equipo Pokémon. Cuantos más\nhaya, más veces se atacará."
-        ],
-        [
-            "Tormento",
-            "special",
-            "dark",
-            null,
-            100,
-            15,
-            "Atormenta y enfurece al objetivo, que no puede\nusar dos veces seguidas el mismo movimiento."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Desarme",
-            "physical",
-            "dark",
-            65,
-            100,
-            20,
-            "Impide al objetivo usar el objeto que lleva durante\nel combate. La potencia del movimiento se\nmultiplica si el objetivo lleva un objeto."
-        ],
-        [
-            "Llanto Falso",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Lágrimas de cocodrilo que bajan mucho la\nDefensa Especial del objetivo."
-        ],
-        [
-            "Aullido",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Aullido que sube el ánimo y aumenta el Ataque."
-        ],
-        [
-            "Disparo Lodo",
-            "special",
-            "ground",
-            55,
-            95,
-            15,
-            "El usuario lanza lodo al objetivo y reduce su\nVelocidad."
-        ],
-        [
-            "Buena Baza",
-            "physical",
-            "dark",
-            60,
-            100,
-            10,
-            "Si el objetivo ya ha sufrido daño en ese turno, la\nfuerza del ataque se duplica."
-        ],
-        [
-            "Golpe Bajo",
-            "physical",
-            "dark",
-            70,
-            100,
-            5,
-            "Permite atacar con prioridad. Falla si el objetivo no\nestá preparando ningún ataque."
-        ],
-        [
-            "Tajo Umbrío",
-            "physical",
-            "dark",
-            70,
-            100,
-            15,
-            "Ataca al objetivo a la primera oportunidad. Suele\nser crítico."
-        ],
-        [
-            "Maquinación",
-            "special",
-            "dark",
-            null,
-            null,
-            20,
-            "Estimula su cerebro pensando en cosas malas.\nAumenta considerablemente el Ataque Especial."
-        ],
-        [
-            "Afilagarras",
-            "special",
-            "dark",
-            null,
-            null,
-            15,
-            "El usuario se afila las garras para aumentar su\nAtaque y Precisión."
-        ],
-        [
-            "Juego Sucio",
-            "physical",
-            "dark",
-            95,
-            100,
-            15,
-            "El usuario emplea la fuerza del objetivo para\natacarlo. Cuanto mayor es el Ataque del objetivo,\nmás daño provoca."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Anticipo",
-            "special",
-            "fighting",
-            null,
-            null,
-            15,
-            "Protege a todo el equipo de los movimientos que\nse adelantan y atacan primero."
-        ],
-        [
-            "Plumerazo",
-            "physical",
-            "normal",
-            25,
-            85,
-            10,
-            "Golpea con la cola u otras partes de su cuerpo de\ndos a cinco veces seguidas."
-        ],
-        [
-            "Alarido",
-            "special",
-            "dark",
-            55,
-            95,
-            15,
-            "Ataca con un chillido desagradable que baja el\nAtaque Especial del rival."
-        ],
-        [
-            "Carantoña",
-            "physical",
-            "fairy",
-            90,
-            90,
-            10,
-            "El Pokémon que lo usa le hace cucamonas al\nobjetivo y lo ataca. Puede disminuir el Ataque\ndel objetivo."
-        ],
-        [
-            "Desahogo",
-            "physical",
-            "dark",
-            75,
-            100,
-            5,
-            "Ataca al rival presa de la rabia. Si el usuario ha sufrido\nuna reducción de características en ese turno, la\npotencia del movimiento se duplica."
-        ]
-    ],
-    40,
-    28,
-    28,
-    47,
-    52,
-    50
+[
+
+    "nickit",
+
+    827,
+
+    [
+
+        "dark"
+
+    ],
+
+    [
+
+        [
+
+            "Látigo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            30,
+
+            "Agita la cola para bajar la Defensa del equipo rival. "
+
+        ],
+
+        [
+
+            "Excavar",
+
+            "physical",
+
+            "ground",
+
+            80,
+
+            100,
+
+            10,
+
+            "Primer turno: cava. Segundo turno: ataca. También sirve para salir de ciertas zonas."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Ataque Rápido",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            30,
+
+            "Ataque rápido que permite golpear en primer lugar."
+
+        ],
+
+        [
+
+            "Chirrido",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            85,
+
+            40,
+
+            "Alarido agudo que reduce mucho la Defensa del objetivo."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ladrón",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Relevo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            40,
+
+            "Cambia el puesto con un compañero y le pasa los cambios de características."
+
+        ],
+
+        [
+
+            "Paliza",
+
+            "physical",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará."
+
+        ],
+
+        [
+
+            "Tormento",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            15,
+
+            "Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Mofa",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+
+        ],
+
+        [
+
+            "Desarme",
+
+            "physical",
+
+            "dark",
+
+            65,
+
+            100,
+
+            20,
+
+            "Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto."
+
+        ],
+
+        [
+
+            "Llanto Falso",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Lágrimas de cocodrilo que bajan mucho la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Aullido",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            40,
+
+            "Aullido que sube el ánimo y aumenta el Ataque."
+
+        ],
+
+        [
+
+            "Disparo Lodo",
+
+            "special",
+
+            "ground",
+
+            55,
+
+            95,
+
+            15,
+
+            "El usuario lanza lodo al objetivo y reduce su Velocidad."
+
+        ],
+
+        [
+
+            "Buena Baza",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            10,
+
+            "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica."
+
+        ],
+
+        [
+
+            "Golpe Bajo",
+
+            "physical",
+
+            "dark",
+
+            70,
+
+            100,
+
+            5,
+
+            "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque."
+
+        ],
+
+        [
+
+            "Tajo Umbrío",
+
+            "physical",
+
+            "dark",
+
+            70,
+
+            100,
+
+            15,
+
+            "Ataca al objetivo a la primera oportunidad. Suele ser crítico."
+
+        ],
+
+        [
+
+            "Maquinación",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            20,
+
+            "Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial."
+
+        ],
+
+        [
+
+            "Afilagarras",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            null,
+
+            15,
+
+            "El usuario se afila las garras para aumentar su Ataque y Precisión."
+
+        ],
+
+        [
+
+            "Juego Sucio",
+
+            "physical",
+
+            "dark",
+
+            95,
+
+            100,
+
+            15,
+
+            "El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Anticipo",
+
+            "special",
+
+            "fighting",
+
+            null,
+
+            null,
+
+            15,
+
+            "Protege a todo el equipo de los movimientos que se adelantan y atacan primero."
+
+        ],
+
+        [
+
+            "Plumerazo",
+
+            "physical",
+
+            "normal",
+
+            25,
+
+            85,
+
+            10,
+
+            "Golpea con la cola u otras partes de su cuerpo de dos a cinco veces seguidas."
+
+        ],
+
+        [
+
+            "Alarido",
+
+            "special",
+
+            "dark",
+
+            55,
+
+            95,
+
+            15,
+
+            "Ataca con un chillido desagradable que baja el Ataque Especial del rival."
+
+        ],
+
+        [
+
+            "Carantoña",
+
+            "physical",
+
+            "fairy",
+
+            90,
+
+            90,
+
+            10,
+
+            "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo."
+
+        ],
+
+        [
+
+            "Desahogo",
+
+            "physical",
+
+            "dark",
+
+            75,
+
+            100,
+
+            5,
+
+            "Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en ese turno, la potencia del movimiento se duplica."
+
+        ]
+
+    ],
+
+    40,
+
+    28,
+
+    28,
+
+    47,
+
+    52,
+
+    50
+
 ]

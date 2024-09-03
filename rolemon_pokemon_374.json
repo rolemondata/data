@@ -1,88 +1,175 @@
-[
-    "beldum",
-    374,
-    [
-        "steel",
-        "psychic"
-    ],
-    [
-        [
-            "Golpe Cabeza",
-            "physical",
-            "normal",
-            70,
-            100,
-            15,
-            "Lanza un potente cabezazo que puede hacer\nretroceder al objetivo."
-        ],
-        [
-            "Placaje",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Embiste con todo el cuerpo."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Defensa Férrea",
-            "special",
-            "steel",
-            null,
-            null,
-            15,
-            "Fortalece el cuerpo como si fuera de hierro y sube\nmucho la Defensa."
-        ],
-        [
-            "Cabezazo Zen",
-            "physical",
-            "psychic",
-            80,
-            90,
-            15,
-            "Concentra su energía psíquica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
-        ],
-        [
-            "Cabeza de Hierro",
-            "physical",
-            "steel",
-            80,
-            100,
-            15,
-            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
-        ],
-        [
-            "Metaláser",
-            "special",
-            "steel",
-            140,
-            95,
-            5,
-            "Utiliza el acero de su cuerpo para disparar un potente\nrayo. También hiere al agresor."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    40,
-    55,
-    80,
-    35,
-    60,
-    30
+[
+
+    "beldum",
+
+    374,
+
+    [
+
+        "steel",
+
+        "psychic"
+
+    ],
+
+    [
+
+        [
+
+            "Golpe Cabeza",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            15,
+
+            "Lanza un potente cabezazo que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Placaje",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Embiste con todo el cuerpo."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Defensa Férrea",
+
+            "special",
+
+            "steel",
+
+            null,
+
+            null,
+
+            15,
+
+            "Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa."
+
+        ],
+
+        [
+
+            "Cabezazo Zen",
+
+            "physical",
+
+            "psychic",
+
+            80,
+
+            90,
+
+            15,
+
+            "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda."
+
+        ],
+
+        [
+
+            "Cabeza de Hierro",
+
+            "physical",
+
+            "steel",
+
+            80,
+
+            100,
+
+            15,
+
+            "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda."
+
+        ],
+
+        [
+
+            "Metaláser",
+
+            "special",
+
+            "steel",
+
+            140,
+
+            95,
+
+            5,
+
+            "Utiliza el acero de su cuerpo para disparar un potente rayo. También hiere al agresor."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    40,
+
+    55,
+
+    80,
+
+    35,
+
+    60,
+
+    30
+
 ]

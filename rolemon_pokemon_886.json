@@ -1,547 +1,1093 @@
-[
-    "drakloak",
-    886,
-    [
-        "dragon",
-        "ghost"
-    ],
-    [
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Doble Filo",
-            "physical",
-            "normal",
-            120,
-            100,
-            15,
-            "Ataque arriesgado que también hiere al agresor."
-        ],
-        [
-            "Mordisco",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Un voraz bocado que puede hacer retroceder\nal objetivo."
-        ],
-        [
-            "Lanzallamas",
-            "special",
-            "fire",
-            90,
-            100,
-            15,
-            "Ataca con una gran ráfaga de fuego que puede\ncausar quemaduras."
-        ],
-        [
-            "Hidrobomba",
-            "special",
-            "water",
-            110,
-            80,
-            5,
-            "Lanza una gran masa de agua a presión para\natacar."
-        ],
-        [
-            "Surf",
-            "special",
-            "water",
-            90,
-            100,
-            15,
-            "Inunda el campo de batalla con una ola gigante.\nFuera de batalla sirve para moverse sobre el agua."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque eléctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Trueno",
-            "special",
-            "electric",
-            110,
-            70,
-            10,
-            "Un poderoso rayo que daña al objetivo y puede\nparalizarlo."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Ataque Rápido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque rápido que permite golpear en primer lugar."
-        ],
-        [
-            "Tinieblas",
-            "special",
-            "ghost",
-            null,
-            100,
-            15,
-            "Produce un espejismo ante el objetivo, que pierde\ntantos PS como nivel tenga el agresor."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques físicos."
-        ],
-        [
-            "Llamarada",
-            "special",
-            "fire",
-            110,
-            85,
-            5,
-            "Llama intensa que chamusca y puede causar\nquemaduras."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ladrón",
-            "physical",
-            "dark",
-            60,
-            100,
-            25,
-            "Ataca y le quita al objetivo el objeto que lleve.\nSi el agresor lleva un objeto, no robará el del\nobjetivo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Maldición",
-            "special",
-            "ghost",
-            null,
-            null,
-            10,
-            "Un movimiento que tiene efectos distintos si el\nusuario es de tipo Fantasma o no."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Fijar Blanco",
-            "special",
-            "normal",
-            null,
-            null,
-            5,
-            "Fija el blanco para que el siguiente ataque no falle."
-        ],
-        [
-            "Enfado",
-            "physical",
-            "dragon",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Ala de Acero",
-            "physical",
-            "steel",
-            70,
-            90,
-            25,
-            "Alas macizas que golpean al objetivo y pueden\nsubir la Defensa del usuario."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Relevo",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "Cambia el puesto con un compañero y le pasa los\ncambios de características."
-        ],
-        [
-            "Día Soleado",
-            "special",
-            "fire",
-            null,
-            null,
-            5,
-            "Quien lo usa intensifica el efecto del sol durante\ncinco turnos, lo que potencia los movimientos de\ntipo Fuego."
-        ],
-        [
-            "Bola Sombra",
-            "special",
-            "ghost",
-            80,
-            100,
-            15,
-            "Lanza una bola oscura que puede bajar la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Paliza",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Ataque de todo el equipo Pokémon. Cuantos más\nhaya, más veces se atacará."
-        ],
-        [
-            "Fuego Fatuo",
-            "special",
-            "fire",
-            null,
-            85,
-            15,
-            "Siniestra llama morada que produce quemaduras."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Buceo",
-            "physical",
-            "water",
-            80,
-            100,
-            10,
-            "El usuario se sumerge en el primer turno\ny ataca en el segundo."
-        ],
-        [
-            "Impresionar",
-            "physical",
-            "ghost",
-            30,
-            100,
-            15,
-            "Impresiona tanto que puede hacer retroceder al\nobjetivo."
-        ],
-        [
-            "Danza Dragón",
-            "special",
-            "dragon",
-            null,
-            null,
-            20,
-            "Danza mística que sube el Ataque y la Velocidad."
-        ],
-        [
-            "Salmuera",
-            "special",
-            "water",
-            65,
-            100,
-            10,
-            "Si al objetivo le queda la mitad o menos de sus PS,\nel ataque será el doble de fuerte."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Buena Baza",
-            "physical",
-            "dark",
-            60,
-            100,
-            10,
-            "Si el objetivo ya ha sufrido daño en ese turno, la\nfuerza del ataque se duplica."
-        ],
-        [
-            "Última Baza",
-            "physical",
-            "normal",
-            140,
-            100,
-            5,
-            "Este movimiento solo puede utilizarse tras haber\nusado al menos una vez todos los demás\nconocidos por el Pokémon."
-        ],
-        [
-            "Pulso Dragón",
-            "special",
-            "dragon",
-            85,
-            100,
-            10,
-            "Abre mucho la boca y libera una onda de choque\nque ataca al objetivo."
-        ],
-        [
-            "Carga Dragón",
-            "physical",
-            "dragon",
-            100,
-            75,
-            10,
-            "Ataca de forma brutal mientras intimida al objetivo.\nTambién puede hacerlo retroceder."
-        ],
-        [
-            "Cometa Draco",
-            "special",
-            "dragon",
-            130,
-            90,
-            5,
-            "Hace que grandes cometas caigan del cielo sobre\nel objetivo. Baja mucho el Ataque Especial del\nque lo usa."
-        ],
-        [
-            "Doble Golpe",
-            "physical",
-            "normal",
-            35,
-            90,
-            10,
-            "Golpea al objetivo dos veces seguidas con la cola\nu otras partes de su cuerpo."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Cambio de Banda",
-            "special",
-            "psychic",
-            null,
-            null,
-            15,
-            "Extraño poder que intercambia la posición del\nusuario con la de un aliado sobre el terreno de\ncombate."
-        ],
-        [
-            "Escaldar",
-            "special",
-            "water",
-            80,
-            100,
-            15,
-            "Ataca arrojando agua hirviendo al objetivo.\nPuede causar quemaduras."
-        ],
-        [
-            "Infortunio",
-            "special",
-            "ghost",
-            65,
-            100,
-            10,
-            "Ataque que causa un gran daño a los objetivos\nque sufren problemas de estado."
-        ],
-        [
-            "Acróbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ágilmente. Si el usuario no porta ningún\nobjeto, el objetivo resulta seriamente dañado."
-        ],
-        [
-            "Cola Dragón",
-            "physical",
-            "dragon",
-            60,
-            90,
-            10,
-            "Ataca al objetivo y lo obliga a cambiarse por otro\nPokémon. Si es uno salvaje, acaba el combate."
-        ],
-        [
-            "Golpe Fantasma",
-            "physical",
-            "ghost",
-            90,
-            100,
-            10,
-            "El usuario desaparece en el primer turno y ataca\na su objetivo en el segundo. Permite acertar\naunque el objetivo esté protegiéndose."
-        ],
-        [
-            "Acoso",
-            "special",
-            "bug",
-            20,
-            100,
-            20,
-            "Hostiga al Pokémon objetivo durante cuatro o\ncinco turnos e impide que pueda huir mientras\ntanto."
-        ],
-        [
-            "Psicocolmillo",
-            "physical",
-            "psychic",
-            85,
-            100,
-            10,
-            "Ataca a sus rivales con poderes psíquicos que\nademás destruyen barreras como Pantalla de Luz y\nReflejo."
-        ],
-        [
-            "Vasto Impacto",
-            "physical",
-            "dragon",
-            60,
-            100,
-            15,
-            "El usuario sacude violentamente su enorme cola para\ngolpear a todos los rivales y reducir su Ataque a la par."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "bug",
-            50,
-            100,
-            20,
-            ""
-        ],
-        [
-            "Bramido Dragón",
-            "special",
-            "dragon",
-            0,
-            0,
-            15,
-            ""
-        ]
-    ],
-    68,
-    80,
-    50,
-    60,
-    50,
-    102
+[
+
+    "drakloak",
+
+    886,
+
+    [
+
+        "dragon",
+
+        "ghost"
+
+    ],
+
+    [
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Doble Filo",
+
+            "physical",
+
+            "normal",
+
+            120,
+
+            100,
+
+            15,
+
+            "Ataque arriesgado que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Mordisco",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Un voraz bocado que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Lanzallamas",
+
+            "special",
+
+            "fire",
+
+            90,
+
+            100,
+
+            15,
+
+            "Ataca con una gran ráfaga de fuego que puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Hidrobomba",
+
+            "special",
+
+            "water",
+
+            110,
+
+            80,
+
+            5,
+
+            "Lanza una gran masa de agua a presión para atacar."
+
+        ],
+
+        [
+
+            "Surf",
+
+            "special",
+
+            "water",
+
+            90,
+
+            100,
+
+            15,
+
+            "Inunda el campo de batalla con una ola gigante. Fuera de batalla sirve para moverse sobre el agua."
+
+        ],
+
+        [
+
+            "Rayo",
+
+            "special",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Potente ataque eléctrico que puede paralizar al objetivo."
+
+        ],
+
+        [
+
+            "Onda Trueno",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            90,
+
+            20,
+
+            "Una ligera descarga que paraliza al objetivo si lo alcanza."
+
+        ],
+
+        [
+
+            "Trueno",
+
+            "special",
+
+            "electric",
+
+            110,
+
+            70,
+
+            10,
+
+            "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Ataque Rápido",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            30,
+
+            "Ataque rápido que permite golpear en primer lugar."
+
+        ],
+
+        [
+
+            "Tinieblas",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            100,
+
+            15,
+
+            "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el agresor."
+
+        ],
+
+        [
+
+            "Pantalla de Luz",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+
+        ],
+
+        [
+
+            "Reflejo",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+
+        ],
+
+        [
+
+            "Llamarada",
+
+            "special",
+
+            "fire",
+
+            110,
+
+            85,
+
+            5,
+
+            "Llama intensa que chamusca y puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ladrón",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            25,
+
+            "Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Maldición",
+
+            "special",
+
+            "ghost",
+
+            null,
+
+            null,
+
+            10,
+
+            "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Fijar Blanco",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            5,
+
+            "Fija el blanco para que el siguiente ataque no falle."
+
+        ],
+
+        [
+
+            "Enfado",
+
+            "physical",
+
+            "dragon",
+
+            120,
+
+            100,
+
+            10,
+
+            "Ataca de dos a tres turnos y acaba confundiendo al agresor."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Ala de Acero",
+
+            "physical",
+
+            "steel",
+
+            70,
+
+            90,
+
+            25,
+
+            "Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Relevo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            40,
+
+            "Cambia el puesto con un compañero y le pasa los cambios de características."
+
+        ],
+
+        [
+
+            "Día Soleado",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            null,
+
+            5,
+
+            "Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+
+        ],
+
+        [
+
+            "Bola Sombra",
+
+            "special",
+
+            "ghost",
+
+            80,
+
+            100,
+
+            15,
+
+            "Lanza una bola oscura que puede bajar la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Paliza",
+
+            "physical",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará."
+
+        ],
+
+        [
+
+            "Fuego Fatuo",
+
+            "special",
+
+            "fire",
+
+            null,
+
+            85,
+
+            15,
+
+            "Siniestra llama morada que produce quemaduras."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Buceo",
+
+            "physical",
+
+            "water",
+
+            80,
+
+            100,
+
+            10,
+
+            "El usuario se sumerge en el primer turno y ataca en el segundo."
+
+        ],
+
+        [
+
+            "Impresionar",
+
+            "physical",
+
+            "ghost",
+
+            30,
+
+            100,
+
+            15,
+
+            "Impresiona tanto que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Danza Dragón",
+
+            "special",
+
+            "dragon",
+
+            null,
+
+            null,
+
+            20,
+
+            "Danza mística que sube el Ataque y la Velocidad."
+
+        ],
+
+        [
+
+            "Salmuera",
+
+            "special",
+
+            "water",
+
+            65,
+
+            100,
+
+            10,
+
+            "Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte."
+
+        ],
+
+        [
+
+            "Ida y Vuelta",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Buena Baza",
+
+            "physical",
+
+            "dark",
+
+            60,
+
+            100,
+
+            10,
+
+            "Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica."
+
+        ],
+
+        [
+
+            "Última Baza",
+
+            "physical",
+
+            "normal",
+
+            140,
+
+            100,
+
+            5,
+
+            "Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon."
+
+        ],
+
+        [
+
+            "Pulso Dragón",
+
+            "special",
+
+            "dragon",
+
+            85,
+
+            100,
+
+            10,
+
+            "Abre mucho la boca y libera una onda de choque que ataca al objetivo."
+
+        ],
+
+        [
+
+            "Carga Dragón",
+
+            "physical",
+
+            "dragon",
+
+            100,
+
+            75,
+
+            10,
+
+            "Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder."
+
+        ],
+
+        [
+
+            "Cometa Draco",
+
+            "special",
+
+            "dragon",
+
+            130,
+
+            90,
+
+            5,
+
+            "Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa."
+
+        ],
+
+        [
+
+            "Doble Golpe",
+
+            "physical",
+
+            "normal",
+
+            35,
+
+            90,
+
+            10,
+
+            "Golpea al objetivo dos veces seguidas con la cola u otras partes de su cuerpo."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Cambio de Banda",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            15,
+
+            "Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate."
+
+        ],
+
+        [
+
+            "Escaldar",
+
+            "special",
+
+            "water",
+
+            80,
+
+            100,
+
+            15,
+
+            "Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras."
+
+        ],
+
+        [
+
+            "Infortunio",
+
+            "special",
+
+            "ghost",
+
+            65,
+
+            100,
+
+            10,
+
+            "Ataque que causa un gran daño a los objetivos que sufren problemas de estado."
+
+        ],
+
+        [
+
+            "Acróbata",
+
+            "physical",
+
+            "flying",
+
+            55,
+
+            100,
+
+            15,
+
+            "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Cola Dragón",
+
+            "physical",
+
+            "dragon",
+
+            60,
+
+            90,
+
+            10,
+
+            "Ataca al objetivo y lo obliga a cambiarse por otro Pokémon. Si es uno salvaje, acaba el combate."
+
+        ],
+
+        [
+
+            "Golpe Fantasma",
+
+            "physical",
+
+            "ghost",
+
+            90,
+
+            100,
+
+            10,
+
+            "El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose."
+
+        ],
+
+        [
+
+            "Acoso",
+
+            "special",
+
+            "bug",
+
+            20,
+
+            100,
+
+            20,
+
+            "Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto."
+
+        ],
+
+        [
+
+            "Psicocolmillo",
+
+            "physical",
+
+            "psychic",
+
+            85,
+
+            100,
+
+            10,
+
+            "Ataca a sus rivales con poderes psíquicos que además destruyen barreras como Pantalla de Luz y Reflejo."
+
+        ],
+
+        [
+
+            "Vasto Impacto",
+
+            "physical",
+
+            "dragon",
+
+            60,
+
+            100,
+
+            15,
+
+            "El usuario sacude violentamente su enorme cola para golpear a todos los rivales y reducir su Ataque a la par."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ],
+
+        [
+
+            "Bramido Dragón",
+
+            "special",
+
+            "dragon",
+
+            0,
+
+            0,
+
+            15,
+
+            ""
+
+        ]
+
+    ],
+
+    68,
+
+    80,
+
+    50,
+
+    60,
+
+    50,
+
+    102
+
 ]

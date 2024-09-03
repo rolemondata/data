@@ -1,430 +1,859 @@
-[
-    "wattrel",
-    940,
-    [
-        "electric",
-        "flying"
-    ],
-    [
-        [
-            "Vuelo",
-            "physical",
-            "flying",
-            90,
-            95,
-            15,
-            "Primer turno: vuela. Segundo turno: ataca. Fuera\nde combate, permite ir a sitios ya conocidos."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Gruñido",
-            "special",
-            "normal",
-            null,
-            100,
-            40,
-            "Dulce gruñido que reduce el Ataque del\ncontrincante."
-        ],
-        [
-            "Picotazo",
-            "physical",
-            "flying",
-            35,
-            100,
-            35,
-            "Ensarta al objetivo con un cuerno o pico punzante. "
-        ],
-        [
-            "Impactrueno",
-            "special",
-            "electric",
-            40,
-            100,
-            30,
-            "Ataque eléctrico que puede paralizar al objetivo."
-        ],
-        [
-            "Rayo",
-            "special",
-            "electric",
-            90,
-            100,
-            15,
-            "Potente ataque eléctrico que puede paralizar al\nobjetivo."
-        ],
-        [
-            "Onda Trueno",
-            "special",
-            "electric",
-            null,
-            90,
-            20,
-            "Una ligera descarga que paraliza al objetivo si lo\nalcanza."
-        ],
-        [
-            "Trueno",
-            "special",
-            "electric",
-            110,
-            70,
-            10,
-            "Un poderoso rayo que daña al objetivo y puede\nparalizarlo."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Ataque Rápido",
-            "physical",
-            "normal",
-            40,
-            100,
-            30,
-            "Ataque rápido que permite golpear en primer lugar."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Chispa",
-            "physical",
-            "electric",
-            65,
-            100,
-            20,
-            "Ataque eléctrico que puede llegar a paralizar."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Alboroto",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Ataca de forma alborotada durante tres turnos.\nMantiene despiertos a todos."
-        ],
-        [
-            "Reserva",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "Acumula energía y sube la Defensa y la Defensa\nEspecial. Puede utilizarse hasta tres veces."
-        ],
-        [
-            "Escupir",
-            "special",
-            "normal",
-            null,
-            100,
-            10,
-            "Libera de una vez la energía acumulada con\nReserva."
-        ],
-        [
-            "Tragar",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Absorbe la energía acumulada con Reserva y\nrestaura PS."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Carga",
-            "special",
-            "electric",
-            null,
-            null,
-            20,
-            "Recarga energía para potenciar el siguiente\nmovimiento de tipo Eléctrico. También sube la\nDefensa Especial."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Danza Pluma",
-            "special",
-            "flying",
-            null,
-            100,
-            15,
-            "Envuelve al objetivo con un manto de plumas para\nreducir mucho su Ataque."
-        ],
-        [
-            "Meteorobola",
-            "special",
-            "normal",
-            50,
-            100,
-            10,
-            "El tipo y fuerza del ataque varían según el tiempo\nque haga."
-        ],
-        [
-            "Aire Afilado",
-            "special",
-            "flying",
-            60,
-            95,
-            25,
-            "Viento cortante que azota. Suele ser un golpe\ncrítico."
-        ],
-        [
-            "Golpe Aéreo",
-            "physical",
-            "flying",
-            60,
-            null,
-            20,
-            "El usuario lanza un ataque muy rápido e ineludible."
-        ],
-        [
-            "Respiro",
-            "special",
-            "flying",
-            null,
-            null,
-            5,
-            "Aterriza sobre la superficie para descansar.\nRecupera hasta la mitad del total de sus PS."
-        ],
-        [
-            "Picoteo",
-            "physical",
-            "flying",
-            60,
-            100,
-            20,
-            "Picotea al objetivo. Si este sostiene una baya, la\npicotea también y obtiene sus efectos."
-        ],
-        [
-            "Viento Afín",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Crea un fuerte remolino que aumenta la Velocidad\nde los Pokémon de tu equipo durante cuatro\nturnos."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Tajo Aéreo",
-            "special",
-            "flying",
-            75,
-            95,
-            15,
-            "Ataca con una hoja de aire que incluso corta el\ncielo. También puede hacer retroceder al objetivo."
-        ],
-        [
-            "Pájaro Osado",
-            "physical",
-            "flying",
-            120,
-            100,
-            15,
-            "Pliega sus alas y ataca con un vuelo rasante. El\nPokémon que lo usa también resulta seriamente\ndañado."
-        ],
-        [
-            "Chispazo",
-            "special",
-            "electric",
-            80,
-            100,
-            15,
-            "Una deslumbradora onda eléctrica afecta a los\nPokémon que hay combatiendo alrededor. Puede\nparalizar."
-        ],
-        [
-            "Rayo Carga",
-            "special",
-            "electric",
-            50,
-            90,
-            10,
-            "Lanza un rayo eléctrico contra el objetivo. Puede\nsubir el Ataque Especial de quien lo usa."
-        ],
-        [
-            "Bola Voltio",
-            "special",
-            "electric",
-            null,
-            100,
-            10,
-            "Lanza una bola eléctrica. Cuanto mayor sea la\nVelocidad del usuario en comparación con la del\nobjetivo, mayor será el daño causado."
-        ],
-        [
-            "Acróbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ágilmente. Si el usuario no porta ningún\nobjeto, el objetivo resulta seriamente dañado."
-        ],
-        [
-            "Voltiocambio",
-            "special",
-            "electric",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Electrotela",
-            "special",
-            "electric",
-            55,
-            95,
-            15,
-            "Atrapa y ataca a los objetivos con una telaraña\neléctrica. También reduce su Velocidad."
-        ],
-        [
-            "Voltio Cruel",
-            "physical",
-            "electric",
-            90,
-            100,
-            15,
-            "Carga eléctrica muy potente que también hiere\nligeramente a quien la usa."
-        ],
-        [
-            "Vendaval",
-            "special",
-            "flying",
-            110,
-            70,
-            10,
-            "Golpea al objetivo con un fuerte torbellino que\nenvuelve al rival y puede confundirlo."
-        ],
-        [
-            "Onda Anómala",
-            "special",
-            "electric",
-            null,
-            100,
-            15,
-            "Su cuerpo irradia unas raras ondas que, al alcanzar\na un oponente, hacen que disminuya mucho su\nAtaque Especial."
-        ],
-        [
-            "Campo Eléctrico",
-            "special",
-            "electric",
-            null,
-            null,
-            10,
-            "Durante cinco turnos, crea un campo eléctrico en\nel terreno de combate que impide dormirse a los\nPokémon que estén en contacto con el suelo."
-        ],
-        [
-            "Ala Bis",
-            "physical",
-            "flying",
-            40,
-            90,
-            10,
-            "Ataca al adversario golpeándolo dos veces con las alas."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ]
-    ],
-    40,
-    40,
-    35,
-    55,
-    40,
-    70
+[
+
+    "wattrel",
+
+    940,
+
+    [
+
+        "electric",
+
+        "flying"
+
+    ],
+
+    [
+
+        [
+
+            "Vuelo",
+
+            "physical",
+
+            "flying",
+
+            90,
+
+            95,
+
+            15,
+
+            "Primer turno: vuela. Segundo turno: ataca. Fuera de combate, permite ir a sitios ya conocidos."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Gruñido",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            40,
+
+            "Dulce gruñido que reduce el Ataque del contrincante."
+
+        ],
+
+        [
+
+            "Picotazo",
+
+            "physical",
+
+            "flying",
+
+            35,
+
+            100,
+
+            35,
+
+            "Ensarta al objetivo con un cuerno o pico punzante. "
+
+        ],
+
+        [
+
+            "Impactrueno",
+
+            "special",
+
+            "electric",
+
+            40,
+
+            100,
+
+            30,
+
+            "Ataque eléctrico que puede paralizar al objetivo."
+
+        ],
+
+        [
+
+            "Rayo",
+
+            "special",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Potente ataque eléctrico que puede paralizar al objetivo."
+
+        ],
+
+        [
+
+            "Onda Trueno",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            90,
+
+            20,
+
+            "Una ligera descarga que paraliza al objetivo si lo alcanza."
+
+        ],
+
+        [
+
+            "Trueno",
+
+            "special",
+
+            "electric",
+
+            110,
+
+            70,
+
+            10,
+
+            "Un poderoso rayo que daña al objetivo y puede paralizarlo."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Ataque Rápido",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            30,
+
+            "Ataque rápido que permite golpear en primer lugar."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Chispa",
+
+            "physical",
+
+            "electric",
+
+            65,
+
+            100,
+
+            20,
+
+            "Ataque eléctrico que puede llegar a paralizar."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Alboroto",
+
+            "special",
+
+            "normal",
+
+            90,
+
+            100,
+
+            10,
+
+            "Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos."
+
+        ],
+
+        [
+
+            "Reserva",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces."
+
+        ],
+
+        [
+
+            "Escupir",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            10,
+
+            "Libera de una vez la energía acumulada con Reserva."
+
+        ],
+
+        [
+
+            "Tragar",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Absorbe la energía acumulada con Reserva y restaura PS."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Carga",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            null,
+
+            20,
+
+            "Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial."
+
+        ],
+
+        [
+
+            "Esfuerzo",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "Reduce los PS del objetivo para que igualen a los del atacante."
+
+        ],
+
+        [
+
+            "Danza Pluma",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            100,
+
+            15,
+
+            "Envuelve al objetivo con un manto de plumas para reducir mucho su Ataque."
+
+        ],
+
+        [
+
+            "Meteorobola",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            10,
+
+            "El tipo y fuerza del ataque varían según el tiempo que haga."
+
+        ],
+
+        [
+
+            "Aire Afilado",
+
+            "special",
+
+            "flying",
+
+            60,
+
+            95,
+
+            25,
+
+            "Viento cortante que azota. Suele ser un golpe crítico."
+
+        ],
+
+        [
+
+            "Golpe Aéreo",
+
+            "physical",
+
+            "flying",
+
+            60,
+
+            null,
+
+            20,
+
+            "El usuario lanza un ataque muy rápido e ineludible."
+
+        ],
+
+        [
+
+            "Respiro",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            null,
+
+            5,
+
+            "Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS."
+
+        ],
+
+        [
+
+            "Picoteo",
+
+            "physical",
+
+            "flying",
+
+            60,
+
+            100,
+
+            20,
+
+            "Picotea al objetivo. Si este sostiene una baya, la picotea también y obtiene sus efectos."
+
+        ],
+
+        [
+
+            "Viento Afín",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos."
+
+        ],
+
+        [
+
+            "Ida y Vuelta",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Tajo Aéreo",
+
+            "special",
+
+            "flying",
+
+            75,
+
+            95,
+
+            15,
+
+            "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Pájaro Osado",
+
+            "physical",
+
+            "flying",
+
+            120,
+
+            100,
+
+            15,
+
+            "Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Chispazo",
+
+            "special",
+
+            "electric",
+
+            80,
+
+            100,
+
+            15,
+
+            "Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar."
+
+        ],
+
+        [
+
+            "Rayo Carga",
+
+            "special",
+
+            "electric",
+
+            50,
+
+            90,
+
+            10,
+
+            "Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa."
+
+        ],
+
+        [
+
+            "Bola Voltio",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del objetivo, mayor será el daño causado."
+
+        ],
+
+        [
+
+            "Acróbata",
+
+            "physical",
+
+            "flying",
+
+            55,
+
+            100,
+
+            15,
+
+            "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Voltiocambio",
+
+            "special",
+
+            "electric",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Electrotela",
+
+            "special",
+
+            "electric",
+
+            55,
+
+            95,
+
+            15,
+
+            "Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad."
+
+        ],
+
+        [
+
+            "Voltio Cruel",
+
+            "physical",
+
+            "electric",
+
+            90,
+
+            100,
+
+            15,
+
+            "Carga eléctrica muy potente que también hiere ligeramente a quien la usa."
+
+        ],
+
+        [
+
+            "Vendaval",
+
+            "special",
+
+            "flying",
+
+            110,
+
+            70,
+
+            10,
+
+            "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo."
+
+        ],
+
+        [
+
+            "Onda Anómala",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            100,
+
+            15,
+
+            "Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial."
+
+        ],
+
+        [
+
+            "Campo Eléctrico",
+
+            "special",
+
+            "electric",
+
+            null,
+
+            null,
+
+            10,
+
+            "Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo."
+
+        ],
+
+        [
+
+            "Ala Bis",
+
+            "physical",
+
+            "flying",
+
+            40,
+
+            90,
+
+            10,
+
+            "Ataca al adversario golpeándolo dos veces con las alas."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    40,
+
+    40,
+
+    35,
+
+    55,
+
+    40,
+
+    70
+
 ]

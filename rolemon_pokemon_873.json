@@ -1,520 +1,1039 @@
-[
-    "frosmoth",
-    873,
-    [
-        "ice",
-        "bug"
-    ],
-    [
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Neblina",
-            "special",
-            "ice",
-            null,
-            null,
-            30,
-            "Rodea de fina niebla al usuario y protege las\ncaracterísticas de su equipo durante cinco turnos."
-        ],
-        [
-            "Rayo Hielo",
-            "special",
-            "ice",
-            90,
-            100,
-            10,
-            "Rayo de hielo que puede llegar a congelar."
-        ],
-        [
-            "Ventisca",
-            "special",
-            "ice",
-            110,
-            70,
-            5,
-            "Tormenta de hielo que puede llegar a congelar."
-        ],
-        [
-            "Rayo Aurora",
-            "special",
-            "ice",
-            65,
-            100,
-            20,
-            "Rayo multicolor que puede reducir el Ataque."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Paralizador",
-            "special",
-            "grass",
-            null,
-            75,
-            30,
-            "Esparce polvo que paraliza al objetivo."
-        ],
-        [
-            "Pantalla de Luz",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques especiales."
-        ],
-        [
-            "Reflejo",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Pared de luz que reduce durante cinco turnos el\ndaño producido por los ataques físicos."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Chupavidas",
-            "physical",
-            "bug",
-            80,
-            100,
-            10,
-            "Restaura al usuario la mitad del daño causado al\nobjetivo."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Ronquido",
-            "special",
-            "normal",
-            50,
-            100,
-            15,
-            "Fuerte ronquido que solo puede usarse dormido.\nPuede hacer retroceder al objetivo."
-        ],
-        [
-            "Nieve Polvo",
-            "special",
-            "ice",
-            40,
-            100,
-            25,
-            "Lanza nieve que puede llegar a congelar."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Viento Hielo",
-            "special",
-            "ice",
-            55,
-            95,
-            15,
-            "Ataque con aire helado que baja la Velocidad de\nlos rivales."
-        ],
-        [
-            "Gigadrenado",
-            "special",
-            "grass",
-            75,
-            100,
-            10,
-            "Un ataque que absorbe nutrientes. Quien lo usa\nrecupera la mitad de los PS del daño que produce."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Atracción",
-            "special",
-            "normal",
-            null,
-            100,
-            15,
-            "Si el objetivo es del sexo opuesto, se enamorará y\nbajará la posibilidad de que ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Velo Sagrado",
-            "special",
-            "normal",
-            null,
-            null,
-            25,
-            "Un escudo que protege de problemas de estado,\ncomo el sueño o la parálisis, durante cinco turnos."
-        ],
-        [
-            "Granizo",
-            "special",
-            "ice",
-            null,
-            null,
-            10,
-            "Tormenta de granizo que dura cinco turnos. Hiere\na todos, excepto a los de tipo Hielo."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Sellar",
-            "special",
-            "psychic",
-            null,
-            null,
-            10,
-            "Impide a los contrincantes usar ataques conocidos\npor el usuario durante el combate."
-        ],
-        [
-            "Danza Pluma",
-            "special",
-            "flying",
-            null,
-            100,
-            15,
-            "Envuelve al objetivo con un manto de plumas para\nreducir mucho su Ataque."
-        ],
-        [
-            "Meteorobola",
-            "special",
-            "normal",
-            50,
-            100,
-            10,
-            "El tipo y fuerza del ataque varían según el tiempo\nque haga."
-        ],
-        [
-            "Carámbano",
-            "physical",
-            "ice",
-            25,
-            100,
-            30,
-            "Ataca lanzando de dos a cinco ráfagas\nconsecutivas de carámbanos."
-        ],
-        [
-            "Paz Mental",
-            "special",
-            "psychic",
-            null,
-            null,
-            20,
-            "Aumenta la concentración y calma el espíritu para\nsubir el Ataque Especial y la Defensa Especial."
-        ],
-        [
-            "Viento Afín",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Crea un fuerte remolino que aumenta la Velocidad\nde los Pokémon de tu equipo durante cuatro\nturnos."
-        ],
-        [
-            "Ida y Vuelta",
-            "physical",
-            "bug",
-            70,
-            100,
-            20,
-            "Tras atacar, vuelve a toda prisa para dar paso a\notro Pokémon del equipo."
-        ],
-        [
-            "Tajo Aéreo",
-            "special",
-            "flying",
-            75,
-            95,
-            15,
-            "Ataca con una hoja de aire que incluso corta el\ncielo. También puede hacer retroceder al objetivo."
-        ],
-        [
-            "Zumbido",
-            "special",
-            "bug",
-            90,
-            100,
-            10,
-            "El movimiento de las alas crea una onda sónica\ndañina. También puede disminuir la Defensa\nEspecial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Alud",
-            "physical",
-            "ice",
-            60,
-            100,
-            10,
-            "Este ataque inflige el doble de daño a un objetivo\nque haya golpeado al usuario en ese mismo turno."
-        ],
-        [
-            "Despejar",
-            "special",
-            "flying",
-            null,
-            null,
-            15,
-            "Potente viento que barre el Reflejo o Pantalla de\nLuz del objetivo y puede reducir su Evasión."
-        ],
-        [
-            "Picadura",
-            "physical",
-            "bug",
-            60,
-            100,
-            20,
-            "Pica al objetivo. Si el objetivo lleva una baya, el\nusuario se la come y se beneficia de su efecto."
-        ],
-        [
-            "Vastaguardia",
-            "special",
-            "rock",
-            null,
-            null,
-            10,
-            "Bloquea los ataques de objetivo múltiple\nlanzados contra tu equipo durante un turno."
-        ],
-        [
-            "Danza Aleteo",
-            "special",
-            "bug",
-            null,
-            null,
-            20,
-            "Danza mística que sube el Ataque Especial, la\nDefensa Especial y la Velocidad."
-        ],
-        [
-            "Canon",
-            "special",
-            "normal",
-            60,
-            100,
-            15,
-            "Un canto que ataca al objetivo. Cuantos más\nPokémon lo usan, más aumenta de potencia."
-        ],
-        [
-            "Acróbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ágilmente. Si el usuario no porta ningún\nobjeto, el objetivo resulta seriamente dañado."
-        ],
-        [
-            "Estoicismo",
-            "special",
-            "bug",
-            50,
-            100,
-            20,
-            "El usuario opone resistencia y ataca a los\noponentes. También reduce su Ataque Especial.\n"
-        ],
-        [
-            "Vendaval",
-            "special",
-            "flying",
-            110,
-            70,
-            10,
-            "Golpea al objetivo con un fuerte torbellino que\nenvuelve al rival y puede confundirlo."
-        ],
-        [
-            "Carantoña",
-            "physical",
-            "fairy",
-            90,
-            90,
-            10,
-            "El Pokémon que lo usa le hace cucamonas al\nobjetivo y lo ataca. Puede disminuir el Ataque\ndel objetivo."
-        ],
-        [
-            "Brillo Mágico",
-            "special",
-            "fairy",
-            80,
-            100,
-            10,
-            "Inflige daño a los oponentes con una potente luz."
-        ],
-        [
-            "Acoso",
-            "special",
-            "bug",
-            20,
-            100,
-            20,
-            "Hostiga al Pokémon objetivo durante cuatro o\ncinco turnos e impide que pueda huir mientras\ntanto."
-        ],
-        [
-            "Plancha",
-            "physical",
-            "bug",
-            80,
-            100,
-            15,
-            "Ataca al oponente abalanzándose sobre él con todas\nsus fuerzas y reduce su Ataque."
-        ],
-        [
-            "Velo Aurora",
-            "special",
-            "ice",
-            null,
-            null,
-            20,
-            "Reduce el daño de los ataques físicos y especiales\nque ejecuta el rival durante cinco turnos. Solo puede\nusarse cuando está granizando."
-        ],
-        [
-            "Golpe Rastrero",
-            "physical",
-            "bug",
-            70,
-            90,
-            10,
-            "Ataca al objetivo por la espalda de forma subrepticia\ny además reduce su Ataque Especial."
-        ],
-        [
-            "Triple Axel",
-            "physical",
-            "ice",
-            20,
-            90,
-            10,
-            "Patea hasta tres veces seguidas y cada vez más fuerte."
-        ],
-        [
-            "Ala Bis",
-            "physical",
-            "flying",
-            40,
-            90,
-            10,
-            "Ataca al adversario golpeándolo dos veces con las alas."
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "ice",
-            80,
-            100,
-            15,
-            ""
-        ],
-        [
-            "",
-            "special",
-            "ice",
-            0,
-            null,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "bug",
-            50,
-            100,
-            20,
-            ""
-        ]
-    ],
-    70,
-    65,
-    60,
-    125,
-    90,
-    65
+[
+
+    "frosmoth",
+
+    873,
+
+    [
+
+        "ice",
+
+        "bug"
+
+    ],
+
+    [
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Neblina",
+
+            "special",
+
+            "ice",
+
+            null,
+
+            null,
+
+            30,
+
+            "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos."
+
+        ],
+
+        [
+
+            "Rayo Hielo",
+
+            "special",
+
+            "ice",
+
+            90,
+
+            100,
+
+            10,
+
+            "Rayo de hielo que puede llegar a congelar."
+
+        ],
+
+        [
+
+            "Ventisca",
+
+            "special",
+
+            "ice",
+
+            110,
+
+            70,
+
+            5,
+
+            "Tormenta de hielo que puede llegar a congelar."
+
+        ],
+
+        [
+
+            "Rayo Aurora",
+
+            "special",
+
+            "ice",
+
+            65,
+
+            100,
+
+            20,
+
+            "Rayo multicolor que puede reducir el Ataque."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Paralizador",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            75,
+
+            30,
+
+            "Esparce polvo que paraliza al objetivo."
+
+        ],
+
+        [
+
+            "Pantalla de Luz",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales."
+
+        ],
+
+        [
+
+            "Reflejo",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Chupavidas",
+
+            "physical",
+
+            "bug",
+
+            80,
+
+            100,
+
+            10,
+
+            "Restaura al usuario la mitad del daño causado al objetivo."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Ronquido",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            15,
+
+            "Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Nieve Polvo",
+
+            "special",
+
+            "ice",
+
+            40,
+
+            100,
+
+            25,
+
+            "Lanza nieve que puede llegar a congelar."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Viento Hielo",
+
+            "special",
+
+            "ice",
+
+            55,
+
+            95,
+
+            15,
+
+            "Ataque con aire helado que baja la Velocidad de los rivales."
+
+        ],
+
+        [
+
+            "Gigadrenado",
+
+            "special",
+
+            "grass",
+
+            75,
+
+            100,
+
+            10,
+
+            "Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Atracción",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Velo Sagrado",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            25,
+
+            "Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos."
+
+        ],
+
+        [
+
+            "Granizo",
+
+            "special",
+
+            "ice",
+
+            null,
+
+            null,
+
+            10,
+
+            "Tormenta de granizo que dura cinco turnos. Hiere a todos, excepto a los de tipo Hielo."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Sellar",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            10,
+
+            "Impide a los contrincantes usar ataques conocidos por el usuario durante el combate."
+
+        ],
+
+        [
+
+            "Danza Pluma",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            100,
+
+            15,
+
+            "Envuelve al objetivo con un manto de plumas para reducir mucho su Ataque."
+
+        ],
+
+        [
+
+            "Meteorobola",
+
+            "special",
+
+            "normal",
+
+            50,
+
+            100,
+
+            10,
+
+            "El tipo y fuerza del ataque varían según el tiempo que haga."
+
+        ],
+
+        [
+
+            "Carámbano",
+
+            "physical",
+
+            "ice",
+
+            25,
+
+            100,
+
+            30,
+
+            "Ataca lanzando de dos a cinco ráfagas consecutivas de carámbanos."
+
+        ],
+
+        [
+
+            "Paz Mental",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            20,
+
+            "Aumenta la concentración y calma el espíritu para subir el Ataque Especial y la Defensa Especial."
+
+        ],
+
+        [
+
+            "Viento Afín",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            null,
+
+            15,
+
+            "Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos."
+
+        ],
+
+        [
+
+            "Ida y Vuelta",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            100,
+
+            20,
+
+            "Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "Tajo Aéreo",
+
+            "special",
+
+            "flying",
+
+            75,
+
+            95,
+
+            15,
+
+            "Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Zumbido",
+
+            "special",
+
+            "bug",
+
+            90,
+
+            100,
+
+            10,
+
+            "El movimiento de las alas crea una onda sónica dañina. También puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Alud",
+
+            "physical",
+
+            "ice",
+
+            60,
+
+            100,
+
+            10,
+
+            "Este ataque inflige el doble de daño a un objetivo que haya golpeado al usuario en ese mismo turno."
+
+        ],
+
+        [
+
+            "Despejar",
+
+            "special",
+
+            "flying",
+
+            null,
+
+            null,
+
+            15,
+
+            "Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión."
+
+        ],
+
+        [
+
+            "Picadura",
+
+            "physical",
+
+            "bug",
+
+            60,
+
+            100,
+
+            20,
+
+            "Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto."
+
+        ],
+
+        [
+
+            "Vastaguardia",
+
+            "special",
+
+            "rock",
+
+            null,
+
+            null,
+
+            10,
+
+            "Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno."
+
+        ],
+
+        [
+
+            "Danza Aleteo",
+
+            "special",
+
+            "bug",
+
+            null,
+
+            null,
+
+            20,
+
+            "Danza mística que sube el Ataque Especial, la Defensa Especial y la Velocidad."
+
+        ],
+
+        [
+
+            "Canon",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            100,
+
+            15,
+
+            "Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+
+        ],
+
+        [
+
+            "Acróbata",
+
+            "physical",
+
+            "flying",
+
+            55,
+
+            100,
+
+            15,
+
+            "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Estoicismo",
+
+            "special",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            "El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial. "
+
+        ],
+
+        [
+
+            "Vendaval",
+
+            "special",
+
+            "flying",
+
+            110,
+
+            70,
+
+            10,
+
+            "Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo."
+
+        ],
+
+        [
+
+            "Carantoña",
+
+            "physical",
+
+            "fairy",
+
+            90,
+
+            90,
+
+            10,
+
+            "El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo."
+
+        ],
+
+        [
+
+            "Brillo Mágico",
+
+            "special",
+
+            "fairy",
+
+            80,
+
+            100,
+
+            10,
+
+            "Inflige daño a los oponentes con una potente luz."
+
+        ],
+
+        [
+
+            "Acoso",
+
+            "special",
+
+            "bug",
+
+            20,
+
+            100,
+
+            20,
+
+            "Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto."
+
+        ],
+
+        [
+
+            "Plancha",
+
+            "physical",
+
+            "bug",
+
+            80,
+
+            100,
+
+            15,
+
+            "Ataca al oponente abalanzándose sobre él con todas sus fuerzas y reduce su Ataque."
+
+        ],
+
+        [
+
+            "Velo Aurora",
+
+            "special",
+
+            "ice",
+
+            null,
+
+            null,
+
+            20,
+
+            "Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando."
+
+        ],
+
+        [
+
+            "Golpe Rastrero",
+
+            "physical",
+
+            "bug",
+
+            70,
+
+            90,
+
+            10,
+
+            "Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Especial."
+
+        ],
+
+        [
+
+            "Triple Axel",
+
+            "physical",
+
+            "ice",
+
+            20,
+
+            90,
+
+            10,
+
+            "Patea hasta tres veces seguidas y cada vez más fuerte."
+
+        ],
+
+        [
+
+            "Ala Bis",
+
+            "physical",
+
+            "flying",
+
+            40,
+
+            90,
+
+            10,
+
+            "Ataca al adversario golpeándolo dos veces con las alas."
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "ice",
+
+            80,
+
+            100,
+
+            15,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "ice",
+
+            0,
+
+            null,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "bug",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ]
+
+    ],
+
+    70,
+
+    65,
+
+    60,
+
+    125,
+
+    90,
+
+    65
+
 ]

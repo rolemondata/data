@@ -1,573 +1,1145 @@
-[
-    "palafin",
-    964,
-    [
-        "water"
-    ],
-    [
-        [
-            "Puño Hielo",
-            "physical",
-            "ice",
-            75,
-            100,
-            15,
-            "Puñetazo helado. Puede congelar."
-        ],
-        [
-            "Golpe Cuerpo",
-            "physical",
-            "normal",
-            85,
-            100,
-            15,
-            "Salta sobre el objetivo con todo su peso. Puede\nparalizar."
-        ],
-        [
-            "Derribo",
-            "physical",
-            "normal",
-            90,
-            85,
-            20,
-            "Carga desmedida que también hiere al agresor."
-        ],
-        [
-            "Supersónico",
-            "special",
-            "normal",
-            null,
-            55,
-            20,
-            "Raras ondas sónicas que confunden al objetivo."
-        ],
-        [
-            "Neblina",
-            "special",
-            "ice",
-            null,
-            null,
-            30,
-            "Rodea de fina niebla al usuario y protege las\ncaracterísticas de su equipo durante cinco turnos."
-        ],
-        [
-            "Pistola Agua",
-            "special",
-            "water",
-            40,
-            100,
-            25,
-            "Ataca disparando agua con gran potencia."
-        ],
-        [
-            "Hidrobomba",
-            "special",
-            "water",
-            110,
-            80,
-            5,
-            "Lanza una gran masa de agua a presión para\natacar."
-        ],
-        [
-            "Surf",
-            "special",
-            "water",
-            90,
-            100,
-            15,
-            "Inunda el campo de batalla con una ola gigante.\nFuera de batalla sirve para moverse sobre el agua."
-        ],
-        [
-            "Rayo Hielo",
-            "special",
-            "ice",
-            90,
-            100,
-            10,
-            "Rayo de hielo que puede llegar a congelar."
-        ],
-        [
-            "Ventisca",
-            "special",
-            "ice",
-            110,
-            70,
-            5,
-            "Tormenta de hielo que puede llegar a congelar."
-        ],
-        [
-            "Hiperrayo",
-            "special",
-            "normal",
-            150,
-            90,
-            5,
-            "Es eficaz, pero el atacante deberá descansar en\nel siguiente turno."
-        ],
-        [
-            "Agilidad",
-            "special",
-            "psychic",
-            null,
-            null,
-            30,
-            "Relaja el cuerpo para ganar mucha Velocidad."
-        ],
-        [
-            "Niebla",
-            "special",
-            "ice",
-            null,
-            null,
-            30,
-            "Neblina que elimina los cambios de características\nde todos los Pokémon en combate."
-        ],
-        [
-            "Foco Energía",
-            "special",
-            "normal",
-            null,
-            null,
-            30,
-            "Concentra energía para aumentar las posibilidades\nde un golpe crítico."
-        ],
-        [
-            "Cascada",
-            "physical",
-            "water",
-            80,
-            100,
-            15,
-            "Embiste con un gran impulso que puede hacer\nretroceder. También sirve para remontar cascadas."
-        ],
-        [
-            "Rapidez",
-            "special",
-            "normal",
-            60,
-            null,
-            20,
-            "Lanza rayos en forma de estrella que no fallan\nnunca."
-        ],
-        [
-            "Descanso",
-            "special",
-            "psychic",
-            null,
-            null,
-            5,
-            "Restaura todos los PS y cura todos los problemas\nde estado del usuario. Duerme los dos próximos\nturnos."
-        ],
-        [
-            "Sustituto",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Utiliza parte de los PS propios para crear un\nsustituto que actúa como señuelo."
-        ],
-        [
-            "Inversión",
-            "physical",
-            "fighting",
-            null,
-            100,
-            15,
-            "Ataque desesperado que causa más daño cuantos \nmenos PS tenga el usuario."
-        ],
-        [
-            "Protección",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Frena todos los ataques, pero puede fallar si se\nusa repetidamente."
-        ],
-        [
-            "Viento Hielo",
-            "special",
-            "ice",
-            55,
-            95,
-            15,
-            "Ataque con aire helado que baja la Velocidad de\nlos rivales."
-        ],
-        [
-            "Enfado",
-            "physical",
-            "dragon",
-            120,
-            100,
-            10,
-            "Ataca de dos a tres turnos y acaba confundiendo\nal agresor."
-        ],
-        [
-            "Aguante",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Resiste cualquier ataque y deja al menos 1 PS.\nPuede fallar si se usa repetidamente."
-        ],
-        [
-            "Encanto",
-            "special",
-            "fairy",
-            null,
-            100,
-            20,
-            "Engatusa al objetivo y reduce bastante su Ataque."
-        ],
-        [
-            "Sonámbulo",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Mientras duerme, usa uno de sus movimientos\nelegido al azar."
-        ],
-        [
-            "Otra Vez",
-            "special",
-            "normal",
-            null,
-            100,
-            5,
-            "El objetivo repite su último movimiento durante\ntres turnos."
-        ],
-        [
-            "Danza Lluvia",
-            "special",
-            "water",
-            null,
-            null,
-            5,
-            "Genera una fuerte lluvia que refuerza los\nmovimientos de tipo Agua durante cinco turnos."
-        ],
-        [
-            "Más Psique",
-            "special",
-            "normal",
-            null,
-            null,
-            10,
-            "Quien lo usa se hipnotiza y copia cualquier cambio\nque haya en las características de su objetivo."
-        ],
-        [
-            "Torbellino",
-            "special",
-            "water",
-            35,
-            85,
-            15,
-            "Una tromba de agua atrapa al objetivo durante\ncuatro o cinco turnos."
-        ],
-        [
-            "Imagen",
-            "physical",
-            "normal",
-            70,
-            100,
-            20,
-            "Ataca con el doble de potencia si el usuario está\nquemado, paralizado o envenenado."
-        ],
-        [
-            "Puño Certero",
-            "physical",
-            "fighting",
-            150,
-            100,
-            20,
-            "Se concentra para dar un puñetazo. Falla si se\nsufre un golpe antes de su uso."
-        ],
-        [
-            "Mofa",
-            "special",
-            "dark",
-            null,
-            100,
-            20,
-            "Enfurece al objetivo para que solo use\nmovimientos de ataque durante tres turnos."
-        ],
-        [
-            "Refuerzo",
-            "special",
-            "normal",
-            null,
-            null,
-            20,
-            "El usuario ayuda a un aliado reforzando la\npotencia de su ataque."
-        ],
-        [
-            "Esfuerzo",
-            "physical",
-            "normal",
-            null,
-            100,
-            5,
-            "Reduce los PS del objetivo para que igualen a los\ndel atacante."
-        ],
-        [
-            "Buceo",
-            "physical",
-            "water",
-            80,
-            100,
-            10,
-            "El usuario se sumerge en el primer turno\ny ataca en el segundo."
-        ],
-        [
-            "Vozarrón",
-            "special",
-            "normal",
-            90,
-            100,
-            10,
-            "Grito desgarrador que inflige daño al objetivo."
-        ],
-        [
-            "Impresionar",
-            "physical",
-            "ghost",
-            30,
-            100,
-            15,
-            "Impresiona tanto que puede hacer retroceder al\nobjetivo."
-        ],
-        [
-            "Corpulencia",
-            "special",
-            "fighting",
-            null,
-            null,
-            20,
-            "Robustece el cuerpo para subir el Ataque y la Defensa."
-        ],
-        [
-            "Hidropulso",
-            "special",
-            "water",
-            60,
-            100,
-            20,
-            "Ataca con un potente chorro de agua. Puede\nconfundir al objetivo."
-        ],
-        [
-            "A Bocajarro",
-            "physical",
-            "fighting",
-            120,
-            100,
-            5,
-            "Lucha abiertamente contra el objetivo sin\nprotegerse. También reduce la Defensa y la\nDefensa Especial del usuario."
-        ],
-        [
-            "Lanzamiento",
-            "physical",
-            "dark",
-            null,
-            100,
-            10,
-            "Lanza contra el objetivo el objeto que lleva. La\nfuerza del ataque y su efecto varían según el\nobjeto."
-        ],
-        [
-            "Esfera Aural",
-            "special",
-            "fighting",
-            80,
-            null,
-            20,
-            "Libera una descarga de la fuerza del aura desde\nsu interior. Es infalible."
-        ],
-        [
-            "Acua Cola",
-            "physical",
-            "water",
-            90,
-            90,
-            10,
-            "Ataca agitando la cola como si fuera una ola\nrabiosa en una tormenta devastadora."
-        ],
-        [
-            "Puño Drenaje",
-            "physical",
-            "fighting",
-            75,
-            100,
-            10,
-            "Un golpe que drena energía. El Pokémon recupera\nla mitad de los PS arrebatados al objetivo."
-        ],
-        [
-            "Onda Certera",
-            "special",
-            "fighting",
-            120,
-            70,
-            5,
-            "Agudiza la concentración mental y libera su poder.\nPuede disminuir la Defensa Especial del objetivo."
-        ],
-        [
-            "Gigaimpacto",
-            "physical",
-            "normal",
-            150,
-            90,
-            5,
-            "Carga contra el objetivo usando toda la fuerza que\ntiene. El Pokémon descansa el turno siguiente."
-        ],
-        [
-            "Cabezazo Zen",
-            "physical",
-            "psychic",
-            80,
-            90,
-            15,
-            "Concentra su energía psíquica en la cabeza para\ngolpear. Puede hacer que el objetivo retroceda."
-        ],
-        [
-            "Cabeza de Hierro",
-            "physical",
-            "steel",
-            80,
-            100,
-            15,
-            "Ataca con su dura cabeza de hierro. Puede hacer\nque el objetivo retroceda."
-        ],
-        [
-            "Hierba Lazo",
-            "special",
-            "grass",
-            null,
-            100,
-            20,
-            "Enreda al objetivo con hierba y lo derriba.\nCuanto más pesado es el objetivo, más daño\ninflige."
-        ],
-        [
-            "Acua Jet",
-            "physical",
-            "water",
-            40,
-            100,
-            20,
-            "Ataque rápido que permite golpear en primer lugar."
-        ],
-        [
-            "Doble Golpe",
-            "physical",
-            "normal",
-            35,
-            90,
-            10,
-            "Golpea al objetivo dos veces seguidas con la cola\nu otras partes de su cuerpo."
-        ],
-        [
-            "Acróbata",
-            "physical",
-            "flying",
-            55,
-            100,
-            15,
-            "Golpea ágilmente. Si el usuario no porta ningún\nobjeto, el objetivo resulta seriamente dañado."
-        ],
-        [
-            "Voz Cautivadora",
-            "special",
-            "fairy",
-            40,
-            null,
-            15,
-            "Obnubila a los oponentes con su fascinante voz y\nles provoca daños emocionales. Siempre acierta\nal objetivo."
-        ],
-        [
-            "Beso Drenaje",
-            "special",
-            "fairy",
-            50,
-            100,
-            10,
-            "Absorbe PS del objetivo con un beso y restaura\nsu propia energía en una cantidad igual o superior\na la mitad del daño infligido."
-        ],
-        [
-            "Golpe Mordaza",
-            "physical",
-            "dark",
-            80,
-            100,
-            15,
-            "Inflige al rival un dolor tan abrumador que le impide\nutilizar durante dos turnos ataques que se sirven del\nsonido."
-        ],
-        [
-            "Hidroariete",
-            "physical",
-            "water",
-            85,
-            100,
-            10,
-            "Ataca golpeando gracias a la fuerza del agua.\nTambién puede reducir la Defensa del objetivo."
-        ],
-        [
-            "Viraje",
-            "physical",
-            "water",
-            60,
-            100,
-            20,
-            "Tras atacar, el usuario da paso a toda prisa a otro\nPokémon del equipo."
-        ],
-        [
-            "",
-            "physical",
-            "water",
-            120,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "special",
-            "normal",
-            80,
-            100,
-            10,
-            ""
-        ],
-        [
-            "",
-            "physical",
-            "water",
-            60,
-            100,
-            15,
-            ""
-        ],
-        [
-            "",
-            "special",
-            "water",
-            50,
-            100,
-            20,
-            ""
-        ],
-        [
-            "Prensa Metálica",
-            "physical",
-            "steel",
-            0,
-            100,
-            10,
-            ""
-        ]
-    ],
-    100,
-    70,
-    72,
-    53,
-    62,
-    100
+[
+
+    "palafin",
+
+    964,
+
+    [
+
+        "water"
+
+    ],
+
+    [
+
+        [
+
+            "Puño Hielo",
+
+            "physical",
+
+            "ice",
+
+            75,
+
+            100,
+
+            15,
+
+            "Puñetazo helado. Puede congelar."
+
+        ],
+
+        [
+
+            "Golpe Cuerpo",
+
+            "physical",
+
+            "normal",
+
+            85,
+
+            100,
+
+            15,
+
+            "Salta sobre el objetivo con todo su peso. Puede paralizar."
+
+        ],
+
+        [
+
+            "Derribo",
+
+            "physical",
+
+            "normal",
+
+            90,
+
+            85,
+
+            20,
+
+            "Carga desmedida que también hiere al agresor."
+
+        ],
+
+        [
+
+            "Supersónico",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            55,
+
+            20,
+
+            "Raras ondas sónicas que confunden al objetivo."
+
+        ],
+
+        [
+
+            "Neblina",
+
+            "special",
+
+            "ice",
+
+            null,
+
+            null,
+
+            30,
+
+            "Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos."
+
+        ],
+
+        [
+
+            "Pistola Agua",
+
+            "special",
+
+            "water",
+
+            40,
+
+            100,
+
+            25,
+
+            "Ataca disparando agua con gran potencia."
+
+        ],
+
+        [
+
+            "Hidrobomba",
+
+            "special",
+
+            "water",
+
+            110,
+
+            80,
+
+            5,
+
+            "Lanza una gran masa de agua a presión para atacar."
+
+        ],
+
+        [
+
+            "Surf",
+
+            "special",
+
+            "water",
+
+            90,
+
+            100,
+
+            15,
+
+            "Inunda el campo de batalla con una ola gigante. Fuera de batalla sirve para moverse sobre el agua."
+
+        ],
+
+        [
+
+            "Rayo Hielo",
+
+            "special",
+
+            "ice",
+
+            90,
+
+            100,
+
+            10,
+
+            "Rayo de hielo que puede llegar a congelar."
+
+        ],
+
+        [
+
+            "Ventisca",
+
+            "special",
+
+            "ice",
+
+            110,
+
+            70,
+
+            5,
+
+            "Tormenta de hielo que puede llegar a congelar."
+
+        ],
+
+        [
+
+            "Hiperrayo",
+
+            "special",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+
+        ],
+
+        [
+
+            "Agilidad",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            30,
+
+            "Relaja el cuerpo para ganar mucha Velocidad."
+
+        ],
+
+        [
+
+            "Niebla",
+
+            "special",
+
+            "ice",
+
+            null,
+
+            null,
+
+            30,
+
+            "Neblina que elimina los cambios de características de todos los Pokémon en combate."
+
+        ],
+
+        [
+
+            "Foco Energía",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            30,
+
+            "Concentra energía para aumentar las posibilidades de un golpe crítico."
+
+        ],
+
+        [
+
+            "Cascada",
+
+            "physical",
+
+            "water",
+
+            80,
+
+            100,
+
+            15,
+
+            "Embiste con un gran impulso que puede hacer retroceder. También sirve para remontar cascadas."
+
+        ],
+
+        [
+
+            "Rapidez",
+
+            "special",
+
+            "normal",
+
+            60,
+
+            null,
+
+            20,
+
+            "Lanza rayos en forma de estrella que no fallan nunca."
+
+        ],
+
+        [
+
+            "Descanso",
+
+            "special",
+
+            "psychic",
+
+            null,
+
+            null,
+
+            5,
+
+            "Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos."
+
+        ],
+
+        [
+
+            "Sustituto",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo."
+
+        ],
+
+        [
+
+            "Inversión",
+
+            "physical",
+
+            "fighting",
+
+            null,
+
+            100,
+
+            15,
+
+            "Ataque desesperado que causa más daño cuantos  menos PS tenga el usuario."
+
+        ],
+
+        [
+
+            "Protección",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Frena todos los ataques, pero puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Viento Hielo",
+
+            "special",
+
+            "ice",
+
+            55,
+
+            95,
+
+            15,
+
+            "Ataque con aire helado que baja la Velocidad de los rivales."
+
+        ],
+
+        [
+
+            "Enfado",
+
+            "physical",
+
+            "dragon",
+
+            120,
+
+            100,
+
+            10,
+
+            "Ataca de dos a tres turnos y acaba confundiendo al agresor."
+
+        ],
+
+        [
+
+            "Aguante",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente."
+
+        ],
+
+        [
+
+            "Encanto",
+
+            "special",
+
+            "fairy",
+
+            null,
+
+            100,
+
+            20,
+
+            "Engatusa al objetivo y reduce bastante su Ataque."
+
+        ],
+
+        [
+
+            "Sonámbulo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Mientras duerme, usa uno de sus movimientos elegido al azar."
+
+        ],
+
+        [
+
+            "Otra Vez",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "El objetivo repite su último movimiento durante tres turnos."
+
+        ],
+
+        [
+
+            "Danza Lluvia",
+
+            "special",
+
+            "water",
+
+            null,
+
+            null,
+
+            5,
+
+            "Genera una fuerte lluvia que refuerza los movimientos de tipo Agua durante cinco turnos."
+
+        ],
+
+        [
+
+            "Más Psique",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            10,
+
+            "Quien lo usa se hipnotiza y copia cualquier cambio que haya en las características de su objetivo."
+
+        ],
+
+        [
+
+            "Torbellino",
+
+            "special",
+
+            "water",
+
+            35,
+
+            85,
+
+            15,
+
+            "Una tromba de agua atrapa al objetivo durante cuatro o cinco turnos."
+
+        ],
+
+        [
+
+            "Imagen",
+
+            "physical",
+
+            "normal",
+
+            70,
+
+            100,
+
+            20,
+
+            "Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+
+        ],
+
+        [
+
+            "Puño Certero",
+
+            "physical",
+
+            "fighting",
+
+            150,
+
+            100,
+
+            20,
+
+            "Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso."
+
+        ],
+
+        [
+
+            "Mofa",
+
+            "special",
+
+            "dark",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos."
+
+        ],
+
+        [
+
+            "Refuerzo",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            20,
+
+            "El usuario ayuda a un aliado reforzando la potencia de su ataque."
+
+        ],
+
+        [
+
+            "Esfuerzo",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            5,
+
+            "Reduce los PS del objetivo para que igualen a los del atacante."
+
+        ],
+
+        [
+
+            "Buceo",
+
+            "physical",
+
+            "water",
+
+            80,
+
+            100,
+
+            10,
+
+            "El usuario se sumerge en el primer turno y ataca en el segundo."
+
+        ],
+
+        [
+
+            "Vozarrón",
+
+            "special",
+
+            "normal",
+
+            90,
+
+            100,
+
+            10,
+
+            "Grito desgarrador que inflige daño al objetivo."
+
+        ],
+
+        [
+
+            "Impresionar",
+
+            "physical",
+
+            "ghost",
+
+            30,
+
+            100,
+
+            15,
+
+            "Impresiona tanto que puede hacer retroceder al objetivo."
+
+        ],
+
+        [
+
+            "Corpulencia",
+
+            "special",
+
+            "fighting",
+
+            null,
+
+            null,
+
+            20,
+
+            "Robustece el cuerpo para subir el Ataque y la Defensa."
+
+        ],
+
+        [
+
+            "Hidropulso",
+
+            "special",
+
+            "water",
+
+            60,
+
+            100,
+
+            20,
+
+            "Ataca con un potente chorro de agua. Puede confundir al objetivo."
+
+        ],
+
+        [
+
+            "A Bocajarro",
+
+            "physical",
+
+            "fighting",
+
+            120,
+
+            100,
+
+            5,
+
+            "Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario."
+
+        ],
+
+        [
+
+            "Lanzamiento",
+
+            "physical",
+
+            "dark",
+
+            null,
+
+            100,
+
+            10,
+
+            "Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto."
+
+        ],
+
+        [
+
+            "Esfera Aural",
+
+            "special",
+
+            "fighting",
+
+            80,
+
+            null,
+
+            20,
+
+            "Libera una descarga de la fuerza del aura desde su interior. Es infalible."
+
+        ],
+
+        [
+
+            "Acua Cola",
+
+            "physical",
+
+            "water",
+
+            90,
+
+            90,
+
+            10,
+
+            "Ataca agitando la cola como si fuera una ola rabiosa en una tormenta devastadora."
+
+        ],
+
+        [
+
+            "Puño Drenaje",
+
+            "physical",
+
+            "fighting",
+
+            75,
+
+            100,
+
+            10,
+
+            "Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo."
+
+        ],
+
+        [
+
+            "Onda Certera",
+
+            "special",
+
+            "fighting",
+
+            120,
+
+            70,
+
+            5,
+
+            "Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo."
+
+        ],
+
+        [
+
+            "Gigaimpacto",
+
+            "physical",
+
+            "normal",
+
+            150,
+
+            90,
+
+            5,
+
+            "Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente."
+
+        ],
+
+        [
+
+            "Cabezazo Zen",
+
+            "physical",
+
+            "psychic",
+
+            80,
+
+            90,
+
+            15,
+
+            "Concentra su energía psíquica en la cabeza para golpear. Puede hacer que el objetivo retroceda."
+
+        ],
+
+        [
+
+            "Cabeza de Hierro",
+
+            "physical",
+
+            "steel",
+
+            80,
+
+            100,
+
+            15,
+
+            "Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda."
+
+        ],
+
+        [
+
+            "Hierba Lazo",
+
+            "special",
+
+            "grass",
+
+            null,
+
+            100,
+
+            20,
+
+            "Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+
+        ],
+
+        [
+
+            "Acua Jet",
+
+            "physical",
+
+            "water",
+
+            40,
+
+            100,
+
+            20,
+
+            "Ataque rápido que permite golpear en primer lugar."
+
+        ],
+
+        [
+
+            "Doble Golpe",
+
+            "physical",
+
+            "normal",
+
+            35,
+
+            90,
+
+            10,
+
+            "Golpea al objetivo dos veces seguidas con la cola u otras partes de su cuerpo."
+
+        ],
+
+        [
+
+            "Acróbata",
+
+            "physical",
+
+            "flying",
+
+            55,
+
+            100,
+
+            15,
+
+            "Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+
+        ],
+
+        [
+
+            "Voz Cautivadora",
+
+            "special",
+
+            "fairy",
+
+            40,
+
+            null,
+
+            15,
+
+            "Obnubila a los oponentes con su fascinante voz y les provoca daños emocionales. Siempre acierta al objetivo."
+
+        ],
+
+        [
+
+            "Beso Drenaje",
+
+            "special",
+
+            "fairy",
+
+            50,
+
+            100,
+
+            10,
+
+            "Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido."
+
+        ],
+
+        [
+
+            "Golpe Mordaza",
+
+            "physical",
+
+            "dark",
+
+            80,
+
+            100,
+
+            15,
+
+            "Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido."
+
+        ],
+
+        [
+
+            "Hidroariete",
+
+            "physical",
+
+            "water",
+
+            85,
+
+            100,
+
+            10,
+
+            "Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo."
+
+        ],
+
+        [
+
+            "Viraje",
+
+            "physical",
+
+            "water",
+
+            60,
+
+            100,
+
+            20,
+
+            "Tras atacar, el usuario da paso a toda prisa a otro Pokémon del equipo."
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "water",
+
+            120,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "normal",
+
+            80,
+
+            100,
+
+            10,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "physical",
+
+            "water",
+
+            60,
+
+            100,
+
+            15,
+
+            ""
+
+        ],
+
+        [
+
+            "",
+
+            "special",
+
+            "water",
+
+            50,
+
+            100,
+
+            20,
+
+            ""
+
+        ],
+
+        [
+
+            "Prensa Metálica",
+
+            "physical",
+
+            "steel",
+
+            0,
+
+            100,
+
+            10,
+
+            ""
+
+        ]
+
+    ],
+
+    100,
+
+    70,
+
+    72,
+
+    53,
+
+    62,
+
+    100
+
 ]

@@ -1,60 +1,119 @@
-[
-    "magikarp",
-    129,
-    [
-        "water"
-    ],
-    [
-        [
-            "Placaje",
-            "physical",
-            "normal",
-            40,
-            100,
-            35,
-            "Embiste con todo el cuerpo."
-        ],
-        [
-            "Hidrobomba",
-            "special",
-            "water",
-            110,
-            80,
-            5,
-            "Lanza una gran masa de agua a presión para\natacar."
-        ],
-        [
-            "Salpicadura",
-            "special",
-            "normal",
-            null,
-            null,
-            40,
-            "No tiene ningún efecto. Solo salpica."
-        ],
-        [
-            "Azote",
-            "physical",
-            "normal",
-            null,
-            100,
-            15,
-            "Ataque frenético. Cuantos menos PS tenga el\nusuario, más daño producirá."
-        ],
-        [
-            "Bote",
-            "physical",
-            "flying",
-            85,
-            85,
-            5,
-            "Primer turno: bota. Segundo turno: golpea. Puede\nparalizar."
-        ]
-    ],
-    20,
-    10,
-    55,
-    15,
-    20,
-    80
+[
+
+    "magikarp",
+
+    129,
+
+    [
+
+        "water"
+
+    ],
+
+    [
+
+        [
+
+            "Placaje",
+
+            "physical",
+
+            "normal",
+
+            40,
+
+            100,
+
+            35,
+
+            "Embiste con todo el cuerpo."
+
+        ],
+
+        [
+
+            "Hidrobomba",
+
+            "special",
+
+            "water",
+
+            110,
+
+            80,
+
+            5,
+
+            "Lanza una gran masa de agua a presión para atacar."
+
+        ],
+
+        [
+
+            "Salpicadura",
+
+            "special",
+
+            "normal",
+
+            null,
+
+            null,
+
+            40,
+
+            "No tiene ningún efecto. Solo salpica."
+
+        ],
+
+        [
+
+            "Azote",
+
+            "physical",
+
+            "normal",
+
+            null,
+
+            100,
+
+            15,
+
+            "Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá."
+
+        ],
+
+        [
+
+            "Bote",
+
+            "physical",
+
+            "flying",
+
+            85,
+
+            85,
+
+            5,
+
+            "Primer turno: bota. Segundo turno: golpea. Puede paralizar."
+
+        ]
+
+    ],
+
+    20,
+
+    10,
+
+    55,
+
+    15,
+
+    20,
+
+    80
+
 ]
