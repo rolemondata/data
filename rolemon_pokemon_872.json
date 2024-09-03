@@ -22,9 +22,9 @@
 
             "psychic",
 
-            null,
+            0,
 
-            null,
+            0,
 
             5,
 
@@ -40,9 +40,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -94,9 +94,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -130,9 +130,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -148,7 +148,7 @@
 
             "normal",
 
-            null,
+            0,
 
             100,
 
@@ -166,9 +166,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -184,7 +184,7 @@
 
             "psychic",
 
-            null,
+            0,
 
             100,
 

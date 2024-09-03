@@ -20,9 +20,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             20,
 
@@ -164,7 +164,7 @@
 
             "normal",
 
-            null,
+            0,
 
             100,
 
@@ -200,7 +200,7 @@
 
             "electric",
 
-            null,
+            0,
 
             90,
 
@@ -218,9 +218,9 @@
 
             "psychic",
 
-            null,
+            0,
 
-            null,
+            0,
 
             30,
 
@@ -236,9 +236,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             40,
 
@@ -254,9 +254,9 @@
 
             "psychic",
 
-            null,
+            0,
 
-            null,
+            0,
 
             5,
 
@@ -272,9 +272,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -308,7 +308,7 @@
 
             "fighting",
 
-            null,
+            0,
 
             100,
 
@@ -326,9 +326,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -344,9 +344,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -362,7 +362,7 @@
 
             "normal",
 
-            null,
+            0,
 
             100,
 
@@ -380,9 +380,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -398,9 +398,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             40,
 
@@ -470,9 +470,9 @@
 
             "normal",
 
-            null,
+            0,
 
-            null,
+            0,
 
             20,
 
@@ -488,9 +488,9 @@
 
             "psychic",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -560,9 +560,9 @@
 
             "psychic",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
@@ -578,7 +578,7 @@
 
             "electric",
 
-            null,
+            0,
 
             100,
 
@@ -650,9 +650,9 @@
 
             "grass",
 
-            null,
+            0,
 
-            null,
+            0,
 
             10,
 
