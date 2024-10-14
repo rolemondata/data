@@ -1,0 +1,2492 @@
+[
+    [
+        "A bocajarro",
+        "El Pokémon se posiciona muy cerca de su rival y aprovecha para propinar una lluvia de golpes de forma rápida y enérgica. Ejecutar este movimiento es algo muy exigente para el físico del Pokémon, por lo que durante tantos turnos como B, su Defensa y Defensa especial se verán penalizadas tantos puntos como I.",
+        "Físico",
+        "Lucha",
+        "6A+I",
+        "3",
+        "6",
+        "El usuario penaliza su Defensa y Def. Especial igual a I tantos turnos como B"
+    ],
+    [
+        "Absorber",
+        "A través de energía natural, el Pokémon conecta brevemente con su rival y absorbe parte de su energía vital. Además del daño infligido, el usuario recuperará tantos PS como la mitad del daño redondeado a la baja.",
+        "Especial",
+        "Planta",
+        "A",
+        "3",
+        "3",
+        "El usuario recupera tantos PS como la mitad del daño"
+    ],
+    [
+        "Ácido",
+        "El usuario expulsa un chorro de ácido pestilente. Si obtiene doble 6 en la prueba, el objetivo verá penalizada su Defensa especial tanto como B durante el mismo número de turnos.",
+        "Especial",
+        "Veneno",
+        "2A+B",
+        "3",
+        "2",
+        "Con D6 penaliza la Def. Especial igual a B tantos turnos como B"
+    ],
+    [
+        "Acua cola",
+        "El Pokémon crea un torbellino de agua alrededor de su cola y ataca con esta.",
+        "Físico",
+        "Agua",
+        "5A+B",
+        "7",
+        "4",
+        "-"
+    ],
+    [
+        "Acua jet",
+        "Este veloz ataque envuelve al Pokémon en un manto de agua que le proporciona una forma muy aerodinámica, convirtiéndolo en un torpedo de agua. La velocidad a la que ataca es tal que en el siguiente asalto tendrá un bonificador a su Impulso igual a B.",
+        "Físico",
+        "Agua",
+        "2A+B",
+        "3",
+        "2",
+        "Aumenta el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Agilidad",
+        "Concentrando su energía, el Pokémon consigue mejorar su rapidez y su percepción. Adquiere un bonificador a su Velocidad igual a I durante tantos turnos como I.",
+        "Estado",
+        "Psíquico",
+        "-",
+        "0",
+        "3",
+        "Bonifica la Velocidad igual a I tantos turnos como I"
+    ],
+    [
+        "Agua lodosa",
+        "Este movimiento crea una ola de agua mezclada con tierra que cae sobre el objetivo. Si obtiene doble 3, la Precisión del rival se verá penalizada igual a B durante tantos turnos como B.",
+        "Especial",
+        "Agua",
+        "5A+B",
+        "8",
+        "5",
+        "Con D3 penaliza la Precisión igual a B tantos turnos como B"
+    ],
+    [
+        "Aguijón letal",
+        "Al ejecutar este movimiento, el Pokémon pretende poner fin al combate. Si lo consigue, entrará en un estado de euforia momentánea y, en su siguiente turno, su Ataque tendrá un bonificador igual a A.",
+        "Físico",
+        "Bicho",
+        "2A+I",
+        "3",
+        "3",
+        "Si vence a un Pokémon, bonifica su Ataque igual a A en el siguiente turno"
+    ],
+    [
+        "Amnesia",
+        "Con esta técnica, el Pokémon protege su mente dejándola en blanco. Gracias a ello, su Defensa especial aumenta tanto como I durante el mismo número de turnos.",
+        "Estado",
+        "Psíquico",
+        "-",
+        "0",
+        "3",
+        "Bonifica la Def. Especial igual a I tantos turnos como I"
+    ],
+    [
+        "Amortiguador",
+        "Aunque no es el único Pokémon que puede utilizarlo, este movimiento es conocido principalmente por Chansey. Concentrando su energía en su piedra oval, la luz que emite tiene efectos sanadores. Gracias a ello, el Pokémon recuperará tantos PS como 5A+1 por nivel. Este movimiento también puede utilizarlo para sanar a otros Pokémon, pero deberá sacrificar los mismos PS que desee sanar. Tras realizar la prueba, puede elegir sanar tantos PS como el máximo que haya obtenido o menor siempre y cuando tenga una reserva de PS igual o superior.",
+        "Estado",
+        "Normal",
+        "-",
+        "0",
+        "6",
+        "Sana 5A+1 por nivel, pudiendo sanar a otros aliados"
+    ],
+    [
+        "Antiaéreo",
+        "Con Antiaéreo, el usuario lanza un proyectil que consigue hacer caer a su objetivo al suelo. Si el rival afectado es de tipo volador o está bajo los efectos de Levitón, durante tantos turnos como B será vulnerable a los ataques de tipo tierra. Esta vulnerabilidad será neutra con excepción de si su otro tipo (en caso de tenerlo) es resistente o débil, en cuyo caso se aplicarán las modificaciones pertinentes al daño.",
+        "Físico",
+        "Roca",
+        "2A+I",
+        "3",
+        "3",
+        "El objetivo cae al suelo tantos turnos como B"
+    ],
+    [
+        "Anulación",
+        "Este curioso movimiento afecta de una forma muy determinada a la mente del Pokémon rival, eliminando momentáneamente de su memoria la ejecución de un movimiento concreto. La PJ que utilice Anulación escribirá en un papel, o de cualquier otra forma que pueda ocultar, el movimiento que desea anular. Si mientras Anulación esté activo el rival intenta usar ese movimiento, la PJ revelará su papel y el Pokémon afectado se quedará en blanco. Anulación se mantiene activo tantos turnos como el usuario desee, pero al final de su turno deberá gastar 3 PP para mantenerlo un asalto más.",
+        "Estado",
+        "Normal",
+        "-",
+        "3",
+        "3",
+        "Impide el uso de un movimiento"
+    ],
+    [
+        "Arañazo",
+        "Gracias a sus garras, el Pokémon propina un arañazo al objetivo.",
+        "Físico",
+        "Normal",
+        "2A+B",
+        "3",
+        "1",
+        "-"
+    ],
+    [
+        "Armadura ácida",
+        "El cuerpo del usuario supura un ácido que se solidifica en su piel y ofrece una defensa adicional de forma momentánea. Durante tantos turnos como I, el Pokémon adquiere un bonificador a su Defensa igual a I.",
+        "Estado",
+        "Veneno",
+        "-",
+        "0",
+        "3",
+        "Bonifica la Defensa igual a I tantos turnos como I"
+    ],
+    [
+        "Aromaterapia",
+        "Evaporando los aceites esenciales que segrega su cuerpo, el Pokémon crea un rico aroma con propiedades sanadoras. Cualquier estado alterado que posean los Pokémon en el campo de batalla sanará inmediatamente. Esto no incluye los cambios de características. Aromaterapia se mantendrá en el ambiente tantos turnos como A, en los cuales no se podrán adquirir estados alterados.",
+        "Estado",
+        "Planta",
+        "-",
+        "0",
+        "6",
+        "Sana los estados alterados y los evita durante tantos turnos como A"
+    ],
+    [
+        "Asalto estelar",
+        "Cuando un Sirfetch'd puede realizar Asalto estelar, hablamos de un Pokémon realmente peligroso. Utilizando su puerro a modo de lanza, y haciendo un movimiento de justa, ataca al Pokémon ensartándolo y sometiéndolo a un gran daño. Sin embargo, este movimiento exige mucho del Pokémon y lo dejará cansado, por lo que en el siguiente asalto tendrá un penalizador a su Impulso igual a A.",
+        "Físico",
+        "Lucha",
+        "8A",
+        "3",
+        "6",
+        "El usuario penaliza su Impulso igual a A en el siguiente asalto"
+    ],
+    [
+        "Ascuas",
+        "Al generar fuego en su interior, el Pokémon puede lanzar una pequeña bola de fuego que impacta en el rival. Si obtiene un doble 6, el objetivo adquirirá el estado quemado y perderá 1 PS al final de su turno durante tantos turnos como B.",
+        "Especial",
+        "Fuego",
+        "2A+B",
+        "3",
+        "2",
+        "Con D6 quema 1 tantos turnos como B"
+    ],
+    [
+        "Ataque ala",
+        "Este sencillo ataque se trata de un golpe con una extremidad alada del Pokémon.",
+        "Físico",
+        "Volador",
+        "3A+B",
+        "3",
+        "2",
+        "-"
+    ],
+    [
+        "Ataque arena",
+        "El Pokémon provoca que el polvo se convierta en una pequeña nube alrededor de su objetivo. Durante tantos turnos como I, el Pokémon rival tendrá un penalizador a su Precisión igual a B.",
+        "Estado",
+        "Tierra",
+        "-",
+        "4",
+        "4",
+        "Penaliza la Precisión igual a B tantos turnos como I"
+    ],
+    [
+        "Ataque furia",
+        "De forma rápida y usando habitualmente alguna parte del cuerpo punzante, el Pokémon ataca con gran velocidad tantas veces como puede. En la primera prueba se calculará el primer ataque y, en caso de acertar, el resultado de I dictará cuántas veces más atacará. Cada ataque tiene su propia precisión, pero el Pokémon no parará de atacar aunque falle algún ataque a partir del segundo.",
+        "Físico",
+        "Normal",
+        "I",
+        "8",
+        "3",
+        "Realiza tantos ataques como I en un mismo turno"
+    ],
+    [
+        "Ataque rápido",
+        "Este golpe se ejecuta tan rápido que el Pokémon usuario puede adquirir ventaja cuando realice su siguiente movimiento. En el cálculo de Impulso del siguiente asalto, el Pokémon tendrá un bonificador igual a B.",
+        "Físico",
+        "Normal",
+        "2A+B",
+        "3",
+        "2",
+        "Bonifica el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Atizar",
+        "El usuario ejecuta un golpe fuerte y seco, normalmente con su cola.",
+        "Físico",
+        "Normal",
+        "4A+I",
+        "9",
+        "3",
+        "-"
+    ],
+    [
+        "Autodestrucción",
+        "Concentrando todo su poder dentro de su cuerpo, el usuario brilla y genera un gran estallido. Al usar todo su poder para ello, el Pokémon perderá todos sus PS y caerá debilitado tras ejecutar Autodestrucción.",
+        "Físico",
+        "Normal",
+        "9A+I",
+        "3",
+        "10",
+        "Tras ejecutar el movimiento, el usuario se debilita"
+    ],
+    [
+        "Avalancha",
+        "Dependiendo del Pokémon y de sus circunstancias de combate, este movimiento puede ejecutarse de distintas formas, pero el resultado siempre será el mismo: grandes rocas que se dirigirán contra su rival como si de una avalancha se tratase. Este movimiento es tan impresionante que, si el usuario obtiene un doble 3, conseguirá que su rival se amedrente y obtenga un penalizador a su Impulso igual a B en el siguiente asalto.",
+        "Físico",
+        "Roca",
+        "4A+B",
+        "7",
+        "5",
+        "Con D3 penaliza el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Avivar",
+        "Esta técnica permite que el Pokémon concentre sus sentidos en su poder de ataque, por lo que su Ataque y Ataque especial obtendrán un bonificador igual a B durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "0",
+        "3",
+        "Bonifica el Ataque y Ata. Especial igual a B tantos turnos como I"
+    ],
+    [
+        "Beso amoroso",
+        "Este es un movimiento característico de Jynx. Concentrando la energía en sus labios, este Pokémon puede lanzar un beso que se convierte en una onda. Al entrar en contacto con el objetivo, este adquirirá el estado dormido durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "9",
+        "5",
+        "Duerme tantos turnos como I"
+    ],
+    [
+        "Bofetón lodo",
+        "La energía que lanza el Pokémon en forma de proyectiles se mezcla con tierra, dando como resultado una pequeña cantidad de disparos de lodo. Siempre que el movimiento acierte, el Pokémon afectado verá penalizada su Precisión tanto como B durante el mismo número de turnos.",
+        "Especial",
+        "Tierra",
+        "A",
+        "3",
+        "5",
+        "Penaliza la Precisión igual a B tantos turnos como B"
+    ],
+    [
+        "Bola sombra",
+        "Esta bola creada de energía fantasmal se lanza directamente contra el rival. Si el usuario obtiene un doble 4 en la prueba, el objetivo verá su Defensa especial penalizada tantos puntos como B durante el mismo número de turnos.",
+        "Especial",
+        "Fantasma",
+        "4A+I",
+        "3",
+        "4",
+        "Con D4 penaliza la Def. Especial igual a B tantos turnos como B"
+    ],
+    [
+        "Bomba ácida",
+        "Utilizando el ácido de su cuerpo, el Pokémon lo lanza en forma de proyectiles que explotan al contacto con el rival. Además del daño infligido, este movimiento penaliza la Defensa especial del objetivo tanto como I durante tantos turnos como B.",
+        "Especial",
+        "Veneno",
+        "2A+B",
+        "3",
+        "3",
+        "Penaliza la Def. Especial igual a I tantos turnos como B"
+    ],
+    [
+        "Bomba germen",
+        "El Pokémon lanza unas enormes semillas que explotan al contacto con el objetivo.",
+        "Físico",
+        "Planta",
+        "4A+I",
+        "3",
+        "4",
+        "-"
+    ],
+    [
+        "Brillo mágico",
+        "La luz que emite el cuerpo del Pokémon se hace tangible y golpea a todo quien le rodee.",
+        "Especial",
+        "Hada",
+        "4A+I",
+        "3",
+        "4",
+        "-"
+    ],
+    [
+        "Cabeza de hierro",
+        "La parte frontal de la cabeza del Pokémon se vuelve tan dura como el hierro, propinando un cabezazo que a menudo deja aturdido al rival de forma momentánea. Si obtiene un doble 6, el objetivo quedará aturdido y su Impulso se verá penalizado tanto como B en el siguiente asalto.",
+        "Físico",
+        "Acero",
+        "4A+I",
+        "3",
+        "4",
+        "Con D6 penaliza el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Cabezazo",
+        "Cabezazo se ejecuta en dos turnos. En el primero, el Pokémon adopta una postura adecuada para propinar el cabezazo, adquiriendo un bonificador a Defensa igual a B; en el segundo turno pierde este bonificador y ataca con toda su fuerza.",
+        "Físico",
+        "Normal",
+        "7A+B",
+        "3",
+        "5",
+        "Aumenta la Defensa igual a B en el primer turno y ataca en el segundo"
+    ],
+    [
+        "Cabezazo zen",
+        "Aunque los movimientos psíquicos son habitualmente de carácter especial, al realizar este movimiento el Pokémon concentra su poder psíquico en su cabeza para propinar un duro ataque. Gracias a este poder psíquico, si el usuario obtiene un doble 4, el objetivo quedará atontado y su Impulso se verá penalizado tanto como B en el siguiente asalto.",
+        "Físico",
+        "Psíquico",
+        "4A",
+        "7",
+        "4",
+        "Con D4 penaliza el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Canto",
+        "El Pokémon utiliza su voz para entonar una nana mágica que adormece a quien la escucha. Quien se vea afectado por Canto adquirirá el estado dormido durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "11",
+        "4",
+        "Duerme tantos turnos como I"
+    ],
+    [
+        "Canto helado",
+        "Con este movimiento, el Pokémon lanza pequeños trozos de hielo de forma muy rápida. Además del daño infligido, el usuario adquiere un bonificador a su Impulso igual a B en su siguiente asalto.",
+        "Físico",
+        "Hielo",
+        "2A+B",
+        "3",
+        "2",
+        "Aumenta el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Cara susto",
+        "De la manera más terrorífica que se le ocurre, el Pokémon consigue asustar al rival con su espantoso rostro, haciendo que el miedo lo desconcierte. Durante tantos turnos como I, el objetivo tendrá un penalizador a su Velocidad igual a I.",
+        "Estado",
+        "Normal",
+        "-",
+        "3",
+        "3",
+        "Penaliza la Velocidad igual a I tantos turnos como I"
+    ],
+    [
+        "Carámbano",
+        "El Pokémon lanza una serie de pequeños témpanos que vuelan hacia el rival con gran velocidad. En la primera prueba, el resultado de I será el número de ataques adicionales que se realizarán además del primero en el mismo turno. Cada ataque tiene su propio cálculo de daño y precisión.",
+        "Físico",
+        "Hielo",
+        "BA",
+        "3",
+        "4",
+        "Realiza tantos ataques como I en un mismo turno"
+    ],
+    [
+        "Carantoña",
+        "Al ocultarlo bajo la acción de un jugueteo inocente, el rival no espera recibir una buena somanta de tortas. Este movimiento puede dejar tan perplejo y exhausto al objetivo que, si el usuario obtiene un doble 6 en su prueba, su Ataque se verá penalizado tanto como B y durante tantos turnos como B.",
+        "Físico",
+        "Hada",
+        "5A+B",
+        "7",
+        "5",
+        "Con D6 penaliza el Ataque igual a B tantos turnos como B"
+    ],
+    [
+        "Carga",
+        "Una buena táctica para los Pokémon de tipo eléctrico es cargar su cuerpo con electricidad y mantenerla preparada para usarla como defensa o como una mejora de ataque. Al utilizar el movimiento, el Pokémon obtiene un bonificador a su Defensa especial igual a B y se mantendrá tantos turnos como I. No obstante, si utiliza un movimiento de tipo eléctrico antes de que sus efectos desaparezcan, el daño de dicho ataque se verá bonificado tantos puntos como la mitad del nivel del Pokémon redondeando a la baja.",
+        "Estado",
+        "Eléctrico",
+        "-",
+        "0",
+        "3",
+        "Bonifica la Def. Especial igual a B y potencia el siguiente ataque eléctrico"
+    ],
+    [
+        "Carga tóxica",
+        "El veneno que el Pokémon expulsa en este ataque se refuerza al contacto con el veneno del organismo del objetivo. Es por esta razón que, si el rival sufre el estado envenenado, el daño del ataque será de 7A+B.",
+        "Especial",
+        "Veneno",
+        "3A+I",
+        "3",
+        "5",
+        "El daño será 7A+B si el objetivo está envenenado"
+    ],
+    [
+        "Cascada",
+        "El Pokémon crea un torrente de agua alrededor del objetivo y nada en él para atacar por sorpresa después. Si obtiene un doble 4, el Pokémon afectado quedará conmocionado por el movimiento y obtendrá un penalizador a su Impulso igual a B en el siguiente asalto.",
+        "Físico",
+        "Agua",
+        "4A+I",
+        "3",
+        "4",
+        "Con D4 penaliza el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Cautivapor",
+        "Dadas sus características, los Weezing de Galar pueden expulsar un chorro de vapor saturado de olores muy dulces. Además del daño, si obtiene un doble 4 en la prueba el objetivo adquirirá el estado confuso durante tantos turnos como B.",
+        "Especial",
+        "Hada",
+        "5A+I",
+        "6",
+        "5",
+        "Con D4 confunde tantos turnos como B"
+    ],
+    [
+        "Chirrido",
+        "Produciendo un sonido muy agudo y desagradable, el Pokémon consigue que todo aquel que lo oiga pierda atención en su defensa. Durante tantos turnos como I, los Pokémon afectados tendrán un penalizador a su Defensa igual a I.",
+        "Estado",
+        "Normal",
+        "-",
+        "8",
+        "3",
+        "Penaliza la Defensa igual a I tantos turnos como I"
+    ],
+    [
+        "Chispa",
+        "El Pokémon envuelve su propio cuerpo con una ligera corriente eléctrica y placa al objetivo. Si obtiene un doble 3, el rival adquirirá el estado paralizado durante tantos turnos como B.",
+        "Físico",
+        "Eléctrico",
+        "3A+I",
+        "3",
+        "3",
+        "Con D3 paraliza tantos turnos como B"
+    ],
+    [
+        "Chupavidas",
+        "A través de una flebotomía, el Pokémon absorbe las energías de su rival provocándole un gran daño y fortaleciéndose a sí mismo al mismo tiempo. El usuario recupera tantos PS como la mitad del daño infligido redondeado a la baja.",
+        "Físico",
+        "Bicho",
+        "4A+I",
+        "3",
+        "5",
+        "El usuario recupera tantos PS como la mitad del daño"
+    ],
+    [
+        "Chuzos",
+        "Mediante un aire congelado, el Pokémon crea enormes carámbanos de hielo que se elevan a gran altura y se precipitan contra el objetivo. En esta situación tan peligrosa, si el movimiento acierta y obtiene doble 3 en la prueba, el objetivo quedará amedrentado por la situación y su Impulso obtendrá un penalizador igual a B en el siguiente asalto.",
+        "Físico",
+        "Hielo",
+        "5A",
+        "7",
+        "5",
+        "Con D3 penaliza el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Ciclón",
+        "Al girar sobre sí mismo concentrando su energía, el Pokémon consigue crear un torbellino que dirige hacia su objetivo para atraparlo y dañarlo. Si el usuario obtiene un doble 4, el Pokémon afectado quedará tan atontado por el ciclón que su Impulso obtendrá un penalizador igual a B en el siguiente asalto.",
+        "Especial",
+        "Dragón",
+        "2A+B",
+        "3",
+        "3",
+        "Con D4 penaliza el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Clonatipo",
+        "Al utilizar Clonatipo, el Pokémon usa su energía para analizar la composición del cuerpo del objetivo, pudiendo desvelar sus tipos y modificar su propio cuerpo para copiarlos. De esta manera, el usuario adquiere los mismos tipos que el objetivo, ya sean uno o dos. Este movimiento se mantiene activo tantos turnos como el usuario desee, pero al final de su turno deberá gastar 3 PP para mantenerlo un turno más.",
+        "Estado",
+        "Normal",
+        "-",
+        "0",
+        "3",
+        "Copia los tipos del Pokémon objetivo"
+    ],
+    [
+        "Cola férrea",
+        "El Pokémon endurece su cola y golpea con ella como si lo hiciera con una extremidad de hierro. Si obtiene un doble 3, el movimiento habrá dejado sensible el cuerpo del objetivo y obtendrá un penalizador a su Defensa igual a B durante tantos turnos como B",
+        "Físico",
+        "Acero",
+        "6A",
+        "9",
+        "4",
+        "Con D3 penaliza la Defensa del objetivo igual a B tantos turnos como B"
+    ],
+    [
+        "Colmillo hielo",
+        "Con este movimiento, el Pokémon ejecuta un mordisco con sus dientes helados. Si obtiene un doble 6, el objetivo adquirirá el estado congelado durante tantos turnos como B. Por otro lado, si la suma de B e I es exactamente 7, el Pokémon rival se resentirá del daño y obtendrá un penalizador a su Impulso igual a B en el siguiente asalto.",
+        "Físico",
+        "Hielo",
+        "3A+I",
+        "6",
+        "4",
+        "Con D6 congela tantos turnos como B y si B+I=7 penaliza el Impulso igual a B"
+    ],
+    [
+        "en el siguiente asalto",
+        "Colmillo ígneo Tras llenar su boca de fuego, el Pokémon se lanza a por el rival y le propina un mordisco. Si obtiene un doble 6, el objetivo adquirirá el estado quemado y perderá 1 PS al final de cada turno durante tantos turnos como B. Por otro lado, si la suma de B e I es exactamente 7, el Pokémon rival se resentirá del daño y obtendrá un penalizador a su Impulso igual a B en el siguiente asalto.",
+        "Físico",
+        "Fuego",
+        "3A+I",
+        "6",
+        "4",
+        "Con D6 quema 1 tantos turnos como B y si B+I=7 penaliza el Impulso igual a B"
+    ],
+    [
+        "en el siguiente asalto",
+        "Colmillo rayo Antes de morder al objetivo, el Pokémon genera una corriente eléctrica en su propia boca. Si obtiene un doble 6, el objetivo adquirirá el estado paralizado durante tantos turnos como B. Por otro lado, si la suma de B e I es exactamente 7, el Pokémon rival se resentirá del daño y obtendrá un penalizador a su Impulso igual a B en el siguiente asalto.",
+        "Físico",
+        "Eléctrico",
+        "3A+I",
+        "6",
+        "4",
+        "Con D6 paraliza tantos turnos como B y si B+I=7 penaliza el Impulso igual a B"
+    ],
+    [
+        "en el siguiente asalto",
+        "Colmillo veneno Aunque el mordisco que ejecuta el usuario puede ser doloroso, el verdadero peligro reside en el potente veneno que inocula a través de él. Si obtiene un doble 3, el objetivo adquirirá el estado envenenado durante tantos turnos como B. Aunque en el primer turno perderá tantos PS como B, en los siguientes (si los hubiera) el daño se multiplicará por 2 con respecto al daño del anterior turno.",
+        "Físico",
+        "Veneno",
+        "2A+I",
+        "3",
+        "4",
+        "Con D3 envenenará gravemente igual a B tantos turnos como B"
+    ],
+    [
+        "Comesueños",
+        "El usuario es capaz de lanzar una proyección psíquica de sí mismo que se introduce en los sueños del objetivo y se alimenta de su energía. De esta forma, el Pokémon recuperará tantos PS como la mitad del daño infligido redondeado a la baja. Sin embargo, este movimiento solo funcionará mientras el objetivo sufra el estado dormido.",
+        "Especial",
+        "Psíquico",
+        "6A",
+        "3",
+        "4",
+        "El usuario recupera tantos PS como la mitad del daño. Solo funciona contra"
+    ],
+    [
+        "objetivos dormidos",
+        "Confusión Este movimiento ataca directamente a la mente del objetivo a través de los poderes psíquicos del Pokémon. Si obtiene doble 6, el objetivo adquirirá el estado confuso durante tantos turnos como B.",
+        "Especial",
+        "Psíquico",
+        "2A+I",
+        "3",
+        "2",
+        "Con D6 confunde tantos turnos como B"
+    ],
+    [
+        "Constricción",
+        "Ya sea con su propio cuerpo o con una parte flexible del mismo, el usuario atrapa al Pokémon enrollándose alrededor del mismo. Esto no evita que tanto el usuario como el objetivo puedan utilizar movimientos, pero este último sufrirá el daño infligido por Constricción nuevamente al final de su turno durante tantos turnos como I.",
+        "Físico",
+        "Normal",
+        "I",
+        "7",
+        "3",
+        "Repite el mismo daño tantos turnos como I"
+    ],
+    [
+        "Cornada",
+        "El Pokémon lanza una punzada utilizando su cuerno.",
+        "Físico",
+        "Normal",
+        "3A+I",
+        "3",
+        "2",
+        "-"
+    ],
+    [
+        "Corpulencia",
+        "Al utilizar parte de su energía para fortalecer su cuerpo, el Pokémon crece en tamaño y hace que sus músculos se vuelvan más duros. Esto le proporciona un bonificador a su Ataque y Defensa igual a B durante tantos turnos como I.",
+        "Estado",
+        "Lucha",
+        "-",
+        "0",
+        "3",
+        "Bonifica el Ataque y la Defensa igual a B tantos turnos como I"
+    ],
+    [
+        "Corte furia",
+        "Utilizando sus garras cortantes o algún tipo de arma de estas características, el Pokémon ataca sin cesar y se crece en cada turno. Aunque en el primer ataque su daño sea el original, si lo ejecuta con éxito una segunda vez, este se multiplicará por 2, multiplicándose hasta por 4 una tercera vez. Esta consecución termina cuando el Pokémon deja de usar Corte furia o si falla un ataque.",
+        "Físico",
+        "Bicho",
+        "2A+B",
+        "6",
+        "3",
+        "Su daño se duplica en cada turno posterior"
+    ],
+    [
+        "Cuchillada",
+        "Este arañazo está cargado con la energía del Pokémon, lo que hace que sus garras sean especialmente afiladas. Si obtiene un doble 5, el movimiento se considerará un golpe crítico igual que si hubiese obtenido un resultado triple.",
+        "Físico",
+        "Normal",
+        "4A",
+        "3",
+        "3",
+        "Con D5 será un golpe crítico"
+    ],
+    [
+        "Danza aleteo",
+        "Tras realizar un pequeño baile con sus alas, el Pokémon no solo adquiere soltura física, sino la relajación necesaria para potenciar sus poderes especiales. Durante tantos turnos como I, el usuario adquiere un bonificador igual a B a Ataque especial, Defensa especial y Velocidad.",
+        "Estado",
+        "Bicho",
+        "-",
+        "0",
+        "5",
+        "Bonifica Ata. Especial, Def. Especial y Velocidad igual a B tantos turnos como I"
+    ],
+    [
+        "Danza dragón",
+        "Durante un momento, el Pokémon rompe sus propios límites y tanto su fuerza como sus sentidos se vuelven más vivos. Durante tantos turnos como I, el Pokémon bonifica su Ataque y su Velocidad igual a B.",
+        "Estado",
+        "Dragón",
+        "-",
+        "0",
+        "3",
+        "Bonifica Ataque y Velocidad igual a B tantos turnos como I"
+    ],
+    [
+        "Danza espada",
+        "Tras realizar esta danza guerrera, el Pokémon adquiere una fuerza sobrenatural. Durante tantos turnos como I, el Pokémon adquiere un bonificador a su Ataque igual a I.",
+        "Estado",
+        "Normal",
+        "-",
+        "0",
+        "3",
+        "Bonifica Ataque igual a I tantos turnos como I"
+    ],
+    [
+        "Danza lluvia",
+        "De formas muy diversas, un Pokémon puede canalizar su energía para crear un aguacero sobre el campo de batalla. Esta lluvia torrencial se mantendrá durante tantos turnos como A excepto si es usado en interiores, donde durará tantos turnos como B.",
+        "Estado",
+        "Agua",
+        "-",
+        "0",
+        "6",
+        "Genera una lluvia que dura tantos turnos como A"
+    ],
+    [
+        "Danza pétalo",
+        "Este ataque se ejecuta realizando un baile en el que el Pokémon gira sobre sí mismo a gran velocidad y lanza pétalos que dañan al rival. Si en la primera prueba de pokédados la suma es de 10 o menos, Danza pétalo se realizará obligatoriamente una segunda vez en el siguiente asalto, mientras que si se obtiene 11 o más, se ejecutará una tercera vez. Al terminar este baile, el Pokémon estará desorientado y adquirirá el estado confuso tantos turnos como el resultado de B del último ataque.",
+        "Especial",
+        "Planta",
+        "6A+I",
+        "3",
+        "5",
+        "Ataca 2 o 3 turnos y causa confusión al usuario"
+    ],
+    [
+        "Danza pluma",
+        "El Pokémon se deshace de algunas de sus plumas y las dirige hacia el rival para que dificulten sus movimientos y lo agoten físicamente. Durante tantos turnos como I, el objetivo obtiene un penalizador a su Ataque igual a I.",
+        "Estado",
+        "Volador",
+        "-",
+        "3",
+        "3",
+        "Penaliza el Ataque igual a I tantos turnos como I"
+    ],
+    [
+        "Defensa férrea",
+        "El cuerpo del Pokémon se endurece como el mismo hierro, adquiriendo así un bonificador a su Defensa igual a I durante el mismo número de turnos.",
+        "Estado",
+        "Acero",
+        "-",
+        "0",
+        "3",
+        "Aumenta la Defensa igual a I tantos turnos como I"
+    ],
+    [
+        "Demolición",
+        "Igual que las personas que llegan a hacer cosas increíbles a través de las artes marciales, el Pokémon que usa Demolición concentra mucha de su energía en su mano y su golpe no solo provocará daño, sino que destruirá las barreras mágicas que protegían al objetivo. Si el rival estaba bajo los efectos de Reflejo, Pantalla de luz o Velo aurora, estos quedarán eliminados tras sufrir el daño del movimiento.",
+        "Físico",
+        "Lucha",
+        "4A+B",
+        "3",
+        "4",
+        "Elimina efectos de barreras defensivas"
+    ],
+    [
+        "Derribo",
+        "Al ejecutar este movimiento, el Pokémon ataca de una forma tan brusca que su propia integridad se ve afectada. Por esta razón, el usuario pierde tantos PS como BA. Este daño es fijo y el usuario no podrá mitigarlo con sus defensas.",
+        "Físico",
+        "Normal",
+        "5A+B",
+        "8",
+        "3",
+        "El usuario pierde PS igual a BA"
+    ],
+    [
+        "Desarrollo",
+        "Gracias a la clorofila de su organismo, el Pokémon puede adquirir mayor fuerza, aumentando su Ataque y Ataque especial igual a B tantos turnos como I. Si hay un sol imponente en el campo de batalla, este aumento será igual a I.",
+        "Estado",
+        "Normal",
+        "-",
+        "0",
+        "3",
+        "Aumenta el Ataque y el Ata. Especial igual a B tantos turnos como I"
+    ],
+    [
+        "Descanso",
+        "Para curar sus heridas de forma muy eficaz, el Pokémon puede recurrir a este movimiento. Durante tantos turnos como I, el Pokémon recuperará en cada turno tantos PS como 2A+B +1 por nivel. No obstante, el cuerpo del Pokémon necesita ahorrar tantas energías que adquirirá el estado dormido durante todos estos turnos. Al tener que concentrar su energía para sanar sus heridas, el usuario no podrá realizar el movimiento Ronquido.",
+        "Estado",
+        "Normal",
+        "-",
+        "0",
+        "6",
+        "Cura 2A+B +1 por nivel por turno pero adquiere el estado dormido durante"
+    ],
+    [
+        "tantos turnos como I",
+        "Deseo cura El Pokémon concentra sus últimas energías para ofrecerlas a otro ser y, de esta manera, sanar cualquier problema que sufra su cuerpo. El objetivo de Deseo cura sanará todos sus PS, PP y cualquier estado alterado que sufra. Sin embargo, este movimiento deja sin energía al usuario, perdiendo así todos sus PS y cayendo debilitado.",
+        "Estado",
+        "Psíquico",
+        "-",
+        "0",
+        "20",
+        "Sana todos los PS, PP y estados alterados de un aliado, pero cae debilitado"
+    ],
+    [
+        "Deslumbrar",
+        "La mirada del Pokémon emite luces de distintos colores que emboban a quien las mira fijamente, afectando a partes de su cerebro e impidiéndole moverse con normalidad. Durante tantos turnos como I, el objetivo adquirirá el estado paralizado.",
+        "Estado",
+        "Normal",
+        "-",
+        "3",
+        "4",
+        "Paraliza tantos turnos como I"
+    ],
+    [
+        "Destructor",
+        "Se trata de un simple golpe. ¡Quizás su nombre suene demasiado alarmista!",
+        "Físico",
+        "Normal",
+        "2A+B",
+        "3",
+        "1",
+        "-"
+    ],
+    [
+        "Disparo demora",
+        "Con este movimiento característico de los tipo bicho, el Pokémon lanza una seda pegajosa que se enrolla en el cuerpo del rival y dificulta sus movimientos. El objetivo obtiene un penalizador a su Velocidad igual a I durante el mismo número de turnos.",
+        "Estado",
+        "Bicho",
+        "-",
+        "6",
+        "2",
+        "Penaliza la Velocidad igual a I tantos turnos como I"
+    ],
+    [
+        "Día de pago",
+        "Día de pago es un movimiento característico de Meowth. Para atacar utiliza la moneda de su cabeza como proyectil, la cual volverá a él como un bumerán.",
+        "Físico",
+        "Normal",
+        "2A+B",
+        "3",
+        "2",
+        "-"
+    ],
+    [
+        "Día soleado",
+        "Ya sea a través de su cuerpo o proyectándolos en el cielo, el campo de batalla se ve envuelto en potentes rayos de sol. Esta condición se mantendrá durante tantos turnos como A excepto si es usado en interiores, donde durará tantos turnos como B.",
+        "Estado",
+        "Fuego",
+        "-",
+        "0",
+        "6",
+        "Genera potentes rayos de sol que duran tantos turnos como A"
+    ],
+    [
+        "Doble equipo",
+        "Este movimiento crea la falsa ilusión de que el Pokémon se clona varias veces, pero solo son ilusiones. No obstante, quien quiera atacar deberá decidirse por una de ellas. A efectos del juego, el usuario gana un bonificador a su Evasión igual a B durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "0",
+        "4",
+        "Bonifica la Evasión igual a B tantos turnos como I"
+    ],
+    [
+        "Doble filo",
+        "El Pokémon ejecuta un placaje tras cargar su cuerpo con mucha energía. Este golpe daña también el cuerpo del usuario, perdiendo así tantos PS como 2A+B. Este daño es fijo y no puede reducirse con sus defensas.",
+        "Físico",
+        "Normal",
+        "6A+I",
+        "3",
+        "4",
+        "El usuario pierde PS igual a 2A+B"
+    ],
+    [
+        "Doble golpe",
+        "¿Por qué golpear con una extremidad cuando puedes hacerlo con dos a la vez? Esta es la filosofía del Pokémon que aprende este movimiento. En un mismo turno, el Pokémon realizará dos ataques en los que se calculará la precisión y el daño por separado.",
+        "Físico",
+        "Normal",
+        "2A",
+        "7",
+        "5",
+        "Ataca 2 veces en el mismo turno"
+    ],
+    [
+        "Doble patada",
+        "Este ataque digno de un artista marcial o de un fuerte cuadrúpedo hace que el Pokémon golpee propinando una patada con cada una de sus piernas. Se ejecutarán dos ataques en el mismo turno, haciendo su propio cálculo de precisión y daño para cada uno.",
+        "Físico",
+        "Lucha",
+        "IA",
+        "3",
+        "2",
+        "Ataca 2 veces en el mismo turno"
+    ],
+    [
+        "Dragoaliento",
+        "Este movimiento consiste en lanzar un rayo de la energía ancestral de los dragones. Si el usuario obtiene un doble 3, el objetivo quedará paralizado durante tantos turnos como B.",
+        "Especial",
+        "Dragón",
+        "3A+B",
+        "3",
+        "3",
+        "Con D3 paraliza tantos turnos como B"
+    ],
+    [
+        "Drenadoras",
+        "Al expulsar sus pequeñas semillas, el Pokémon infecta a su rival y estas conectan a ambos Pokémon bajo tierra. Al finalizar cada asalto, el Pokémon afectado pierde tantos PS como B, los cuales recuperará el usuario.",
+        "Estado",
+        "Planta",
+        "-",
+        "7",
+        "6",
+        "Absorbe tantos PS como B cada asalto"
+    ],
+    [
+        "Dulce aroma",
+        "Gracias a este movimiento, el Pokémon puede invadir el ambiente de un olor empalagoso que embota los sentidos.Los Pokémon afectados son penalizados en su Evasión tantos puntos como B durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "3",
+        "3",
+        "Reduce la Evasión igual a B tantos turnos como I"
+    ],
+    [
+        "Eco metálico",
+        "Haciendo vibrar con mucha rapidez una parte metálica de su cuerpo, el usuario provoca un sonido que entra con mucha profundidad en los oídos y la mente de los Pokémon cercanos. Durante tantos turnos como I, los Pokémon afectados tendrán un penalizador a su Defensa especial igual a I.",
+        "Estado",
+        "Acero",
+        "-",
+        "8",
+        "2",
+        "Penaliza la Def. Especial igual a I tantos turnos como I"
+    ],
+    [
+        "Electrocañón",
+        "Cuando usa Electrocañón, el Pokémon libera una gran cantidad de energía eléctrica en forma de rayo, lo cual equipara su peligrosidad con la dificultad de apuntar bien. Si acierta, siempre paralizará al objetivo durante tantos turnos como B.",
+        "Especial",
+        "Eléctrico",
+        "6A+I",
+        "11",
+        "5",
+        "Paraliza tantos turnos como B"
+    ],
+    [
+        "Enfado",
+        "El Pokémon cede a uno de los sentimientos más destructivos: la ira. De esta forma, el usuario comienza a atacar sin poder parar durante tantos turnos como el resultado de I en la primera prueba (sin contar el primer ataque). Una vez termina esta vorágine de brutales golpes, el Pokémon puede tardar en volver en sí mismo. Por ello, el último resultado de I dictará los turnos en los que el Pokémon sufrirá el estado confuso una vez los ataques hayan terminado.",
+        "Físico",
+        "Dragón",
+        "6A+I",
+        "3",
+        "5",
+        "Ataca tantos turnos como I y después adquiere confusión tantos turnos como I"
+    ],
+    [
+        "Enrosque",
+        "Cuando utiliza Enrosque, el Pokémon atornilla su cuerpo sobre sí mismo y adopta una postura de combate que, dada sus características físicas, lo convierte en un gran peligro. Durante tantos turnos como I, el Pokémon adquiere un bonificador a Ataque, Defensa y Precisión igual a B.",
+        "Estado",
+        "Veneno",
+        "-",
+        "0",
+        "3",
+        "Bonifica Ataque, Defensa y Precisión igual a B tantos turnos como I"
+    ],
+    [
+        "Envite ígneo",
+        "El Pokémon hace que su cuerpo se envuelva en fuego y realiza un placaje con toda su fuerza. Si obtiene un doble 6, el objetivo adquirirá el estado quemado y perderá 1 PS al final de cada turno durante tantos turnos como B. Además, el impacto será tan fuerte que el propio usuario perderá 2A+B. Este daño será fijo y no podrá reducirse con defensas.",
+        "Físico",
+        "Fuego",
+        "6A+I",
+        "3",
+        "4",
+        "Con D6 quema 1 tantos turnos como B y el usuario pierde PS igual a 2A+B"
+    ],
+    [
+        "Espora",
+        "La dispersión de esporas al ejecutar este movimiento es mucho más agresiva que en otros de similares características. Al inhalarlas, los Pokémon afectados adquieren el estado dormido durante tantos turnos como I.",
+        "Estado",
+        "Planta",
+        "-",
+        "3",
+        "5",
+        "Duerme tantos turnos como I"
+    ],
+    [
+        "Explosión",
+        "Este movimiento se trata de una forma mejorada y más poderosa de Autodestrucción, a través de la cual convierte toda su energía y vitalidad en un tremendo reventón que puede causar una verdadera catástrofe. Sin embargo, el cuerpo del Pokémon usuario acaba totalmente destrozado y caerá debilitado instantáneamente sin reserva de PS.",
+        "Físico",
+        "Normal",
+        "12A",
+        "3",
+        "20",
+        "Tras ejecutar el movimiento, el usuario se debilita"
+    ],
+    [
+        "Físura",
+        "Sin duda, este es el movimiento potencialmente más peligroso catalogado del tipo tierra, ya que el Pokémon consigue agrietar el suelo para atrapar al rival y acabar el combate con un solo movimiento. Aunque la precisión inicial es 14, esta se reducirá en 1 por cada 10 niveles que posea por encima del objetivo.",
+        "Físico",
+        "Tierra",
+        "-",
+        "14",
+        "9",
+        "El golpe es fulminante y reduce los PS del objetivo a 0"
+    ],
+    [
+        "Foco energía",
+        "Las herramientas que utiliza el Pokémon para dañar, así como su propia percepción, se hacen muy afiladas y con más potencial del que tienen realmente. Esto hace que todo movimiento de ataque en el que se obtenga un doble 4 se considerará un golpe crítico de la misma forma que si obtuviese un triple resultado.",
+        "Estado",
+        "Normal",
+        "-",
+        "0",
+        "3",
+        "El resultado D4 será golpe crítico tantos turnos como I"
+    ],
+    [
+        "Foco resplandor",
+        "Este rayo de luz es creado a través de la concentración de metales. Si impacta en su objetivo y obtiene un doble 6, además del daño aplicará un penalizador a su Defensa especial igual a B durante el mismo número de turnos.",
+        "Especial",
+        "Acero",
+        "4A+I",
+        "3",
+        "5",
+        "Con D6 penaliza la Def. Especial igual a B tantos turnos como B"
+    ],
+    [
+        "Fortaleza",
+        "A través de este sencillo movimiento, el Pokémon consigue que su cuerpo sea más duro durante unos momentos. De esta manera, adquiere un bonificador a su Defensa igual a B durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "0",
+        "1",
+        "Bonifica la Defensa igual a B tantos turnos como I"
+    ],
+    [
+        "Frío polar",
+        "Al ejecutar Frío polar, el Pokémon concentra una energía tan helada alrededor del objetivo que llega a la temperatura del cero absoluto. Si el movimiento es exitoso, el rival perderá toda su reserva de PS y caerá debilitado. Inicialmente, la precisión de este movimiento es de 14, pero se reducirá en 1 por cada 10 niveles que el usuario tenga por encima del objetivo.",
+        "Especial",
+        "Hielo",
+        "-",
+        "14",
+        "10",
+        "El golpe es fulminante y reduce los PS del objetivo a 0"
+    ],
+    [
+        "Fuego fatuo",
+        "Esta llama azulada afecta al cuerpo del objetivo generando quemaduras duraderas. Durante tantos turnos como I, el rival adquirirá el estado quemado y perderá tantos PS como B al final de cada turno.",
+        "Estado",
+        "Fuego",
+        "-",
+        "8",
+        "4",
+        "Quema al objetivo igual a B durante tantos turnos como I"
+    ],
+    [
+        "Fuerza bruta",
+        "El Pokémon que utiliza este movimiento saca a relucir su fuerza más salvaje, pudiendo realizar verdaderas proezas físicas e infligiendo un gran daño al rival. Sin embargo, este descontrol es tal que, durante tantos turnos como B, el usuario verá penalizado tanto su Ataque como su Defensa igual a B.",
+        "Físico",
+        "Lucha",
+        "6A+I",
+        "3",
+        "6",
+        "El usuario penaliza su Ataque y Defensa igual a B tantos turnos como B"
+    ],
+    [
+        "Fuerza lunar",
+        "Con este movimiento, el Pokémon concentra la energía de la luna en una esfera que lanza contra su rival. Si obtiene un doble 3, el objetivo adquirirá un penalizador a su Ataque especial igual a B durante tantos turnos como B.",
+        "Especial",
+        "Hada",
+        "5A+I",
+        "3",
+        "4",
+        "Con D3 reduce el Ata. Especial igual a B tantos turnos como B"
+    ],
+    [
+        "Garra dragón",
+        "Las garras del Pokémon adquieren un tono aguamarina y ataca con la fuerza de un dragón.",
+        "Físico",
+        "Dragón",
+        "4A+I",
+        "3",
+        "4",
+        "-"
+    ],
+    [
+        "Garra metal",
+        "Al endurecer con metal sus garras, el Pokémon no solo ataca con más fuerza, sino que si obtiene un doble 6, esta cristalización se mantiene tantos turnos como B y ofrece un bonificador a su Ataque igual a B.",
+        "Físico",
+        "Acero",
+        "2A+I",
+        "6",
+        "2",
+        "Con D6 bonifica el Ataque igual a B tantos turnos como B"
+    ],
+    [
+        "Gas venenoso",
+        "El Pokémon expulsa un gas cargado de veneno, el cual puede ser peligroso para quien lo inhale. Los Pokémon afectados adquirirán el estado envenenado y perderán tantos PS como B al final de su turno durante tantos turnos como I.",
+        "Estado",
+        "Veneno",
+        "-",
+        "7",
+        "2",
+        "Envenena igual a B tantos turnos como I"
+    ],
+    [
+        "Gigadrenado",
+        "Si de movimientos del tipo planta hablamos, este es uno de los más peligrosos. Gracias a unas raíces de energía que genera el Pokémon, el objetivo queda atrapado y pierde gran parte de su vitalidad en un instante. Además de esto, el usuario absorbe tantos PS como la mitad del daño infligido redondeado a la baja.",
+        "Especial",
+        "Planta",
+        "4A+B",
+        "3",
+        "5",
+        "El usuario recupera tantos PS como la mitad del daño"
+    ],
+    [
+        "Gigaimpacto",
+        "Cuando ejecuta este temible ataque, el Pokémon arremete con muchísima energía, pudiendo enviar a su rival a muchos metros de distancia. No obstante, Gigaimpacto requerirá que su usuario recupere el aliento tras realizarlo, por lo que en su siguiente asalto verá penalizado su Impulso tantos puntos como I.",
+        "Físico",
+        "Normal",
+        "8A",
+        "7",
+        "6",
+        "El usuario penaliza su Impulso igual a I en el siguiente asalto"
+    ],
+    [
+        "Giro fuego",
+        "Con este movimiento, el Pokémon lanza un chorro de fuego de baja intensidad pero de gran duración que danza alrededor del Pokémon objetivo. Durante tantos turnos como I, el movimiento se mantendrá e infligirá un daño igual a B. El Pokémon afectado podrá moverse con normalidad.",
+        "Especial",
+        "Fuego",
+        "2A",
+        "8",
+        "4",
+        "Daño adicional igual a B tantos turnos como I"
+    ],
+    [
+        "Giro rápido",
+        "El Pokémon gira sobre sí mismo a gran velocidad y se lanza contra el oponente. Gracias a este giro, su Velocidad aumentará tanto como B durante el mismo número de turnos. Además, si se viera afectado por movimientos como Atadura, Constricción, Drenadoras, Giro fuego o Torbellino, estos se disiparán y dejarán de tener efecto.",
+        "Físico",
+        "Normal",
+        "2A+I",
+        "3",
+        "2",
+        "Aumenta la Velocidad igual a B tantos turnos como B y libera de movimientos"
+    ],
+    [
+        "Giro vil",
+        "Aunque puede confundirse con un movimiento de artes marciales, lo cierto es que el usuario toma al rival de forma violenta y lo lanza contra el suelo tras voltearlo en el aire... ¡sin cuidado ni técnica alguna!",
+        "Físico",
+        "Siniestro",
+        "3A+B",
+        "3",
+        "3",
+        "-"
+    ],
+    [
+        "Golpe",
+        "Dejarse llevar puede ser demoledor para el rival, pero también tiene sus consecuencias. El Pokémon repetirá Golpe tantos turnos como el resultado I de la primera prueba (además del primer ataque). Al perder el control y dedicarse a golpear sin mesura, no podrá parar de atacar, pudiendo incluso atacar a aliados si sus enemigos ya han sido derrotados. Este movimiento es tan frenético que, cuando haga su última prueba, deberá tener en cuenta el resultado de I, ya que será el número de turnos en los que sufrirá el estado confuso.",
+        "Físico",
+        "Normal",
+        "6A+I",
+        "3",
+        "5",
+        "Ataca tantos turnos como I y después adquiere confusión tantos turnos como I"
+    ],
+    [
+        "Golpe aéreo",
+        "Este ataque se ejecuta desde el aire, cayendo en picado hacia el objetivo y cogiéndolo por sorpresa. Golpe aéreo nunca falla con independencia de la Precisión del usuario o la Evasión del rival.",
+        "Físico",
+        "Volador",
+        "3A+B",
+        "0",
+        "3",
+        "El movimiento nunca falla"
+    ],
+    [
+        "Golpe bajo",
+        "Golpe bajo es un ataque a traición que golpea el estómago del adversario o le hace una zancadilla. Esto hace que el usuario tenga una mejor reacción y obtenga un bonificador a su impulso igual a B en su siguiente asalto.",
+        "Físico",
+        "Siniestro",
+        "4A",
+        "3",
+        "6",
+        "Bonifica el Impuslo igual a B en el siguiente asalto"
+    ],
+    [
+        "Golpe cabeza",
+        "Este movimiento es un golpe simple con la particularidad de que el Pokémon ataca con su cabeza. Si obtiene un doble 3 en el resultado de los pokédados, el rival verá reducido su impulso en el siguiente asalto tantos puntos como B.",
+        "Físico",
+        "Normal",
+        "4A",
+        "3",
+        "4",
+        "Con D3 reduce el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Golpe cuerpo",
+        "El Pokémon salta hacia su rival y ataca con todo su cuerpo. Si obtiene un doble 3, el objetivo adquirirá el estado paralizado durante tantos turnos como B.",
+        "Físico",
+        "Normal",
+        "5A",
+        "3",
+        "4",
+        "Con D3 paraliza tantos turnos como B"
+    ],
+    [
+        "Golpes furia",
+        "Utilizando sus garras, el Pokémon lanza varios ataques rápidos. En la primera prueba, el resultado de I determinará cuántos ataques además del primero realizará el usuario en el mismo turno. Cada ataque tiene su propio cálculo de Precisión.",
+        "Físico",
+        "Normal",
+        "A",
+        "8",
+        "3",
+        "Realiza tantos ataques como I en un turno"
+    ],
+    [
+        "Granizo",
+        "El Pokémon invoca una tormenta de granizo que invade el campo de batalla. Todos los Pokémon perderán 5 PS al final de cada turno excepto aquellos que sean de tipo hielo. Este granizo durará tantos turnos como A, pero si se usa en un entorno que no sea al aire libre, su duración será de tantos turnos como B.",
+        "Estado",
+        "Hielo",
+        "-",
+        "",
+        "6",
+        "Genera un granizo que dura tantos turnos como A"
+    ],
+    [
+        "Gruñido",
+        "Al emitir este gruñido, el Pokémon que lo presencia decide ser cauteloso. Durante tantos turnos como I, el Pokémon afectado tendrá un penalizador a su Ataque igual a B.",
+        "Estado",
+        "Normal",
+        "-",
+        "3",
+        "1",
+        "Reduce el Ataque igual a B tantos turnos como I"
+    ],
+    [
+        "Guillotina",
+        "Los Pokémon que poseen pinzas pueden concentrar mucha energía en ellas para convertirlas en armas increíbles. Si consiguen acertar con Guillotina, el rival perderá todos sus PS y caerá debilitado. Aunque la precisión de este movimiento es de 14, se reducirá en 1 por cada 10 niveles que el usuario tenga por encima del objetivo.",
+        "Físico",
+        "Normal",
+        "-",
+        "14",
+        "10",
+        "El golpe es fulminante y reduce los PS del objetivo a 0"
+    ],
+    [
+        "Hidrobomba",
+        "Hidrobomba es uno de los movimientos más devastadores de los Pokémon de tipo agua. Al ejecutarlo, el usuario expulsa un tremendo chorro de agua.",
+        "Especial",
+        "Agua",
+        "6A+B",
+        "8",
+        "6",
+        "-"
+    ],
+    [
+        "Hidropulso",
+        "Esta esfera de agua concentrada impacta con fuerza y desorienta con facilidad al objetivo. Si obtiene doble 5, el objetivo adquirirá el estado confundido durante tantos turnos como B.",
+        "Especial",
+        "Agua",
+        "3A+B",
+        "3",
+        "3",
+        "Con D5 confunde tantos turnos como B"
+    ],
+    [
+        "Hipercolmillo",
+        "Al propinar el mordisco, el Pokémon utiliza las partes más afiladas de sus dientes. Si obtiene doble 3 en la prueba, el objetivo quedará amedrentado y no podrá actuar en su siguiente turno debido a la sorpresa.",
+        "Físico",
+        "Normal",
+        "4A+I",
+        "7",
+        "4",
+        "Con D6 reduce el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Hiperrayo",
+        "El Pokémon canaliza su energía de tal forma que la libera en un potentísimo rayo. Este movimiento, aunque poderoso, también fatiga al Pokémon que lo utiliza, por lo que en el siguiente asalto obtendrá un penalizador a su Impulso igual a I.",
+        "Especial",
+        "Normal",
+        "8A",
+        "7",
+        "6",
+        "El usuario penaliza su Impulso igual a I en el siguiente asalto"
+    ],
+    [
+        "Hipnosis",
+        "Utilizando una técnica hipnótica, un Pokémon puede dormir a otro siempre que consiga que se fije en su señuelo el tiempo suficiente. Si surte efecto, el objetivo adquirirá el estado dormido tantos turnos como I.",
+        "Estado",
+        "Psíquico",
+        "-",
+        "10",
+        "3",
+        "Duerme tantos turnos como I"
+    ],
+    [
+        "Hoja afilada",
+        "El Pokémon lanza sus hojas con tanta fuerza que se vuelven muy cortantes. Si obtiene un doble 5 o más, el ataque se considerará crítico igual que si hubiese obtenido un triple resultado.",
+        "Físico",
+        "Planta",
+        "3A",
+        "6",
+        "3",
+        "Con D5 es un golpe crítico"
+    ],
+    [
+        "Hoja aguda",
+        "Gracias a una extremidad que utiliza a modo de hoja cortante, el Pokémon ataca. Si obtiene un doble 6, el ataque se considerará crítico de la misma manera que si hubiese obtenido un triple resultado.",
+        "Físico",
+        "Planta",
+        "5A+B",
+        "3",
+        "5",
+        "Con D6 es un golpe crítico"
+    ],
+    [
+        "Huesomerang",
+        "La familia evolutiva de Cubone son capaces de utilizar su hueso como si fuera un bumerán, de tal manera que puede golpear al lanzarlo y también a su vuelta. En el mismo turno, el Pokémon atacará dos veces. Cada ataque tendrá su propia prueba y cálculo de daño y precisión. El segundo ataque también se ejecutará aunque el primero falle.",
+        "Físico",
+        "Tierra",
+        "2A+I",
+        "7",
+        "4",
+        "Ataca 2 veces en un mismo turno"
+    ],
+    [
+        "Hueso sombrío",
+        "En su condición de Pokémon fantasmal, los Marowak que provienen de Alola pueden golpear con su hueso tras cargarlo con su energía tenebrosa. Si el usuario obtiene un doble 4, la Defensa del objetivo se verá penalizada igual a B durante tantos turnos como B.",
+        "Físico",
+        "Fantasma",
+        "5A",
+        "3",
+        "5",
+        "Efecto: Con D4 penaliza la Defensa igual a B tantos turnos como B"
+    ],
+    [
+        "Impactrueno",
+        "Convirtiendo su energía en electricidad, el Pokémon puede atacar con una pequeña descarga. Si obtiene un doble 6, el objetivo quedará paralizado durante tantos turnos como B.",
+        "Especial",
+        "Eléctrico",
+        "2A+B",
+        "3",
+        "2",
+        "Con D6 paraliza tantos turnos como B"
+    ],
+    [
+        "Infierno",
+        "Al utilizar este movimiento, el Pokémon lanza una onda de fuego tan descontrolada que le resulta difícil apuntar al objetivo. Si consigue acertar, además del daño siempre causará el estado quemado, infligiendo tantos PS como B al final de cada turno durante tantos turnos como I.",
+        "Especial",
+        "Fuego",
+        "6A",
+        "11",
+        "6",
+        "Quema igual a B tantos turnos como I"
+    ],
+    [
+        "Infortunio",
+        "El Pokémon invoca fuerzas fantasmales que perturban la mente del objetivo y amplifican los posibles daños que sufra en ese momento. Si el rival está sufriendo algún estado alterado (confuso, congelado, dormido, envenenado, paralizado o quemado), el daño será 7A+B.",
+        "Especial",
+        "Fantasma",
+        "3A+I",
+        "3",
+        "5",
+        "Efecto: Si el objetivo sufre un estado alterado, el daño será 7A+B"
+    ],
+    [
+        "Joya de luz",
+        "Gracias a una parte rocosa de su cuerpo o a alguna piedra preciosa, el Pokémon consigue liberar su energía en forma de rayo.",
+        "Especial",
+        "Roca",
+        "4A+I",
+        "3",
+        "3",
+        "-"
+    ],
+    [
+        "Kinético",
+        "Kinético es un movimiento muy especial, ya que solo Kadabra y Alakazam pueden llevarlo a cabo. Por esta razón, se desconoce mucho sobre él, pero sí observamos que utilizan sus cucharas para afectar a la psique del objetivo. Lo que consiguen es imponer un penalizador a la Precisión del rival igual a B durante tantos turnos como I.",
+        "Estado",
+        "Psíquico",
+        "-",
+        "8",
+        "4",
+        "Penaliza la Precisión igual a B tantos turnos como I"
+    ],
+    [
+        "Lanzamugre",
+        "Literalmente, el Pokémon genera o recauda una gran cantidad de basura que amontona y lanza como un tremendo proyectil. Debido a su pestilencia, si obtiene un doble 3 el objetivo adquirirá el estado envenenado y perderá tantos PS como B durante tantos turnos como B.",
+        "Físico",
+        "Veneno",
+        "6A+I",
+        "8",
+        "6",
+        "Con D3 envenena B tantos turnos como B"
+    ],
+    [
+        "Lanzallamas",
+        "Este rayo de fuego se ejecuta de forma rápida y resulta muy peligrosa para el objetivo. Si obtiene un doble 6, el objetivo adquirirá el estado quemado y perderá 1 PS al final de cada turno durante tantos turnos como B.",
+        "Especial",
+        "Fuego",
+        "5A+B",
+        "3",
+        "3",
+        "Con D6 quema 1 tantos turnos como B"
+    ],
+    [
+        "Lanzarrocas",
+        "El Pokémon se deshace de una parte rocosa de su cuerpo para lanzarla contra el objetivo.",
+        "Físico",
+        "Roca",
+        "2A+I",
+        "7",
+        "3",
+        "-"
+    ],
+    [
+        "Latigazo",
+        "Este tremendo golpe utiliza una de las extremidades del Pokémon como un gran látigo.",
+        "Físico",
+        "Planta",
+        "6A+I",
+        "8",
+        "5",
+        "-"
+    ],
+    [
+        "Látigo",
+        "El Pokémon enseña su cola y la mueve de forma graciosa, provocando así que su rival lo subestime y baje la guardia. La Defensa del objetivo disminuye tanto como B durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "3",
+        "1",
+        "Reduce la Defensa igual a B tantos turnos como I"
+    ],
+    [
+        "Látigo cepa",
+        "El Pokémon golpea utilizando lianas o ramas extensibles a modo de látigo.",
+        "Físico",
+        "Planta",
+        "2A+I",
+        "3",
+        "2",
+        "-"
+    ],
+    [
+        "Levitón",
+        "Aprovechándose del magnetismo terrestre y de su propia energía eléctrica, el Pokémon es capaz de hacer un efecto de imán y que su cuerpo se mantenga levitando. Gracias a ello, el usuario será inmune a los ataques de tipo tierra durante tantos turnos como I.",
+        "Estado",
+        "Eléctrico",
+        "-",
+        "",
+        "5",
+        "El usuario es inmune a los ataques de tipo tierra tantos turnos como I"
+    ],
+    [
+        "Llama final",
+        "Algunos Pokémon de tipo fuego adquieren tanto control de su fuego interior que pueden liberarlo casi por completo. Al hacerlo, su cuerpo se convierte en una explosión fulgurante y le permite atacar con muchísima energía. No obstante, durante tantos turnos como A el Pokémon habrá consumido tanto su fuego que, a efectos de combate, se considerará que no posee el tipo fuego. Si no posee otro tipo, no tendrá resistencias ni debilidades ante ningún ataque. Tampoco podrá usar ningún movimiento de tipo fuego mientras perdure este estado.",
+        "Físico",
+        "Fuego",
+        "7A+B",
+        "3",
+        "6",
+        "El usuario pierde el tipo fuego tantos turnos como A"
+    ],
+    [
+        "Llamarada",
+        "Llamarada es uno de los movimientos de fuego más poderosos. Cuando se ejecuta, el Pokémon lanza un gran chorro de fuego que dibuja el símbolo de este elemento e impacta contra el rival. Si obtiene un doble 6, el objetivo adquirirá el estado quemado y perderá 1 PS al final de cada turno durante tantos turnos como B.",
+        "Especial",
+        "Fuego",
+        "6A+B",
+        "8",
+        "6",
+        "Con D6 quema 1 tantos turnos como B"
+    ],
+    [
+        "Lengüetazo",
+        "Al lamiscar al rival, el Pokémon segrega una sustancia dañina que afecta a los músculos del objetivo. Si obtiene un doble 3, el objetivo adquirirá el estado paralizado durante tantos turnos como B.",
+        "Físico",
+        "Fantasma",
+        "IA",
+        "3",
+        "2",
+        "Con D3 paraliza tantos turnos como B"
+    ],
+    [
+        "Luz lunar",
+        "El Pokémon ha aprendido a absorber el poder de los rayos de la luna para convertirlos en energía sanadora. Al ejecutar este movimiento, el Pokémon sana tantos PS como 5A +1 por nivel siempre y cuando se pueda ver la luna desde el campo de batalla. De lo contrario, Luz lunar sanará 2A+I +1 por nivel.",
+        "Estado",
+        "Hada",
+        "-",
+        "",
+        "6",
+        "Sana 5A+1 por nivel"
+    ],
+    [
+        "Malicioso",
+        "A causa de la escalofriante mirada que lanza el Pokémon a su rival, éste obtiene un penalizador a su Defensa igual a B durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "3",
+        "1",
+        "Penaliza Defensa igual a B tantos turnos como I"
+    ],
+    [
+        "Maquinación",
+        "El Pokémon analiza la situación y prevé lo que pueda ocurrir para poder pensar menos y concentrar su energía en los siguientes turnos. Maquinación bonificará el Ataque especial del usuario igual a I durante el mismo número de turnos.",
+        "Estado",
+        "Siniestro",
+        "-",
+        "",
+        "4",
+        "Bonifica el Ataque especial igual a I tantos turnos como I"
+    ],
+    [
+        "Martillazo",
+        "Envolviendo su pinza en un gran manto de agua, el Pokémon ataca desde arriba y golpea como si de un martillazo se tratase. Si obtiene un doble 6, el golpe será tan fuerte que se considerará un golpe crítico de la misma forma que si hubiese obtenido un triple resultado.",
+        "Físico",
+        "Agua",
+        "6A",
+        "7",
+        "5",
+        "Con D6 será un golpe crítico"
+    ],
+    [
+        "Martillo dragón",
+        "Los Exeggutor de Alola demuestran su alma de dragón a través de este movimiento, con el cual golpean el suelo con su cabeza y arrasan con lo que se interponga en su camino.",
+        "Físico",
+        "Dragón",
+        "5A+B",
+        "3",
+        "4",
+        "-"
+    ],
+    [
+        "Mazazo",
+        "A costa de su propia salud, el usuario convierte una de sus extremidades en una maza de energía natural con la que ataca. Este golpe daña también el cuerpo del usuario, perdiendo así tantos PS como 2A+B. Este daño es fijo y no puede reducirse con sus defensas.",
+        "Físico",
+        "Planta",
+        "6A+I",
+        "3",
+        "4",
+        "El usuario pierde PS igual a 2A+B"
+    ],
+    [
+        "Megaagotar",
+        "A través de un rayo verde de energía natural, el usuario absorbe la vitalidad de su objetivo y recupera parte de ella. Gracias a esto, el Pokémon recupera tantos PS como la mitad del daño infligido redondeado a la baja.",
+        "Especial",
+        "Planta",
+        "2A+B",
+        "3",
+        "4",
+        "El usuario recupera tantos PS como la mitad del daño"
+    ],
+    [
+        "Megacuerno",
+        "Al concentrar mucha energía en su cuerno, el Pokémon no presta la atención necesaria al ejecutarlo y a menudo suele fallar. No obstante, el movimiento puede ser letal si alcanza su objetivo.",
+        "Físico",
+        "Bicho",
+        "6A+I",
+        "8",
+        "5",
+        "-"
+    ],
+    [
+        "Megapatada",
+        "Utilizando este movimiento, el Pokémon pone toda la carne en el asador para golpear con una tremenda patada.",
+        "Físico",
+        "Normal",
+        "6A+I",
+        "9",
+        "6",
+        "-"
+    ],
+    [
+        "Megapuño",
+        "Aunque parezca un movimiento sencillo, este puñetazo requiere de una buena concentración. Si acierta, puede infligir una gran cantidad de daño.",
+        "Físico",
+        "Normal",
+        "4A+I",
+        "8",
+        "3",
+        "-"
+    ],
+    [
+        "Mimético",
+        "El Pokémon conoce la técnica de copiar los movimientos del rival, incluso aquellos que no podría ejecutar de forma normal. Para copiar un movimiento, primero debe haber visto cómo el objetivo lo realiza. Puede mantener la capacidad de usar el movimiento gastando 4 PP al final de cada turno.",
+        "Estado",
+        "Normal",
+        "-",
+        "",
+        "4",
+        "Copia uno de los movimientos del objetivo"
+    ],
+    [
+        "Moluscañón",
+        "Los Slowbro de Galar cuentan con una herramienta muy útil para ejecutar sus ataques, que es su brazo venenoso. Cuando ejecutan este ataque, pueden decidir golpear con él o lanzar a distancia un chorro de puro veneno. De esta forma, cuando la PJ realiza el ataque puede decidir cómo hacerlo, siendo un ataque físico en el primer caso y un ataque especial en el segundo. Además de esto, si obtiene un doble 5 el objetivo adquirirá el estado envenenado y perderá tantos PS como B al final de su turno durante tantos turnos como B.",
+        "",
+        "Veneno",
+        "5A+B",
+        "3",
+        "5",
+        "Con D5 envenena igual a B tantos turnos como B. Además, el usuario decide si"
+    ],
+    [
+        "será un ataque físico o especial",
+        "Mordisco Como su nombre indica, con este movimiento el Pokémon propina un mordisco. Esto puede ser tan molesto que, si obtiene un doble 3, el rival no podrá hacer nada en su siguiente turno.",
+        "Físico",
+        "Siniestro",
+        "3A+B",
+        "3",
+        "2",
+        "Con D3 reduce el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Niebla",
+        "La neblina que expulsa el usuario tiene efectos relajantes que afectan al cuerpo de los Pokémon. De esta forma, todas sus características (Ataque, Defensa, Ataque especial, Defensa especial, Velocidad, Precisión y Evasión) vuelven a su estado original, tanto si están bonificadas como penalizadas. Además, durante tantos turnos como I ningún Pokémon podrá modificar estas características.",
+        "Estado",
+        "Hielo",
+        "-",
+        "",
+        "2",
+        "Restaura las características de todos los Pokémon tantos turnos como I"
+    ],
+    [
+        "Nieve polvo",
+        "El Pokémon expulsa un chorro con una fina capa de nieve que se clava en el cuerpo del rival, pudiendo congelarlo. Si obtiene un doble 6, el objetivo adquiere el estado congelado durante tantos turnos como B.",
+        "Especial",
+        "Hielo",
+        "2A+B",
+        "3",
+        "2",
+        "Con D6 congela tantos turnos como B"
+    ],
+    [
+        "Onda ígnea",
+        "Como si se tratase de un pulso vital, el Pokémon extiende una onda de fuego a su alrededor que se irá apagando al alejarse del usuario. Si obtiene un doble 6, cualquier Pokémon afectado adquirirá el estado quemado y perderá 1 PS al final de cada turno durante tantos turnos como B.",
+        "Especial",
+        "Fuego",
+        "5A+I",
+        "7",
+        "5",
+        "Con D6 quema 1 tantos turnos como B"
+    ],
+    [
+        "Onda mental",
+        "Este movimiento solo puede usarlo Mewtwo, ya que sus poderes psíquicos son los únicos capaces de controlar su ejecución. Con Onda mental, el Pokémon concentra su energía en una bola de energía que lanza contra el rival, haciéndole creer que impacta en su cuerpo cuando es su mente la que se está dañando. Por ello, el daño de este ataque se reducirá con Defensa y no Defensa especial a pesar de tratarse de un ataque especial. Las protecciones que reduzcan el daño de los ataques especiales seguirán siendo efectivas.",
+        "Especial",
+        "Psíquico",
+        "6A",
+        "3",
+        "5",
+        "El daño se reduce con Defensa"
+    ],
+    [
+        "Onda tóxica",
+        "El veneno que genera el Pokémon se expande en forma de ola en todas las direcciones. Si obtiene un doble 6 en la prueba, cualquier Pokémon afectado adquirirá el estado envenenado y perderá tantos PS como B al final de cada turno durante tantos turnos como B.",
+        "Especial",
+        "Veneno",
+        "5A+I",
+        "3",
+        "5",
+        "Con D6 envenena igual a B tantos turnos como B"
+    ],
+    [
+        "Onda trueno",
+        "Esta leve descarga eléctrica no pretende dañar, sino atrofiar los músculos. Por ello, el Pokémon afectado adquiere el estado paralizado durante tantos turnos como I.",
+        "Estado",
+        "Eléctrico",
+        "-",
+        "7",
+        "3",
+        "Paraliza tantos turnos como I"
+    ],
+    [
+        "Pájaro osado",
+        "Algunos Pokémon capaces de volar se alzan a gran altura y se lanzan para placar al rival con toda su fuerza. Aunque fuerte, este movimiento es arriesgado y el usuario perderá tantos PS como 2A+B. Este daño es fijo y no puede reducirse con sus defensas.",
+        "Físico",
+        "Volador",
+        "6A+I",
+        "3",
+        "4",
+        "El usuario pierde tantos PS como 2A+B"
+    ],
+    [
+        "Pantalla de humo",
+        "Ya sea con polución o con humo generado con fuego, el Pokémon tiene la capacidad de expulsar una nube que dificulta la visión. Los Pokémon afectados obtienen una penalizador a la Precisión igual a B durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "3",
+        "3",
+        "Baja la Precisión tanto como B durante tantos turnos como I"
+    ],
+    [
+        "Pantalla de luz",
+        "Esta barrera psíquica invisible envuelve tanto al usuario como a sus aliados, doblando así su Defensa especial. Pantalla de luz se mantendrá activo tantos turnos como I.",
+        "Estado",
+        "Psíquico",
+        "-",
+        "",
+        "6",
+        "Multiplica la Def. Especial del usuario por 2 tantos turnos como I"
+    ],
+    [
+        "Paralizador",
+        "Al respirar las esporas que lanza el Pokémon, sus objetivos notarán que su cuerpo no les responde. Durante tantos turnos como I adquirirán el estado paralizado. Este movimiento no afecta a los Pokémon de tipo planta.",
+        "Estado",
+        "Planta",
+        "-",
+        "9",
+        "4",
+        "Causa paralización tantos turnos como I"
+    ],
+    [
+        "Paranormal",
+        "Paranormal se trata de un ataque extrasensorial que daña la psique del objetivo. Además, la experiencia de vivir este ataque puede ser tal que, si el usuario obtiene un doble 6, el rival no podrá ejecutar ningún movimiento en su siguiente turno.",
+        "Especial",
+        "Psíquico",
+        "4A+I",
+        "3",
+        "3",
+        "Con D6 reduce el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Patada baja",
+        "Con este movimiento de artes marciales, el Pokémon ataca el tren inferior para hacer que el verdadero golpe sea la caída del rival al suelo. Por esta razón, el daño dependerá del peso promedio del objetivo, siendo 2A+B hasta 25 kilos, 4A+I hasta 100 kilos y 6A+I si su peso es superior.",
+        "Físico",
+        "Lucha",
+        "Variable",
+        "3",
+        "3",
+        "El daño depende del peso del Pokémon objetivo"
+    ],
+    [
+        "Patada salto alta",
+        "El Pokémon realiza un gran salto y desciende para propinar una patada a su rival. Aunque se trate de un golpe muy fuerte, puede suponer un riesgo para el usuario si el objetivo consigue esquivarlo. En este caso, el Pokémon que realice Patada salto alta perderá tantos PS como 3A+I. Este daño no se verá bonificado por su característica de Ataque, pero tampoco podrá ser reducido por sus defensas.",
+        "Físico",
+        "Lucha",
+        "7A+B",
+        "7",
+        "5",
+        "Si el movimiento falla, el usuario pierde tantos PS como 3A+I"
+    ],
+    [
+        "Paz mental",
+        "A través de técnicas de meditación, el usuario calma rápidamente su mente y aumenta así sus capacidades especiales. Durante tantos turnos como I, el Pokémon adquirirá un bonificador a su Ataque especial y Defensa especial igual a B.",
+        "Estado",
+        "Psíquico",
+        "-",
+        "",
+        "4",
+        "Bonifica el Ata. Especial y la Def. Especial igual a B tantos turnos como I"
+    ],
+    [
+        "Pedrada",
+        "Con este movimiento, el Pokémon genera piedras de su propio cuerpo y lanza una tras otra a su objetivo. En la primera prueba, el resultado de I determinará cuántos ataques además del primero realizará el usuario en el mismo turno. Cada ataque tiene su propio cálculo de Precisión.",
+        "Físico",
+        "Roca",
+        "BA",
+        "7",
+        "5",
+        "Realiza tantos ataques como I en un turno"
+    ],
+    [
+        "Perforador",
+        "El cuerno del Pokémon empieza a girar tan rápido que su potencia de ataque llega a niveles extraordinarios. Si el objetivo es alcanzado por este cuerno, perderá todos sus PS de forma instantánea y caerá debilitado. Aunque la precisión de este movimiento es de 14, esta se reducirá en 1 por cada 10 niveles que el usuario tenga por encima del objetivo.",
+        "Físico",
+        "Normal",
+        "-",
+        "14",
+        "10",
+        "El golpe es fulminante y reduce los PS del objetivo a 0"
+    ],
+    [
+        "Picadura",
+        "El Pokémon, a menudo con rasgos de insecto, propina una fuerte mordedura.",
+        "Físico",
+        "Bicho",
+        "3A+B",
+        "3",
+        "3",
+        "-"
+    ],
+    [
+        "Pico taladro",
+        "El Pokémon canaliza su energía en su pico, haciendo que este parezca girar como un taladro y provocando un gran daño a su rival.",
+        "Físico",
+        "Volador",
+        "4A+I",
+        "3",
+        "3",
+        "-"
+    ],
+    [
+        "Picotazo",
+        "En este ataque, el Pokémon emplea su pico u otra parte punzante de su cuerpo.",
+        "Físico",
+        "Volador",
+        "2A",
+        "3",
+        "1",
+        "-"
+    ],
+    [
+        "Picotazo veneno",
+        "Utilizando una extremidad punzante o lanzando agujas envenenadas, el Pokémon ataca a su objetivo. Si obtiene un doble 3, el rival adquirirá el estado envenenado y perderá tantos PS como B al final de su turno durante tantos turnos como B.",
+        "Físico",
+        "Veneno",
+        "I",
+        "3",
+        "1",
+        "Con D3 envenena igual a B tantos turnos como B"
+    ],
+    [
+        "Pin misil",
+        "El Pokémon genera agujas de energía que lanza en varias tandas y se acercan al objetivo como si de misiles se tratasen. En la primera prueba se calculará el primer ataque y, en caso de acertar, el resultado de I dictará cuántas veces más atacará. Cada ataque tiene su propia precisión, pero el Pokémon no parará de atacar aunque falle algún ataque a partir del segundo.",
+        "Físico",
+        "Bicho",
+        "BA",
+        "6",
+        "3",
+        "Realiza tantos ataques como I en un mismo turno"
+    ],
+    [
+        "Pisotón",
+        "Se trata de un sencillo pero potente ataque en el que el Pokémon aplasta a su rival con sus pies o patas.",
+        "Físico",
+        "Normal",
+        "3A+I",
+        "3",
+        "3",
+        "-"
+    ],
+    [
+        "Pistola agua",
+        "Se trata de un chorro de agua a presión que impacta en el objetivo.",
+        "Especial",
+        "Agua",
+        "2A+B",
+        "3",
+        "2",
+        "-"
+    ],
+    [
+        "Placaje",
+        "Con este movimiento básico, el Pokémon aplaca a su rival tras una pequeña carrera.",
+        "Físico",
+        "Normal",
+        "2A+B",
+        "3",
+        "1",
+        "-"
+    ],
+    [
+        "Polución",
+        "El gas que el Pokémon exhala recuerda a la contaminación de las grandes urbes, siendo dañino para los Pokémon afectados. Además, es tan venenoso que si obtiene un doble 2 en la prueba, los rivales adquirirán el estado envenenado y perderán tantos PS como B al final de su turno durante el mismo número de turnos.",
+        "Especial",
+        "Veneno",
+        "IA",
+        "9",
+        "3",
+        "Con D2 envenena igual a B tantos turnos como B"
+    ],
+    [
+        "Polvo veneno",
+        "El Pokémon expulsa un chorro de polvo venenoso. Todo Pokémon que se vea afectado adquirirá el estado envenenado, el cual le restará tantos PS como B al final de su turno durante tantos turnos como I. Este movimiento no afecta a los Pokémon de tipo planta.",
+        "Estado",
+        "Veneno",
+        "-",
+        "9",
+        "2",
+        "Envenena igual a B tantos turnos como I"
+    ],
+    [
+        "Psicocarga",
+        "El poder psíquico puede hacer cosas extraordinarias, tantas como confundir a la mente hasta el punto de pensar que un ataque podría estar atacando a la voluntad cuando realmente lo hace al cuerpo. Aunque este ataque sea de categoría especial y el usuario utilice su Ataque especial para bonificar el daño, el objetivo lo reducirá con su característica Defensa y no con Defensa especial, como haría habitualmente.",
+        "Especial",
+        "Psíquico",
+        "4A+I",
+        "3",
+        "5",
+        "El daño se reduce con Defensa"
+    ],
+    [
+        "Psicocorte",
+        "Los pequeños rayos de poder psíquico que lanza el Pokémon están tan concentrados que, al contacto con el cuerpo, son iguales que cuchillos afilados. Si obtiene un doble 6 en la prueba, el ataque se considerará crítico de la misma forma que si hubiese obtenido un triple resultado.",
+        "Físico",
+        "Psíquico",
+        "4A",
+        "3",
+        "3",
+        "Con D6 será un golpe crítico"
+    ],
+    [
+        "Psicorrayo",
+        "Concentrando el poder de su mente, el usuario consigue materializar energía que lanza en forma de rayo. Si obtiene un doble 6, el objetivo adquirirá el estado confuso durante tantos turnos como B.",
+        "Especial",
+        "Psíquico",
+        "3A+I",
+        "3",
+        "3",
+        "Con D6 confunde tantos turnos como B"
+    ],
+    [
+        "Psíquico",
+        "Esta es una de las mayores muestras del poder mental de un Pokémon, pudiendo elevar a su rival en el aire y atacar su mente usando sus poderes psíquicos. Si obtiene un doble 6, la Defensa especial del objetivo se verá penalizada tanto como B durante el mismo número de turnos.",
+        "Especial",
+        "Psíquico",
+        "5A+B",
+        "3",
+        "5",
+        "Con D6 penaliza la Def. Especial igual a B tantos turnos como B"
+    ],
+    [
+        "Pulimento",
+        "Utilizando su propia energía, el Pokémon hace que sus partes rocosas se pulan de tal forma que su cuerpo adquiera más velocidad. Durante tantos turnos como I, el Pokémon bonificará su Velocidad igual a I.",
+        "Estado",
+        "Roca",
+        "-",
+        "",
+        "4",
+        "Bonifica la Velocidad igual a I tantos turnos como I"
+    ],
+    [
+        "Pulso cura",
+        "El Pokémon genera una onda desde su propio cuerpo que sanará las heridas de aquellos Pokémon cercanos que entren en contacto con ella. Pulso cura sana tantos PS como 5A + 1 por nivel del Pokémon usuario. Este movimiento no puede sanar al Pokémon que lo utiliza.",
+        "Estado",
+        "Psíquico",
+        "-",
+        "",
+        "6",
+        "Sana 5A +1 por nivel a otro Pokémon"
+    ],
+    [
+        "Pulso dragón",
+        "La energía que expulsa el Pokémon en forma de rayo atrapa y golpea al rival como si de un dragón se tratase.",
+        "Especial",
+        "Dragón",
+        "4A+I",
+        "3",
+        "5",
+        "-"
+    ],
+    [
+        "Pulso umbrío",
+        "Este rayo se genera a través de energía oscura, haciendo daño y dejando una extraña sensación en el cuerpo del objetivo. Gracias a ello, si el usuario obtiene un doble 4 hará que el rival se amedrente y no pueda realizar ningún movimiento en su siguiente turno.",
+        "Especial",
+        "Siniestro",
+        "6A",
+        "3",
+        "4",
+        "Con D4 reduce el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Puntapié",
+        "Con este movimiento, el Pokémon ejecuta un golpe seco con su pie para, además de hacer daño, provocar un dolor que dificulte el movimiento. Gracias a ello, el objetivo obtiene un penalizador a su Velocidad igual a B durante tantos turnos como B.",
+        "Físico",
+        "Lucha",
+        "3A+I",
+        "3",
+        "3",
+        "Penaliza la Velocidad igual a B tantos turnos como B"
+    ],
+    [
+        "Puño dinámico",
+        "Este ataque de artes marciales se trata de un puñetazo de difícil ejecución, ya que requiere de tanta energía concentrada que el Pokémon no puede fijar su vista con normalidad. No obstante, si logra acertar a su objetivo, este no solo sufrirá un gran daño, sino que adquirirá el estado confuso durante tantos turnos como I.",
+        "Físico",
+        "Lucha",
+        "6A",
+        "11",
+        "5",
+        "Confunde tantos turnos como I"
+    ],
+    [
+        "Puño drenaje",
+        "Gracias a su control del cuerpo, la mente y el alma, el Pokémon puede absorber parte de la vitalidad que escapa de su rival al recibir el puñetazo. Por ello, el usuario recupera tantos PS como la mitad del daño infligido.",
+        "Físico",
+        "Lucha",
+        "4A+B",
+        "3",
+        "5",
+        "El usuario recupera tantos PS como la mitad del daño"
+    ],
+    [
+        "Puño fuego",
+        "El Pokémon es capaz de transformar su energía en una capa de fuego que envuelva y fortalezca su puño. Si obtiene un doble 6, el objetivo adquirirá el estado quemado y perderá 1 PS al final de su turno durante tantos turnos como B.",
+        "Físico",
+        "Fuego",
+        "4A+B",
+        "3",
+        "4",
+        "Con D6 quema 1 tantos turnos como B"
+    ],
+    [
+        "Puño hielo",
+        "La particularidad de este puñetazo es que el Pokémon expulsa una potente ráfaga helada a la vez que ataca. Tal es así que, si obtiene un doble 6 en la prueba, el objetivo adquirirá el estado congelado durante tantos turnos como B.",
+        "Físico",
+        "Fuego",
+        "4A+B",
+        "3",
+        "4",
+        "Con D6 congela tantos turnos como B"
+    ],
+    [
+        "Puño trueno",
+        "Para fortalecer su puño antes de golpear, el Pokémon lo envuelve con una fuerte corriente eléctrica. Si obtiene un doble 6, el Pokémon afectado adquirirá el estado paralizado durante tantos turnos como B.",
+        "Físico",
+        "Eléctrico",
+        "4A+B",
+        "3",
+        "4",
+        "Con D6 paraliza tantos turnos como B"
+    ],
+    [
+        "Puya nociva",
+        "El usuario imbuye una de sus garras o aguijones con veneno y ataca con gran furia. Si obtiene un doble 3, el objetivo adquirirá el estado envenenado y perderá tantos PS como B al final de su asalto durante el mismo número de turnos.",
+        "Físico",
+        "Veneno",
+        "4A+I",
+        "3",
+        "3",
+        "Con D3 envenena igual a B tantos turnos como B"
+    ],
+    [
+        "Rapidez",
+        "El Pokémon fija a su objetivo y crea unas pequeñas estrellas de energía que lo rastrean e impactan contra el mismo. Este movimiento nunca falla con independencia de la Precisión del usuario y la Evasión del rival.",
+        "Especial",
+        "Normal",
+        "3A+B",
+        "",
+        "3",
+        "El movimiento nunca falla"
+    ],
+    [
+        "Rayo",
+        "Como su nombre indica, al realizar este movimiento el Pokémon concentra su energía para generar una potente descarga eléctrica que se dirige al rival. Si obtiene un doble 6, el Pokémon afectado adquirirá el estado paralizado tantos turnos como B.",
+        "Especial",
+        "Eléctrico",
+        "5A+B",
+        "3",
+        "4",
+        "Con D6 paraliza tantos turnos como B"
+    ],
+    [
+        "Rayo aurora",
+        "Con este movimiento, el Pokémon lanza un chorro de viento helado que cobra un color rosado muy característico. Su obtiene un doble 6, el objetivo obtiene un penalizador a su Ataque igual a B durante el mismo número de turnos.",
+        "Especial",
+        "Hielo",
+        "3A+I",
+        "3",
+        "3",
+        "Con D6 penaliza el Ataque igual a B tantos turnos como B"
+    ],
+    [
+        "Rayo burbuja",
+        "El Pokémon expulsa un rayo de agua espesa y espumosa con el que ataca al rival. Si obtiene un doble 6 en la prueba, este rayo impedirá momentáneamente que el objetivo se mueva con soltura y obtendrá un penalizador a su Velocidad igual a B durante el mismo número de turnos.",
+        "Especial",
+        "Agua",
+        "3A+I",
+        "3",
+        "3",
+        "Con D6 penaliza la Velocidad igual a B tantos turnos como B"
+    ],
+    [
+        "Rayo carga",
+        "Al lanzar este rayo eléctrico de tonos azulados, el Pokémon no solo ataca, sino que estimula sus capacidades especiales y le ayuda a prepararse para el combate. Por esta razón, si obtiene cualquier resultado doble en la prueba, su Ataque especial se verá bonificado igual a B durante el mismo número de turnos.",
+        "Especial",
+        "Eléctrico",
+        "2A+I",
+        "7",
+        "4",
+        "Con D1 bonifica el Ata. Especial igual a B tantos turnos como B"
+    ],
+    [
+        "Rayo confuso",
+        "Si este pequeño rayo fantasmal alcanza al objetivo, la mente de este perderá la noción del espacio y se moverá de forma errática. Durante tantos turnos como I, el rival adquirirá el estado confuso.",
+        "Estado",
+        "Fantasma",
+        "-",
+        "3",
+        "5",
+        "Confunde tantos turnos como I"
+    ],
+    [
+        "Rayo hielo",
+        "El Pokémon concentra energía helada en una esfera que se libera en forma de finos rayos. Si el usuario obtiene un doble 6, el objetivo adquirirá el estado congelado durante tantos turnos como B.",
+        "Especial",
+        "Hielo",
+        "5A+B",
+        "3",
+        "5",
+        "Con D6 congela tantos turnos como B"
+    ],
+    [
+        "Rayo solar",
+        "Este es uno de los mejores movimientos de los Pokémon de tipo planta. Al ejecutarlo, invierte un turno en captar toda la luz del sol que pueda para dispararla en forma de rayo en el segundo turno. Si hay un sol imponente en el campo de batalla, este movimiento se ejecutará en un solo turno. Si se combate bajo una noche cerrada o con lluvia, el daño del movimiento será 3A+B.",
+        "Especial",
+        "Planta",
+        "6A+I",
+        "3",
+        "5",
+        "Carga en el primer turno y ataca en el segundo"
+    ],
+    [
+        "Recuperación",
+        "La energía del Pokémon se convierte en una fuerza sanadora pura. De esta manera, el usuario puede recuperar parte de sus heridas, o quizás todas ellas, de forma muy rápida. Por lo tanto, recuperará tantos PS como 5A +1 por nivel del Pokémon.",
+        "Estado",
+        "Normal",
+        "-",
+        "",
+        "6",
+        "Sana 5A+1 por nivel"
+    ],
+    [
+        "Reducción",
+        "Este curioso movimiento hace que el cuerpo del Pokémon usuario encoja, haciendo más difícil que sus rivales lo alcancen con sus ataques. Durante tantos turnos como I, el Pokémon adquiere un bonificador a su Evasión igual a I. No obstante, en este estado su cuerpo resiste mucho menos los ataques físicos, por lo que se considerará que su Defensa será igual a 0. Los bonificadores a Defensa por movimientos sí se aplicarán.",
+        "Estado",
+        "Normal",
+        "-",
+        "",
+        "5",
+        "Bonifica la Evasión igual a I tantos turnos como I pero su Defensa se reduce a 0"
+    ],
+    [
+        "Reflejo",
+        "Haciendo uso de sus poderes psíquicos, el Pokémon es capaz de crear una barrera alrededor de sí mismo y de sus aliados que fortalecerá y protegerá su cuerpo. De esta manera, su Defensa se considerará el doble durante tantos turnos como I.",
+        "Estado",
+        "Psíquico",
+        "-",
+        "",
+        "6",
+        "Multiplica la Defensa del usuario por 2 tantos turnos como I"
+    ],
+    [
+        "Refugio",
+        "Al usar este movimiento, el Pokémon endurece de forma considerable una parte de su cuerpo con la que se defiende, siendo normalmente su caparazón. Al hacerlo, adquiere un bonificador a Defensa igual a B durante tantos turnos como I.",
+        "Estado",
+        "Agua",
+        "-",
+        "",
+        "1",
+        "Aumenta la Defensa tanto como B durante tantos turnos como I"
+    ],
+    [
+        "Rencor",
+        "Con este movimiento que emplea poder negativo, el objetivo pierde parte de su energía. El rival pierde tantos PP como 2A más la mitad del nivel del Pokémon usuario redondeado a la baja.",
+        "Estado",
+        "Fantasma",
+        "-",
+        "7",
+        "5",
+        "El objetivo pierde tantos PP como 2A + ½ del nivel de usuario"
+    ],
+    [
+        "Respiro",
+        "Al bajar al suelo, el Pokémon puede concentrar su energía para sanar sus heridas, recuperando tantos PS como 5A + 1 punto por nivel. Hasta que ejecute su siguiente movimiento, el Pokémon perderá, a todos los efectos, el tipo volador.",
+        "Estado",
+        "Volador",
+        "-",
+        "",
+        "6",
+        "Sana 5A+1 por nivel y pierde el tipo volador"
+    ],
+    [
+        "Rizo defensa",
+        "El Pokémon adopta una posición defensiva en la que puede resistir mejor los envites físicos. Rizo defensa se mantendrá tantos turnos como I y bonificará la Defensa del Pokémon igual a B.",
+        "Estado",
+        "Normal",
+        "-",
+        "",
+        "1",
+        "Bonifica la Defensa igual a B tantos turnos como I"
+    ],
+    [
+        "Roca afilada",
+        "Sin previo aviso, el suelo debajo del Pokémon objetivo se abre rápidamente para dejar crecer una gran estalagmita que lo golpea. Si el usuario obtiene un doble 6 en su prueba, este movimiento se considerará un golpe crítico exactamente igual que si hubiese obtenido un triple resultado.",
+        "Físico",
+        "Roca",
+        "4A+I",
+        "8",
+        "6",
+        "Con D6 será un golpe crítico"
+    ],
+    [
+        "Rodar",
+        "Esta curiosa estrategia se centra en que el Pokémon se convierte en una bola rodante que arremete contra el rival y aprovecha la velocidad para volver con más fuerza. Aunque el primer ataque hará un daño de IA, si repite el ataque en su siguiente turno, este se multiplicará por 2. Esta consecución continuará, multiplicándose por 4, por 8 y por 16 finalmente. Además, si el Pokémon está bajo los efectos de Rizo defensa, el daño inicial se multiplicará por dos y continuará siendo por 4, por 8, por 16 y finalmente por 32. La consecución se rompe si el Pokémon deja de utilizar Rodar o si falla el ataque.",
+        "Físico",
+        "Roca",
+        "IA",
+        "7",
+        "3",
+        "Su daño se duplica en cada turno posterior"
+    ],
+    [
+        "Rompecoraza",
+        "Este movimiento lo utilizan aquellos Pokémon que poseen partes duras como conchas o caparazones. Al concentrarse, pueden desgastar su coraza y debilitar sus defensas para así adquirir una mayor ofensiva. Durante tantos turnos como I, el Pokémon obtendrá un penalizador a Defensa y Defensa especial igual a B y un bonificador a Ataque, Ataque especial y Velocidad igual a I.",
+        "Estado",
+        "Normal",
+        "-",
+        "",
+        "4",
+        "Baja Defensa y Def. Especial a cambio de aumentar Ataque, Ata. Especial y"
+    ],
+    [
+        "Velocidad",
+        "Ronquido Hay veces en las que un Pokémon dormido puede seguir suponiendo una amenaza. Ronquido es el único movimiento que puede utilizarse si el usuario está bajo los efectos del estado alterado dormido. De hecho, esta condición será indispensable para poder utilizarlo. Al hacerlo, el Pokémon emite un ronquido tan fuerte que consigue dañar la mente de quienes lo escuchan. Tanto es así que, si obtiene un doble 3 en la prueba, el objetivo tendrá un penalizador a su Impulso igual a B en el siguiente asalto.",
+        "Especial",
+        "Normal",
+        "2A+I",
+        "3",
+        "4",
+        "Con D3 penaliza el Impulso igual a B en el siguiente asalto. Solo puede usarse dormido"
+    ],
+    [
+        "Rueda fuego",
+        "El Pokémon se envuelve de un manto de fuego y se convierte en una rueda que arremete contra el objetivo. Si obtiene un doble 6, el rival adquirirá el estado quemado y perderá 1 PS al final de su turno durante tantos turnos como B.",
+        "Físico",
+        "Fuego",
+        "3A+B",
+        "3",
+        "3",
+        "Con D6 quema 1 tantos turnos como B"
+    ],
+    [
+        "Semilladora",
+        "El Pokémon dispara una ráfaga de semillas contra su rival como si fuera una metralleta. En la primera prueba se calculará el primer ataque y, en caso de acertar, el resultado de I nos dirá cuántas veces más atacará. Cada ataque tiene su propia precisión, pero el Pokémon no parará de atacar aunque falle algún ataque a partir del segundo.",
+        "Físico",
+        "Planta",
+        "BA",
+        "3",
+        "3",
+        "Realiza tantos ataques como I en un mismo turno"
+    ],
+    [
+        "Síntesis",
+        "Uno de los usos que puede darle un Pokémon a la clorofila de su organismo es absorber los rayos del sol para sanar sus heridas. El Pokémon sanará tantos PS como 5A + 1 por nivel del Pokémon. Bajo un sol imponente, esta cifra será de 5A+2 por nivel, mientras que bajo la noche cerrada o la lluvia será de 5A+1 por cada dos niveles.",
+        "Estado",
+        "Planta",
+        "-",
+        "",
+        "6",
+        "Cura 5A+1 por nivel"
+    ],
+    [
+        "Somnífero",
+        "Al lanzar esporas somníferas, el Pokémon pretende inducir sueño a todo aquel que las inhale. Quien se vea afectado por Somnífero adquirirá el estado dormido durante tantos turnos como I. Este movimiento no afecta a los Pokémon de tipo planta.",
+        "Estado",
+        "Planta",
+        "-",
+        "9",
+        "4",
+        "Duerme tantos turnos como I"
+    ],
+    [
+        "Sorpresa",
+        "Este movimiento juega, como su propio nombre indica, con el factor sorpresa. Al salir de su poké ball, el usuario usa la inercia para propinar este ataque y desconcertar al objetivo. De esta manera, el rival queda tan pasmado que no podrá actuar en su siguiente turno. Sorpresa solo puede utilizarse como primer movimiento, ya que en turnos posteriores no contará con el factor sorpresa.",
+        "Físico",
+        "Normal",
+        "2A+B",
+        "3",
+        "5",
+        "Siempre reduce el Impulso igual a A en el siguiente asalto, pero solo puede"
+    ],
+    [
+        "usarse en el primer asalto",
+        "Sumisión El Pokémon atrapa al rival y le hace una llave en la que ambos dan una voltereta muy violenta. Este golpe daña también el cuerpo del usuario, perdiendo así tantos PS como 2A+B. Este daño es fijo y no puede reducirse con sus defensas.",
+        "Físico",
+        "Lucha",
+        "4A+I",
+        "8",
+        "3",
+        "El usuario pierde PS igual a A"
+    ],
+    [
+        "Supersónico",
+        "El Pokémon produce unas ondas de sonido que debilitan los sentidos de quien las escucha. Los Pokémon afectados adquieren el estado confuso durante tantos turnos como I.",
+        "Estado",
+        "Normal",
+        "-",
+        "11",
+        "3",
+        "Causa confusión tantos turnos como I"
+    ],
+    [
+        "Surf",
+        "Una gran ola de agua nace del suelo y se precipita contra los Pokémon rivales.",
+        "Especial",
+        "Agua",
+        "5A+B",
+        "3",
+        "5",
+        "-"
+    ],
+    [
+        "Tajo aéreo",
+        "Al batir sus alas a gran velocidad, el Pokémon crea un disco de aire que sale disparado hacia su objetivo. Si obtiene un doble 3, el Pokémon afectado tendrá dificultades para respirar y no podrá actuar en su siguiente turno.",
+        "Especial",
+        "Volador",
+        "4A+B",
+        "6",
+        "4",
+        "Con D3 reduce el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Tajo cruzado",
+        "Usando la energía del ki, el Pokémon ataca con sus dos brazos en un movimiento cruzado. Este golpe puede ser tan preciso y letal que, si obtiene un doble 6 en la prueba, el ataque se considerará un golpe crítico de la misma forma que si hubiera obtenido un resultado triple.",
+        "Físico",
+        "Lucha",
+        "6A",
+        "8",
+        "5",
+        "Con D6 será un golpe crítico"
+    ],
+    [
+        "Tajo umbrío",
+        "El Pokémon propina una cuchillada a traición imbuida con el poder de la oscuridad. Si obtiene un doble 6 en la prueba, el movimiento se considerará un golpe crítico de la misma forma que si hubiese obtenido un triple resultado.",
+        "Físico",
+        "Siniestro",
+        "4A",
+        "3",
+        "4",
+        "Con D6 será un golpe crítico"
+    ],
+    [
+        "Taladradora",
+        "Este demoledor movimiento ataca a ras de suelo, levantándolo a su paso y golpeando finalmente a partes vitales del Pokémon rival. Si obtiene un doble 5, el movimiento se considerará crítico igual que si hubiese obtenido un resultado triple.",
+        "Físico",
+        "Tierra",
+        "4A+I",
+        "6",
+        "4",
+        "Con D5 será un golpe crítico"
+    ],
+    [
+        "Terratemblor",
+        "Este golpe en el suelo crea una onda expansiva que no solo daña a los Pokémon rivales, sino que también los desestabiliza. Durante tantos turnos como B, los Pokémon afectados obtienen un penalizador a su Velocidad igual a B.",
+        "Físico",
+        "Tierra",
+        "3A+B",
+        "3",
+        "3",
+        "Penaliza Velocidad igual a B tantos turnos como B"
+    ],
+    [
+        "Terremoto",
+        "Terremoto es uno de los movimientos más peligrosos que puede realizar un Pokémon. Al ejecutarlo, el suelo a sus pies se resquebraja y provoca estalagmitas que dañan a todo aquel que se encuentre en el lugar del combate.",
+        "Físico",
+        "Tierra",
+        "6A",
+        "3",
+        "5",
+        "-"
+    ],
+    [
+        "Tierra viva",
+        "El Pokémon concentra su energía especial para entrar en contacto con la tierra y provocar que el suelo bajo el rival estalle. Si obtiene un doble 6, la Defensa especial del objetivo se verá penalizada igual a B tantos turnos como B.",
+        "Especial",
+        "Tierra",
+        "5A+B",
+        "3",
+        "5",
+        "Con D6 penaliza la Def. Especial igual a B tantos turnos como B"
+    ],
+    [
+        "Tijera X",
+        "Utilizando sus garras como si fueran tijeras, el Pokémon realiza un ataque cortante en forma de X.",
+        "Físico",
+        "Bicho",
+        "4A+I",
+        "3",
+        "4",
+        "-"
+    ],
+    [
+        "Tiro vital",
+        "Haciendo buen uso de su conocimiento en artes marciales, el usuario agarra a su rival y lo lanza con fuerza. Este movimiento nunca falla con independencia de la Precisión de quien lo ejecuta o la Evasión del objetivo. Sin embargo, su ejecución es lenta y aparatosa, por lo que el usuario obtendrá un penalizador a su Impulso igual a B en el siguiente asalto.",
+        "Físico",
+        "Lucha",
+        "4A",
+        "",
+        "3",
+        "El movimiento nunca falla, pero el Pokémon penaliza su Impulso igual a B en el"
+    ],
+    [
+        "siguiente asalto",
+        "Torbellino El Pokémon consigue crear un remolino de agua que atrae al objetivo al objetivo y lo atrapa parcialmente. Durante tantos turnos como I, el movimiento se mantendrá e infligirá un daño igual a B. El Pokémon afectado podrá realizar movimientos con normalidad.",
+        "Especial",
+        "Agua",
+        "2A",
+        "8",
+        "4",
+        "Daño adicional igual a B tantos turnos como I"
+    ],
+    [
+        "Tormenta de arena",
+        "Utilizando la arena cercana o lanzando un chorro de arena de su cuerpo, el Pokémon envuelve el campo de batalla de arena y polvo. Bajo estas condiciones, los Pokémon de tipo roca se encuentran en un entorno tan ideal que su Defensa y Defensa especial obtienen un bonificador igual a lo obtenido en I mientras dure la tormenta, que será tantos turnos como A. Si el movimiento se utiliza en un entorno donde no haya arena y esta debe ser generada por el Pokémon, la duración de la tormenta será de tantos turnos como B.",
+        "Estado",
+        "Roca",
+        "-",
+        "",
+        "6",
+        "Crea una tormenta de arena durante tantos turnos como A"
+    ],
+    [
+        "Tormenta floral",
+        "El Pokémon crea un enorme torbellino de pétalos que cortan a todo aquel que se vea envuelto en él.",
+        "Físico",
+        "Planta",
+        "5A+B",
+        "3",
+        "4",
+        "-"
+    ],
+    [
+        "Tornado",
+        "Al batir sus alas con fuerza, el Pokémon genera una ráfaga de aire que impacta contra el Pokémon rival.",
+        "Especial",
+        "Volador",
+        "2A+B",
+        "3",
+        "2",
+        "-"
+    ],
+    [
+        "Tóxico",
+        "El veneno que se inocula a través de este movimiento es muy poderoso, ya que se nutre del organismo al que afecta para dañarlo con más fuerza. Aunque en su primer turno hará un daño de A, en los turnos siguientes este daño se repetirá multiplicando por 2 el daño del anterior turno. Este estado envenenado perdurará tantos turnos como I.",
+        "Estado",
+        "Veneno",
+        "-",
+        "7",
+        "6",
+        "Envenena igual a A multiplicando por 2 cada turno tantos turnos como I"
+    ],
+    [
+        "Transformación",
+        "Este movimiento es, sin duda, uno de los más especiales, del cual Ditto es el gran especialista. Cuando el usuario lo realiza, su cuerpo se transforma completamente en el del Pokémon que haya decidido, el cual debe estar cerca de él. Al transformarse, el Pokémon adquiere su aspecto, peso, altura, tipos y estadísticas excepto PS y PP. También podrá realizar cualquier movimiento que conozca el objetivo, pero la PJ no tendrá acceso a un listado de movimientos, sino que deberá ser observador y recabar información... ¡o probar suerte! Los efectos de Transformación terminarán cuando la PJ lo desee.",
+        "Estado",
+        "Normal",
+        "-",
+        "",
+        "5",
+        "El usuario se transforma en el Pokémon objetivo"
+    ],
+    [
+        "Triataque",
+        "Concentrando las energías naturales del fuego, el rayo y el hielo, el Pokémon lanza un rayo que combina todas estas fuerzas. Si obtiene un doble 4, el objetivo adquirirá el estado quemado y perderá un PS al final de cada turno durante tantos turnos como B; si el resultado doble es 5, quedará paralizado tantos turnos como B; finalmente, si el resultado doble es 6, el rival quedará congelado tantos turnos como B.",
+        "Especial",
+        "Normal",
+        "4A+I",
+        "3",
+        "5",
+        "A partir de D4 causa un estado alterado"
+    ],
+    [
+        "Triturar",
+        "Este mordisco concentra una buena parte de la energía del Pokémon en sus dientes, pudiendo partir incluso piedra o metal. Si obtiene un doble 4, el objetivo sufrirá un penalizador a su Defensa igual a B durante el mismo número de turnos.",
+        "Físico",
+        "Siniestro",
+        "4A+I",
+        "3",
+        "4",
+        "Con D4 penaliza Defensa igual a B tantos turnos como B"
+    ],
+    [
+        "Trueno",
+        "El control del Pokémon sobre la energía eléctrica es tal que puede emitir una descarga tan salvaje como la de un trueno caído del cielo. Si obtiene un D3, el objetivo adquirirá el estado paralizado tantos turnos como B. Además, si el campo de batalla está bañado en un sol imponente, la precisión del movimiento será de 11, mientras que nunca fallará bajo la lluvia.",
+        "Especial",
+        "Eléctrico",
+        "6A+B",
+        "9",
+        "6",
+        "Con D3 paraliza tantos turnos como B"
+    ],
+    [
+        "Ultrapuño",
+        "El Pokémon ha aprendido a golpear con sus puños a tal velocidad que le permite gestionar mejor su tiempo de cara al resto del combate. Gracias a ello, en el siguiente asalto tendrá un bonificador a su Impulso igual a B.",
+        "Físico",
+        "Lucha",
+        "2A+B",
+        "3",
+        "2",
+        "Aumenta el Impulso igual a B en el siguiente asalto"
+    ],
+    [
+        "Velo aurora",
+        "Cuando el entorno del combate está envuelto por el granizo, el usuario puede utilizar Velo aurora para protegerse con un halo rosado que hará las veces de barrera. Mientras perdure, todos los ataques que sufra se verán reducidos a la mitad de daño. Velo aurora perdurará durante tantos turnos como I incluso si dejara de caer granizo durante su uso.",
+        "Estado",
+        "Hielo",
+        "-",
+        "",
+        "5",
+        "Reduce ½ el daño de cualquier ataque tantos turnos como I, pero solo se activa"
+    ],
+    [
+        "con granizo",
+        "Velocidad extrema Velocidad extrema es un ataque que solo pueden realizar Pokémon realmente poderosos. Su valor no cae únicamente en el golpe, sino en la velocidad tan intensa con la que lo ejecuta, perdiéndose de vista durante su realización. Es por ello que en el siguiente asalto obtendrá un bonificador a su Impulso igual a I.",
+        "Físico",
+        "Normal",
+        "4A+I",
+        "3",
+        "6",
+        "Aumenta el Impulso igual a I en el siguiente asalto"
+    ],
+    [
+        "Vendaval",
+        "Con este movimiento, el Pokémon concentra gran parte de su energía en sus alas y consigue crear un huracán en el que encierra al objetivo. Si obtiene un doble 3, el Pokémon afectado adquirirá el estado confuso durante tantos turnos como B. Su precisión será de 11 bajo un sol imponente, mientras que nunca fallará bajo la lluvia.",
+        "Especial",
+        "Volador",
+        "6A+B",
+        "10",
+        "5",
+        "Con D3 confunde tantos turnos como B"
+    ],
+    [
+        "Ventisca",
+        "El Pokémon lanza una tremenda onda de viento glacial. Si consigue acertar en su objetivo y obtiene un D6 en la prueba, los Pokémon afectados adquieren el estado congelado durante tantos turnos como B. Si hay un clima de granizo en el campo de batalla, Ventisca nunca fallará con independencia de la Precisión del usuario y la Evasión del rival.",
+        "Especial",
+        "Hielo",
+        "6A+B",
+        "9",
+        "6",
+        "Con D6 congela tantos turnos como B"
+    ],
+    [
+        "Viento hielo",
+        "Este soplo de aire es tan frío que los músculos del Pokémon objetivo quedan entumecidos. Por lo tanto, la Velocidad del rival quedará penalizada igual a B durante tantos turnos como B.",
+        "Especial",
+        "Hielo",
+        "3A",
+        "6",
+        "4",
+        "Penaliza la Velocidad igual a B tantos turnos como B"
+    ],
+    [
+        "Voltio cruel",
+        "El usuario carga tanta energía eléctrica en su cuerpo para placar al rival que él mismo sacrifica parte de sus PS. Perderá tantos PS como BA. Este daño es fijo y no puede reducirse con sus defensas.",
+        "Físico",
+        "Eléctrico",
+        "5A+B",
+        "3",
+        "4",
+        "El usuario pierde PS igual a BA"
+    ],
+    [
+        "Vozarrón",
+        "Tan solo con el uso de su voz, el Pokémon es capaz de gritar con tanta fuerza que su retumbar causará daño a los rivales cercanos.",
+        "Especial",
+        "Normal",
+        "5A+B",
+        "3",
+        "5",
+        "-"
+    ],
+    [
+        "Zumbido",
+        "El Pokémon tiene la capacidad de expulsar unas ondas vibrantes que consiguen dañar físicamente a quienes las oyen. Si el usuario obtiene un doble 6, el objetivo obtendrá un penalizador a su Defensa especial igual a B durante el mismo número de turnos.",
+        "Especial",
+        "Bicho",
+        "5A+B",
+        "3",
+        "5",
+        "Con D6 reduce la Def. Especial igual a B tantos turnos como B"
+    ]
+]
